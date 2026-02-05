@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "cities": [
     {
       "id": "Lisbon",
@@ -17,10 +17,98 @@
       "country": "Egypt",
       "facts": [
         "Major city on the Nile.",
-        "Near Giza."
+        "Near Giza pyramids."
       ],
       "langs": [
         "Arabic"
+      ]
+    },
+    {
+      "id": "Berlin",
+      "country": "Germany",
+      "facts": [
+        "Capital of Germany.",
+        "Berlin Wall history."
+      ],
+      "langs": [
+        "German"
+      ]
+    },
+    {
+      "id": "Moscow",
+      "country": "Russia",
+      "facts": [
+        "Kremlin fortress.",
+        "Red Square."
+      ],
+      "langs": [
+        "Russian"
+      ]
+    },
+    {
+      "id": "Tokyo",
+      "country": "Japan",
+      "facts": [
+        "High-tech metropolis.",
+        "Mount Fuji nearby."
+      ],
+      "langs": [
+        "Japanese"
+      ]
+    },
+    {
+      "id": "Seoul",
+      "country": "South Korea",
+      "facts": [
+        "Palaces and modern skyscrapers.",
+        "Han River."
+      ],
+      "langs": [
+        "Korean"
+      ]
+    },
+    {
+      "id": "Rome",
+      "country": "Italy",
+      "facts": [
+        "Eternal City.",
+        "Colosseum and Vatican."
+      ],
+      "langs": [
+        "Italian"
+      ]
+    },
+    {
+      "id": "Paris",
+      "country": "France",
+      "facts": [
+        "City of Light.",
+        "Eiffel Tower."
+      ],
+      "langs": [
+        "French"
+      ]
+    },
+    {
+      "id": "Beijing",
+      "country": "China",
+      "facts": [
+        "Forbidden City.",
+        "Great Wall access."
+      ],
+      "langs": [
+        "Mandarin"
+      ]
+    },
+    {
+      "id": "London",
+      "country": "UK",
+      "facts": [
+        "Big Ben and Thames.",
+        "Royal palaces."
+      ],
+      "langs": [
+        "English"
       ]
     }
   ]

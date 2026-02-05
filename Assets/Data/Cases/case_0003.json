@@ -1,0 +1,84 @@
+{
+  "caseId": "CASE-0003",
+  "title": "The Lost Prototype",
+  "tier": "advanced",
+  "hook": "A cutting-edge drone prototype vanishes from lab; corporate espionage suspected.",
+  "timeBudget": 48,
+  "hintsPerMission": 2,
+  "hintCost": {
+    "timeHours": 3,
+    "heat": 2
+  },
+  "gadgetsOffered": [
+    "DRONE",
+    "HACKINGTOOL",
+    "THERMALVISION",
+    "EMP",
+    "CLOAK"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Engineer",
+      "traits": [
+        "brilliant",
+        "speaks:Japanese"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Corporate Spy",
+      "traits": [
+        "ambitious",
+        "wears:suit"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Insider",
+      "traits": [
+        "disgruntled",
+        "collects:models"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Insider Job",
+      "signatures": [
+        "access:authorized"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Remote Hack",
+      "signatures": [
+        "trace:untraceable"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "Physical Break-in",
+      "signatures": [
+        "alarm:disabled"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "Tokyo",
+      "country": "Japan"
+    },
+    {
+      "id": "Seoul",
+      "country": "South Korea"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M3",
+    "whereId": "Tokyo"
+  }
+}

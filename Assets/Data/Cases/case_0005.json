@@ -1,0 +1,84 @@
+{
+  "caseId": "CASE-0005",
+  "title": "The Encrypted Message",
+  "tier": "advanced",
+  "hook": "A coded message intercepted; decryption reveals a conspiracy.",
+  "timeBudget": 54,
+  "hintsPerMission": 2,
+  "hintCost": {
+    "timeHours": 3,
+    "heat": 2
+  },
+  "gadgetsOffered": [
+    "DECODER",
+    "ENCRYPTOR",
+    "TRACER",
+    "VIRUS",
+    "BACKUP"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Cryptographer",
+      "traits": [
+        "genius",
+        "speaks:Chinese"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Double Agent",
+      "traits": [
+        "deceptive",
+        "wears:uniform"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Analyst",
+      "traits": [
+        "analytical",
+        "collects:codes"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Code Breaking",
+      "signatures": [
+        "algorithm:custom"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Interception",
+      "signatures": [
+        "signal:hijacked"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "False Flag",
+      "signatures": [
+        "misinformation"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "Beijing",
+      "country": "China"
+    },
+    {
+      "id": "London",
+      "country": "UK"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "Beijing"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "caseId": "CASE-0004",
+  "title": "The Phantom Heist",
+  "tier": "classic",
+  "hook": "A priceless artifact disappears from museum; no alarms triggered.",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "gadgetsOffered": [
+    "NIGHTVISION",
+    "GRAPPLINGHOOK",
+    "SILENCER",
+    "DECOY",
+    "SCANNER"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Curator",
+      "traits": [
+        "knowledgeable",
+        "speaks:Italian"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Thief",
+      "traits": [
+        "nimble",
+        "wears:black"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Collector",
+      "traits": [
+        "wealthy",
+        "collects:art"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Stealth Infiltration",
+      "signatures": [
+        "footprints:none"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Inside Job",
+      "signatures": [
+        "keys:duplicate"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "Distraction",
+      "signatures": [
+        "diversion:elaborate"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "Rome",
+      "country": "Italy"
+    },
+    {
+      "id": "Paris",
+      "country": "France"
+    }
+  ],
+  "truth": {
+    "whoId": "S3",
+    "howId": "M2",
+    "whereId": "Rome"
+  }
+}
