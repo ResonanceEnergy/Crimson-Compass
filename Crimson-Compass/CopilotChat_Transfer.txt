@@ -1,0 +1,16 @@
+CRIMSON COMPASS — COPILOT CHAT TRANSFER
+Generated: 2026-02-05T04:47:32.891838
+
+LOCKED DOCTRINE
+- Weekly missions (~60 min) in 5–10 min micro-episodes.
+- Triad deduction: WHO/HOW/WHERE.
+- HELIX persistent drawer; OPTIMUS contextual help (3 hints/mission; time+heat cost); ZTECH gadgets (5 offered, pick 3).
+- ZTECH toolkit progression: charges + synergy combos + risk tradeoffs.
+
+DATA FILES
+- Insights 0001–0500: Assets/Data/Insights/insights_0001_0500.jsonl
+- Clue 0100: Assets/Data/Insights/clue_0100.jsonl
+- SpyStoryKit 0400: tools/SpyStoryKit/insights_400.jsonl
+
+NEXT MILESTONE
+- Implement vertical slice: HELIX UI + hypothesis/disproof/notepad + OPTIMUS hint panel + ZTECH loadout.

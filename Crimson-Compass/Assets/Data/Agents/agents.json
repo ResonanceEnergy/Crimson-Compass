@@ -1,0 +1,38 @@
+{
+  "agents": [
+    {
+      "id": "HELIX",
+      "codename": "Helix",
+      "role": "Mission Secretary/EA",
+      "visibility": "persistent"
+    },
+    {
+      "id": "OPTIMUS",
+      "codename": "Optimus",
+      "role": "Mission Coordinator",
+      "visibility": "contextual"
+    },
+    {
+      "id": "ZTECH",
+      "codename": "ZTech",
+      "role": "Quartermaster",
+      "visibility": "contextual"
+    }
+  ],
+  "optimusHelp": {
+    "hintsPerMission": 3,
+    "hintCost": {
+      "timeHours": 2,
+      "heat": 1
+    },
+    "offerChoices": [
+      "DISPROOF",
+      "UNLOCK_LEAD",
+      "RELIEF"
+    ]
+  },
+  "ztechLoadout": {
+    "offered": 5,
+    "select": 3
+  }
+}

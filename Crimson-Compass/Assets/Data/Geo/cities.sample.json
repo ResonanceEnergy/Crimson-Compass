@@ -1,0 +1,27 @@
+{
+  "version": "0.1",
+  "cities": [
+    {
+      "id": "Lisbon",
+      "country": "Portugal",
+      "facts": [
+        "Atlantic coastal capital.",
+        "Historic trams."
+      ],
+      "langs": [
+        "Portuguese"
+      ]
+    },
+    {
+      "id": "Cairo",
+      "country": "Egypt",
+      "facts": [
+        "Major city on the Nile.",
+        "Near Giza."
+      ],
+      "langs": [
+        "Arabic"
+      ]
+    }
+  ]
+}
