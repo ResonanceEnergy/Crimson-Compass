@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEditor;
 using UnityEditor.SceneManagement;
+using TMPro;
 
 public class SceneSetup : MonoBehaviour
 {
@@ -38,19 +39,19 @@ public class SceneSetup : MonoBehaviour
         // Add Text components
         var whoText = new GameObject("WhoText");
         whoText.transform.SetParent(notepadPanel.transform);
-        var whoTxt = whoText.AddComponent<Text>();
+        var whoTxt = whoText.AddComponent<TextMeshProUGUI>();
         whoTxt.text = "WHO:\n";
         notepadUI.whoText = whoTxt;
 
         var howText = new GameObject("HowText");
         howText.transform.SetParent(notepadPanel.transform);
-        var howTxt = howText.AddComponent<Text>();
+        var howTxt = howText.AddComponent<TextMeshProUGUI>();
         howTxt.text = "HOW:\n";
         notepadUI.howText = howTxt;
 
         var whereText = new GameObject("WhereText");
         whereText.transform.SetParent(notepadPanel.transform);
-        var whereTxt = whereText.AddComponent<Text>();
+        var whereTxt = whereText.AddComponent<TextMeshProUGUI>();
         whereTxt.text = "WHERE:\n";
         notepadUI.whereText = whereTxt;
 
@@ -62,17 +63,17 @@ public class SceneSetup : MonoBehaviour
         // Dropdowns
         var whoDD = new GameObject("WhoDropdown");
         whoDD.transform.SetParent(hypothesisPanel.transform);
-        var whoDrop = whoDD.AddComponent<Dropdown>();
+        var whoDrop = whoDD.AddComponent<TMP_Dropdown>();
         hypUI.whoDropdown = whoDrop;
 
         var howDD = new GameObject("HowDropdown");
         howDD.transform.SetParent(hypothesisPanel.transform);
-        var howDrop = howDD.AddComponent<Dropdown>();
+        var howDrop = howDD.AddComponent<TMP_Dropdown>();
         hypUI.howDropdown = howDrop;
 
         var whereDD = new GameObject("WhereDropdown");
         whereDD.transform.SetParent(hypothesisPanel.transform);
-        var whereDrop = whereDD.AddComponent<Dropdown>();
+        var whereDrop = whereDD.AddComponent<TMP_Dropdown>();
         hypUI.whereDropdown = whereDrop;
 
         // Button

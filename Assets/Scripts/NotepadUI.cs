@@ -4,14 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 using CrimsonCompass.UI;
 using CrimsonCompass.Core;
+using TMPro;
 
 namespace CrimsonCompass
 {
     public class NotepadUI : MonoBehaviour
     {
-        public Text whoText;
-        public Text howText;
-        public Text whereText;
+public TMP_Text whoText;
+    public TMP_Text howText;
+    public TMP_Text whereText;
 
         private NotepadModel model = new NotepadModel();
 
