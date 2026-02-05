@@ -47,6 +47,7 @@ namespace CrimsonCompass
                 whereId = GameManager.Instance.currentCase.locations[whereDropdown.value - 1].id
             };
 
+            UnityEngine.Debug.Log("HypothesisInput submitting: WHO=" + hypothesis.whoId + ", HOW=" + hypothesis.howId + ", WHERE=" + hypothesis.whereId);
             GameManager.Instance.eventBus.Publish(GameEventType.HYPOTHESIS_SUBMITTED, hypothesis);
         }
     }

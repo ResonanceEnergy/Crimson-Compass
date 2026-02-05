@@ -18,11 +18,13 @@ namespace CrimsonCompass
         void Start()
         {
             GameManager.Instance.eventBus.Subscribe(GameEventType.DISPROOF_RETURNED, OnDisproofReturned);
+            UnityEngine.Debug.Log("NotepadUI subscribed to DISPROOF_RETURNED");
         }
 
         void OnDisproofReturned(object payload)
         {
             var disproof = (DisproofEngine.Disproof)payload;
+            UnityEngine.Debug.Log("NotepadUI received disproof: " + disproof.axis + " " + disproof.disprovedId);
             MarkDisproved(disproof.axis.ToString(), disproof.disprovedId);
         }
 

@@ -15,6 +15,7 @@ namespace CrimsonCompass.Core
 
         public void Publish(GameEventType type, object payload = null)
         {
+            UnityEngine.Debug.Log("Event published: " + type + (payload != null ? " with payload" : ""));
             if (_handlers.TryGetValue(type, out var h)) h?.Invoke(payload);
         }
     }

@@ -28,6 +28,14 @@ namespace CrimsonCompass
             Instance = this;
             eventBus = new EventBus();
             disproofEngine = new DisproofEngine();
+
+            // Debug logs for data loading
+            if (caseJson != null) Debug.Log("Case JSON loaded, length: " + caseJson.text.Length);
+            else Debug.LogError("Case JSON is null!");
+            if (agentsJson != null) Debug.Log("Agents JSON loaded, length: " + agentsJson.text.Length);
+            else Debug.LogError("Agents JSON is null!");
+            if (insightsJsonl != null) Debug.Log("Insights JSONL loaded, length: " + insightsJsonl.text.Length);
+            else Debug.LogError("Insights JSONL is null!");
         }
 
         void Start()
@@ -39,6 +47,7 @@ namespace CrimsonCompass
         void LoadCase()
         {
             currentCase = JsonUtility.FromJson<CaseData>(caseJson.text);
+            Debug.Log("Case loaded: " + currentCase.title);
             // Set truth for disproof engine
             var truth = new Hypothesis
             {
@@ -47,6 +56,7 @@ namespace CrimsonCompass
                 whereId = currentCase.truth.whereId
             };
             disproofEngine.SetMissionTruth(truth);
+            Debug.Log("Truth set: WHO=" + truth.whoId + ", HOW=" + truth.howId + ", WHERE=" + truth.whereId);
 
             // Set intel sources (simplified: each suspect/method/location has an intel source)
             var sources = new List<IntelSource>();
@@ -70,12 +80,18 @@ namespace CrimsonCompass
         void OnHypothesisSubmitted(object payload)
         {
             var hypothesis = (Hypothesis)payload;
+            Debug.Log("Hypothesis submitted: WHO=" + hypothesis.whoId + ", HOW=" + hypothesis.howId + ", WHERE=" + hypothesis.whereId);
             // For now, use first intel source
             var disproof = disproofEngine.Disprove(hypothesis, currentCase.suspects[0].id);
             if (disproof != null)
             {
+                Debug.Log("Disproof returned: " + disproof.axis + " disproved ID=" + disproof.disprovedId);
                 notepadUI.MarkDisproved(disproof.axis.ToString(), disproof.disprovedId);
                 eventBus.Publish(GameEventType.DISPROOF_RETURNED, disproof);
+            }
+            else
+            {
+                Debug.Log("No disproof - hypothesis might be correct or no intel");
             }
         }
     }
