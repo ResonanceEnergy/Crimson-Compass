@@ -18,7 +18,25 @@ Mobile-first **international spy whodunnit**.
 - `Assets/Data/Geo/` → geo facts
 - `Assets/Data/Insights/` → insight databases (500 + Clue 100 + SpyStoryKit)
 - `Assets/Data/Agents/` → agents, messages, triggers
-- `docs/` → schema + doctrine
+- `docs/` → schema + doctrine + setup guides
+
+## Development Status
+- ✅ Core deduction engine
+- ✅ Event system
+- ✅ UI components
+- ✅ 5 sample cases
+- ✅ Time/heat mechanics
+- ✅ Agent interactions
+- ✅ Procedural generation
+- 🔄 Unity scene setup (see docs/SceneSetup.md)
+- 🔄 Testing (see docs/TestingGuide.md)
+- 🔄 Build (see docs/BuildGuide.md)
 
 ## Unity
 Recommended: Unity **2022.3 LTS**.
+
+## Next Steps
+- Set up scene in Unity
+- Test deduction loop
+- Build for Android
+- Add assets and polish
