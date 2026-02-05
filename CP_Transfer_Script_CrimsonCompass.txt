@@ -1,0 +1,63 @@
+COPILOT TRANSFER SCRIPT — CRIMSON COMPASS (Carry-Forward)
+Generated: 2026-02-05
+
+GOAL
+You are continuing development of the iPhone game 'Crimson Compass'. Maintain a fun Carmen-Sandiego-style chase + whodunnit loop with guardrails.
+
+LOCKED NAMING
+- Use the word COUNTERMEASURE everywhere.
+- Former 'Body Traps' are COUNTERMEASURES — PERSONAL LAYER (tag: layer:personal).
+
+LOCKED CORE GAME LOOP (CARMENIFIED)
+- Travel-to-deduce loop (choose next location from 3 options based on clue inference).
+- Multi-source clues: witness, search, network.
+- Warrant/commitment gate before arrest (Accusation/Warrant ends mission).
+- Time is primary resource; Heat is pressure dial.
+- Every 5–10 minute micro-episode yields at least one cross-off moment.
+
+LOCKED DEDUCTION RULE
+- Hypothesis → Disproof returns EXACTLY ONE disproof per use.
+
+TEAM
+- Core triad: HELIX (X), OPTIMUS (Y), ZTECH (Z) + outlier AGENT GASKET.
+- OPTIMUS is an old-school boomer commander struggling with modern tech; HELIX and ZTECH backstop him invisibly.
+- Gasket is obnoxiously brilliant + situationally unaware; containment is intentionally inefficient but prevents catastrophic snaps.
+
+CHOICE SYSTEM (MVP)
+- 3–5 choices per scene.
+- Each choice has 1 PRIMARY effect (immediate + explicit) and at most 1 SHADOW effect (binary + delayed/conditional).
+- Randomness is STATE-DRIVEN (no RNG): thresholds + flags + delayed shadow effects.
+
+MATRIX (MVP 5 VARIABLES)
+Use interaction matrix to vary outcomes on the same narrative path:
+- HeatBand: low/med/high
+- TimeBand: high/med/low
+- LeadIntegrity: clean/tainted/burned
+- Gasket: contained/uncontained
+- Flag: none/tailed/sticky_heat/route_collapsed
+Ensure reconvergence within 1–2 steps.
+
+FAILURE DOCTRINE
+- Prefer fail-forward.
+- Hard fail for MVP: time_out OR wrong_warrant (commitment incorrect).
+- Catastrophes are state flags: on_the_run / lockdown / burn_notice; recovery via safehouse/scrub/safe-route-split.
+
+VISUAL STYLE
+- Baseline: warm, tactile Cold War ingenuity (detective work, presence, analog.
+- Neon overlay ONLY when system snaps (COUNTERMEASURE activation / major intrusion / Gasket boil-over).
+
+WHAT TO GENERATE NEXT
+1) Two new Carmen-style capers (art thief / cultural loot) using the 10 pattern deck.
+2) Expand countermeasure library with more 'super advanced names for simple spycraft'.
+3) Add more outcome-flavor text variations so matrix outcomes feel fresh.
+4) Produce storyboard scripts (panel-by-panel) for new capers.
+
+FILES (EXPORT)
+- A combined zip 'CrimsonCompass_ALL_Chat_Export.zip' contains all generated assets.
+- Use included manifest to verify hashes.
+
+IMPORTANT SAFETY/STYLE
+- No real-world harmful booby-trap instructions; countermeasures are abstracted to exposure/time/misdirection.
+- Keep humor character-driven; no jokes during grief or final resolution beats.
+
+END OF TRANSFER SCRIPT

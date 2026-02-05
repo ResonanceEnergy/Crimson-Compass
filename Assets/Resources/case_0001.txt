@@ -1,0 +1,83 @@
+{
+  "caseId": "CASE-0001",
+  "title": "The Vanishing Ledger",
+  "tier": "classic",
+  "hook": "A charity ledger vanishes mid-auction; a shadow network wants it burned.",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "gadgetsOffered": [
+    "MICROCAM",
+    "SIGNALTAP",
+    "PASSPORT",
+    "CLEANER",
+    "DEADDROP"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Archivist",
+      "traits": [
+        "left-handed",
+        "speaks:Arabic"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Courier",
+      "traits": [
+        "wears:olive-coat",
+        "speaks:French"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Patron",
+      "traits": [
+        "collects:coins"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Forgery Kit",
+      "signatures": [
+        "ink:iron-gall"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Microcamera",
+      "signatures": [
+        "lens:2mm"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "Cipher Deck",
+      "signatures": [
+        "pattern:triad"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "Lisbon",
+      "country": "Portugal"
+    },
+    {
+      "id": "Cairo",
+      "country": "Egypt"
+    }
+  ],
+  "truth": {
+    "whoId": "S2",
+    "howId": "M2",
+    "whereId": "Lisbon"
+  }
+}

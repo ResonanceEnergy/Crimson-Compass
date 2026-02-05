@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "module": "mission_schema_light",
+  "fields": {
+    "mission_id": "string",
+    "triad": "WHO/HOW/WHERE",
+    "episodes": "pattern nodes"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "module": "counterintel_program",
+  "codename": "COBALT LATTICE",
+  "inspiration": "Fictional narrative-control program inspired by historical counterintelligence patterns; abstracted to game mechanics.",
+  "pillars": [
+    {
+      "name": "Observe",
+      "game_effects": [
+        "more countermeasures appear",
+        "tells get subtler",
+        "lead integrity shifts faster"
+      ]
+    },
+    {
+      "name": "Divide",
+      "game_effects": [
+        "NPC trust fractures",
+        "social leads branch",
+        "false contradictions appear"
+      ]
+    },
+    {
+      "name": "Discredit",
+      "game_effects": [
+        "heat becomes sticky",
+        "safe routes collapse",
+        "warrant thresholds rise"
+      ]
+    },
+    {
+      "name": "Neutralize",
+      "game_effects": [
+        "lockdowns",
+        "time compression",
+        "frame disruption"
+      ]
+    }
+  ],
+  "difficulty_scaling": {
+    "low": {
+      "ops_per_mission": [
+        0,
+        1
+      ]
+    },
+    "medium": {
+      "ops_per_mission": [
+        1,
+        2
+      ]
+    },
+    "high": {
+      "ops_per_mission": [
+        2,
+        3
+      ]
+    }
+  },
+  "safety_note": "Fiction only; no real-world operational guidance."
+}

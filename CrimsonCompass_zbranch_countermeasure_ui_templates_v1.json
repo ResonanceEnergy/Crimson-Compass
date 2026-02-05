@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "module": "zbranch_countermeasure_microepisode",
+  "flow": [
+    {
+      "screen": "CM_INTRO",
+      "duration_seconds": 6,
+      "elements": [
+        {
+          "type": "title",
+          "bind": "cm.name"
+        },
+        {
+          "type": "chips",
+          "bind": "cm.author_tags",
+          "max": 3
+        },
+        {
+          "type": "tell",
+          "bind": "cm.tell"
+        }
+      ],
+      "audio": {
+        "sting": "snap_glitch_short"
+      }
+    },
+    {
+      "screen": "CHOICE_PANEL",
+      "duration_seconds": 999,
+      "elements": [
+        {
+          "type": "meters",
+          "bind": [
+            "mission.heat",
+            "mission.time"
+          ]
+        },
+        {
+          "type": "lead_integrity",
+          "bind": "lead.integrity"
+        },
+        {
+          "type": "buttons",
+          "bind": "cm.choices",
+          "max": 3
+        }
+      ],
+      "rules": {
+        "choice_costs_apply_immediately": true,
+        "bait_disproof": "If result.disproof==one_axis, queue one-axis disproof that returns exactly ONE cross-off."
+      }
+    },
+    {
+      "screen": "RESOLVE_SNAP",
+      "duration_seconds": 5,
+      "elements": [
+        {
+          "type": "snap_banner",
+          "bind": "resolution.snap"
+        },
+        {
+          "type": "deltas",
+          "bind": "resolution.deltas"
+        }
+      ],
+      "audio": {
+        "sting": "snap_confirm"
+      }
+    },
+    {
+      "screen": "AFTERMATH",
+      "duration_seconds": 8,
+      "elements": [
+        {
+          "type": "helix_drawer_update",
+          "bind": [
+            "facts",
+            "next_best_action_category"
+          ]
+        },
+        {
+          "type": "state_flags",
+          "bind": "mission.state_flags"
+        }
+      ]
+    }
+  ]
+}

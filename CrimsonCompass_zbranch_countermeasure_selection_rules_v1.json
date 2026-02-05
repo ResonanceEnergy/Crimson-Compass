@@ -1,0 +1,68 @@
+{
+  "version": "1.0",
+  "module": "zbranch_countermeasure_selection",
+  "rule_notes": [
+    "Select 1–3 countermeasures per segment; avoid repeats.",
+    "If tag includes spy_vs_spy, enforce legacy+future mix.",
+    "Boost hybrid as heat rises."
+  ],
+  "weights": {
+    "era": {
+      "legacy": 1.0,
+      "future": 1.0
+    },
+    "domain": {
+      "physical": 1.0,
+      "digital": 1.0,
+      "hybrid": 1.15
+    },
+    "family": {
+      "alarm_audit": 1.1,
+      "misdirection": 1.0,
+      "route_denial": 1.05,
+      "attribution": 1.1
+    }
+  },
+  "heat_thresholds": [
+    {
+      "heat_at_or_above": 6,
+      "domain_boost": {
+        "hybrid": 1.3
+      },
+      "family_boost": {
+        "attribution": 1.25
+      }
+    },
+    {
+      "heat_at_or_above": 9,
+      "family_boost": {
+        "alarm_audit": 1.35
+      }
+    }
+  ],
+  "tag_map": {
+    "spy_vs_spy": {
+      "require_eras": [
+        "legacy",
+        "future"
+      ],
+      "prefer_domains": [
+        "hybrid"
+      ],
+      "prefer_families": [
+        "misdirection",
+        "attribution"
+      ]
+    },
+    "data_vault": {
+      "prefer_domains": [
+        "digital",
+        "hybrid"
+      ],
+      "prefer_families": [
+        "alarm_audit",
+        "misdirection"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "helix": [
+    "Confirmed: countermeasure present.",
+    "Facts stand. The route changes.",
+    "Next category: reduce exposure.",
+    "Confirmed: lead integrity affected."
+  ],
+  "optimus": [
+    "Countermeasure detected. Cost will be applied.",
+    "Audit trail risk increased.",
+    "Containment recommended. Efficiency not expected.",
+    "Discretion probability decreased."
+  ],
+  "ztech": [
+    "They trapped the boring part. Respect.",
+    "Good news: I can handle it. Bad news: it costs toys.",
+    "If it looks too perfect, it's bait.",
+    "Classic move. Modern teeth."
+  ],
+  "gasket": [
+    "Traps are just shy doors.",
+    "Watch this. No, don't watch this.",
+    "If it noticed us, it was built correctly.",
+    "You're welcome in advance."
+  ]
+}

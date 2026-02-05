@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "module": "episode_pattern_deck",
+  "patterns": [
+    {
+      "id": "P01_brief_loadout",
+      "name": "Brief + Loadout"
+    },
+    {
+      "id": "P02_presence_lead",
+      "name": "Presence Lead"
+    },
+    {
+      "id": "P03_social_gate",
+      "name": "Social Gate"
+    },
+    {
+      "id": "P04_countermeasure_snap",
+      "name": "Countermeasure Snap"
+    },
+    {
+      "id": "P05_hypothesis_set",
+      "name": "Hypothesis Set"
+    },
+    {
+      "id": "P06_disproof",
+      "name": "Disproof"
+    },
+    {
+      "id": "P07_gasket_conundrum",
+      "name": "Gasket Conundrum"
+    },
+    {
+      "id": "P08_safe_vs_fast_route",
+      "name": "Safe vs Fast"
+    },
+    {
+      "id": "P09_optimus_help",
+      "name": "Optimus Help"
+    },
+    {
+      "id": "P10_commitment_gate",
+      "name": "Commitment Gate"
+    }
+  ]
+}
