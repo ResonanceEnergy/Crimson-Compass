@@ -22,6 +22,12 @@ namespace CrimsonCompass
 
         void PopulateDropdowns()
         {
+            if (GameManager.Instance == null || GameManager.Instance.currentCase == null)
+            {
+                UnityEngine.Debug.Log("Case not loaded yet, retrying...");
+                Invoke("PopulateDropdowns", 0.1f);
+                return;
+            }
             var caseData = GameManager.Instance.currentCase;
             whoDropdown.ClearOptions();
             whoDropdown.AddOptions(new List<string> { "Select WHO" });

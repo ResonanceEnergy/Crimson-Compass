@@ -36,11 +36,12 @@ namespace CrimsonCompass
             else Debug.LogError("Agents JSON is null!");
             if (insightsJsonl != null) Debug.Log("Insights JSONL loaded, length: " + insightsJsonl.text.Length);
             else Debug.LogError("Insights JSONL is null!");
+
+            LoadCase();
         }
 
         void Start()
         {
-            LoadCase();
             eventBus.Subscribe(GameEventType.HYPOTHESIS_SUBMITTED, OnHypothesisSubmitted);
         }
 
