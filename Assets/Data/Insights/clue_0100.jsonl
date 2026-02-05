@@ -93,6 +93,16 @@
 {"id": "CLUE-093", "source_family": "CLUE", "taxonomy": "PACING", "insight": "Hidden solution triad stored in a sealed case file. Cost help with Time + Heat to preserve tension."}
 {"id": "CLUE-094", "source_family": "CLUE", "taxonomy": "ECONOMY", "insight": "Suggestion/hypothesis prompts a single disproof. Use cities as rooms and methods as the “weapon” axis."}
 {"id": "CLUE-095", "source_family": "CLUE", "taxonomy": "SETPIECE", "insight": "Secret passages create strategic movement shortcuts. Cost help with Time + Heat to preserve tension."}
+{"id": "CLUE-096", "source_family": "CRIMSON", "taxonomy": "DEDUCTION", "insight": "Triad deduction ensures fair play with exactly one disproof per hypothesis."}
+{"id": "CLUE-097", "source_family": "CRIMSON", "taxonomy": "PACING", "insight": "Time limits create urgency; travel costs balance exploration."}
+{"id": "CLUE-098", "source_family": "CRIMSON", "taxonomy": "GEO_LEARNING", "insight": "Cities as clues: landmarks and languages reveal suspect traits."}
+{"id": "CLUE-099", "source_family": "CRIMSON", "taxonomy": "TOOLING_QA", "insight": "Procedural generation picks suspect, trail, then generates consistent clues."}
+{"id": "CLUE-100", "source_family": "CRIMSON", "taxonomy": "PROGRESSION", "insight": "Promotion system increases difficulty and rewards mastery."}
+{"id": "CLUE-101", "source_family": "CRIMSON", "taxonomy": "ECONOMY", "insight": "Hints cost Time + Heat to preserve tension and strategic depth."}
+{"id": "CLUE-102", "source_family": "CRIMSON", "taxonomy": "SETPIECE", "insight": "Notebook UI tracks disproved elements for visual deduction."}
+{"id": "CLUE-103", "source_family": "CRIMSON", "taxonomy": "VOICE", "insight": "Agent interactions add personality and help options."}
+{"id": "CLUE-104", "source_family": "CRIMSON", "taxonomy": "TRAVEL", "insight": "Fast-travel unlocks as rewards for solving cases."}
+{"id": "CLUE-105", "source_family": "CRIMSON", "taxonomy": "HEAT", "insight": "Heat builds with wrong moves, adding risk to decisions."}
 {"id": "CLUE-096", "source_family": "CLUE", "taxonomy": "PACING", "insight": "Secret passages create strategic movement shortcuts. Ensure every session yields a cross-off moment."}
 {"id": "CLUE-097", "source_family": "CLUE", "taxonomy": "ECONOMY", "insight": "Suggestion/hypothesis prompts a single disproof. Guarantee solvability with a mission linter."}
 {"id": "CLUE-098", "source_family": "CLUE", "taxonomy": "GEO_LEARNING", "insight": "Secret passages create strategic movement shortcuts. Adapt to single-player by using intel sources that disprove exactly one element."}
