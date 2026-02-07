@@ -200,6 +200,7 @@ public class GameManager : MonoBehaviour
         public string caseToken;
         public string shadowToken;
         public bool gasket;
+        public bool catastrophicChoice;
     }
 
     public class HintCost { public int timeHours; public int heat; }

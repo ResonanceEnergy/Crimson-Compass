@@ -23,6 +23,11 @@ public class GasketManager : MonoBehaviour
         {
             TriggerFragment(caseId);
         }
+        if (GameManager.Instance.currentCase.catastrophicChoice && GameManager.Instance.currentCase.caseId == caseId)
+        {
+            // EP10 has catastrophic choice available
+            Debug.Log("GASKET: Catastrophic choice available - choose wisely!");
+        }
     }
 
     public void TriggerFragment(string caseId)

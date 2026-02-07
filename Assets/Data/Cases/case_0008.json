@@ -1,0 +1,86 @@
+{
+  "caseId": "CASE-0008",
+  "title": "Custody",
+  "tier": "season1",
+  "hook": "Encrypted design files stolen during transfer custody.",
+  "timeBudget": 54,
+  "hintsPerMission": 2,
+  "hintCost": {
+    "timeHours": 3,
+    "heat": 2
+  },
+  "gadgetsOffered": [
+    "DECODER",
+    "ENCRYPTOR",
+    "TRACER",
+    "VIRUS",
+    "BACKUP"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Custody Officer",
+      "traits": [
+        "corrupt",
+        "access:vault"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The File Thief",
+      "traits": [
+        "hacker",
+        "collects:data"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Transfer Coordinator",
+      "traits": [
+        "overworked",
+        "wears:uniform"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Custody Breach",
+      "signatures": [
+        "seal:broken"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Encryption Crack",
+      "signatures": [
+        "key:stolen"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "Transfer Interception",
+      "signatures": [
+        "route:diverted"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "Washington DC",
+      "country": "USA"
+    },
+    {
+      "id": "New York",
+      "country": "USA"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "Washington DC"
+  },
+  "caseToken": "Files recovered; breach contained.",
+  "shadowToken": "Motif C — vault track with no authorizing signature."
+}
