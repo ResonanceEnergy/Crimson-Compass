@@ -4,15 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using CrimsonCompass.Agents;
 using CrimsonCompass.Core;
-using TMPro;
 
-namespace CrimsonCompass
-{
-    public class HypothesisInput : MonoBehaviour
+public class HypothesisInput : MonoBehaviour
     {
-        public TMP_Dropdown whoDropdown;
-        public TMP_Dropdown howDropdown;
-        public TMP_Dropdown whereDropdown;
+        public Dropdown whoDropdown;
+        public Dropdown howDropdown;
+        public Dropdown whereDropdown;
         public Button submitButton;
 
         void Start()
@@ -31,16 +28,16 @@ namespace CrimsonCompass
             }
             var caseData = GameManager.Instance.currentCase;
             whoDropdown.ClearOptions();
-            whoDropdown.AddOptions(new List<string> { "Select WHO" });
-            foreach (var s in caseData.suspects) whoDropdown.options.Add(new TMP_Dropdown.OptionData(s.name));
+            whoDropdown.options.Add(new Dropdown.OptionData("Select WHO"));
+            foreach (var s in caseData.suspects) whoDropdown.options.Add(new Dropdown.OptionData(s.name));
 
             howDropdown.ClearOptions();
-            howDropdown.AddOptions(new List<string> { "Select HOW" });
-            foreach (var m in caseData.methods) howDropdown.options.Add(new TMP_Dropdown.OptionData(m.name));
+            howDropdown.options.Add(new Dropdown.OptionData("Select HOW"));
+            foreach (var m in caseData.methods) howDropdown.options.Add(new Dropdown.OptionData(m.name));
 
             whereDropdown.ClearOptions();
-            whereDropdown.AddOptions(new List<string> { "Select WHERE" });
-            foreach (var l in caseData.locations) whereDropdown.options.Add(new TMP_Dropdown.OptionData(l.id));
+            whereDropdown.options.Add(new Dropdown.OptionData("Select WHERE"));
+            foreach (var l in caseData.locations) whereDropdown.options.Add(new Dropdown.OptionData(l.id));
         }
 
         void SubmitHypothesis()
@@ -58,4 +55,3 @@ namespace CrimsonCompass
             GameManager.Instance.eventBus.Publish(GameEventType.HYPOTHESIS_SUBMITTED, hypothesis);
         }
     }
-}

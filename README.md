@@ -19,20 +19,18 @@ Mobile-first **international spy whodunnit**.
 - `Assets/Data/Insights/` → insight databases (500 + Clue 100 + SpyStoryKit)
 - `Assets/Data/Agents/` → agents, messages, triggers
 - `docs/` → schema + doctrine + setup guides
+  - `docs/SeriesFoundation_Season1Kit.md` → canonical narrative rules and Season 1 episode kit
+
+## Narrative Foundation
+> **You’re the sane detective brought in to close cases for an absurdly elite but dysfunctional covert agency that prevents global collapse through paperwork, gadgets, and luck—while a shadowy adversary is only ever inferred through the clues left behind, always slipping away.**
+
+**Tone:** Mission: Impossible stakes + James Bond global cool + Ocean’s team chemistry + Futurama-style institutional absurdity.
+
+**Core Rule:** 95% closure per episode, but the final 5% never sits right—dual pursuit of explicit crimes and implicit shadow adversary.
+
+See `docs/SeriesFoundation_Season1Kit.md` for full details, team roles, Season 1 episode grid, and authoring guidelines.
 
 ## Development Status
-- ✅ Core deduction engine
-- ✅ Event system
-- ✅ UI components
-- ✅ 5 sample cases
-- ✅ Time/heat mechanics
-- ✅ Agent interactions
-- ✅ Procedural generation
-- 🔄 Unity scene setup (see docs/SceneSetup.md)
-- 🔄 Testing (see docs/TestingGuide.md)
-- 🔄 Build (see docs/BuildGuide.md)
-
-## Unity
 Recommended: Unity **2022.3 LTS**.
 
 ## Next Steps

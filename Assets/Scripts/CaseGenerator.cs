@@ -86,7 +86,7 @@ namespace CrimsonCompass
             {
                 whoId = "S" + Random.Range(1, 4),
                 howId = "M" + Random.Range(1, 4),
-                whereId = citiesData.cities[Random.Range(0, citiesData.cities.Count)].id
+                whereId = citiesData.cities[Random.Range(0, citiesData.cities.Length)].id
             };
         }
     }

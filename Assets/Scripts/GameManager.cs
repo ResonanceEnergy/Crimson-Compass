@@ -3,31 +3,44 @@ using System.Collections.Generic;
 using UnityEngine;
 using CrimsonCompass.Agents;
 using CrimsonCompass.Core;
+using CrimsonCompass.Runtime;
 
-namespace CrimsonCompass
+public class GameManager : MonoBehaviour
 {
-    public class GameManager : MonoBehaviour
-    {
-        public static GameManager Instance;
+    public static GameManager Instance;
 
-        [Header("Data")]
-        public TextAsset caseJson;
-        public TextAsset agentsJson;
-        public TextAsset insightsJsonl;
+    [Header("Data")]
+    public TextAsset caseJson;
+    public TextAsset agentsJson;
+    public TextAsset insightsJsonl;
 
-        [Header("UI")]
-        public NotepadUI notepadUI;
-        public HypothesisInput hypothesisInput;
+    [Header("UI")]
+    public NotepadUI notepadUI;
+    public HypothesisInput hypothesisInput;
+    public EpisodeUI episodeUI;
 
-        private CaseData currentCase;
-        private DisproofEngine disproofEngine;
-        private EventBus eventBus;
+    [Header("Managers")]
+    public SeasonManager seasonManager;
+    public AgentManager agentManager;
+    public SaveManager saveManager;
+
+    public CaseData currentCase;
+    public GameState currentState;
+    public HashSet<string> completedEpisodes = new HashSet<string>();
+    private DisproofEngine disproofEngine;
+    public EventBus eventBus;
 
         void Awake()
         {
             Instance = this;
             eventBus = new EventBus();
             disproofEngine = new DisproofEngine();
+            currentState = new GameState();
+
+            // Initialize managers if not set
+            if (seasonManager == null) seasonManager = GetComponent<SeasonManager>();
+            if (agentManager == null) agentManager = GetComponent<AgentManager>();
+            if (saveManager == null) saveManager = GetComponent<SaveManager>();
 
             // Debug logs for data loading
             if (caseJson != null) Debug.Log("Case JSON loaded, length: " + caseJson.text.Length);
@@ -95,6 +108,55 @@ namespace CrimsonCompass
                 Debug.Log("No disproof - hypothesis might be correct or no intel");
             }
         }
+
+        public async void LoadEpisode(string episodeId, int startSceneIndex = 0)
+        {
+            if (seasonManager != null)
+            {
+                await seasonManager.StartEpisodeAsync(episodeId);
+                // Set the current scene if needed
+                if (startSceneIndex > 1)
+                {
+                    // Note: This is a simplified approach. In a real implementation,
+                    // you'd need to replay choices to get to the desired scene.
+                    Debug.LogWarning("StartSceneIndex not fully implemented - starting from beginning");
+                }
+            }
+            else
+            {
+                Debug.LogError("SeasonManager not found!");
+            }
+        }
+
+        public void StartNewGame()
+        {
+            currentState = new GameState();
+            completedEpisodes.Clear();
+            currentCase = null;
+
+            if (saveManager != null)
+            {
+                saveManager.NewGame();
+            }
+
+            // Load the test episode for now
+            LoadEpisode("test_episode_001");
+
+            eventBus.Publish(GameEventType.NEW_GAME_STARTED, null);
+        }
+
+        public void LoadSavedGame()
+        {
+            if (saveManager != null && saveManager.LoadGame())
+            {
+                Debug.Log("Game loaded successfully");
+            }
+            else
+            {
+                Debug.Log("No save data found, starting new game");
+                StartNewGame();
+            }
+        }
     }
 
     [System.Serializable]
@@ -102,18 +164,25 @@ namespace CrimsonCompass
     {
         public string caseId;
         public string title;
+        public string tier;
+        public string hook;
+        public int timeBudget;
+        public int hintsPerMission;
+        public HintCost hintCost;
+        public string[] gadgetsOffered;
+        public int gadgetsSelectable;
         public Suspect[] suspects;
         public Method[] methods;
         public Location[] locations;
         public Truth truth;
     }
 
+    public class HintCost { public int timeHours; public int heat; }
     [System.Serializable]
-    public class Suspect { public string id; public string name; }
+    public class Suspect { public string id; public string name; public string[] traits; }
     [System.Serializable]
-    public class Method { public string id; public string name; }
+    public class Method { public string id; public string name; public string[] signatures; }
     [System.Serializable]
     public class Location { public string id; public string country; }
     [System.Serializable]
     public class Truth { public string whoId; public string howId; public string whereId; }
-}

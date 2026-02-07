@@ -18,6 +18,12 @@ namespace CrimsonCompass.Core
         TIME_CHANGED,
         EPISODE_COMPLETED,
         MISSION_COMPLETED,
-        WEEKLY_DROP_AVAILABLE
+        WEEKLY_DROP_AVAILABLE,
+        SCENE_LOADED,
+        STATE_CHANGED,
+        AGENT_MESSAGE,
+        GAME_LOADED,
+        NEW_GAME_STARTED,
+        TEST_EVENT
     }
 }

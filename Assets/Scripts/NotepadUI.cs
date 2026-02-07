@@ -4,15 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using CrimsonCompass.UI;
 using CrimsonCompass.Core;
-using TMPro;
+using CrimsonCompass.Agents;
 
-namespace CrimsonCompass
-{
-    public class NotepadUI : MonoBehaviour
+public class NotepadUI : MonoBehaviour
     {
-public TMP_Text whoText;
-    public TMP_Text howText;
-    public TMP_Text whereText;
+public Text whoText;
+    public Text howText;
+    public Text whereText;
 
         private NotepadModel model = new NotepadModel();
 
@@ -24,7 +22,7 @@ public TMP_Text whoText;
 
         void OnDisproofReturned(object payload)
         {
-            var disproof = (DisproofEngine.Disproof)payload;
+            var disproof = (Disproof)payload;
             UnityEngine.Debug.Log("NotepadUI received disproof: " + disproof.axis + " " + disproof.disprovedId);
             MarkDisproved(disproof.axis.ToString(), disproof.disprovedId);
         }
@@ -42,4 +40,3 @@ public TMP_Text whoText;
             whereText.text = "WHERE:\n" + string.Join("\n", model.DisprovedWhere);
         }
     }
-}

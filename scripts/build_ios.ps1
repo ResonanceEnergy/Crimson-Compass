@@ -14,3 +14,5 @@ if (!(Test-Path $buildPath)) {
 & $unityPath -batchmode -nographics -projectPath $projectPath -buildTarget iOS -buildPath $buildPath
 
 Write-Host "iOS build completed. Check $buildPath for Xcode project."
+
+

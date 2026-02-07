@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!244 &1
+AudioMixer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CrimsonCompassAudioMixer
+  m_MasterGroup: {fileID: 2}
+  m_Groups:
+  - {fileID: 2}
+  - {fileID: 3}
+  - {fileID: 4}
+  - {fileID: 5}
+  - {fileID: 6}
+  - {fileID: 7}
+  - {fileID: 8}
+  m_Snapshots:
+  - {fileID: 9}
+  m_ExposedParameters: []
+--- !u!244 &2
+AudioMixerGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 1}
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 4}
+  - {fileID: 5}
+  - {fileID: 6}
+  - {fileID: 7}
+  - {fileID: 8}
+  m_Volume: {value: 0, mode: 0, curve: []}
+  m_Pitch: {value: 1, mode: 0, curve: []}
+  m_Send: {value: 0, mode: 0, curve: []}
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+  m_BypassEffectsToDirect: 0
+  m_BypassReverbZones: 0
+  m_BypassListen: 0
+  m_UserData: []
+--- !u!244 &3
+AudioMixerGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AMBIENCE
+  m_AudioMixer: {fileID: 1}
+  m_Children: []
+  m_Volume: {value: 0, mode: 0, curve: []}
+  m_Pitch: {value: 1, mode: 0, curve: []}
+  m_Send: {value: 0, mode: 0, curve: []}
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+  m_BypassEffectsToDirect: 0
+  m_BypassReverbZones: 0
+  m_BypassListen: 0
+  m_UserData: []
+--- !u!244 &4
+AudioMixerGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX
+  m_AudioMixer: {fileID: 1}
+  m_Children: []
+  m_Volume: {value: 0, mode: 0, curve: []}
+  m_Pitch: {value: 1, mode: 0, curve: []}
+  m_Send: {value: 0, mode: 0, curve: []}
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+  m_BypassEffectsToDirect: 0
+  m_BypassReverbZones: 0
+  m_BypassListen: 0
+  m_UserData: []
+--- !u!244 &5
+AudioMixerGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI
+  m_AudioMixer: {fileID: 1}
+  m_Children: []
+  m_Volume: {value: 0, mode: 0, curve: []}
+  m_Pitch: {value: 1, mode: 0, curve: []}
+  m_Send: {value: 0, mode: 0, curve: []}
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+  m_BypassEffectsToDirect: 0
+  m_BypassReverbZones: 0
+  m_BypassListen: 0
+  m_UserData: []
+--- !u!244 &6
+AudioMixerGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VO
+  m_AudioMixer: {fileID: 1}
+  m_Children: []
+  m_Volume: {value: 0, mode: 0, curve: []}
+  m_Pitch: {value: 1, mode: 0, curve: []}
+  m_Send: {value: 0, mode: 0, curve: []}
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+  m_BypassEffectsToDirect: 0
+  m_BypassReverbZones: 0
+  m_BypassListen: 0
+  m_UserData: []
+--- !u!244 &7
+AudioMixerGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PRESS
+  m_AudioMixer: {fileID: 1}
+  m_Children: []
+  m_Volume: {value: 0, mode: 0, curve: []}
+  m_Pitch: {value: 1, mode: 0, curve: []}
+  m_Send: {value: 0, mode: 0, curve: []}
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+  m_BypassEffectsToDirect: 0
+  m_BypassReverbZones: 0
+  m_BypassListen: 0
+  m_UserData: []
+--- !u!244 &8
+AudioMixerGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ECHO
+  m_AudioMixer: {fileID: 1}
+  m_Children: []
+  m_Volume: {value: 0, mode: 0, curve: []}
+  m_Pitch: {value: 1, mode: 0, curve: []}
+  m_Send: {value: 0, mode: 0, curve: []}
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+  m_BypassEffectsToDirect: 0
+  m_BypassReverbZones: 0
+  m_BypassListen: 0
+  m_UserData: []
+--- !u!244 &9
+AudioMixerSnapshot:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 1}
+  m_Values: []

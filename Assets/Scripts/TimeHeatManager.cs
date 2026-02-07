@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using CrimsonCompass.Core;
 
-namespace CrimsonCompass
-{
-    public class TimeHeatManager : MonoBehaviour
+public class TimeHeatManager : MonoBehaviour
     {
         public int currentTime;
         public int currentHeat;
@@ -57,4 +55,3 @@ namespace CrimsonCompass
             GameManager.Instance.eventBus.Publish(GameEventType.HEAT_CHANGED, currentHeat);
         }
     }
-}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "wire_cutter",
+    "name": "Wire Cutter",
+    "description": "Cuts through security wires and fences",
+    "type": "tool",
+    "rarity": "common",
+    "cost": 1
+  },
+  {
+    "id": "lockpick",
+    "name": "Lockpick Set",
+    "description": "Opens mechanical locks silently",
+    "type": "tool",
+    "rarity": "common",
+    "cost": 1
+  },
+  {
+    "id": "hacking_device",
+    "name": "Portable Hacking Device",
+    "description": "Bypasses electronic security systems",
+    "type": "electronic",
+    "rarity": "uncommon",
+    "cost": 2
+  },
+  {
+    "id": "disguise_kit",
+    "name": "Disguise Kit",
+    "description": "Changes appearance to blend in",
+    "type": "clothing",
+    "rarity": "uncommon",
+    "cost": 2
+  },
+  {
+    "id": "thermal_imager",
+    "name": "Thermal Imager",
+    "description": "Detects heat signatures through walls",
+    "type": "electronic",
+    "rarity": "rare",
+    "cost": 3
+  }
+]

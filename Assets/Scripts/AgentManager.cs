@@ -3,9 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using CrimsonCompass.Core;
 
-namespace CrimsonCompass
-{
-    public class AgentManager : MonoBehaviour
+public class AgentManager : MonoBehaviour
     {
         public TextAsset agentsJson;
         public TextAsset messagesJsonl;
@@ -34,9 +32,39 @@ namespace CrimsonCompass
 
         public void RequestHint(string choice)
         {
-            // Process hint request
-            GameManager.Instance.eventBus.Publish(GameEventType.HINT_USED, choice);
-            // TODO: Provide actual hint based on choice
+            // Process hint request based on choice
+            string hint = GetHintForChoice(choice);
+            GameManager.Instance.eventBus.Publish(GameEventType.HINT_USED, hint);
+            Debug.Log($"OPTIMUS: Hint provided - {hint}");
+        }
+
+        private string GetHintForChoice(string choice)
+        {
+            // Provide contextual hints based on current game state
+            var state = GameManager.Instance.currentState;
+
+            switch (choice.ToLower())
+            {
+                case "general":
+                    return $"Current status: Time {state.TimeRemaining}, Heat {state.Heat}, Lead Integrity {state.LeadIntegrity}. " +
+                           $"Be cautious with high heat levels.";
+
+                case "suspect":
+                    return "Focus on suspects with the most connections to the crime scene. " +
+                           "Check their alibis carefully.";
+
+                case "evidence":
+                    return "Physical evidence is more reliable than witness testimony. " +
+                           "Look for patterns in the evidence collection.";
+
+                case "timing":
+                    return $"You have {state.TimeRemaining} time segments remaining. " +
+                           "Some actions take more time than others.";
+
+                default:
+                    return "Trust your instincts, but verify everything. " +
+                           "The case details are in the evidence.";
+            }
         }
 
         public void SelectGadgets(List<string> selected)
@@ -59,7 +87,4 @@ namespace CrimsonCompass
     [System.Serializable]
     public class OptimusHelp { public int hintsPerMission; public HintCost hintCost; public string[] offerChoices; }
     [System.Serializable]
-    public class HintCost { public int timeHours; public int heat; }
-    [System.Serializable]
     public class ZtechLoadout { public int offered; public int select; }
-}

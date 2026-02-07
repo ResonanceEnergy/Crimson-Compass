@@ -1,0 +1,67 @@
+{
+  "episode_id": "test_episode_001",
+  "title": "The Shadow Protocol",
+  "arc": "introduction",
+  "architect_echo": "Trust no one, verify everything",
+  "blueprint_fragment": "Initial investigation protocols",
+  "faction_focus": "neutral",
+  "primary_learning_axis": "evidence_collection",
+  "surface_crime_pillar": "corporate_espionage",
+  "villain_traits": ["methodical", "tech_savvy"],
+  "warrant_pressure": "medium",
+  "ship_gate": "alpha",
+  "neon_snap_opportunity": "data_theft",
+  "end_hook": "The real conspiracy begins...",
+  "package_pdf": "shadow_protocol_case_file.pdf",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "scene_text": "INT. CORPORATE OFFICE - NIGHT",
+      "scene_description": "You arrive at the Neo-Tokyo Corporate Headquarters. The building security is tight, but you've managed to slip past the outer perimeter. The office of the CEO is just ahead.",
+      "choices": [
+        {
+          "id": "hack_terminal",
+          "text": "Hack into the CEO's terminal to access confidential files",
+          "primary_effect": "data_access",
+          "shadow_effect": "security_alert",
+          "deltas": {
+            "time": 2,
+            "heat": 3,
+            "lead_integrity": 15,
+            "gasket": 0,
+            "flag": "hacked_terminal"
+          },
+          "notes": "Risky but rewarding approach"
+        },
+        {
+          "id": "search_office",
+          "text": "Manually search the office for physical documents",
+          "primary_effect": "physical_evidence",
+          "shadow_effect": "none",
+          "deltas": {
+            "time": 1,
+            "heat": 1,
+            "lead_integrity": 8,
+            "gasket": 0,
+            "flag": "searched_office"
+          },
+          "notes": "Safer but less comprehensive"
+        },
+        {
+          "id": "interrogate_guard",
+          "text": "Question the security guard about suspicious activity",
+          "primary_effect": "witness_testimony",
+          "shadow_effect": "guard_alert",
+          "deltas": {
+            "time": 1,
+            "heat": 2,
+            "lead_integrity": 5,
+            "gasket": 0,
+            "flag": "questioned_guard"
+          },
+          "notes": "May alert others to your presence"
+        }
+      ]
+    }
+  ]
+}

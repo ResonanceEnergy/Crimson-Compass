@@ -1,0 +1,35 @@
+{
+  "cities": [
+    {
+      "id": "Lisbon",
+      "country": "Portugal",
+      "facts": ["Capital of Portugal", "Known for Fado music"],
+      "langs": ["Portuguese"]
+    },
+    {
+      "id": "Cairo",
+      "country": "Egypt",
+      "facts": ["Capital of Egypt", "Home to the Pyramids"],
+      "langs": ["Arabic"]
+    },
+    {
+      "id": "Paris",
+      "country": "France",
+      "facts": ["Capital of France", "City of Light"],
+      "langs": ["French"]
+    },
+    {
+      "id": "Berlin",
+      "country": "Germany",
+      "facts": ["Capital of Germany", "Berlin Wall history"],
+      "langs": ["German"]
+    },
+    {
+      "id": "Tokyo",
+      "country": "Japan",
+      "facts": ["Capital of Japan", "High-tech city"],
+      "langs": ["Japanese"]
+    }
+  ]
+}</content>
+<parameter name="filePath">c:\Users\gripa\OneDrive\Desktop\CrimsonCompass\Crimson-Compass\Assets\Resources\cities.txt
