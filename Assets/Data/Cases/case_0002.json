@@ -1,8 +1,8 @@
 {
   "caseId": "CASE-0002",
-  "title": "The Stolen Cipher",
-  "tier": "classic",
-  "hook": "A diplomatic cipher disappears from embassy; international incident looms.",
+  "title": "Badge & Borrow",
+  "tier": "season1",
+  "hook": "Social engineering theft of hardware keys from a secure facility.",
   "timeBudget": 60,
   "hintsPerMission": 3,
   "hintCost": {
@@ -20,65 +20,68 @@
   "suspects": [
     {
       "id": "S1",
-      "name": "The Diplomat",
+      "name": "The Social Engineer",
       "traits": [
-        "speaks:Russian",
-        "wears:tuxedo"
+        "charismatic",
+        "wears:maintenance-uniform"
       ]
     },
     {
       "id": "S2",
-      "name": "The Hacker",
+      "name": "The Key Thief",
       "traits": [
         "tech-savvy",
-        "speaks:German"
+        "collects:hardware"
       ]
     },
     {
       "id": "S3",
-      "name": "The Cleaner",
+      "name": "The Insider Accomplice",
       "traits": [
-        "stealthy",
-        "collects:badges"
+        "nervous",
+        "speaks:multiple-languages"
       ]
     }
   ],
   "methods": [
     {
       "id": "M1",
-      "name": "Digital Breach",
+      "name": "Badge Cloning",
       "signatures": [
-        "code:malware"
+        "device:rfid-cloner"
       ]
     },
     {
       "id": "M2",
-      "name": "Physical Theft",
+      "name": "Distraction Diversion",
       "signatures": [
-        "gloves:fingerprint-proof"
+        "alarm:false-positive"
       ]
     },
     {
       "id": "M3",
-      "name": "Social Engineering",
+      "name": "Key Duplication",
       "signatures": [
-        "disguise:perfect"
+        "mold:precision"
       ]
     }
   ],
   "locations": [
     {
-      "id": "Berlin",
-      "country": "Germany"
+      "id": "New York",
+      "country": "USA"
     },
     {
-      "id": "Moscow",
-      "country": "Russia"
+      "id": "London",
+      "country": "UK"
     }
   ],
   "truth": {
-    "whoId": "S2",
+    "whoId": "S1",
     "howId": "M1",
-    "whereId": "Berlin"
-  }
+    "whereId": "New York"
+  },
+  "caseToken": "Keys recovered; culprit caught.",
+  "shadowToken": "Motif A — maintenance corridor exists on no blueprint.",
+  "gasket": true
 }

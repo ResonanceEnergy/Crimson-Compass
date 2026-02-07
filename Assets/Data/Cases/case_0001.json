@@ -1,8 +1,8 @@
 {
   "caseId": "CASE-0001",
-  "title": "The Vanishing Ledger",
-  "tier": "classic",
-  "hook": "A charity ledger vanishes mid-auction; a shadow network wants it burned.",
+  "title": "Welcome Packet",
+  "tier": "season1",
+  "hook": "Contractor access ring siphons early builds from a cutting-edge tech firm.",
   "timeBudget": 72,
   "hintsPerMission": 3,
   "hintCost": {
@@ -20,64 +20,67 @@
   "suspects": [
     {
       "id": "S1",
-      "name": "The Archivist",
+      "name": "The Lead Contractor",
       "traits": [
-        "left-handed",
-        "speaks:Arabic"
+        "access:badge-level-5",
+        "speaks:Mandarin"
       ]
     },
     {
       "id": "S2",
-      "name": "The Courier",
+      "name": "The Insider Handler",
       "traits": [
-        "wears:olive-coat",
-        "speaks:French"
+        "wears:lab-coat",
+        "collects:prototypes"
       ]
     },
     {
       "id": "S3",
-      "name": "The Patron",
+      "name": "The Data Courier",
       "traits": [
-        "collects:coins"
+        "left-handed",
+        "drives:black-sedan"
       ]
     }
   ],
   "methods": [
     {
       "id": "M1",
-      "name": "Forgery Kit",
+      "name": "Access Ring Duplication",
       "signatures": [
-        "ink:iron-gall"
+        "badge:cloned-chip"
       ]
     },
     {
       "id": "M2",
-      "name": "Microcamera",
+      "name": "Build Siphoning Script",
       "signatures": [
-        "lens:2mm"
+        "code:encrypted-transfer"
       ]
     },
     {
       "id": "M3",
-      "name": "Cipher Deck",
+      "name": "Prototype Extraction Kit",
       "signatures": [
-        "pattern:triad"
+        "container:anti-static"
       ]
     }
   ],
   "locations": [
     {
-      "id": "Lisbon",
-      "country": "Portugal"
+      "id": "Silicon Valley",
+      "country": "USA"
     },
     {
-      "id": "Cairo",
-      "country": "Egypt"
+      "id": "Taipei",
+      "country": "Taiwan"
     }
   ],
   "truth": {
-    "whoId": "S2",
-    "howId": "M2",
-    "whereId": "Lisbon"
-  }
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "Silicon Valley"
+  },
+  "caseToken": "Ring leader arrested; prototype recovered.",
+  "shadowToken": "Motif B — access logs skewed by recurring 11-minute offset."
 }

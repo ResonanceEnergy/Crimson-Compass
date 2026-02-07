@@ -10,6 +10,8 @@ namespace CrimsonCompass.Core
         TRAVEL_COMPLETED,
         HYPOTHESIS_SUBMITTED,
         DISPROOF_RETURNED,
+        CASE_RESOLVED,
+        SAFE_HOUSE_RESET,
         HINT_OFFERED,
         HINT_USED,
         ACCUSATION_ATTEMPT,

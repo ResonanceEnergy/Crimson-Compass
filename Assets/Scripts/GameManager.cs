@@ -23,10 +23,12 @@ public class GameManager : MonoBehaviour
     public SeasonManager seasonManager;
     public AgentManager agentManager;
     public SaveManager saveManager;
+    public GasketManager gasketManager;
 
     public CaseData currentCase;
     public GameState currentState;
     public HashSet<string> completedEpisodes = new HashSet<string>();
+    public List<string> shadowTokens = new List<string>();
     private DisproofEngine disproofEngine;
     public EventBus eventBus;
 
@@ -41,6 +43,7 @@ public class GameManager : MonoBehaviour
             if (seasonManager == null) seasonManager = GetComponent<SeasonManager>();
             if (agentManager == null) agentManager = GetComponent<AgentManager>();
             if (saveManager == null) saveManager = GetComponent<SaveManager>();
+            if (gasketManager == null) gasketManager = GetComponent<GasketManager>();
 
             // Debug logs for data loading
             if (caseJson != null) Debug.Log("Case JSON loaded, length: " + caseJson.text.Length);
@@ -105,7 +108,26 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                Debug.Log("No disproof - hypothesis might be correct or no intel");
+                Debug.Log("No disproof - hypothesis correct!");
+                // Case resolved: 95% closure
+                if (!string.IsNullOrEmpty(currentCase.caseToken))
+                {
+                    Debug.Log("Case Token: " + currentCase.caseToken);
+                    // TODO: Display case resolution UI
+                }
+                // Add shadow token for 5% unease
+                if (!string.IsNullOrEmpty(currentCase.shadowToken))
+                {
+                    shadowTokens.Add(currentCase.shadowToken);
+                    Debug.Log("Shadow Token added: " + currentCase.shadowToken);
+                    // TODO: Display unease/anomaly
+                }
+                // Handle Gasket appearance
+                if (currentCase.gasket && gasketManager != null)
+                {
+                    gasketManager.TriggerFragment(currentCase.caseId);
+                }
+                eventBus.Publish(GameEventType.CASE_RESOLVED, currentCase.caseId);
             }
         }
 
@@ -175,6 +197,9 @@ public class GameManager : MonoBehaviour
         public Method[] methods;
         public Location[] locations;
         public Truth truth;
+        public string caseToken;
+        public string shadowToken;
+        public bool gasket;
     }
 
     public class HintCost { public int timeHours; public int heat; }

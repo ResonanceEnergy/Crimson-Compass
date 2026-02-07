@@ -1,8 +1,8 @@
 {
   "caseId": "CASE-0004",
-  "title": "The Phantom Heist",
-  "tier": "classic",
-  "hook": "A priceless artifact disappears from museum; no alarms triggered.",
+  "title": "The Update That Never Shipped",
+  "tier": "season1",
+  "hook": "Firmware staging server hijacked during deployment window.",
   "timeBudget": 72,
   "hintsPerMission": 3,
   "hintCost": {
@@ -20,65 +20,67 @@
   "suspects": [
     {
       "id": "S1",
-      "name": "The Curator",
+      "name": "The Server Admin",
       "traits": [
-        "knowledgeable",
-        "speaks:Italian"
+        "access:root",
+        "speaks:Code"
       ]
     },
     {
       "id": "S2",
-      "name": "The Thief",
+      "name": "The Firmware Hacker",
       "traits": [
-        "nimble",
-        "wears:black"
+        "expert:hacking",
+        "collects:zero-days"
       ]
     },
     {
       "id": "S3",
-      "name": "The Collector",
+      "name": "The Deployment Coordinator",
       "traits": [
-        "wealthy",
-        "collects:art"
+        "overseen",
+        "wears:headset"
       ]
     }
   ],
   "methods": [
     {
       "id": "M1",
-      "name": "Stealth Infiltration",
+      "name": "Server Hijack",
       "signatures": [
-        "footprints:none"
+        "exploit:zero-day"
       ]
     },
     {
       "id": "M2",
-      "name": "Inside Job",
+      "name": "Firmware Injection",
       "signatures": [
-        "keys:duplicate"
+        "code:backdoor"
       ]
     },
     {
       "id": "M3",
-      "name": "Distraction",
+      "name": "Staging Bypass",
       "signatures": [
-        "diversion:elaborate"
+        "credentials:stolen"
       ]
     }
   ],
   "locations": [
     {
-      "id": "Rome",
-      "country": "Italy"
+      "id": "Seattle",
+      "country": "USA"
     },
     {
-      "id": "Paris",
-      "country": "France"
+      "id": "Bangalore",
+      "country": "India"
     }
   ],
   "truth": {
-    "whoId": "S3",
-    "howId": "M2",
-    "whereId": "Rome"
-  }
+    "whoId": "S2",
+    "howId": "M1",
+    "whereId": "Seattle"
+  },
+  "caseToken": "Server reclaimed; breach sealed.",
+  "shadowToken": "Motif B — deployment timestamps show the same 11-minute skew."
 }

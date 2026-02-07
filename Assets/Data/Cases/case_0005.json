@@ -1,8 +1,8 @@
 {
   "caseId": "CASE-0005",
-  "title": "The Encrypted Message",
-  "tier": "advanced",
-  "hook": "A coded message intercepted; decryption reveals a conspiracy.",
+  "title": "Hostile Compliance",
+  "tier": "season1",
+  "hook": "Corporate counsel legally blocks investigative access to critical data.",
   "timeBudget": 54,
   "hintsPerMission": 2,
   "hintCost": {
@@ -20,65 +20,67 @@
   "suspects": [
     {
       "id": "S1",
-      "name": "The Cryptographer",
+      "name": "The Corporate Lawyer",
       "traits": [
-        "genius",
-        "speaks:Chinese"
+        "litigious",
+        "wears:suit"
       ]
     },
     {
       "id": "S2",
-      "name": "The Double Agent",
+      "name": "The Compliance Officer",
       "traits": [
-        "deceptive",
-        "wears:uniform"
+        "bureaucratic",
+        "collects:regulations"
       ]
     },
     {
       "id": "S3",
-      "name": "The Analyst",
+      "name": "The Data Controller",
       "traits": [
-        "analytical",
-        "collects:codes"
+        "protective",
+        "speaks:Legal"
       ]
     }
   ],
   "methods": [
     {
       "id": "M1",
-      "name": "Code Breaking",
+      "name": "Legal Obstruction",
       "signatures": [
-        "algorithm:custom"
+        "clause:obscure"
       ]
     },
     {
       "id": "M2",
-      "name": "Interception",
+      "name": "Compliance Bypass",
       "signatures": [
-        "signal:hijacked"
+        "loophole:exploited"
       ]
     },
     {
       "id": "M3",
-      "name": "False Flag",
+      "name": "Evidence Sealing",
       "signatures": [
-        "misinformation"
+        "track:classified"
       ]
     }
   ],
   "locations": [
     {
-      "id": "Beijing",
-      "country": "China"
+      "id": "Chicago",
+      "country": "USA"
     },
     {
-      "id": "London",
-      "country": "UK"
+      "id": "Frankfurt",
+      "country": "Germany"
     }
   ],
   "truth": {
     "whoId": "S1",
     "howId": "M1",
-    "whereId": "Beijing"
-  }
+    "whereId": "Chicago"
+  },
+  "caseToken": "Access restored; obstruction routed around.",
+  "shadowToken": "Motif C — legacy clause forces evidence into sealed track."
 }
