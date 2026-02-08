@@ -1,0 +1,108 @@
+{
+  "episode_id": "EP01",
+  "title": "The Opening Gambit",
+  "description": "A routine surveillance operation turns into something much more dangerous.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "narrative": "You arrive at the stakeout location just as the target emerges from the building. The street is quiet, but something feels off - too quiet. Your informant mentioned unusual activity, but this seems... wrong.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Maintain distance and observe. Patience is key in surveillance.",
+          "consequence": "You hold back, watching from the shadows. The target seems nervous, constantly checking their surroundings.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": []
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Get closer for a better look. Risk assessment shows acceptable danger.",
+          "consequence": "You move in closer, using the crowd for cover. The target spots something suspicious and picks up their pace.",
+          "heat_delta": 5,
+          "time_delta": 0,
+          "awards": []
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Call in backup immediately. Better safe than sorry.",
+          "consequence": "You radio for immediate support. The response team arrives quickly, but the target has already slipped away.",
+          "heat_delta": 10,
+          "time_delta": -2,
+          "awards": ["cautious"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "Trust your gut - this setup smells like a trap. Abort and regroup.",
+          "consequence": "You pull back immediately. Moments later, you see figures moving in the shadows - you made the right call.",
+          "heat_delta": -5,
+          "time_delta": 0,
+          "awards": ["instinctive"]
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "narrative": "The target leads you to an abandoned warehouse district. Multiple vehicles are parked suspiciously, and you can hear muffled voices from inside one of the buildings.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Set up a perimeter and wait for the right moment to move in.",
+          "consequence": "You establish observation points and wait. The meeting concludes, and the target leaves with documents.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": []
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Attempt to get closer and listen in on the conversation.",
+          "consequence": "You manage to get within earshot and overhear critical information about the operation.",
+          "heat_delta": 15,
+          "time_delta": 0,
+          "awards": ["information"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Call for tactical support and prepare for a raid.",
+          "consequence": "SWAT teams move in, but the targets scatter. You recover some evidence but lose the main target.",
+          "heat_delta": 20,
+          "time_delta": -3,
+          "awards": []
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "This feels like a setup. Pull back and investigate from afar.",
+          "consequence": "You retreat to a safe distance. The warehouse explodes moments later - another trap avoided.",
+          "heat_delta": -10,
+          "time_delta": 1,
+          "awards": ["survivor"]
+        }
+      ]
+    }
+  ],
+  "background_absurdity": {
+    "enabled": true,
+    "loop_minutes": 5,
+    "location_type": "urban_stakeout",
+    "patterns": [
+      {
+        "description": "A street performer suddenly appears, juggling chainsaws while reciting Shakespeare",
+        "frequency": "rare",
+        "impact": "subtle"
+      },
+      {
+        "description": "Pigeons form perfectly synchronized formations spelling out cryptic messages",
+        "frequency": "common",
+        "impact": "subtle"
+      }
+    ]
+  }
+}

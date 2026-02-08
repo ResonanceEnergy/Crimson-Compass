@@ -22,6 +22,7 @@ namespace CrimsonCompass.Core
         MISSION_COMPLETED,
         WEEKLY_DROP_AVAILABLE,
         SCENE_LOADED,
+        CHOICE_MADE,
         STATE_CHANGED,
         AGENT_MESSAGE,
         GAME_LOADED,

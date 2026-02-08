@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     public EpisodeUI episodeUI;
 
     [Header("Managers")]
-    public SeasonManager seasonManager;
+    public CrimsonCompass.Runtime.SeasonManager seasonManager;
     public AgentManager agentManager;
     public SaveManager saveManager;
     public GasketManager gasketManager;
@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
             currentState = new GameState();
 
             // Initialize managers if not set
-            if (seasonManager == null) seasonManager = GetComponent<SeasonManager>();
+            if (seasonManager == null) seasonManager = GetComponent<CrimsonCompass.Runtime.SeasonManager>();
             if (agentManager == null) agentManager = GetComponent<AgentManager>();
             if (saveManager == null) saveManager = GetComponent<SaveManager>();
             if (gasketManager == null) gasketManager = GetComponent<GasketManager>();
@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
             eventBus.Subscribe(GameEventType.HYPOTHESIS_SUBMITTED, OnHypothesisSubmitted);
         }
 
-        void LoadCase()
+        public void LoadCase()
         {
             currentCase = JsonUtility.FromJson<CaseData>(caseJson.text);
             Debug.Log("Case loaded: " + currentCase.title);
@@ -136,13 +136,6 @@ public class GameManager : MonoBehaviour
             if (seasonManager != null)
             {
                 await seasonManager.StartEpisodeAsync(episodeId);
-                // Set the current scene if needed
-                if (startSceneIndex > 1)
-                {
-                    // Note: This is a simplified approach. In a real implementation,
-                    // you'd need to replay choices to get to the desired scene.
-                    Debug.LogWarning("StartSceneIndex not fully implemented - starting from beginning");
-                }
             }
             else
             {
@@ -154,6 +147,7 @@ public class GameManager : MonoBehaviour
         {
             currentState = new GameState();
             completedEpisodes.Clear();
+            shadowTokens.Clear();
             currentCase = null;
 
             if (saveManager != null)
@@ -161,8 +155,13 @@ public class GameManager : MonoBehaviour
                 saveManager.NewGame();
             }
 
-            // Load the test episode for now
-            LoadEpisode("test_episode_001");
+            if (seasonManager != null)
+            {
+                seasonManager.ResetSeason();
+            }
+
+            // Load the first episode
+            LoadEpisode("CASE-0001");
 
             eventBus.Publish(GameEventType.NEW_GAME_STARTED, null);
         }

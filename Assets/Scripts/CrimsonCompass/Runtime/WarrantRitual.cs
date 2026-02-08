@@ -18,10 +18,10 @@ namespace CrimsonCompass.Runtime
     public static class WarrantRules
     {
         public static bool CanOpenWarrant(GameState state)
-            => state.WarrantPressure == WarrantPressure.Partial || state.WarrantPressure == WarrantPressure.Full;
+            => state.warrantPressure == WarrantPressure.Partial || state.warrantPressure == WarrantPressure.Full;
 
         public static bool CanPress(GameState state)
-            => state.WarrantPressure == WarrantPressure.Full;
+            => state.warrantPressure == WarrantPressure.Full;
 
         public static int HoldTimeCostSegments => 1;
     }

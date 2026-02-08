@@ -46,7 +46,7 @@ namespace CrimsonCompass.Runtime
             if (CCAudioContextProvider.Instance != null)
             {
                 CCAudioContextProvider.Instance.EpisodeNumber = episodeNumber;
-                CCAudioContextProvider.Instance.SetStateBands(State.Heat, MapTimeToBand(State.TimeRemaining), MapLeadIntegrityToBand(State.LeadIntegrity));
+                CCAudioContextProvider.Instance.SetStateBands(State.heat, MapTimeToBand(State.timeBudget), MapLeadIntegrityToBand(State.leadIntegrity));
             }
             if (CCAudioDeltaApplier.Instance != null)
             {
@@ -72,7 +72,7 @@ namespace CrimsonCompass.Runtime
             // Update audio state bands
             if (CCAudioContextProvider.Instance != null)
             {
-                CCAudioContextProvider.Instance.SetStateBands(State.Heat, MapTimeToBand(State.TimeRemaining), MapLeadIntegrityToBand(State.LeadIntegrity));
+                CCAudioContextProvider.Instance.SetStateBands(State.heat, MapTimeToBand(State.timeBudget), MapLeadIntegrityToBand(State.leadIntegrity));
             }
 
             if (State.IsTimeOut())
@@ -115,7 +115,7 @@ namespace CrimsonCompass.Runtime
         public void CommitWarrant(WarrantSelection selection, Func<WarrantSelection, (bool ok, HardFailReason? reason)> validator)
         {
             if (selection.Confidence == WarrantConfidence.Hold)
-                State.TimeRemaining -= WarrantRules.HoldTimeCostSegments;
+                State.timeBudget -= WarrantRules.HoldTimeCostSegments;
 
             if (State.IsTimeOut())
             {
@@ -134,32 +134,41 @@ namespace CrimsonCompass.Runtime
             OnEpisodeEnded?.Invoke(CurrentEpisodeId);
         }
 
+        public void ResetSeason()
+        {
+            FlowState = SeasonFlowState.Boot;
+            CurrentEpisodeId = null;
+            CurrentSceneId = 1;
+            State = new GameState();
+            _episode = null;
+        }
+
         private void ApplyDeltas(CcSeason1RuntimeLoader.DeltaData d)
         {
-            State.TimeRemaining += d.Time;
-            State.Heat = Mathf.Clamp(State.Heat + d.Heat, 0, 100);
+            State.timeBudget += d.Time;
+            State.heat = Mathf.Clamp(State.heat + d.Heat, 0, 100);
 
             if (!string.IsNullOrEmpty(d.LeadIntegrity) && d.LeadIntegrity != "no_change")
-                State.LeadIntegrity = ParseLead(d.LeadIntegrity);
+                State.leadIntegrity = ParseLead(d.LeadIntegrity);
 
             if (!string.IsNullOrEmpty(d.Gasket) && d.Gasket != "no_change")
-                State.Gasket = ParseGasket(d.Gasket);
+                State.gasket = ParseGasket(d.Gasket);
 
             if (!string.IsNullOrEmpty(d.Flag) && d.Flag != "no_change")
-                State.Flag = ParseFlag(d.Flag);
+                State.flag = ParseFlag(d.Flag);
         }
 
         private void ApplyCountermeasure(CountermeasureCard card)
         {
-            State.TimeRemaining += card.TimeDelta;
-            State.Heat = Mathf.Clamp(State.Heat + card.HeatDelta, 0, 100);
+            State.timeBudget += card.TimeDelta;
+            State.heat = Mathf.Clamp(State.heat + card.HeatDelta, 0, 100);
 
             if (card.LeadIntegrity != LeadIntegrity.NoChange)
-                State.LeadIntegrity = card.LeadIntegrity;
+                State.leadIntegrity = card.LeadIntegrity;
             if (card.Gasket != GasketState.NoChange)
-                State.Gasket = card.Gasket;
+                State.gasket = card.Gasket;
             if (card.Flag != FlagState.NoChange)
-                State.Flag = card.Flag;
+                State.flag = card.Flag;
         }
 
         private void EvaluateShadowEffect(string shadowEffect, ChoiceContext ctx)

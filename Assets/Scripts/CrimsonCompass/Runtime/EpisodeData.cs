@@ -20,6 +20,8 @@ namespace CrimsonCompass.Runtime
         public string neon_snap_opportunity;
         public string end_hook;
         public string package_pdf;
+        public BackgroundAbsurdityDto background_absurdity;
+        public string shadow_token;
         public List<SceneDto> scenes;
     }
 
@@ -36,11 +38,12 @@ namespace CrimsonCompass.Runtime
     public class ChoiceDto
     {
         public string id;
-        public string text;
-        public string primary_effect;
-        public string shadow_effect;
-        public DeltaDto deltas;
-        public string notes;
+        public string advisor;
+        public string label;
+        public string consequence;
+        public int heat_delta;
+        public int time_delta;
+        public string[] awards;
     }
 
     [Serializable]
@@ -48,8 +51,15 @@ namespace CrimsonCompass.Runtime
     {
         public int time;
         public int heat;
-        public int lead_integrity;
-        public int gasket;
-        public string flag;
+    }
+
+    [Serializable]
+    public class BackgroundAbsurdityDto
+    {
+        public bool enabled;
+        public int loop_minutes;
+        public string location_type;
+        public string pattern_id;
+        public string theme;
     }
 }

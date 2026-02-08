@@ -36,8 +36,11 @@ public class GasketManager : MonoBehaviour
         if (!string.IsNullOrEmpty(fragment))
         {
             fragments.Add(fragment);
-            Debug.Log("GASKET FRAGMENT: " + fragment);
-            // TODO: Display fragment UI (sensory, non-linear)
+            Debug.Log("GASKET FRAGMENT: " + fragment);            // Trigger audio fragment
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PlayGasketFragment(fragment.Split(':')[0].Trim());
+            }            // TODO: Display fragment UI (sensory, non-linear)
         }
     }
 
@@ -56,8 +59,8 @@ public class GasketManager : MonoBehaviour
     {
         // Gasket choice: massive heat/time spike, cover blown, safe house reset
         var state = GameManager.Instance.currentState;
-        state.Heat += 50; // Massive spike
-        state.TimeRemaining -= 24; // Massive time loss
+        state.heat += 50; // Massive spike
+        state.timeBudget -= 24; // Massive time loss
         Debug.Log("GASKET CHOICE: Cover blown! Forced extraction to safe house. Investigation reset.");
         // TODO: Reset board, move to safe house scene
         GameManager.Instance.eventBus.Publish(GameEventType.SAFE_HOUSE_RESET, null);

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace CrimsonCompass.Runtime
 {
@@ -13,29 +14,45 @@ namespace CrimsonCompass.Runtime
     [Serializable]
     public struct GameState
     {
-        public int TimeRemaining; // segments
-        public int Heat;          // 0–100
+        public int timeBudget; // segments
+        public int heat;          // 0–100
 
-        public LeadIntegrity LeadIntegrity;
-        public GasketState Gasket;
-        public FlagState Flag;
+        public LeadIntegrity leadIntegrity;
+        public GasketState gasket;
+        public FlagState flag;
 
-        public WarrantPressure WarrantPressure;
+        public WarrantPressure warrantPressure;
+
+        public List<string> tokens; // awarded tokens
 
         public HeatBand GetHeatBand()
         {
-            if (Heat <= 33) return HeatBand.Low;
-            if (Heat <= 66) return HeatBand.Med;
+            if (heat <= 33) return HeatBand.Low;
+            if (heat <= 66) return HeatBand.Med;
             return HeatBand.High;
         }
 
         public TimeBand GetTimeBand()
         {
-            if (TimeRemaining >= 5) return TimeBand.High;
-            if (TimeRemaining >= 3) return TimeBand.Med;
+            if (timeBudget >= 5) return TimeBand.High;
+            if (timeBudget >= 3) return TimeBand.Med;
             return TimeBand.Low;
         }
 
-        public bool IsTimeOut() => TimeRemaining <= 0;
+        public bool IsTimeOut() => timeBudget <= 0;
+
+        public void AddToken(string token)
+        {
+            if (tokens == null) tokens = new List<string>();
+            if (!tokens.Contains(token))
+            {
+                tokens.Add(token);
+            }
+        }
+
+        public bool HasToken(string token)
+        {
+            return tokens != null && tokens.Contains(token);
+        }
     }
 }

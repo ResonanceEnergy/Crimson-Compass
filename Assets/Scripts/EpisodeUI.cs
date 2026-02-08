@@ -76,7 +76,7 @@ public class EpisodeUI : MonoBehaviour
         foreach (var choice in scene.choices)
         {
             var button = Instantiate(choiceButtonPrefab, choicesContainer);
-            button.GetComponentInChildren<TextMeshProUGUI>().text = choice.text;
+            button.GetComponentInChildren<TextMeshProUGUI>().text = choice.label;
             button.onClick.AddListener(() => OnChoiceSelected(choice));
             choiceButtons.Add(button);
         }
@@ -104,11 +104,16 @@ public class EpisodeUI : MonoBehaviour
     void UpdateStateDisplay()
     {
         var state = GameManager.Instance.currentState;
-        timeText.text = $"Time: {state.TimeRemaining}";
-        heatText.text = $"Heat: {state.Heat}";
-        leadIntegrityText.text = $"Lead Integrity: {state.LeadIntegrity}";
-        gasketText.text = $"Gasket: {state.Gasket}";
-        flagText.text = $"Flag: {state.Flag}";
+        UpdateStateDisplay(state);
+    }
+
+    public void UpdateStateDisplay(GameState state)
+    {
+        timeText.text = $"Time: {state.timeBudget}";
+        heatText.text = $"Heat: {state.heat}";
+        leadIntegrityText.text = $"Lead Integrity: {state.leadIntegrity}";
+        gasketText.text = $"Gasket: {state.gasket}";
+        flagText.text = $"Flag: {state.flag}";
     }
 
     IEnumerator ClearAgentMessageAfterDelay(float delay)

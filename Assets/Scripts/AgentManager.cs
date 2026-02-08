@@ -46,7 +46,7 @@ public class AgentManager : MonoBehaviour
             switch (choice.ToLower())
             {
                 case "general":
-                    return $"Current status: Time {state.TimeRemaining}, Heat {state.Heat}, Lead Integrity {state.LeadIntegrity}. " +
+                    return $"Current status: Time {state.timeBudget}, Heat {state.heat}, Lead Integrity {state.leadIntegrity}. " +
                            $"Be cautious with high heat levels.";
 
                 case "suspect":
@@ -58,7 +58,7 @@ public class AgentManager : MonoBehaviour
                            "Look for patterns in the evidence collection.";
 
                 case "timing":
-                    return $"You have {state.TimeRemaining} time segments remaining. " +
+                    return $"You have {state.timeBudget} time segments remaining. " +
                            "Some actions take more time than others.";
 
                 default:
