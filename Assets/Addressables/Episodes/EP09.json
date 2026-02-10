@@ -1,0 +1,91 @@
+{
+  "episode_id": "EP09",
+  "title": "Exit Wound",
+  "description": "A physical extraction attempt targets a prototype chip with standardized exit hardware.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "narrative": "The extraction team is attempting to remove the chip from a research facility. Security systems are being bypassed systematically.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Position team members to intercept at key checkpoints.",
+          "consequence": "Strategic positioning allows you to observe the extraction method.",
+          "heat_delta": 1,
+          "time_delta": 0,
+          "awards": ["positioning"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Predict extraction routes based on facility layout.",
+          "consequence": "You anticipate the team's path and set up interception points.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["prediction"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Deploy automated security countermeasures.",
+          "consequence": "Automated systems slow the extraction team and provide tracking data.",
+          "heat_delta": 3,
+          "time_delta": 0,
+          "awards": ["automation"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The exit hardware looks standardized - check other sites.",
+          "consequence": "You find the same exit hardware used in unrelated security breaches.",
+          "heat_delta": -1,
+          "time_delta": 0,
+          "awards": ["standardization"]
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "narrative": "The extraction team has reached the perimeter. The chip is in a secure transport case.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Negotiate surrender to avoid damage to the chip.",
+          "consequence": "The team surrenders peacefully, preserving the prototype intact.",
+          "heat_delta": 2,
+          "time_delta": 0,
+          "awards": ["negotiation"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Calculate interception points for minimal risk.",
+          "consequence": "Precise interception prevents the extraction without endangering the chip.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["calculation"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Use non-lethal countermeasures to disable the team.",
+          "consequence": "Countermeasures disable the extraction team while securing the chip.",
+          "heat_delta": 4,
+          "time_delta": 0,
+          "awards": ["countermeasures"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The transport case is a decoy - the real chip is elsewhere.",
+          "consequence": "You discover the chip was already extracted through a different method.",
+          "heat_delta": -2,
+          "time_delta": 1,
+          "awards": ["decoy"]
+        }
+      ]
+    }
+  ]
+}

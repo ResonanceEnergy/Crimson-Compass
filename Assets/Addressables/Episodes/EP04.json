@@ -1,0 +1,91 @@
+{
+  "episode_id": "EP04",
+  "title": "The Update That Never Shipped",
+  "description": "A firmware staging server has been hijacked, threatening to deploy malicious updates.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "narrative": "You've accessed the server room where the firmware staging occurs. Network logs show unusual traffic patterns, but the server appears normal.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Talk to the server administrator to understand the update process.",
+          "consequence": "The admin reveals the hijacking method used to access the staging area.",
+          "heat_delta": 1,
+          "time_delta": 0,
+          "awards": ["liaison"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Analyze network traffic for injection points.",
+          "consequence": "You identify the exact moment and method of the server compromise.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["cyber"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Deploy network monitoring tools to trace the intrusion.",
+          "consequence": "Tools capture the attacker's command sequence and IP trail.",
+          "heat_delta": 3,
+          "time_delta": 0,
+          "awards": ["digital"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The server room feels staged - check for physical tampering.",
+          "consequence": "You find physical access ports that were used to bypass network security.",
+          "heat_delta": -2,
+          "time_delta": 0,
+          "awards": ["physical"]
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "narrative": "The malicious firmware update is set to deploy in minutes. You need to stop it while preserving evidence.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Coordinate with IT team to isolate the server safely.",
+          "consequence": "The team helps contain the breach without triggering the update.",
+          "heat_delta": 2,
+          "time_delta": 0,
+          "awards": ["coordination"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Calculate the deployment window and intervene precisely.",
+          "consequence": "You stop the update with seconds to spare, preserving all evidence.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["timing"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Use emergency override tools to halt the deployment.",
+          "consequence": "Override tools successfully prevent the malicious update from shipping.",
+          "heat_delta": 4,
+          "time_delta": 0,
+          "awards": ["override"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "This deployment timing is too perfect - it's a test run.",
+          "consequence": "You discover the update was a probe, not the real attack, saving resources.",
+          "heat_delta": -3,
+          "time_delta": 1,
+          "awards": ["strategic"]
+        }
+      ]
+    }
+  ]
+}

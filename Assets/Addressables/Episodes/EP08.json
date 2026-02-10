@@ -1,0 +1,91 @@
+{
+  "episode_id": "EP08",
+  "title": "Custody",
+  "description": "Encrypted design files have been stolen, requiring careful handling of digital evidence.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "narrative": "The breach occurred in a secure data vault. The files were encrypted but the thief had the keys.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Interview vault personnel about access procedures.",
+          "consequence": "Personnel reveal how the thief obtained legitimate access credentials.",
+          "heat_delta": 1,
+          "time_delta": 0,
+          "awards": ["procedural"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Trace the encryption key usage in system logs.",
+          "consequence": "Logs show the key was used from an unauthorized location.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["trace"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Deploy decryption tools to recover the files.",
+          "consequence": "Tools successfully recover the encrypted files from backup systems.",
+          "heat_delta": 3,
+          "time_delta": 0,
+          "awards": ["decryption"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The vault access feels too clean - check for internal compromise.",
+          "consequence": "You discover an insider who provided the encryption keys.",
+          "heat_delta": -2,
+          "time_delta": 0,
+          "awards": ["internal"]
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "narrative": "The files have been partially decrypted, revealing the scope of the theft. Custody procedures must be followed precisely.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Coordinate with legal team for proper evidence handling.",
+          "consequence": "Legal coordination ensures the evidence is admissible in court.",
+          "heat_delta": 2,
+          "time_delta": 0,
+          "awards": ["legal"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Verify file integrity and chain of custody.",
+          "consequence": "Integrity checks confirm the files haven't been tampered with further.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["integrity"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Secure the files with additional encryption layers.",
+          "consequence": "Additional security prevents further unauthorized access.",
+          "heat_delta": 4,
+          "time_delta": 0,
+          "awards": ["security"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The custody routing is wrong - no signature on the track.",
+          "consequence": "You uncover that the files were routed through unauthorized channels.",
+          "heat_delta": -3,
+          "time_delta": 1,
+          "awards": ["routing"]
+        }
+      ]
+    }
+  ]
+}
