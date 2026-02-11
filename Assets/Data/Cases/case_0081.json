@@ -1,0 +1,1062 @@
+{
+  "caseId": "CASE-0081",
+  "title": "Fractured Alliances",
+  "tier": "season7",
+  "hook": "Allied agencies may be simulation constructs",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "realityLevel": 9,
+  "simulationDepth": 5,
+  "fracturePoints": [
+    {
+      "id": "FP17",
+      "type": "reality-fracture",
+      "description": "Layer 9 simulation boundary breach",
+      "severity": 5
+    },
+    {
+      "id": "FP18",
+      "type": "memory-corruption",
+      "description": "Neural integrity compromise at 105%",
+      "severity": 4
+    }
+  ],
+  "realityAnchors": [
+    {
+      "id": "RA17",
+      "type": "physical-anchor",
+      "description": "Tangible evidence resistant to simulation",
+      "stability": 0.3
+    },
+    {
+      "id": "RA18",
+      "type": "memory-anchor",
+      "description": "Core memory resistant to alteration",
+      "stability": 0.2
+    }
+  ],
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Reality Weaver",
+      "traits": [
+        "simulation-architect",
+        "reality-manipulator"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Fractured Mind",
+      "traits": [
+        "memory-alterer",
+        "identity-eraser"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Simulation Ghost",
+      "traits": [
+        "digital-haunter",
+        "code-infiltrator"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Reality Fracturing",
+      "signatures": [
+        "simulations:layered",
+        "realities:blurred"
+      ],
+      "realityAnalysis": {
+        "fractureType": "layered-simulations",
+        "depthLevel": 3,
+        "anchorPoints": 2
+      }
+    },
+    {
+      "id": "M2",
+      "name": "Memory Implantation",
+      "signatures": [
+        "memories:fabricated",
+        "identities:altered"
+      ],
+      "neuralMapping": {
+        "implantType": "false-memories",
+        "retentionRate": 0.85,
+        "detectionDifficulty": "high"
+      }
+    },
+    {
+      "id": "M3",
+      "name": "Simulation Infiltration",
+      "signatures": [
+        "code:embedded",
+        "systems:compromised"
+      ],
+      "digitalIntrusion": {
+        "infiltrationMethod": "backdoor-insertion",
+        "persistenceLevel": 4,
+        "extractionRisk": "critical"
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "L1",
+      "country": "Germany"
+    },
+    {
+      "id": "L2",
+      "country": "Japan"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "L1"
+  },
+  "caseToken": "Fractured Reality",
+  "shadowToken": "Reality Crisis",
+  "clues": [
+    {
+      "id": "C1",
+      "text": "Digital artifacts suggest this operation may be simulated",
+      "reliability": 0.8,
+      "realityCheck": true
+    },
+    {
+      "id": "C2",
+      "text": "Witness memories conflict with recorded evidence",
+      "reliability": 0.7,
+      "neuralIntegrity": 0.6
+    },
+    {
+      "id": "C3",
+      "text": "System logs show impossible temporal sequences",
+      "reliability": 0.9,
+      "simulationIndicator": true
+    }
+  ],
+  "gadgetsOffered": [
+    "REALITYANALYZER",
+    "MEMORYVALIDATOR",
+    "SIMULATIONDETECTOR",
+    "NEURALMAPPER",
+    "DIGITALEXTRACTOR",
+    "ANCHORSTABILIZER",
+    "FRACTUREHEALER",
+    "IDENTITYVERIFIER"
+  ],
+  "gadgetsSelectable": 3,
+  "deductionSystem": {
+    "whoOptions": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "howOptions": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "whereOptions": [
+      "L1",
+      "L2"
+    ],
+    "maxHypotheses": 5,
+    "deductionRules": {
+      "singleCorrect": true,
+      "eliminationFeedback": true,
+      "partialCredit": false,
+      "realityPenalty": true,
+      "simulationBonus": true
+    }
+  },
+  "resourceManagement": {
+    "timeBudget": 72,
+    "heatLevels": {
+      "low": {
+        "threshold": 1,
+        "effects": [
+          "reality-doubt",
+          "simulation-hints",
+          "anchor-questions"
+        ]
+      },
+      "medium": {
+        "threshold": 3,
+        "effects": [
+          "identity-dissolution",
+          "memory-fracture",
+          "neural-disruption"
+        ]
+      },
+      "high": {
+        "threshold": 5,
+        "effects": [
+          "total-simulacrum",
+          "reality-collapse",
+          "existential-void"
+        ]
+      }
+    },
+    "heatDecay": {
+      "passive": 0.1,
+      "active": 0.5
+    },
+    "timePenalties": {
+      "wrongHypothesis": 4,
+      "failedScan": 2,
+      "realityConfusion": 6,
+      "simulationError": 5,
+      "fractureEvent": 8,
+      "anchorInstability": 7
+    }
+  },
+  "agentInteractions": {
+    "HELIX": {
+      "role": "Reality Anchor",
+      "personality": "Grounded and reality-focused",
+      "interactions": {
+        "caseStart": "Reality fractures detected. We must establish what is authentic.",
+        "hypothesisHelp": "This deduction path creates reality inconsistencies. Verify anchors.",
+        "timeWarning": "Time pressure may cause reality layers to collapse further.",
+        "success": "Reality stabilized. We've anchored back to authentic operations.",
+        "failure": "The simulation has consumed us. Nothing remains certain."
+      },
+      "helpTriggers": {
+        "timeLow": true,
+        "heatHigh": true,
+        "stuckClues": true,
+        "realityFractured": true,
+        "anchorUnstable": true
+      }
+    },
+    "OPTIMUS": {
+      "role": "Simulation Cartographer",
+      "personality": "Analytical and layer-aware",
+      "interactions": {
+        "caseStart": "Multiple simulation layers detected. Let's map the reality fractures.",
+        "hypothesisHelp": "This creates paradoxes across simulation layers. Cross-reference realities.",
+        "timeWarning": "Simulation layers are destabilizing. Resolution critical before collapse.",
+        "success": "Layers mapped! The simulation architecture is revealed.",
+        "failure": "Lost in the simulation. Reality has become indistinguishable."
+      },
+      "helpTriggers": {
+        "wrongHypothesis": true,
+        "resourceLow": true,
+        "fractureEvent": true,
+        "layerShift": true,
+        "simulationClue": true
+      }
+    },
+    "ZTECH": {
+      "role": "Neural Integrity Specialist",
+      "personality": "Digital and memory-focused",
+      "interactions": {
+        "caseStart": "Neural patterns show simulation corruption. Let's validate reality.",
+        "hypothesisHelp": "Memory validation shows this method may be simulation-generated.",
+        "timeWarning": "Neural integrity failing! We need resolution before total corruption!",
+        "success": "Neural patterns authenticated! Reality signatures confirmed.",
+        "failure": "Memory corruption complete. We may never know what was real."
+      },
+      "helpTriggers": {
+        "gadgetFailure": true,
+        "scanOpportunity": true,
+        "techClue": true,
+        "memoryCorruption": true,
+        "neuralAnalysis": true
+      }
+    }
+  },
+  "interactionTriggers": {
+    "caseStart": [
+      "HELIX",
+      "OPTIMUS"
+    ],
+    "firstHypothesis": [
+      "OPTIMUS"
+    ],
+    "timeWarning": [
+      "HELIX"
+    ],
+    "heatWarning": [
+      "OPTIMUS"
+    ],
+    "gadgetUse": [
+      "ZTECH"
+    ],
+    "fractureEvent": [
+      "OPTIMUS"
+    ],
+    "realityDoubt": [
+      "HELIX"
+    ],
+    "simulationDetected": [
+      "ZTECH"
+    ],
+    "memoryCorruption": [
+      "ZTECH"
+    ],
+    "anchorStabilized": [
+      "HELIX"
+    ],
+    "layerCollapse": [
+      "OPTIMUS"
+    ],
+    "nearSuccess": [
+      "HELIX"
+    ],
+    "caseEnd": [
+      "HELIX",
+      "OPTIMUS",
+      "ZTECH"
+    ]
+  },
+  "gameplayFlow": {
+    "phases": [
+      {
+        "name": "Reality Assessment",
+        "duration": "auto",
+        "objectives": [
+          "Identify reality fractures",
+          "Select anchor stabilization gadgets"
+        ],
+        "agentFocus": "HELIX"
+      },
+      {
+        "name": "Simulation Mapping",
+        "duration": "timed",
+        "objectives": [
+          "Map simulation layers",
+          "Form reality hypotheses",
+          "Deploy neural validators"
+        ],
+        "agentFocus": "OPTIMUS"
+      },
+      {
+        "name": "Fracture Resolution",
+        "duration": "auto",
+        "objectives": [
+          "Resolve reality paradoxes",
+          "Stabilize neural integrity",
+          "Extract from simulation"
+        ],
+        "agentFocus": "ZTECH"
+      }
+    ],
+    "victoryConditions": {
+      "primary": "Correct WHO/HOW/WHERE identification with reality verification",
+      "secondary": "Simulation layer stabilization",
+      "bonus": "Recovery of authentic neural patterns"
+    },
+    "failureConditions": {
+      "timeExpired": "Simulation layers achieve total dominance",
+      "heatMaxed": "Complete reality dissolution",
+      "fractureUnresolved": "Neural collapse from unresolved paradoxes"
+    }
+  },
+  "clueSystem": {
+    "clueTypes": [
+      {
+        "type": "reality-clue",
+        "description": "Evidence questioning simulation vs. reality",
+        "reliability": 0.8,
+        "fractureRisk": 0.3
+      },
+      {
+        "type": "memory-clue",
+        "description": "Neural pattern with potential fabrication",
+        "reliability": 0.7,
+        "corruptionRisk": 0.4
+      },
+      {
+        "type": "digital-clue",
+        "description": "Code artifact from simulation layer",
+        "reliability": 0.9,
+        "extractionRisk": 0.2
+      }
+    ],
+    "clueMechanics": {
+      "collectionLimit": 8,
+      "validationRequired": true,
+      "realityContamination": true,
+      "anchorBonus": true
+    }
+  },
+  "decisionPoints": [
+    {
+      "id": "DP1",
+      "trigger": "reality-fracture",
+      "options": [
+        {
+          "choice": "stabilize-anchor",
+          "timeCost": 3,
+          "heatRisk": 1,
+          "outcome": "reality-grounding"
+        },
+        {
+          "choice": "embrace-simulation",
+          "timeCost": 1,
+          "heatRisk": 2,
+          "outcome": "layer-immersion"
+        },
+        {
+          "choice": "neural-extraction",
+          "timeCost": 5,
+          "heatRisk": 0,
+          "outcome": "pattern-recovery"
+        }
+      ]
+    },
+    {
+      "id": "DP2",
+      "trigger": "memory-corruption",
+      "options": [
+        {
+          "choice": "validate-memories",
+          "timeCost": 4,
+          "heatRisk": 1,
+          "outcome": "neural-stabilization"
+        },
+        {
+          "choice": "rewrite-memories",
+          "timeCost": 0,
+          "heatRisk": 3,
+          "outcome": "identity-fracture"
+        },
+        {
+          "choice": "digital-anchoring",
+          "timeCost": 6,
+          "heatRisk": 2,
+          "outcome": "reality-preservation"
+        }
+      ]
+    }
+  ],
+  "advancedMechanics": {
+    "realityAnalyzer": {
+      "name": "Fractured Reality Analyzer",
+      "description": "Analyzes the boundary between simulation and authentic reality",
+      "capabilities": [
+        "reality-mapping",
+        "simulation-detection",
+        "layer-discrimination"
+      ],
+      "successRate": 0.7,
+      "risks": [
+        "reality-doubt",
+        "simulation-paranoia",
+        "layer-confusion"
+      ]
+    },
+    "neuralValidator": {
+      "name": "Neural Pattern Validator",
+      "description": "Validates neural patterns against simulation corruption",
+      "capabilities": [
+        "memory-authentication",
+        "pattern-verification",
+        "corruption-detection"
+      ],
+      "successRate": 0.75,
+      "risks": [
+        "false-validation",
+        "memory-alteration",
+        "identity-erosion"
+      ]
+    },
+    "simulationMapper": {
+      "name": "Simulation Layer Mapper",
+      "description": "Maps and navigates multiple simulation layers",
+      "capabilities": [
+        "layer-visualization",
+        "depth-analysis",
+        "boundary-detection"
+      ],
+      "successRate": 0.8,
+      "risks": [
+        "layer-overload",
+        "depth-paranoia",
+        "reality-disorientation"
+      ]
+    },
+    "anchorStabilizer": {
+      "name": "Reality Anchor Stabilizer",
+      "description": "Stabilizes reality anchors against simulation erosion",
+      "capabilities": [
+        "anchor-reinforcement",
+        "stability-maintenance",
+        "erosion-prevention"
+      ],
+      "successRate": 0.85,
+      "risks": [
+        "anchor-fragility",
+        "stabilization-failure",
+        "reality-weakening"
+      ]
+    },
+    "fractureHealer": {
+      "name": "Fracture Healing System",
+      "description": "Heals fractures between simulation and reality layers",
+      "capabilities": [
+        "fracture-repair",
+        "boundary-resealing",
+        "integrity-restoration"
+      ],
+      "successRate": 0.65,
+      "risks": [
+        "healing-overload",
+        "fracture-expansion",
+        "integrity-compromise"
+      ]
+    },
+    "identityVerifier": {
+      "name": "Digital Identity Verifier",
+      "description": "Verifies digital identities against simulation fabrication",
+      "capabilities": [
+        "identity-validation",
+        "fabrication-detection",
+        "authenticity-confirmation"
+      ],
+      "successRate": 0.7,
+      "risks": [
+        "identity-doubt",
+        "verification-paranoia",
+        "authenticity-crisis"
+      ]
+    },
+    "neuralExtractor": {
+      "name": "Neural Pattern Extractor",
+      "description": "Extracts authentic neural patterns from corrupted simulations",
+      "capabilities": [
+        "pattern-extraction",
+        "corruption-filtering",
+        "authenticity-isolation"
+      ],
+      "successRate": 0.75,
+      "risks": [
+        "extraction-failure",
+        "pattern-corruption",
+        "neural-damage"
+      ]
+    },
+    "layerNavigator": {
+      "name": "Simulation Layer Navigator",
+      "description": "Navigates between simulation layers safely",
+      "capabilities": [
+        "layer-transition",
+        "safety-protocols",
+        "exit-strategies"
+      ],
+      "successRate": 0.8,
+      "risks": [
+        "navigation-failure",
+        "layer-trapping",
+        "transition-trauma"
+      ]
+    },
+    "paradoxResolver": {
+      "name": "Reality Paradox Resolver",
+      "description": "Resolves temporal and logical paradoxes created by fractured simulations",
+      "capabilities": [
+        "paradox-detection",
+        "causality-reconstruction",
+        "logical-consistency-restoration"
+      ],
+      "successRate": 0.6,
+      "risks": [
+        "paradox-amplification",
+        "reality-fracture-expansion",
+        "causality-collapse"
+      ]
+    },
+    "recoveryScanner": {
+      "name": "Neural Recovery Scanner",
+      "description": "Scans for recoverable authentic elements from simulation corruption",
+      "capabilities": [
+        "memory-fragment-recovery",
+        "pattern-reconstruction",
+        "integrity-restoration"
+      ],
+      "successRate": 0.75,
+      "risks": [
+        "false-memory-recovery",
+        "corruption-reintroduction",
+        "identity-contamination"
+      ]
+    },
+    "temporalAnalyzer": {
+      "name": "Temporal Flow Analyzer",
+      "description": "Analyzes timing anomalies created by simulation layer interactions",
+      "capabilities": [
+        "temporal-mapping",
+        "anomaly-detection",
+        "synchronization-validation"
+      ],
+      "successRate": 0.8,
+      "risks": [
+        "temporal-paralysis",
+        "chronological-disorientation",
+        "sequence-obsession"
+      ]
+    },
+    "jurisdictionResolver": {
+      "name": "Simulation Jurisdiction Resolver",
+      "description": "Navigates complex jurisdictional puzzles across simulation boundaries",
+      "capabilities": [
+        "authority-mapping",
+        "boundary-validation",
+        "sovereignty-negotiation"
+      ],
+      "successRate": 0.7,
+      "risks": [
+        "authority-confusion",
+        "jurisdictional-paralysis",
+        "sovereignty-dissolution"
+      ]
+    },
+    "networkVisualizer": {
+      "name": "Fractured Network Mapping Interface",
+      "description": "Maps interconnected webs of simulation layers and reality fractures",
+      "capabilities": [
+        "network-visualization",
+        "fracture-mapping",
+        "connection-analysis"
+      ],
+      "successRate": 0.85,
+      "risks": [
+        "network-complexity-overload",
+        "connection-paranoia",
+        "mapping-obsession"
+      ]
+    },
+    "causalityMapper": {
+      "name": "Causality Chain Mapper",
+      "description": "Maps causal chains through fractured simulation networks",
+      "capabilities": [
+        "causality-tracing",
+        "chain-analysis",
+        "origin-point-identification"
+      ],
+      "successRate": 0.7,
+      "risks": [
+        "causality-doubt",
+        "chain-obsession",
+        "origin-paranoia"
+      ]
+    }
+  },
+  "simulationNetworks": [
+    {
+      "id": "SN1",
+      "type": "layered-simulation-web",
+      "description": "Complex web of nested simulation layers",
+      "complexity": "high",
+      "depthLevel": 4,
+      "connectedEntities": [
+        "S1",
+        "S2",
+        "MA1"
+      ]
+    },
+    {
+      "id": "SN2",
+      "type": "neural-corruption-chain",
+      "description": "Chain of neural corruption through simulation layers",
+      "complexity": "medium",
+      "depthLevel": 3,
+      "connectedEntities": [
+        "S3",
+        "MA2",
+        "JC1"
+      ]
+    }
+  ],
+  "fractureEvents": [
+    {
+      "id": "FE1",
+      "type": "layer-collapse",
+      "description": "Simulation layer collapses, revealing deeper reality",
+      "fractureSeverity": "high",
+      "realityImpact": "disorienting"
+    },
+    {
+      "id": "FE2",
+      "type": "memory-rewrite",
+      "description": "Neural memories are rewritten by simulation",
+      "fractureSeverity": "critical",
+      "realityImpact": "identity-threatening"
+    }
+  ],
+  "countermeasureSets": [
+    {
+      "id": "CS1",
+      "name": "Reality Stabilization Tactics",
+      "description": "Countermeasures against simulation layer collapse",
+      "effectiveness": 0.75,
+      "triggers": [
+        "layer-fracture",
+        "reality-doubt"
+      ],
+      "outcomes": [
+        "anchor-strengthening",
+        "stability-restoration"
+      ]
+    },
+    {
+      "id": "CS2",
+      "name": "Neural Integrity Protection",
+      "description": "Systems for protecting neural patterns from corruption",
+      "effectiveness": 0.8,
+      "triggers": [
+        "memory-alteration",
+        "identity-erosion"
+      ],
+      "outcomes": [
+        "pattern-preservation",
+        "corruption-prevention"
+      ]
+    }
+  ],
+  "uiTemplates": {
+    "realityMeter": {
+      "type": "gauge",
+      "metric": "reality-confidence",
+      "range": [
+        0,
+        100
+      ],
+      "thresholds": {
+        "simulation-dominant": 25,
+        "uncertain": 50,
+        "reality-dominant": 75,
+        "authentic": 100
+      }
+    },
+    "layerVisualizer": {
+      "type": "network-graph",
+      "function": "display-simulation-layers",
+      "depthIndicator": "color-coded",
+      "stabilityOverlay": true
+    },
+    "neuralIntegrity": {
+      "type": "health-bar",
+      "metric": "memory-corruption",
+      "range": [
+        0,
+        100
+      ],
+      "warningThreshold": 70
+    }
+  },
+  "insights": [
+    {
+      "id": "I1",
+      "type": "simulation-layer",
+      "content": "Evidence suggests operation occurs within simulation layer",
+      "relevance": "high"
+    },
+    {
+      "id": "I2",
+      "type": "neural-corruption",
+      "content": "Neural patterns show signs of simulation manipulation",
+      "relevance": "critical"
+    },
+    {
+      "id": "I3",
+      "type": "reality-anchor",
+      "content": "Identified potential anchor point in authentic reality",
+      "relevance": "medium"
+    }
+  ],
+  "shadowTokens": [
+    {
+      "id": "ST1",
+      "name": "Reality Doubt",
+      "description": "Growing uncertainty about whether current reality is authentic or simulated",
+      "type": "existential",
+      "intensity": "medium",
+      "trigger": "layer-fracture",
+      "effect": "operational-paralysis"
+    },
+    {
+      "id": "ST2",
+      "name": "Identity Erosion",
+      "description": "Gradual loss of certainty about personal and operational identity",
+      "type": "psychological",
+      "intensity": "high",
+      "trigger": "memory-corruption",
+      "effect": "decision-hesitation"
+    },
+    {
+      "id": "ST3",
+      "name": "Simulation Paranoia",
+      "description": "Fear that all evidence and interactions are simulation constructs",
+      "type": "cognitive",
+      "intensity": "medium",
+      "trigger": "fabrication-detection",
+      "effect": "evidence-doubt"
+    },
+    {
+      "id": "ST4",
+      "name": "Layer Confusion",
+      "description": "Inability to distinguish between different simulation layers",
+      "type": "perceptual",
+      "intensity": "high",
+      "trigger": "depth-overload",
+      "effect": "reality-disorientation"
+    },
+    {
+      "id": "ST5",
+      "name": "Neural Dissolution",
+      "description": "Terrifying sense of neural patterns dissolving into simulation",
+      "type": "neurological",
+      "intensity": "critical",
+      "trigger": "corruption-peak",
+      "effect": "cognitive-collapse"
+    },
+    {
+      "id": "ST6",
+      "name": "Anchor Despair",
+      "description": "Hopelessness as reality anchors fail against simulation erosion",
+      "type": "emotional",
+      "intensity": "medium",
+      "trigger": "stabilization-failure",
+      "effect": "motivational-drain"
+    }
+  ],
+  "uneaseEvents": [
+    {
+      "id": "UE1",
+      "trigger": "layer-transition",
+      "description": "Sudden shift between simulation layers",
+      "shadowTokens": [
+        "ST1",
+        "ST4"
+      ],
+      "intensity": "high"
+    },
+    {
+      "id": "UE2",
+      "trigger": "memory-rewrite",
+      "description": "Discovery that personal memories may be fabricated",
+      "shadowTokens": [
+        "ST2",
+        "ST5"
+      ],
+      "intensity": "critical"
+    },
+    {
+      "id": "UE3",
+      "trigger": "anchor-collapse",
+      "description": "Reality anchor fails, deepening simulation immersion",
+      "shadowTokens": [
+        "ST3",
+        "ST6"
+      ],
+      "intensity": "medium"
+    }
+  ],
+  "psychologicalEffects": {
+    "simulationSyndrome": {
+      "description": "Debilitating doubt about the authenticity of all perceptions and memories",
+      "symptoms": [
+        "reality-testing",
+        "hyper-vigilance",
+        "decision-paralysis"
+      ],
+      "copingMechanisms": [
+        "anchor-validation",
+        "layer-mapping",
+        "neural-grounding"
+      ]
+    },
+    "identityFracture": {
+      "description": "Fragmentation of personal and operational identity",
+      "symptoms": [
+        "self-doubt",
+        "role-confusion",
+        "memory-ambiguity"
+      ],
+      "copingMechanisms": [
+        "identity-verification",
+        "memory-validation",
+        "anchor-reinforcement"
+      ]
+    },
+    "layerAgoraphobia": {
+      "description": "Fear of navigating between simulation layers",
+      "symptoms": [
+        "transition-anxiety",
+        "depth-phobia",
+        "reality-avoidance"
+      ],
+      "copingMechanisms": [
+        "layer-navigation-training",
+        "anchor-dependence",
+        "stability-protocols"
+      ]
+    }
+  },
+  "paradoxEvents": [
+    {
+      "id": "PE1",
+      "type": "temporal-paradox",
+      "description": "Simulation layers create impossible chronological sequences",
+      "paradoxLevel": "high",
+      "resolutionRequired": true
+    },
+    {
+      "id": "PE2",
+      "type": "causality-loop",
+      "description": "Fractured realities create circular causal relationships",
+      "paradoxLevel": "critical",
+      "resolutionRequired": true
+    },
+    {
+      "id": "PE3",
+      "type": "identity-paradox",
+      "description": "Personal identity becomes paradoxical across simulation layers",
+      "paradoxLevel": "severe",
+      "resolutionRequired": true
+    }
+  ],
+  "jurisdictionalPuzzles": [
+    {
+      "id": "JP1",
+      "jurisdictions": [
+        "authentic-reality",
+        "simulation-layer-1",
+        "simulation-layer-2"
+      ],
+      "conflictType": "layer-authority-overlap",
+      "resolutionPath": "boundary-arbitration"
+    },
+    {
+      "id": "JP2",
+      "jurisdictions": [
+        "neural-space",
+        "digital-domain",
+        "physical-reality"
+      ],
+      "conflictType": "fractured-sovereignty",
+      "resolutionPath": "anchor-mediation"
+    }
+  ],
+  "networkMappingData": {
+    "fractureWeb": {
+      "nodes": [
+        "S1",
+        "S2",
+        "S3",
+        "RA1",
+        "RA2",
+        "SN1",
+        "SN2"
+      ],
+      "connections": [
+        {
+          "from": "S1",
+          "to": "SN1",
+          "type": "simulation-control"
+        },
+        {
+          "from": "S2",
+          "to": "RA1",
+          "type": "anchor-attack"
+        },
+        {
+          "from": "SN1",
+          "to": "SN2",
+          "type": "layer-link"
+        },
+        {
+          "from": "RA2",
+          "to": "S3",
+          "type": "reality-defense"
+        }
+      ],
+      "complexityLevel": "extreme"
+    },
+    "causalityChains": [
+      {
+        "id": "CC1",
+        "sequence": [
+          "simulation-origin",
+          "layer-fracture",
+          "reality-erosion",
+          "identity-collapse"
+        ],
+        "paradoxPoints": [
+          "layer-fracture",
+          "reality-erosion"
+        ]
+      },
+      {
+        "id": "CC2",
+        "sequence": [
+          "authentic-memory",
+          "corruption-injection",
+          "fabricated-reality",
+          "identity-doubt"
+        ],
+        "paradoxPoints": [
+          "corruption-injection",
+          "fabricated-reality"
+        ]
+      }
+    ]
+  },
+  "recoveryFragments": [
+    {
+      "id": "RF1",
+      "type": "authentic-memory",
+      "description": "Recoverable genuine memory fragment from simulation corruption",
+      "integrity": 0.8,
+      "contaminationRisk": 0.3
+    },
+    {
+      "id": "RF2",
+      "type": "reality-signature",
+      "description": "Original reality signature recoverable from layer fractures",
+      "integrity": 0.6,
+      "contaminationRisk": 0.5
+    },
+    {
+      "id": "RF3",
+      "type": "identity-core",
+      "description": "Core identity element resistant to simulation erosion",
+      "integrity": 0.9,
+      "contaminationRisk": 0.2
+    }
+  ],
+  "timingAnomalies": [
+    {
+      "id": "TA1",
+      "type": "layer-desynchronization",
+      "description": "Different simulation layers operate at conflicting time rates",
+      "anomalyLevel": "critical",
+      "temporalRisk": "causality-fracture"
+    },
+    {
+      "id": "TA2",
+      "type": "chronological-inversion",
+      "description": "Events appear in reverse chronological order across layers",
+      "anomalyLevel": "severe",
+      "temporalRisk": "reality-dissolution"
+    },
+    {
+      "id": "TA3",
+      "type": "temporal-echo",
+      "description": "Past events repeat as echoes in current simulation layers",
+      "anomalyLevel": "moderate",
+      "temporalRisk": "memory-corruption"
+    }
+  ]
+}

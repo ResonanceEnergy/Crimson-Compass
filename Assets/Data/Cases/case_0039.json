@@ -1,0 +1,796 @@
+{
+  "caseId": "CASE-0039",
+  "title": "Decoy Networks",
+  "tier": "season4",
+  "hook": "Misdirection campaign leads investigators astray",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "gadgetsOffered": [
+    "DECOYSCANNER",
+    "MISDIRECTIONANALYZER",
+    "FALSETRAILTRACER",
+    "REDHERRINGDETECTOR",
+    "SHADOWNETWORKMAPPER",
+    "CLEANER",
+    "PARADOXENGINE",
+    "RECOVERYSCANNER",
+    "TIMINGANALYZER",
+    "JURISDICTIONMAPPER",
+    "NETWORKVISUALIZER"
+  ],
+  "gadgetsSelectable": 3,
+  "decoyLevel": 2,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Decoy Master",
+      "traits": [
+        "specializes:misdirection",
+        "creates:false-trails"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The False Flag Operator",
+      "traits": [
+        "plants:red-herrings",
+        "engineers:distractions"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Shadow Puppeteer",
+      "traits": [
+        "manipulates:evidence",
+        "controls:narratives"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Engineered Misdirection",
+      "signatures": [
+        "evidence:planted",
+        "trail:false"
+      ],
+      "decoyAnalysis": {
+        "deceptionType": "false-trail",
+        "complexity": "high",
+        "redHerringCount": 3
+      }
+    },
+    {
+      "id": "M2",
+      "name": "False Flag Operation",
+      "signatures": [
+        "attack:simulated",
+        "evidence:fabricated"
+      ],
+      "misdirectionScan": {
+        "deceptionLevel": "critical",
+        "falsePositives": 5,
+        "realThreat": "concealed"
+      }
+    },
+    {
+      "id": "M3",
+      "name": "Shadow Network Control",
+      "signatures": [
+        "puppets:controlled",
+        "narrative:manipulated"
+      ],
+      "networkMapping": {
+        "connectionType": "shadow-web",
+        "hiddenLayers": 3,
+        "controlNode": "S3"
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "Washington DC",
+      "country": "USA"
+    },
+    {
+      "id": "London",
+      "country": "UK"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "Washington DC"
+  },
+  "caseToken": "Decoy operation exposed; true threat contained.",
+  "clues": [
+    {
+      "id": "C1",
+      "text": "Multiple false trails converge on single suspect",
+      "type": "decoy-pattern",
+      "relevance": "high"
+    },
+    {
+      "id": "C2",
+      "text": "Evidence tampering detected in security logs",
+      "type": "fabrication-trace",
+      "relevance": "medium"
+    },
+    {
+      "id": "C3",
+      "text": "Shadow network connections map to puppet accounts",
+      "type": "control-structure",
+      "relevance": "critical"
+    }
+  ],
+  "jurisdictionConflicts": [
+    {
+      "id": "JC1",
+      "description": "International decoy operation spans jurisdictions",
+      "authorities": [
+        "Federal",
+        "International",
+        "Corporate"
+      ],
+      "resolution": "Joint task force required"
+    }
+  ],
+  "falseTrails": [
+    {
+      "id": "FT1",
+      "description": "Engineered cyber attack signature",
+      "target": "S2",
+      "credibility": "high"
+    },
+    {
+      "id": "FT2",
+      "description": "Fabricated financial transaction trail",
+      "target": "S3",
+      "credibility": "medium"
+    }
+  ],
+  "networkConnections": [
+    {
+      "id": "NC1",
+      "type": "decoy-network",
+      "description": "Network of engineered false trails and red herrings",
+      "complexity": "high",
+      "mappingInterface": "deceptionNetworkInterface",
+      "paradoxRisk": "high"
+    },
+    {
+      "id": "NC2",
+      "type": "shadow-control-network",
+      "description": "Hidden control structure behind decoy operations",
+      "complexity": "critical",
+      "mappingInterface": "shadowControlMapper",
+      "paradoxRisk": "extreme"
+    }
+  ],
+  "advancedMechanics": {
+    "decoyScanner": {
+      "name": "Decoy Pattern Scanner",
+      "description": "Detects engineered false trails and red herrings",
+      "capabilities": [
+        "false-trail-detection",
+        "credibility-analysis",
+        "pattern-recognition"
+      ],
+      "successRate": 0.75,
+      "risks": [
+        "false-positives",
+        "time-consumption"
+      ]
+    },
+    "misdirectionAnalyzer": {
+      "name": "Misdirection Logic Analyzer",
+      "description": "Analyzes deceptive evidence patterns and manipulation techniques",
+      "capabilities": [
+        "logic-chain-analysis",
+        "evidence-correlation",
+        "deception-mapping"
+      ],
+      "successRate": 0.7,
+      "risks": [
+        "analysis-paralysis",
+        "circular-reasoning"
+      ]
+    },
+    "falseTrailTracer": {
+      "name": "False Trail Network Tracer",
+      "description": "Maps fabricated evidence chains and planted connections",
+      "capabilities": [
+        "network-mapping",
+        "connection-validation",
+        "fabrication-detection"
+      ],
+      "successRate": 0.8,
+      "risks": [
+        "over-complexity",
+        "resource-drain"
+      ]
+    },
+    "redHerringDetector": {
+      "name": "Red Herring Anomaly Detector",
+      "description": "Identifies deliberately misleading evidence and distractions",
+      "capabilities": [
+        "anomaly-patterning",
+        "distraction-filtering",
+        "priority-ranking"
+      ],
+      "successRate": 0.65,
+      "risks": [
+        "signal-noise-confusion",
+        "paranoia-induction"
+      ]
+    },
+    "shadowNetworkMapper": {
+      "name": "Shadow Network Topology Mapper",
+      "description": "Reveals hidden control structures and puppet master connections",
+      "capabilities": [
+        "topology-analysis",
+        "control-flow-mapping",
+        "influence-tracking"
+      ],
+      "successRate": 0.85,
+      "risks": [
+        "information-overload",
+        "conspiracy-spiraling"
+      ]
+    },
+    "paradoxEngine": {
+      "name": "Paradox Resolution Engine",
+      "description": "Resolves engineered paradoxes created by decoy operations",
+      "capabilities": [
+        "paradox-detection",
+        "causality-reconstruction",
+        "timeline-validation"
+      ],
+      "successRate": 0.65,
+      "risks": [
+        "reality-strain",
+        "temporal-feedback",
+        "logic-loops"
+      ]
+    },
+    "recoveryScanner": {
+      "name": "Recovery Pattern Scanner",
+      "description": "Scans for recovery operations that mask true decoy purposes",
+      "capabilities": [
+        "recovery-pattern-analysis",
+        "asset-tracking",
+        "custody-validation"
+      ],
+      "successRate": 0.85,
+      "risks": [
+        "false-recovery-signals",
+        "jurisdictional-noise"
+      ]
+    },
+    "timingAnalyzer": {
+      "name": "Decoy Timing Analyzer",
+      "description": "Analyzes timing patterns in decoy operations and false flags",
+      "capabilities": [
+        "temporal-patterning",
+        "synchronization-detection",
+        "delay-analysis"
+      ],
+      "successRate": 0.75,
+      "risks": [
+        "temporal-paranoia",
+        "over-synchronization"
+      ]
+    }
+  },
+  "decoyNetworks": [
+    {
+      "id": "DN1",
+      "type": "false-trail-web",
+      "description": "Network of fabricated evidence leading to dead ends",
+      "complexity": "high",
+      "deceptionLevel": 4,
+      "connectedEntities": [
+        "S2",
+        "S3",
+        "FT1"
+      ]
+    },
+    {
+      "id": "DN2",
+      "type": "misdirection-chain",
+      "description": "Series of planted clues creating false narratives",
+      "complexity": "medium",
+      "deceptionLevel": 3,
+      "connectedEntities": [
+        "S1",
+        "FT2",
+        "JC1"
+      ]
+    }
+  ],
+  "engineeredParadoxes": [
+    {
+      "id": "EP1",
+      "type": "temporal-decoy",
+      "description": "False timeline created to mislead investigators",
+      "resolution": "pattern-recognition",
+      "clue": "C1"
+    },
+    {
+      "id": "EP2",
+      "type": "evidence-contradiction",
+      "description": "Deliberately conflicting evidence designed to confuse",
+      "resolution": "logic-analysis",
+      "clue": "C2"
+    }
+  ],
+  "countermeasureSets": [
+    {
+      "id": "CS1",
+      "name": "Decoy Disruption Tactics",
+      "description": "Countermeasures against engineered misdirection",
+      "effectiveness": 0.75,
+      "triggers": [
+        "decoy-detected",
+        "false-trail-exposed"
+      ],
+      "outcomes": [
+        "deception-level-reduced",
+        "true-path-revealed"
+      ]
+    },
+    {
+      "id": "CS2",
+      "name": "Pattern Recognition Boost",
+      "description": "Enhanced ability to spot deception patterns",
+      "effectiveness": 0.8,
+      "triggers": [
+        "multiple-false-leads",
+        "contradictory-evidence"
+      ],
+      "outcomes": [
+        "analysis-accuracy-increased",
+        "paranoia-reduced"
+      ]
+    }
+  ],
+  "uiTemplates": {
+    "decoyAlert": {
+      "type": "warning",
+      "message": "Potential decoy pattern detected",
+      "actions": [
+        "investigate-further",
+        "mark-as-suspicious",
+        "request-analysis"
+      ]
+    },
+    "credibilityMeter": {
+      "type": "gauge",
+      "metric": "evidence-credibility",
+      "range": [
+        0,
+        100
+      ],
+      "thresholds": {
+        "low": 30,
+        "medium": 60,
+        "high": 80
+      }
+    },
+    "deceptionOverlay": {
+      "type": "filter",
+      "function": "highlight-suspicious-elements",
+      "intensity": "adaptive"
+    }
+  },
+  "insights": [
+    {
+      "id": "I1",
+      "type": "deception-pattern",
+      "content": "The adversary creates solvable decoys to waste investigator resources",
+      "relevance": "high"
+    },
+    {
+      "id": "I2",
+      "type": "misdirection-tactic",
+      "content": "False trails are engineered to appear more credible than the truth",
+      "relevance": "critical"
+    },
+    {
+      "id": "I3",
+      "type": "shadow-control",
+      "content": "Puppet masters operate through layers of controlled intermediaries",
+      "relevance": "medium"
+    }
+  ],
+  "deductionSystem": {
+    "whoOptions": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "howOptions": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "whereOptions": [
+      "Washington DC",
+      "London"
+    ],
+    "maxHypotheses": 5,
+    "deductionRules": {
+      "singleCorrect": true,
+      "eliminationFeedback": true,
+      "partialCredit": false,
+      "decoyPenalty": true
+    }
+  },
+  "resourceManagement": {
+    "timeBudget": 72,
+    "heatLevels": {
+      "low": {
+        "threshold": 1,
+        "effects": [
+          "false-trail-alerts",
+          "credibility-doubts"
+        ]
+      },
+      "medium": {
+        "threshold": 3,
+        "effects": [
+          "deception-paranoia",
+          "evidence-scrutiny",
+          "pattern-overload"
+        ]
+      },
+      "high": {
+        "threshold": 5,
+        "effects": [
+          "misdirection-crisis",
+          "analysis-collapse",
+          "resource-exhaustion"
+        ]
+      }
+    },
+    "heatDecay": {
+      "passive": 0.1,
+      "active": 0.5
+    },
+    "timePenalties": {
+      "wrongHypothesis": 4,
+      "failedScan": 2,
+      "jurisdictionError": 6,
+      "decoyTrigger": 5,
+      "falseTrail": 8
+    }
+  },
+  "agentInteractions": {
+    "HELIX": {
+      "role": "Deception Analyst",
+      "personality": "Skeptical and methodical",
+      "interactions": {
+        "caseStart": "Multiple false trails detected. We need to separate signal from noise.",
+        "hypothesisHelp": "That combination smells like a decoy. Too perfect, too obvious.",
+        "timeWarning": "We're burning time on red herrings. Focus on credible evidence.",
+        "success": "Excellent work cutting through the deception. The real threat is exposed.",
+        "failure": "The decoy operation succeeded. We'll need to rebuild from this setback."
+      },
+      "helpTriggers": {
+        "timeLow": true,
+        "heatHigh": true,
+        "stuckClues": true,
+        "decoyDetected": true,
+        "falseTrail": true
+      }
+    },
+    "OPTIMUS": {
+      "role": "Pattern Investigator",
+      "personality": "Analytical and pattern-focused",
+      "interactions": {
+        "caseStart": "Agent deployed. Let's map these deception patterns.",
+        "hypothesisHelp": "Consider the misdirection. What if this evidence was planted?",
+        "timeWarning": "Pattern analysis is time-intensive. We can't afford to be thorough everywhere.",
+        "success": "Pattern broken. The adversary's deception tactics are becoming predictable.",
+        "failure": "The false trails overwhelmed our analysis. Lessons learned for next time."
+      },
+      "helpTriggers": {
+        "wrongHypothesis": true,
+        "resourceLow": true,
+        "paradoxEvent": true,
+        "patternClue": true,
+        "credibilityIssue": true
+      }
+    },
+    "ZTECH": {
+      "role": "Digital Forensics Expert",
+      "personality": "Tech-savvy deception detector",
+      "interactions": {
+        "caseStart": "Digital forensics online! Let's trace these fabricated trails!",
+        "hypothesisHelp": "The metadata analysis shows evidence tampering. This trail is engineered.",
+        "timeWarning": "Forensic analysis is running long! We're losing the real trail!",
+        "success": "Ha! Caught the digital fabrication. These decoys aren't fooling my scanners.",
+        "failure": "The digital deception was too sophisticated. My tools need an upgrade."
+      },
+      "helpTriggers": {
+        "gadgetFailure": true,
+        "scanOpportunity": true,
+        "techClue": true,
+        "fabricationDetected": true,
+        "digitalAnomaly": true
+      }
+    }
+  },
+  "interactionTriggers": {
+    "caseStart": [
+      "HELIX",
+      "OPTIMUS"
+    ],
+    "firstHypothesis": [
+      "OPTIMUS"
+    ],
+    "timeWarning": [
+      "HELIX"
+    ],
+    "heatWarning": [
+      "OPTIMUS"
+    ],
+    "gadgetUse": [
+      "ZTECH"
+    ],
+    "paradoxEvent": [
+      "OPTIMUS"
+    ],
+    "decoyDetected": [
+      "HELIX"
+    ],
+    "falseTrail": [
+      "ZTECH"
+    ],
+    "patternBreak": [
+      "OPTIMUS"
+    ],
+    "nearSuccess": [
+      "HELIX"
+    ],
+    "caseEnd": [
+      "HELIX",
+      "OPTIMUS",
+      "ZTECH"
+    ]
+  },
+  "gameplayFlow": {
+    "phases": [
+      {
+        "name": "Deception Assessment",
+        "duration": "auto",
+        "objectives": [
+          "Identify false trails",
+          "Select deception analysis gadgets"
+        ],
+        "agentFocus": "HELIX"
+      },
+      {
+        "name": "Pattern Investigation",
+        "duration": "timed",
+        "objectives": [
+          "Map deception networks",
+          "Form credibility hypotheses",
+          "Deploy decoy scanners"
+        ],
+        "agentFocus": "OPTIMUS"
+      },
+      {
+        "name": "Truth Revelation",
+        "duration": "auto",
+        "objectives": [
+          "Final deception hypothesis",
+          "Expose true operation"
+        ],
+        "agentFocus": "HELIX"
+      }
+    ],
+    "winConditions": {
+      "correctHypothesis": true,
+      "timeRemaining": "bonus",
+      "lowHeat": "bonus",
+      "decoyExposed": "bonus"
+    },
+    "loseConditions": {
+      "timeExpired": true,
+      "heatMaxed": true,
+      "wrongFinalHypothesis": true,
+      "decoySuccess": true
+    }
+  },
+  "scoringSystem": {
+    "basePoints": 100,
+    "bonuses": {
+      "timeRemaining": 10,
+      "lowHeat": 25,
+      "efficientGadgets": 15,
+      "firstTryHypothesis": 20,
+      "decoyMastery": 30,
+      "patternRecognition": 20
+    },
+    "penalties": {
+      "wrongHypothesis": -10,
+      "highHeat": -15,
+      "timeExpired": -30,
+      "gadgetOveruse": -5,
+      "decoyFallen": -25,
+      "falseTrailFollowed": -35
+    },
+    "achievements": {
+      "deceptionBreaker": "Exposed all decoy operations",
+      "patternMaster": "Never fell for false trails",
+      "truthSeeker": "Completed within 24 hours despite deception",
+      "decoyHunter": "No wrong hypotheses, all decoys identified"
+    }
+  },
+  "shadowToken": "Motif C \u2014 misdirection tactics show signs of deliberate engineering.",
+  "jurisdictionalMechanics": {
+    "jurisdictionMapper": {
+      "name": "Jurisdictional Authority Mapper",
+      "description": "Maps complex jurisdictional overlaps and authority conflicts",
+      "capabilities": [
+        "authority-chain-analysis",
+        "jurisdiction-validation",
+        "conflict-resolution"
+      ],
+      "complexityLevels": [
+        "simple",
+        "complex",
+        "byzantine"
+      ],
+      "successRate": 0.7
+    },
+    "authorityPuzzle": {
+      "name": "Authority Resolution Puzzle",
+      "description": "Interactive puzzle for resolving jurisdictional conflicts",
+      "puzzleTypes": [
+        "authority-chain",
+        "jurisdiction-overlap",
+        "conflict-resolution"
+      ],
+      "difficulty": "adaptive",
+      "timePenalty": 3
+    }
+  },
+  "networkMapping": {
+    "deceptionNetworkInterface": {
+      "name": "Deception Network Mapping Interface",
+      "description": "Interactive interface for mapping decoy networks and false connections",
+      "features": [
+        "node-visualization",
+        "connection-tracing",
+        "credibility-filtering"
+      ],
+      "interactionModes": [
+        "exploration",
+        "analysis",
+        "validation"
+      ],
+      "dataLayers": [
+        "surface-connections",
+        "hidden-links",
+        "control-structures"
+      ]
+    },
+    "shadowControlMapper": {
+      "name": "Shadow Control Structure Mapper",
+      "description": "Maps hidden control structures behind decoy operations",
+      "capabilities": [
+        "influence-mapping",
+        "control-flow-analysis",
+        "puppet-detection"
+      ],
+      "visualization": "hierarchical-network",
+      "analysisDepth": 3
+    },
+    "falseTrailVisualizer": {
+      "name": "False Trail Network Visualizer",
+      "description": "Visualizes fabricated evidence chains and planted connections",
+      "features": [
+        "trail-mapping",
+        "credibility-gradients",
+        "fabrication-indicators"
+      ],
+      "filterOptions": [
+        "by-credibility",
+        "by-complexity",
+        "by-target"
+      ]
+    }
+  },
+  "paradoxEvents": [
+    {
+      "id": "PE1",
+      "type": "decoy-paradox",
+      "description": "Decoy operation creates impossible timing contradiction",
+      "trigger": "timing-analysis",
+      "resolution": "paradox-engine",
+      "clue": "C1"
+    },
+    {
+      "id": "PE2",
+      "type": "recovery-paradox",
+      "description": "Recovery success rate statistically impossible",
+      "trigger": "recovery-scanner",
+      "resolution": "pattern-analysis",
+      "clue": "C2"
+    },
+    {
+      "id": "PE3",
+      "type": "jurisdiction-paradox",
+      "description": "Authority chains create jurisdictional impossibility",
+      "trigger": "jurisdiction-mapper",
+      "resolution": "authority-puzzle",
+      "clue": "C3"
+    }
+  ],
+  "timingAnomalies": [
+    {
+      "id": "TA1",
+      "description": "Decoy operation timing perfectly synchronized with false flag",
+      "severity": "high",
+      "analysis": "timing-analyzer",
+      "clue": "C1"
+    },
+    {
+      "id": "TA2",
+      "description": "Recovery operations occur at statistically improbable intervals",
+      "severity": "medium",
+      "analysis": "recovery-scanner",
+      "clue": "C2"
+    },
+    {
+      "id": "TA3",
+      "description": "Jurisdictional transfers timed to create authority gaps",
+      "severity": "critical",
+      "analysis": "jurisdiction-mapper",
+      "clue": "C3"
+    }
+  ],
+  "jurisdictionalPuzzles": [
+    {
+      "id": "JP1",
+      "name": "Authority Chain Resolution",
+      "description": "Resolve conflicting jurisdictional claims over decoy operation",
+      "complexity": "medium",
+      "authorities": [
+        "Federal",
+        "International",
+        "Corporate",
+        "Local"
+      ],
+      "solution": "Federal override with international cooperation",
+      "timeLimit": 30,
+      "hints": [
+        "Check treaty agreements",
+        "Verify corporate charters"
+      ]
+    },
+    {
+      "id": "JP2",
+      "name": "Custody Transfer Paradox",
+      "description": "Impossible custody routing creates jurisdictional loop",
+      "complexity": "high",
+      "authorities": [
+        "Multiple Federal",
+        "State",
+        "International"
+      ],
+      "solution": "Emergency jurisdiction consolidation",
+      "timeLimit": 45,
+      "hints": [
+        "Map authority hierarchy",
+        "Find consolidation clause"
+      ]
+    }
+  ]
+}

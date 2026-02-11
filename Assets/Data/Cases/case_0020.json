@@ -1,0 +1,604 @@
+{
+  "caseId": "CASE-0020",
+  "title": "Logistics Labyrinth",
+  "tier": "season2",
+  "hook": "Multi-leg shipment tangled in false trails, delaying investigation.",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "gadgetsOffered": [
+    "CHAINSCANNER",
+    "LOGISTICSANALYZER",
+    "SUPPLYNETWORK",
+    "JAMMER",
+    "CLEANER"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Trail Weaver",
+      "traits": [
+        "route-expert",
+        "misdirection-master"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The False Lead Creator",
+      "traits": [
+        "deception-skills",
+        "collects:trails"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Leg Splitter",
+      "traits": [
+        "logistics-fork",
+        "multi-path"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Trail Weaving",
+      "signatures": [
+        "false-route-creation",
+        "investigation-delay"
+      ],
+      "logisticsAnalysis": {
+        "anomalyType": "delivery-disruption",
+        "offsetMinutes": 11,
+        "severity": "medium"
+      }
+    },
+    {
+      "id": "M2",
+      "name": "Lead Fabrication",
+      "signatures": [
+        "deceptive-evidence",
+        "red-herring-plant"
+      ],
+      "chainScan": {
+        "threatLevel": "medium",
+        "vulnerabilityType": "supply-chain-weakness"
+      }
+    },
+    {
+      "id": "M3",
+      "name": "Shipment Splitting",
+      "signatures": [
+        "multi-leg-diversion",
+        "path-confusion"
+      ],
+      "supplyNetwork": {
+        "connectionType": "logistics-route",
+        "linkedNodes": [
+          "L1",
+          "L2"
+        ]
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "L1",
+      "country": "USA"
+    },
+    {
+      "id": "L2",
+      "country": "China"
+    },
+    {
+      "id": "L3",
+      "country": "Germany"
+    }
+  ],
+  "clues": [
+    {
+      "id": "C1",
+      "text": "Evidence related to The Trail Weaver",
+      "leadsTo": [
+        "S1",
+        "M1"
+      ],
+      "chainScanner": {
+        "detects": "supply-chain-vulnerability",
+        "difficulty": "medium"
+      },
+      "logisticsAnalyzer": {
+        "reveals": "delivery-timing-anomaly",
+        "puzzleType": "route-optimization"
+      }
+    },
+    {
+      "id": "C2",
+      "text": "Evidence related to The False Lead Creator",
+      "leadsTo": [
+        "S2",
+        "M2"
+      ],
+      "jurisdictionPuzzle": {
+        "conflictType": "customs-vs-commercial",
+        "authorities": [
+          "Customs",
+          "Commercial"
+        ],
+        "solution": "Customs-clearance"
+      },
+      "supplyNetwork": {
+        "reveals": "logistics-node-connection",
+        "connections": 3
+      }
+    },
+    {
+      "id": "C3",
+      "text": "Evidence related to The Leg Splitter",
+      "leadsTo": [
+        "S3",
+        "M3"
+      ],
+      "paradoxEvent": {
+        "type": "logistics-contradiction",
+        "level": 3,
+        "resolution": "supply-chain-mapping"
+      }
+    }
+  ],
+  "shadowToken": "Motif C \u2014 trails delay investigations by precise increments.",
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "L1"
+  },
+  "caseToken": "Trail Weaver arrested; operation thwarted.",
+  "paradoxLevel": 3,
+  "jurisdictionConflicts": [
+    {
+      "id": "JC1",
+      "description": "Supply chain jurisdiction dispute in USA",
+      "authorities": [
+        "Customs Authority",
+        "Shipping Company",
+        "International Trade"
+      ],
+      "resolution": "Customs override required"
+    }
+  ],
+  "timingAnomalies": [
+    {
+      "id": "TA1",
+      "description": "Delivery timing anomaly detected",
+      "severity": "high",
+      "clue": "C1"
+    }
+  ],
+  "networkConnections": [
+    {
+      "id": "NC1",
+      "type": "supply-chain",
+      "connectedCases": [
+        "CASE-0021",
+        "CASE-0019"
+      ],
+      "paradoxRisk": "medium"
+    }
+  ],
+  "deductionSystem": {
+    "whoOptions": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "howOptions": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "whereOptions": [
+      "L1",
+      "L2",
+      "L3"
+    ],
+    "maxHypotheses": 5,
+    "deductionRules": {
+      "singleCorrect": true,
+      "eliminationFeedback": true,
+      "partialCredit": false,
+      "evidenceValidation": true,
+      "consistencyCheck": true
+    },
+    "hypothesisPenalties": {
+      "wrongCombination": 4,
+      "evidenceContradiction": 6,
+      "logicalInconsistency": 5
+    },
+    "successBonuses": {
+      "efficientSolution": 2,
+      "perfectDeduction": 3,
+      "evidenceMastery": 1
+    }
+  },
+  "resourceManagement": {
+    "timeBudget": 72,
+    "heatLevels": {
+      "low": {
+        "threshold": 1,
+        "effects": [
+          "minor-surveillance",
+          "routine-monitoring",
+          "background-checks"
+        ],
+        "description": "Standard operational awareness"
+      },
+      "medium": {
+        "threshold": 3,
+        "effects": [
+          "asset-freeze",
+          "agent-caution",
+          "increased-scrutiny",
+          "resource-restrictions"
+        ],
+        "description": "Heightened security measures"
+      },
+      "high": {
+        "threshold": 5,
+        "effects": [
+          "mission-abort",
+          "trace-alert",
+          "full-lockdown",
+          "agency-intervention",
+          "identity-compromise"
+        ],
+        "description": "Critical operational failure"
+      }
+    },
+    "heatDecay": {
+      "passive": 0.1,
+      "active": 0.5,
+      "cooldownPeriod": 12
+    },
+    "timePenalties": {
+      "wrongHypothesis": 4,
+      "failedScan": 2,
+      "jurisdictionError": 6,
+      "evidenceCorruption": 5,
+      "timingAnomaly": 3,
+      "networkFailure": 4,
+      "paradoxEvent": 8
+    },
+    "heatTriggers": {
+      "multipleFailures": 1,
+      "timePressure": 0.5,
+      "evidenceTampering": 2,
+      "jurisdictionViolation": 1.5
+    }
+  },
+  "agentInteractions": {
+    "HELIX": {
+      "role": "Mission Coordinator & Evidence Specialist",
+      "personality": "Methodical, detail-oriented, and authenticity-focused",
+      "expertise": "Evidence validation and operational consistency",
+      "interactions": {
+        "caseStart": "Agent, your dossier is prepared. Remember: evidence is our foundation.",
+        "hypothesisHelp": "That combination contradicts the evidence trail. Let's review the facts.",
+        "timeWarning": "Time is critical. Focus on validated evidence streams.",
+        "heatWarning": "Heat levels rising. We need clean, conclusive evidence.",
+        "success": "Excellent deduction work. The evidence supported your conclusion perfectly.",
+        "failure": "Evidence integrity was compromised. We'll analyze what went wrong.",
+        "gadgetUse": "That tool should help validate the evidence chain.",
+        "paradoxEvent": "Evidence contradiction detected. We need to resolve this inconsistency."
+      },
+      "helpTriggers": {
+        "evidenceContradiction": true,
+        "timeCritical": true,
+        "heatEscalation": true,
+        "validationNeeded": true
+      }
+    },
+    "OPTIMUS": {
+      "role": "Strategic Operations Director",
+      "personality": "Analytical, forward-thinking, and resource-conscious",
+      "expertise": "Operational strategy and resource optimization",
+      "interactions": {
+        "caseStart": "Strategic overview loaded. What's our primary investigative approach?",
+        "hypothesisHelp": "Let's analyze this systematically. Which evidence supports your theory?",
+        "timeWarning": "Operational window narrowing. Prioritize high-value evidence.",
+        "heatWarning": "Security escalation detected. We need to minimize further exposure.",
+        "success": "Strategic execution flawless. Resources well-utilized.",
+        "failure": "Operational strategy needs refinement. We'll adapt for next time.",
+        "gadgetUse": "That tool could optimize our evidence gathering efficiency.",
+        "paradoxEvent": "Strategic contradiction identified. We need to realign our approach."
+      },
+      "helpTriggers": {
+        "resourceLow": true,
+        "strategyNeeded": true,
+        "heatManagement": true,
+        "optimizationOpportunity": true
+      }
+    },
+    "ZTECH": {
+      "role": "Technical Operations Specialist",
+      "personality": "Enthusiastic, technically proficient, and gadget-focused",
+      "expertise": "Digital forensics and technical analysis",
+      "interactions": {
+        "caseStart": "Technical suite online. Ready to deploy digital forensics tools.",
+        "hypothesisHelp": "The digital evidence suggests we need to scan that data stream.",
+        "timeWarning": "Technical operations window closing. Let's accelerate the scans.",
+        "heatWarning": "Digital footprint expanding. We need to minimize our technical signature.",
+        "success": "Technical analysis confirmed. Digital evidence was key to success.",
+        "failure": "Technical malfunction detected. We'll debug and redeploy.",
+        "gadgetUse": "Perfect tool selection! Let me optimize the deployment parameters.",
+        "paradoxEvent": "Digital anomaly detected. Technical contradiction requires resolution."
+      },
+      "helpTriggers": {
+        "technicalIssue": true,
+        "scanOpportunity": true,
+        "gadgetOptimization": true,
+        "digitalEvidence": true
+      }
+    }
+  },
+  "interactionTriggers": {
+    "caseStart": [
+      "HELIX",
+      "OPTIMUS"
+    ],
+    "firstHypothesis": [
+      "OPTIMUS"
+    ],
+    "timeWarning": [
+      "HELIX"
+    ],
+    "heatWarning": [
+      "OPTIMUS"
+    ],
+    "gadgetUse": [
+      "ZTECH"
+    ],
+    "paradoxEvent": [
+      "OPTIMUS"
+    ],
+    "supplyDisruption": [
+      "HELIX"
+    ],
+    "logisticsClue": [
+      "ZTECH"
+    ],
+    "nearSuccess": [
+      "HELIX"
+    ],
+    "caseEnd": [
+      "HELIX",
+      "OPTIMUS",
+      "ZTECH"
+    ]
+  },
+  "gameplayFlow": {
+    "phases": [
+      {
+        "name": "Logistics Briefing",
+        "duration": "auto",
+        "objectives": [
+          "Review supply chain intel",
+          "Select specialized gadgets"
+        ],
+        "agentFocus": "HELIX"
+      },
+      {
+        "name": "Chain Investigation",
+        "duration": "timed",
+        "objectives": [
+          "Trace supply routes",
+          "Form logistics hypotheses",
+          "Deploy chain scanners"
+        ],
+        "agentFocus": "OPTIMUS"
+      },
+      {
+        "name": "Disruption Resolution",
+        "duration": "auto",
+        "objectives": [
+          "Final supply chain hypothesis",
+          "Restore logistics integrity"
+        ],
+        "agentFocus": "HELIX"
+      }
+    ],
+    "winConditions": {
+      "correctHypothesis": true,
+      "timeRemaining": "bonus",
+      "lowHeat": "bonus",
+      "chainIntact": "bonus"
+    },
+    "loseConditions": {
+      "timeExpired": true,
+      "heatMaxed": true,
+      "wrongFinalHypothesis": true,
+      "chainSevered": true
+    }
+  },
+  "scoringSystem": {
+    "basePoints": 100,
+    "bonuses": {
+      "timeRemaining": 10,
+      "lowHeat": 25,
+      "efficientGadgets": 15,
+      "firstTryHypothesis": 20,
+      "chainPreserved": 30,
+      "logisticsMastery": 15
+    },
+    "penalties": {
+      "wrongHypothesis": -10,
+      "highHeat": -15,
+      "timeExpired": -30,
+      "gadgetOveruse": -5,
+      "supplyDisruption": -20
+    },
+    "achievements": {
+      "supplyChainMaster": "Preserved logistics integrity throughout",
+      "logisticsGhost": "Completed without triggering chain disruptions",
+      "speedyShipment": "Resolved within 24 hours",
+      "perfectLogistics": "No wrong hypotheses, chain intact"
+    }
+  },
+  "advancedMechanics": {
+    "paradoxResolver": {
+      "enabled": true,
+      "description": "Resolves logical inconsistencies and causality paradoxes in operational data",
+      "capabilities": [
+        "paradox-detection",
+        "causality-reconstruction",
+        "logical-consistency-validation"
+      ],
+      "powerConsumption": {
+        "timeHours": 3,
+        "heat": 2
+      },
+      "successRate": 0.8,
+      "paradoxThreshold": 3
+    },
+    "recoveryScanner": {
+      "enabled": true,
+      "description": "Scans for and recovers compromised or corrupted operational data",
+      "capabilities": [
+        "data-recovery",
+        "corruption-detection",
+        "integrity-restoration"
+      ],
+      "powerConsumption": {
+        "timeHours": 2,
+        "heat": 1
+      },
+      "recoveryRate": 0.75,
+      "contaminationRisk": 0.2
+    },
+    "timingAnalyzer": {
+      "enabled": true,
+      "description": "Analyzes temporal patterns and timing anomalies in operational sequences",
+      "capabilities": [
+        "temporal-mapping",
+        "anomaly-detection",
+        "sequence-validation"
+      ],
+      "powerConsumption": {
+        "timeHours": 2,
+        "heat": 1
+      },
+      "analysisAccuracy": 0.85,
+      "temporalResolution": 0.5
+    },
+    "jurisdictionResolver": {
+      "enabled": true,
+      "description": "Resolves jurisdictional conflicts and authority overlaps in multi-agency operations",
+      "capabilities": [
+        "authority-mapping",
+        "conflict-resolution",
+        "sovereignty-validation"
+      ],
+      "powerConsumption": {
+        "timeHours": 4,
+        "heat": 2
+      },
+      "resolutionSuccess": 0.7,
+      "authorityClarity": 0.8
+    },
+    "networkMappingInterface": {
+      "enabled": true,
+      "description": "Maps complex networks of relationships and operational connections",
+      "capabilities": [
+        "relationship-mapping",
+        "connection-analysis",
+        "interdependency-visualization"
+      ],
+      "powerConsumption": {
+        "timeHours": 3,
+        "heat": 1
+      },
+      "mappingAccuracy": 0.9,
+      "complexityLimit": 50
+    }
+  },
+  "paradoxMechanics": {
+    "activeParadoxes": 2,
+    "causalComplexity": 16,
+    "logicalInconsistencies": 2,
+    "resolutionDifficulty": 5,
+    "paradoxPoints": [
+      "causal-node-8",
+      "evidence-conflict-8",
+      "timeline-anomaly-8"
+    ]
+  },
+  "recoveryData": {
+    "compromisedElements": 3,
+    "recoveryPriority": [
+      "evidence",
+      "clues",
+      "testimony"
+    ],
+    "integrityThreshold": 0.86,
+    "contaminationLevel": 0.24,
+    "recoveryFragments": [
+      {
+        "id": "RF15",
+        "type": "evidence-fragment",
+        "integrity": 0.8,
+        "contaminationRisk": 0.15
+      },
+      {
+        "id": "RF16",
+        "type": "memory-fragment",
+        "integrity": 0.75,
+        "contaminationRisk": 0.25
+      }
+    ]
+  },
+  "timingAnalysis": {
+    "temporalAnomalies": 2,
+    "sequenceComplexity": 12.0,
+    "chronologicalAccuracy": 0.9299999999999999,
+    "timingPatterns": [
+      "operational-rhythm-8",
+      "evidence-timeline-8",
+      "alibi-sequence-8"
+    ],
+    "anomalyThreshold": 0.5
+  },
+  "jurisdictionalData": {
+    "authorityConflicts": 2,
+    "jurisdictionLayers": 5,
+    "sovereigntyClarity": 0.87,
+    "authorityBoundaries": [
+      "agency-territory-8",
+      "international-border-8",
+      "operational-domain-8"
+    ],
+    "conflictResolution": {
+      "diplomatic": 0.6,
+      "authoritative": 0.4,
+      "collaborative": 0.8
+    }
+  },
+  "networkMapping": {
+    "connectionComplexity": 24,
+    "relationshipDepth": 3,
+    "interdependencyLevel": 3,
+    "networkNodes": 50,
+    "mappingAccuracy": 0.88,
+    "keyConnections": [
+      "primary-link-8",
+      "secondary-chain-8",
+      "tertiary-web-8"
+    ]
+  },
+  "coreMechanicsVersion": "2.0",
+  "deductionComplexity": "standard",
+  "resourceIntensity": "balanced",
+  "agentIntegration": "full"
+}

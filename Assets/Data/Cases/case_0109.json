@@ -1,0 +1,326 @@
+{
+  "caseId": "CASE-0109",
+  "title": "Complete Erasure",
+  "tier": "season10",
+  "hook": "All evidence, all reality, all existence systematically erased",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "nothingnessDepth": 1,
+  "existenceState": "fading",
+  "conceptualFlow": "dissolving",
+  "voidLayers": [
+    {
+      "id": "VL1",
+      "depth": 0.001,
+      "description": "Void layer at depth 0.00100 in nothingness",
+      "dissolutionRate": 0.08
+    },
+    {
+      "id": "VL2",
+      "depth": 0.0015,
+      "description": "Non-existence boundary at depth 0.00150",
+      "dissolutionRate": 0.07
+    },
+    {
+      "id": "VL3",
+      "depth": 0.002,
+      "description": "Nullity horizon at depth 0.00200",
+      "dissolutionRate": 0.06
+    }
+  ],
+  "nullificationEvents": [
+    {
+      "id": "NE1",
+      "type": "existential-erosion",
+      "description": "Existence erodes at nothingness level 1",
+      "triggerCondition": "existence_level <= 0.92",
+      "effect": "conceptual_decay",
+      "severity": 1
+    },
+    {
+      "id": "NE2",
+      "type": "thought-dissolution",
+      "description": "Thoughts dissolve at rate 0.070 per second",
+      "triggerCondition": "thought_coherence <= 0.9299999999999999",
+      "effect": "mental_erosion",
+      "severity": 1
+    }
+  ],
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Void Architect",
+      "traits": [
+        "existence-dissolver",
+        "nothingness-engineer"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Nullity Weaver",
+      "traits": [
+        "conceptual-eraser",
+        "void-manipulator"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Absence Incarnate",
+      "traits": [
+        "non-existence-forger",
+        "nullity-crafter"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Existential Dissolution",
+      "signatures": [
+        "existence:erased",
+        "reality:unmade"
+      ],
+      "nullificationMechanics": {
+        "existenceDecay": 0.99,
+        "conceptualDissolution": 1000,
+        "nothingnessStability": 0.001
+      }
+    },
+    {
+      "id": "M2",
+      "name": "Conceptual Unraveling",
+      "signatures": [
+        "thoughts:unwoven",
+        "ideas:erased"
+      ],
+      "unravelingAnalysis": {
+        "conceptualLayers": 15,
+        "thoughtRigidity": 0.01,
+        "nullificationThreshold": 1e-05
+      }
+    },
+    {
+      "id": "M3",
+      "name": "Void Convergence",
+      "signatures": [
+        "presence:eliminated",
+        "being:annihilated"
+      ],
+      "convergenceMechanics": {
+        "voidAttraction": 0.999,
+        "existenceDensity": 0.001,
+        "nothingnessHorizon": 1e-06
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "L1",
+      "country": "Non-existent"
+    },
+    {
+      "id": "L2",
+      "country": "Unmade"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "L1"
+  },
+  "caseToken": "True Nothingness",
+  "shadowToken": "Existential Void",
+  "clues": [
+    {
+      "id": "C1",
+      "text": "Evidence suggests reality itself is being systematically erased",
+      "reliability": 0.001,
+      "existenceIndicator": true
+    },
+    {
+      "id": "C2",
+      "text": "Thoughts and concepts dissolve as they are perceived",
+      "reliability": 0.0001,
+      "conceptualDissolution": true
+    },
+    {
+      "id": "C3",
+      "text": "The very act of investigation causes further erasure",
+      "reliability": 1e-05,
+      "observationalDecay": true
+    }
+  ],
+  "gadgetsOffered": [
+    "EXISTENCEANCHOR",
+    "CONCEPTUALSTABILIZER",
+    "VOIDSHIELD",
+    "NULLITYANALYZER",
+    "PRESENCEAMPLIFIER",
+    "THOUGHTPRESERVER",
+    "REALITYREINFORCER",
+    "NONEXISTENCEFILTER"
+  ],
+  "gadgetsSelectable": 3,
+  "advancedMechanics": {
+    "existenceAnchor": {
+      "enabled": true,
+      "description": "Anchors existence to prevent complete dissolution into nothingness",
+      "capabilities": [
+        "existence-preservation",
+        "void-resistance",
+        "presence-maintenance"
+      ],
+      "powerConsumption": {
+        "timeHours": 4,
+        "heat": 3
+      },
+      "successRate": 0.7,
+      "anchorStrength": 0.8
+    },
+    "conceptualStabilizer": {
+      "enabled": true,
+      "description": "Stabilizes thoughts and concepts against dissolution into void",
+      "capabilities": [
+        "thought-preservation",
+        "conceptual-reinforcement",
+        "cognitive-stability"
+      ],
+      "powerConsumption": {
+        "timeHours": 3,
+        "heat": 2
+      },
+      "stabilizationPower": 0.75,
+      "thoughtCoherence": 0.8
+    },
+    "voidShield": {
+      "enabled": true,
+      "description": "Shields against void encroachment and nothingness assimilation",
+      "capabilities": [
+        "void-repulsion",
+        "nothingness-barrier",
+        "existence-protection"
+      ],
+      "powerConsumption": {
+        "timeHours": 5,
+        "heat": 4
+      },
+      "shieldIntegrity": 0.75,
+      "voidResistance": 0.6
+    },
+    "nullityAnalyzer": {
+      "enabled": true,
+      "description": "Analyzes nullity states and nothingness patterns",
+      "capabilities": [
+        "nullity-detection",
+        "void-pattern-analysis",
+        "non-existence-mapping"
+      ],
+      "powerConsumption": {
+        "timeHours": 2,
+        "heat": 1
+      },
+      "analysisPrecision": 0.9,
+      "nullitySensitivity": 0.0001
+    },
+    "presenceAmplifier": {
+      "enabled": true,
+      "description": "Amplifies existential presence to counteract dissolution",
+      "capabilities": [
+        "existence-amplification",
+        "presence-strengthening",
+        "void-counteraction"
+      ],
+      "powerConsumption": {
+        "timeHours": 4,
+        "heat": 3
+      },
+      "amplificationFactor": 0.85,
+      "presenceGain": 0.7
+    },
+    "thoughtPreserver": {
+      "enabled": true,
+      "description": "Preserves cognitive function and mental coherence in nothingness",
+      "capabilities": [
+        "cognitive-protection",
+        "thought-stabilization",
+        "mental-preservation"
+      ],
+      "powerConsumption": {
+        "timeHours": 3,
+        "heat": 2
+      },
+      "preservationStrength": 0.8,
+      "cognitiveStability": 0.75
+    },
+    "realityReinforcer": {
+      "enabled": true,
+      "description": "Reinforces the fabric of reality against unraveling",
+      "capabilities": [
+        "reality-stabilization",
+        "existence-reinforcement",
+        "fabric-preservation"
+      ],
+      "powerConsumption": {
+        "timeHours": 6,
+        "heat": 5
+      },
+      "reinforcementPower": 0.7,
+      "realityIntegrity": 0.65
+    },
+    "nonExistenceFilter": {
+      "enabled": true,
+      "description": "Filters out non-existence influences and void contamination",
+      "capabilities": [
+        "void-filtration",
+        "contamination-removal",
+        "existence-purification"
+      ],
+      "powerConsumption": {
+        "timeHours": 2,
+        "heat": 1
+      },
+      "filterEfficiency": 0.9,
+      "contaminationThreshold": 0.1
+    }
+  },
+  "nothingnessMechanics": {
+    "existenceLevel": 0.92,
+    "conceptualCoherence": 0.9299999999999999,
+    "presenceDensity": 0.94,
+    "voidProximity": 0.08,
+    "nullificationRate": 0.07,
+    "thoughtDissolution": 0.06,
+    "realityFragility": 0.91,
+    "existenceEntropy": 0.08
+  },
+  "dissolutionEvents": [
+    {
+      "id": "DE1",
+      "type": "existential-decay",
+      "description": "Existence decays at nothingness level 1",
+      "triggerCondition": "existence_level <= 0.92",
+      "effect": "presence_fading",
+      "severity": 1
+    },
+    {
+      "id": "DE2",
+      "type": "conceptual-erosion",
+      "description": "Thoughts erode at coherence 0.930000",
+      "triggerCondition": "conceptual_coherence <= 0.9299999999999999",
+      "effect": "cognitive_decay",
+      "severity": 1
+    },
+    {
+      "id": "DE3",
+      "type": "reality-unraveling",
+      "description": "Reality unravels at fragility 0.910000",
+      "triggerCondition": "reality_fragility <= 0.91",
+      "effect": "existence_dissolution",
+      "severity": 1
+    }
+  ]
+}

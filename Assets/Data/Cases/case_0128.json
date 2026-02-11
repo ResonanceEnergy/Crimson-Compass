@@ -1,0 +1,321 @@
+{
+  "season": 11,
+  "theme": "The Unmade",
+  "description": "Investigations where existence itself is retroactively erased",
+  "suspects": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "methods": [
+    "M1",
+    "M2",
+    "M3"
+  ],
+  "locations": [
+    "Silicon Valley",
+    "Taipei"
+  ],
+  "truth": {
+    "who": "S1",
+    "how": "M1",
+    "where": "Silicon Valley"
+  },
+  "clues": [
+    {
+      "id": "C1",
+      "text": "Initial evidence",
+      "type": "physical"
+    },
+    {
+      "id": "C2",
+      "text": "Digital trace",
+      "type": "digital"
+    },
+    {
+      "id": "C3",
+      "text": "Witness account",
+      "type": "testimonial"
+    }
+  ],
+  "timeBudget": 72,
+  "heatLevels": {
+    "current": 0,
+    "max": 5
+  },
+  "agents": {
+    "HELIX": {
+      "coherence": 1.0,
+      "specialization": "case_organization"
+    },
+    "OPTIMUS": {
+      "coherence": 1.0,
+      "specialization": "strategic_oversight"
+    },
+    "ZTECH": {
+      "coherence": 1.0,
+      "specialization": "technical_analysis"
+    }
+  },
+  "caseNumber": 128,
+  "title": "The Unmade - Episode 8",
+  "unmakingMechanics": {
+    "retroactiveErasure": 0.64,
+    "causalAnnihilation": 0.56,
+    "memoryNullification": 0.48,
+    "existenceRetrogression": 0.72,
+    "temporalUnraveling": 0.64,
+    "conceptualOblivion": 0.8
+  },
+  "advancedMechanics": {
+    "retroactiveAnchor": {
+      "enabled": true,
+      "description": "Anchors events to prevent retroactive erasure from history",
+      "capabilities": [
+        "history-preservation",
+        "causal-stabilization",
+        "existence-retention"
+      ],
+      "powerConsumption": {
+        "timeHours": 6,
+        "heat": 5
+      },
+      "successRate": 0.65,
+      "anchoringStrength": 0.75
+    },
+    "causalReinforcer": {
+      "enabled": true,
+      "description": "Reinforces cause-and-effect relationships against annihilation",
+      "capabilities": [
+        "causality-preservation",
+        "effect-stabilization",
+        "logic-maintenance"
+      ],
+      "powerConsumption": {
+        "timeHours": 5,
+        "heat": 4
+      },
+      "reinforcementPower": 0.7,
+      "causalIntegrity": 0.8
+    },
+    "memoryPreserver": {
+      "enabled": true,
+      "description": "Preserves memories against nullification and oblivion",
+      "capabilities": [
+        "memory-stabilization",
+        "recollection-protection",
+        "cognitive-retention"
+      ],
+      "powerConsumption": {
+        "timeHours": 4,
+        "heat": 3
+      },
+      "preservationStrength": 0.8,
+      "memoryCoherence": 0.75
+    },
+    "temporalStabilizer": {
+      "enabled": true,
+      "description": "Stabilizes timeline against retrogressive unraveling",
+      "capabilities": [
+        "timeline-preservation",
+        "sequence-maintenance",
+        "chronology-protection"
+      ],
+      "powerConsumption": {
+        "timeHours": 7,
+        "heat": 6
+      },
+      "stabilizationPower": 0.6,
+      "temporalIntegrity": 0.7
+    },
+    "conceptualGuardian": {
+      "enabled": true,
+      "description": "Guards concepts and ideas against conceptual oblivion",
+      "capabilities": [
+        "idea-preservation",
+        "concept-stabilization",
+        "thought-protection"
+      ],
+      "powerConsumption": {
+        "timeHours": 3,
+        "heat": 2
+      },
+      "guardianStrength": 0.85,
+      "conceptualStability": 0.8
+    },
+    "existenceValidator": {
+      "enabled": true,
+      "description": "Validates and reinforces the reality of existence itself",
+      "capabilities": [
+        "reality-validation",
+        "existence-reinforcement",
+        "being-preservation"
+      ],
+      "powerConsumption": {
+        "timeHours": 8,
+        "heat": 7
+      },
+      "validationPower": 0.55,
+      "existenceCertainty": 0.6
+    },
+    "oblivionShield": {
+      "enabled": true,
+      "description": "Shields against the encroachment of conceptual oblivion",
+      "capabilities": [
+        "oblivion-repulsion",
+        "concept-protection",
+        "idea-shielding"
+      ],
+      "powerConsumption": {
+        "timeHours": 4,
+        "heat": 3
+      },
+      "shieldIntegrity": 0.75,
+      "oblivionResistance": 0.7
+    },
+    "retrogressionBlocker": {
+      "enabled": true,
+      "description": "Blocks retrogressive unraveling of existence and causality",
+      "capabilities": [
+        "retrogression-prevention",
+        "unraveling-blockade",
+        "history-protection"
+      ],
+      "powerConsumption": {
+        "timeHours": 5,
+        "heat": 4
+      },
+      "blockingPower": 0.7,
+      "retrogressionResistance": 0.65
+    }
+  },
+  "unmakingEvents": [
+    {
+      "id": "UE22",
+      "type": "retroactive-erasure",
+      "description": "History unravels at erasure level 0.640",
+      "triggerCondition": "retroactive_erasure >= 0.64",
+      "effect": "history_dissolution",
+      "severity": 5
+    },
+    {
+      "id": "UE23",
+      "type": "causal-annihilation",
+      "description": "Causality annihilates at level 0.56",
+      "triggerCondition": "causal_annihilation >= 0.56",
+      "effect": "logic_breakdown",
+      "severity": 4
+    },
+    {
+      "id": "UE24",
+      "type": "conceptual-oblivion",
+      "description": "Concepts fade into oblivion at level 0.80000",
+      "triggerCondition": "conceptual_oblivion >= 0.8",
+      "effect": "idea_erasure",
+      "severity": 3
+    }
+  ],
+  "unmadeAdvancedMechanics": {
+    "unmadeParadoxResolver": {
+      "enabled": true,
+      "description": "Resolves paradoxes that never existed, reconstructing causality that was never broken",
+      "capabilities": [
+        "non-existence-reconciliation",
+        "retroactive-paradox-healing",
+        "causality-that-never-was"
+      ],
+      "powerConsumption": {
+        "timeHours": 4,
+        "heat": 3
+      },
+      "successRate": 0.6,
+      "oblivionThreshold": 0.15
+    },
+    "unmadeRecoveryScanner": {
+      "enabled": true,
+      "description": "Scans for data that was never lost, recovering information that never existed",
+      "capabilities": [
+        "non-loss-restoration",
+        "retroactive-data-retrieval",
+        "existence-that-never-faded"
+      ],
+      "powerConsumption": {
+        "timeHours": 5,
+        "heat": 4
+      },
+      "recoveryRate": 0.55,
+      "voidContamination": 0.25
+    },
+    "unmadeTimingAnalyzer": {
+      "enabled": true,
+      "description": "Analyzes time that never passed, mapping sequences that never occurred",
+      "capabilities": [
+        "non-temporal-mapping",
+        "retroactive-sequence-analysis",
+        "chronology-that-never-existed"
+      ],
+      "powerConsumption": {
+        "timeHours": 3,
+        "heat": 2
+      },
+      "analysisAccuracy": 0.65,
+      "temporalVoid": 0.3
+    },
+    "unmadeJurisdictionResolver": {
+      "enabled": true,
+      "description": "Resolves jurisdictional conflicts that never happened, navigating authorities that never existed",
+      "capabilities": [
+        "non-authority-navigation",
+        "retroactive-sovereignty-mapping",
+        "jurisdiction-that-never-was"
+      ],
+      "powerConsumption": {
+        "timeHours": 6,
+        "heat": 5
+      },
+      "resolutionSuccess": 0.5,
+      "authorityVoid": 0.35
+    },
+    "unmadeNetworkMapper": {
+      "enabled": true,
+      "description": "Maps networks that never existed, visualizing connections that were never made",
+      "capabilities": [
+        "non-connection-visualization",
+        "retroactive-relationship-mapping",
+        "networks-that-never-were"
+      ],
+      "powerConsumption": {
+        "timeHours": 4,
+        "heat": 3
+      },
+      "mappingAccuracy": 0.7,
+      "relationalVoid": 0.2
+    }
+  },
+  "unmadeParadoxEvents": [
+    {
+      "id": "UP22",
+      "type": "non-existence-paradox",
+      "description": "Paradox of things that never existed at unmaking level 0.640",
+      "triggerCondition": "non_existence_paradox >= 0.26",
+      "effect": "reality_reconciliation",
+      "severity": 5
+    },
+    {
+      "id": "UP23",
+      "type": "retroactive-impossibility",
+      "description": "Impossible events that never could have happened at level 0.56",
+      "triggerCondition": "retroactive_impossibility >= 0.35",
+      "effect": "causality_restoration",
+      "severity": 4
+    },
+    {
+      "id": "UP24",
+      "type": "void-temporal-anomaly",
+      "description": "Time anomalies in timelines that never existed at level 0.640",
+      "triggerCondition": "void_temporal_anomaly >= 0.44",
+      "effect": "temporal_reconstruction",
+      "severity": 3
+    }
+  ]
+}

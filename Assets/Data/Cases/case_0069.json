@@ -1,0 +1,977 @@
+{
+  "caseId": "CASE-0069",
+  "title": "Method Echoing",
+  "tier": "season6",
+  "hook": "Corporate espionage clones agency's competitive intelligence",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "gadgetsOffered": [
+    "MIRRORANALYZER",
+    "TACTICCOMPARATOR",
+    "METHODDETECTOR",
+    "STRATEGYREPLICATOR",
+    "TECHNIQUEVALIDATOR",
+    "CLEANER"
+  ],
+  "gadgetsSelectable": 3,
+  "mirrorLevel": 4,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Perfect Mirror",
+      "traits": [
+        "tactical-mimic",
+        "method-duplicator"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Method Cloner",
+      "traits": [
+        "strategy-replicator",
+        "technique-mirror"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Operational Echo",
+      "traits": [
+        "approach-duplicator",
+        "tactic-replicator"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Perfect Tactical Mirroring",
+      "signatures": [
+        "method-duplication",
+        "tactic-replication"
+      ],
+      "mirrorAnalysis": {
+        "mimicryAccuracy": "perfect",
+        "techniqueOverlap": 95,
+        "adaptationLevel": "real-time"
+      }
+    },
+    {
+      "id": "M2",
+      "name": "Operational Method Cloning",
+      "signatures": [
+        "strategy-replication",
+        "approach-duplication"
+      ],
+      "tacticComparison": {
+        "similarityIndex": "exact",
+        "executionFidelity": "identical",
+        "countermeasureEvasion": "complete"
+      }
+    },
+    {
+      "id": "M3",
+      "name": "Strategic Technique Echoing",
+      "signatures": [
+        "technique-mirroring",
+        "protocol-replication"
+      ],
+      "methodDetection": {
+        "echoStrength": "resonant",
+        "patternMatch": "complete",
+        "agencySignature": "identical"
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "Vienna",
+      "country": "Austria"
+    },
+    {
+      "id": "Singapore",
+      "country": "Singapore"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "Vienna"
+  },
+  "caseToken": "Mirror tactics exposed; agency methods secured.",
+  "clues": [
+    {
+      "id": "C1",
+      "text": "Operational methods match agency's procedures exactly",
+      "type": "tactic-mirroring",
+      "relevance": "high"
+    },
+    {
+      "id": "C2",
+      "text": "Technique execution replicates agency protocols perfectly",
+      "type": "method-duplication",
+      "relevance": "medium"
+    },
+    {
+      "id": "C3",
+      "text": "Strategic approach echoes agency's operational doctrine",
+      "type": "strategy-replication",
+      "relevance": "critical"
+    }
+  ],
+  "jurisdictionConflicts": [
+    {
+      "id": "JC1",
+      "description": "Mirror tactics blur agency operational boundaries",
+      "authorities": [
+        "Agency Internal",
+        "Counterintelligence",
+        "International"
+      ],
+      "resolution": "Operational security protocols"
+    }
+  ],
+  "mirrorAnomalies": [
+    {
+      "id": "MA1",
+      "description": "Perfect replication of agency's communication patterns",
+      "mirrorAccuracy": "exact",
+      "agencyMethod": "secure-comm-protocol"
+    },
+    {
+      "id": "MA2",
+      "description": "Identical duplication of agency's surveillance techniques",
+      "mirrorAccuracy": "perfect",
+      "agencyMethod": "target-acquisition"
+    }
+  ],
+  "networkConnections": [
+    {
+      "id": "NC1",
+      "type": "mirror-network",
+      "description": "Network replicating agency's operational structure",
+      "complexity": "high",
+      "mimicryRisk": "extreme"
+    }
+  ],
+  "advancedMechanics": {
+    "mirrorAnalyzer": {
+      "name": "Tactical Mirror Analyzer",
+      "description": "Analyzes adversary tactics that perfectly mirror agency methods",
+      "capabilities": [
+        "tactic-comparison",
+        "method-detection",
+        "mimicry-identification"
+      ],
+      "successRate": 0.75,
+      "risks": [
+        "false-mirroring",
+        "self-doubt",
+        "method-confusion"
+      ]
+    },
+    "tacticComparator": {
+      "name": "Tactic Comparison Engine",
+      "description": "Compares adversary tactics against known agency methods",
+      "capabilities": [
+        "signature-matching",
+        "execution-comparison",
+        "fidelity-analysis"
+      ],
+      "successRate": 0.8,
+      "risks": [
+        "over-comparison",
+        "paranoia-induction"
+      ]
+    },
+    "methodDetector": {
+      "name": "Method Replication Detector",
+      "description": "Detects when adversary replicates agency operational methods",
+      "capabilities": [
+        "replication-patterning",
+        "signature-validation",
+        "authenticity-checking"
+      ],
+      "successRate": 0.7,
+      "risks": [
+        "false-positives",
+        "method-doubt"
+      ]
+    },
+    "strategyReplicator": {
+      "name": "Strategy Replication Analyzer",
+      "description": "Analyzes strategic approaches that mirror agency doctrine",
+      "capabilities": [
+        "doctrine-comparison",
+        "approach-validation",
+        "strategic-fidelity"
+      ],
+      "successRate": 0.85,
+      "risks": [
+        "strategic-paralysis",
+        "doctrinal-confusion"
+      ]
+    },
+    "techniqueValidator": {
+      "name": "Technique Validation System",
+      "description": "Validates whether techniques are authentic agency methods or perfect copies",
+      "capabilities": [
+        "authenticity-verification",
+        "technique-comparison",
+        "signature-validation"
+      ],
+      "successRate": 0.65,
+      "risks": [
+        "validation-overload",
+        "technique-doubt"
+      ]
+    },
+    "paradoxEngine": {
+      "name": "Paradox Resolution Engine",
+      "description": "Resolves temporal and logical paradoxes created by perfect tactical mimicry",
+      "capabilities": [
+        "paradox-detection",
+        "causality-analysis",
+        "temporal-reconstruction"
+      ],
+      "successRate": 0.6,
+      "risks": [
+        "reality-fracture",
+        "temporal-dissonance",
+        "causality-collapse"
+      ]
+    },
+    "recoveryScanner": {
+      "name": "Operational Recovery Scanner",
+      "description": "Scans for recoverable elements from mirrored operations",
+      "capabilities": [
+        "fragment-recovery",
+        "pattern-reconstruction",
+        "integrity-restoration"
+      ],
+      "successRate": 0.75,
+      "risks": [
+        "false-recovery",
+        "contamination-risk",
+        "pattern-corruption"
+      ]
+    },
+    "timingAnalyzer": {
+      "name": "Temporal Execution Analyzer",
+      "description": "Analyzes timing patterns in mirrored tactics to detect synchronization anomalies",
+      "capabilities": [
+        "temporal-mapping",
+        "execution-timing",
+        "synchronization-detection"
+      ],
+      "successRate": 0.8,
+      "risks": [
+        "temporal-paralysis",
+        "timing-obsession",
+        "sequence-confusion"
+      ]
+    },
+    "jurisdictionResolver": {
+      "name": "Jurisdictional Authority Resolver",
+      "description": "Navigates complex jurisdictional puzzles created by mirrored operations",
+      "capabilities": [
+        "authority-mapping",
+        "jurisdiction-validation",
+        "sovereignty-analysis"
+      ],
+      "successRate": 0.7,
+      "risks": [
+        "authority-confusion",
+        "jurisdictional-paralysis",
+        "sovereignty-doubt"
+      ]
+    },
+    "networkMapper": {
+      "name": "Mirror Network Mapping Interface",
+      "description": "Maps interconnected webs of tactical mimicry and replication patterns",
+      "capabilities": [
+        "network-visualization",
+        "connection-mapping",
+        "pattern-recognition"
+      ],
+      "successRate": 0.85,
+      "risks": [
+        "network-overload",
+        "connection-paranoia",
+        "pattern-obsession"
+      ]
+    },
+    "causalityTracer": {
+      "name": "Causality Chain Tracer",
+      "description": "Traces causal chains through mirrored networks to identify origin points",
+      "capabilities": [
+        "causality-mapping",
+        "chain-analysis",
+        "origin-detection"
+      ],
+      "successRate": 0.7,
+      "risks": [
+        "causality-doubt",
+        "chain-obsession",
+        "origin-paranoia"
+      ]
+    }
+  },
+  "mirrorNetworks": [
+    {
+      "id": "MN1",
+      "type": "tactic-mirror-web",
+      "description": "Network of tactics perfectly mirroring agency methods",
+      "complexity": "high",
+      "mimicryLevel": 5,
+      "connectedEntities": [
+        "S1",
+        "S2",
+        "MA1"
+      ]
+    },
+    {
+      "id": "MN2",
+      "type": "method-replication-chain",
+      "description": "Chain of replicated operational methods",
+      "complexity": "medium",
+      "mimicryLevel": 4,
+      "connectedEntities": [
+        "S3",
+        "MA2",
+        "JC1"
+      ]
+    }
+  ],
+  "mirrorEvents": [
+    {
+      "id": "ME1",
+      "type": "perfect-mimicry",
+      "description": "Adversary executes agency tactics with perfect fidelity",
+      "trigger": "tactic-execution",
+      "mirrorEffect": "method-confusion"
+    },
+    {
+      "id": "ME2",
+      "type": "doctrinal-replication",
+      "description": "Strategic approach replicates agency doctrine exactly",
+      "trigger": "strategy-deployment",
+      "mirrorEffect": "operational-blurring"
+    }
+  ],
+  "countermeasureSets": [
+    {
+      "id": "CS1",
+      "name": "Mirror Disruption Tactics",
+      "description": "Countermeasures against perfect tactical mimicry",
+      "effectiveness": 0.75,
+      "triggers": [
+        "mimicry-detected",
+        "method-confusion"
+      ],
+      "outcomes": [
+        "tactic-differentiation",
+        "method-validation"
+      ]
+    },
+    {
+      "id": "CS2",
+      "name": "Authenticity Verification",
+      "description": "Systems for verifying authentic agency methods vs. perfect copies",
+      "effectiveness": 0.8,
+      "triggers": [
+        "replication-suspected",
+        "signature-match"
+      ],
+      "outcomes": [
+        "authenticity-confirmation",
+        "copy-identification"
+      ]
+    }
+  ],
+  "uiTemplates": {
+    "mirrorAlert": {
+      "type": "warning",
+      "message": "Perfect tactical mimicry detected",
+      "actions": [
+        "analyze-mirroring",
+        "verify-authenticity",
+        "counter-mimicry"
+      ]
+    },
+    "comparisonMeter": {
+      "type": "gauge",
+      "metric": "tactic-fidelity",
+      "range": [
+        0,
+        100
+      ],
+      "thresholds": {
+        "suspicious": 80,
+        "identical": 95,
+        "perfect": 100
+      }
+    },
+    "authenticityOverlay": {
+      "type": "filter",
+      "function": "highlight-authentic-methods",
+      "intensity": "adaptive"
+    }
+  },
+  "insights": [
+    {
+      "id": "I1",
+      "type": "tactical-mimicry",
+      "content": "Adversary perfectly mirrors agency's operational tactics",
+      "relevance": "high"
+    },
+    {
+      "id": "I2",
+      "type": "method-replication",
+      "content": "Criminal methods replicate agency procedures with exact fidelity",
+      "relevance": "critical"
+    },
+    {
+      "id": "I3",
+      "type": "doctrinal-echo",
+      "content": "Strategic approaches echo agency's operational doctrine precisely",
+      "relevance": "medium"
+    }
+  ],
+  "shadowTokens": [
+    {
+      "id": "ST1",
+      "name": "Mirror Doubt",
+      "description": "Unsettling realization that adversary tactics mirror agency methods perfectly",
+      "type": "psychological",
+      "intensity": "medium",
+      "trigger": "tactic-recognition",
+      "effect": "method-uncertainty"
+    },
+    {
+      "id": "ST2",
+      "name": "Authenticity Crisis",
+      "description": "Growing doubt about whether observed methods are authentic or perfect copies",
+      "type": "existential",
+      "intensity": "high",
+      "trigger": "signature-match",
+      "effect": "operational-paralysis"
+    },
+    {
+      "id": "ST3",
+      "name": "Doctrinal Echo",
+      "description": "Haunting sense that adversary strategy echoes agency doctrine too precisely",
+      "type": "strategic",
+      "intensity": "medium",
+      "trigger": "approach-similarity",
+      "effect": "decision-hesitation"
+    },
+    {
+      "id": "ST4",
+      "name": "Method Confusion",
+      "description": "Confusion between authentic agency methods and adversary replications",
+      "type": "cognitive",
+      "intensity": "high",
+      "trigger": "execution-fidelity",
+      "effect": "tactical-disorientation"
+    },
+    {
+      "id": "ST5",
+      "name": "Perfect Fidelity",
+      "description": "Terrifying precision with which adversary replicates agency tactics",
+      "type": "technical",
+      "intensity": "critical",
+      "trigger": "100%-match",
+      "effect": "reality-questioning"
+    },
+    {
+      "id": "ST6",
+      "name": "Mirror Network",
+      "description": "Growing awareness of interconnected web of tactical mimicry",
+      "type": "network",
+      "intensity": "medium",
+      "trigger": "pattern-emergence",
+      "effect": "systemic-doubt"
+    }
+  ],
+  "uneaseEvents": [
+    {
+      "id": "UE1",
+      "trigger": "perfect-tactic-match",
+      "description": "Adversary executes tactic with exact agency precision",
+      "shadowTokens": [
+        "ST1",
+        "ST2"
+      ],
+      "intensity": "high"
+    },
+    {
+      "id": "UE2",
+      "trigger": "doctrinal-replication",
+      "description": "Strategic approach mirrors agency doctrine perfectly",
+      "shadowTokens": [
+        "ST3",
+        "ST6"
+      ],
+      "intensity": "medium"
+    },
+    {
+      "id": "UE3",
+      "trigger": "method-confusion",
+      "description": "Unable to distinguish authentic methods from perfect copies",
+      "shadowTokens": [
+        "ST4",
+        "ST5"
+      ],
+      "intensity": "critical"
+    }
+  ],
+  "psychologicalEffects": {
+    "mirrorParanoia": {
+      "description": "Paranoia about whether agency methods have been compromised",
+      "symptoms": [
+        "method-doubt",
+        "signature-skepticism",
+        "operational-hesitation"
+      ],
+      "copingMechanisms": [
+        "authenticity-verification",
+        "method-validation",
+        "counter-mimicry"
+      ]
+    },
+    "tacticalDissonance": {
+      "description": "Cognitive dissonance from perfect tactical mirroring",
+      "symptoms": [
+        "decision-paralysis",
+        "reality-questioning",
+        "method-confusion"
+      ],
+      "copingMechanisms": [
+        "pattern-interruption",
+        "signature-recalibration",
+        "doctrinal-reaffirmation"
+      ]
+    },
+    "existentialUncertainty": {
+      "description": "Fundamental uncertainty about operational authenticity",
+      "symptoms": [
+        "identity-crisis",
+        "method-ambiguity",
+        "strategic-doubt"
+      ],
+      "copingMechanisms": [
+        "core-validation",
+        "signature-reestablishment",
+        "doctrinal-grounding"
+      ]
+    }
+  },
+  "shadowToken": "Mirror Tactics Unease",
+  "paradoxEvents": [
+    {
+      "id": "PE1",
+      "type": "temporal-paradox",
+      "description": "Adversary actions create impossible timing sequences",
+      "paradoxLevel": "high",
+      "resolutionRequired": true
+    },
+    {
+      "id": "PE2",
+      "type": "causality-loop",
+      "description": "Mirrored tactics create circular causal relationships",
+      "paradoxLevel": "critical",
+      "resolutionRequired": true
+    }
+  ],
+  "jurisdictionalPuzzles": [
+    {
+      "id": "JP1",
+      "jurisdictions": [
+        "agency",
+        "local",
+        "international"
+      ],
+      "conflictType": "authority-overlap",
+      "resolutionPath": "sovereignty-negotiation"
+    },
+    {
+      "id": "JP2",
+      "jurisdictions": [
+        "domestic",
+        "foreign",
+        "extraterritorial"
+      ],
+      "conflictType": "mirror-authority",
+      "resolutionPath": "jurisdictional-arbitration"
+    }
+  ],
+  "networkMappingData": {
+    "mirrorWeb": {
+      "nodes": [
+        "S1",
+        "S2",
+        "S3",
+        "MA1",
+        "MA2"
+      ],
+      "connections": [
+        {
+          "from": "S1",
+          "to": "MA1",
+          "type": "tactic-mirror"
+        },
+        {
+          "from": "S2",
+          "to": "MA2",
+          "type": "method-replication"
+        },
+        {
+          "from": "MA1",
+          "to": "MA2",
+          "type": "strategy-link"
+        }
+      ],
+      "complexityLevel": "high"
+    },
+    "causalityChains": [
+      {
+        "id": "CC1",
+        "sequence": [
+          "origin",
+          "replication",
+          "execution",
+          "mirror-effect"
+        ],
+        "paradoxPoints": [
+          "replication",
+          "execution"
+        ]
+      }
+    ]
+  },
+  "recoveryFragments": [
+    {
+      "id": "RF1",
+      "type": "tactical-fragment",
+      "description": "Recoverable piece of authentic tactical doctrine",
+      "integrity": 0.8,
+      "contaminationRisk": 0.3
+    },
+    {
+      "id": "RF2",
+      "type": "method-signature",
+      "description": "Original method signature recoverable from mirror corruption",
+      "integrity": 0.6,
+      "contaminationRisk": 0.5
+    }
+  ],
+  "timingAnomalies": [
+    {
+      "id": "TA1",
+      "type": "synchronization-offset",
+      "description": "Adversary tactics execute with microsecond precision matching agency timing",
+      "anomalyLevel": "critical",
+      "temporalRisk": "causality-fracture"
+    },
+    {
+      "id": "TA2",
+      "type": "sequence-inversion",
+      "description": "Operational sequences appear in reverse chronological order",
+      "anomalyLevel": "high",
+      "temporalRisk": "reality-dissonance"
+    }
+  ],
+  "deductionSystem": {
+    "whoOptions": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "howOptions": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "whereOptions": [
+      "L1",
+      "L2"
+    ],
+    "maxHypotheses": 5,
+    "deductionRules": {
+      "singleCorrect": true,
+      "eliminationFeedback": true,
+      "partialCredit": false,
+      "mirrorPenalty": true,
+      "authenticityBonus": true
+    }
+  },
+  "resourceManagement": {
+    "timeBudget": 72,
+    "heatLevels": {
+      "low": {
+        "threshold": 1,
+        "effects": [
+          "minor-doubt",
+          "authenticity-hints",
+          "method-questions"
+        ]
+      },
+      "medium": {
+        "threshold": 3,
+        "effects": [
+          "tactical-paralysis",
+          "mirror-detection",
+          "signature-verification"
+        ]
+      },
+      "high": {
+        "threshold": 5,
+        "effects": [
+          "existential-crisis",
+          "reality-fracture",
+          "total-mimicry"
+        ]
+      }
+    },
+    "heatDecay": {
+      "passive": 0.1,
+      "active": 0.5
+    },
+    "timePenalties": {
+      "wrongHypothesis": 4,
+      "failedScan": 2,
+      "mirrorConfusion": 6,
+      "authenticityError": 5,
+      "paradoxEvent": 8,
+      "jurisdictionPuzzle": 7
+    }
+  },
+  "agentInteractions": {
+    "HELIX": {
+      "role": "Authenticity Coordinator",
+      "personality": "Methodical and verification-focused",
+      "interactions": {
+        "caseStart": "Perfect mimicry detected. We must verify every method's authenticity.",
+        "hypothesisHelp": "That deduction path involves methods that mirror our own. Verify carefully.",
+        "timeWarning": "Time pressure may force us to accept mirrored tactics as authentic.",
+        "success": "Authenticity confirmed. We've broken through the mirror deception.",
+        "failure": "The mirror tactics succeeded. We may have been investigating ourselves."
+      },
+      "helpTriggers": {
+        "timeLow": true,
+        "heatHigh": true,
+        "stuckClues": true,
+        "mirrorDetected": true,
+        "authenticityQuestioned": true
+      }
+    },
+    "OPTIMUS": {
+      "role": "Mirror Pattern Analyst",
+      "personality": "Analytical and paradox-aware",
+      "interactions": {
+        "caseStart": "Mirror networks detected. Let's map the replication patterns.",
+        "hypothesisHelp": "This hypothesis creates a paradox with our known methods. Investigate further.",
+        "timeWarning": "Mirror tactics are synchronizing. We need resolution before perfect alignment.",
+        "success": "Pattern broken! The mirror network has been disrupted.",
+        "failure": "The mirror held. We've become indistinguishable from our adversary."
+      },
+      "helpTriggers": {
+        "wrongHypothesis": true,
+        "resourceLow": true,
+        "paradoxEvent": true,
+        "timingAnomaly": true,
+        "networkClue": true
+      }
+    },
+    "ZTECH": {
+      "role": "Replication Detection Specialist",
+      "personality": "Intrigued by perfect systems",
+      "interactions": {
+        "caseStart": "Systems online! Let's detect where the replication begins.",
+        "hypothesisHelp": "The recovery scanner shows this method has been perfectly replicated.",
+        "timeWarning": "Timing analyzer shows microsecond precision! Resolution critical!",
+        "success": "Fascinating! We've identified the exact point where replication began.",
+        "failure": "The mirror was too perfect. Even our detection systems were replicated."
+      },
+      "helpTriggers": {
+        "gadgetFailure": true,
+        "scanOpportunity": true,
+        "techClue": true,
+        "recoveryFragment": true,
+        "timingAnalysis": true
+      }
+    }
+  },
+  "interactionTriggers": {
+    "caseStart": [
+      "HELIX",
+      "OPTIMUS"
+    ],
+    "firstHypothesis": [
+      "OPTIMUS"
+    ],
+    "timeWarning": [
+      "HELIX"
+    ],
+    "heatWarning": [
+      "OPTIMUS"
+    ],
+    "gadgetUse": [
+      "ZTECH"
+    ],
+    "paradoxEvent": [
+      "OPTIMUS"
+    ],
+    "mirrorDetected": [
+      "HELIX"
+    ],
+    "authenticityCrisis": [
+      "HELIX"
+    ],
+    "timingAnomaly": [
+      "ZTECH"
+    ],
+    "recoverySuccess": [
+      "ZTECH"
+    ],
+    "jurisdictionPuzzle": [
+      "OPTIMUS"
+    ],
+    "networkMapped": [
+      "OPTIMUS"
+    ],
+    "nearSuccess": [
+      "HELIX"
+    ],
+    "caseEnd": [
+      "HELIX",
+      "OPTIMUS",
+      "ZTECH"
+    ]
+  },
+  "gameplayFlow": {
+    "phases": [
+      {
+        "name": "Mirror Assessment",
+        "duration": "auto",
+        "objectives": [
+          "Analyze mirror tactics",
+          "Select authenticity verification gadgets"
+        ],
+        "agentFocus": "HELIX"
+      },
+      {
+        "name": "Replication Investigation",
+        "duration": "timed",
+        "objectives": [
+          "Map mirror networks",
+          "Form authenticity hypotheses",
+          "Deploy recovery scanners"
+        ],
+        "agentFocus": "OPTIMUS"
+      },
+      {
+        "name": "Paradox Resolution",
+        "duration": "auto",
+        "objectives": [
+          "Resolve temporal paradoxes",
+          "Navigate jurisdictional puzzles",
+          "Break mirror synchronization"
+        ],
+        "agentFocus": "ZTECH"
+      }
+    ],
+    "victoryConditions": {
+      "primary": "Correct WHO/HOW/WHERE identification with authenticity verification",
+      "secondary": "Mirror network disruption",
+      "bonus": "Recovery of authentic operational fragments"
+    },
+    "failureConditions": {
+      "timeExpired": "Mirror tactics achieved perfect synchronization",
+      "heatMaxed": "Existential crisis from total mimicry",
+      "paradoxUnresolved": "Causality fracture from unresolved paradoxes"
+    }
+  },
+  "clueSystem": {
+    "clueTypes": [
+      {
+        "type": "authenticity-clue",
+        "description": "Evidence questioning method authenticity",
+        "reliability": 0.8,
+        "mirrorRisk": 0.3
+      },
+      {
+        "type": "timing-clue",
+        "description": "Temporal anomaly in operational sequence",
+        "reliability": 0.9,
+        "paradoxRisk": 0.4
+      },
+      {
+        "type": "network-clue",
+        "description": "Connection in mirror replication web",
+        "reliability": 0.7,
+        "confusionRisk": 0.5
+      }
+    ],
+    "clueMechanics": {
+      "collectionLimit": 8,
+      "verificationRequired": true,
+      "mirrorContamination": true,
+      "recoveryBonus": true
+    }
+  },
+  "decisionPoints": [
+    {
+      "id": "DP1",
+      "trigger": "mirror-detected",
+      "options": [
+        {
+          "choice": "verify-authenticity",
+          "timeCost": 3,
+          "heatRisk": 1,
+          "outcome": "confidence-gain"
+        },
+        {
+          "choice": "accept-mirror",
+          "timeCost": 1,
+          "heatRisk": 2,
+          "outcome": "paradox-risk"
+        },
+        {
+          "choice": "deploy-recovery",
+          "timeCost": 5,
+          "heatRisk": 0,
+          "outcome": "fragment-recovery"
+        }
+      ]
+    },
+    {
+      "id": "DP2",
+      "trigger": "timing-anomaly",
+      "options": [
+        {
+          "choice": "analyze-timing",
+          "timeCost": 4,
+          "heatRisk": 1,
+          "outcome": "synchronization-break"
+        },
+        {
+          "choice": "ignore-anomaly",
+          "timeCost": 0,
+          "heatRisk": 3,
+          "outcome": "causality-fracture"
+        },
+        {
+          "choice": "jurisdiction-check",
+          "timeCost": 6,
+          "heatRisk": 2,
+          "outcome": "authority-clarification"
+        }
+      ]
+    }
+  ]
+}

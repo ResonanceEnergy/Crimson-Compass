@@ -30,6 +30,38 @@ Mobile-first **international spy whodunnit**.
 
 See `docs/SeriesFoundation_Season1Kit.md` for full details, team roles, Season 1 episode grid, and authoring guidelines.
 
+## Content Foundation
+The project includes a complete 6-season content foundation with 72 episodes, each featuring unique thematic mechanics and progressive complexity:
+
+### Season Overview
+- **Season 1** (Episodes 0001-0012): Core deduction mechanics with basic agent interactions
+- **Season 2** (Episodes 0013-0024): Enhanced with decoy systems and misdirection tactics
+- **Season 3** (Episodes 0025-0036): Advanced consequence mechanics and butterfly effects
+- **Season 4** (Episodes 0037-0048): Network mapping and interconnected operations
+- **Season 5** (Episodes 0049-0060): Scanner technologies and advanced detection systems
+- **Season 6** (Episodes 0061-0072): Mirror tactics where adversaries perfectly replicate agency methods
+- **Season 7** (Episodes 0073-0084): Fractured reality where simulation and authenticity become indistinguishable
+
+### Core Mechanics (All Seasons)
+- **WHO/HOW/WHERE Deduction**: Triad-based clue resolution system
+- **Time & Heat Management**: Resource constraints with risk/reward tradeoffs
+- **Agent Interactions**: Three specialized AI agents (HELIX, OPTIMUS, ZTECH)
+- **Shadow Adversary**: Inferred antagonist creating psychological tension
+
+### Advanced Mechanics (Season-Specific)
+Each season introduces unique advanced mechanics that build upon the core foundation:
+- **Season 4**: Decoy deployment and network disruption
+- **Season 5**: Consequence mapping and ripple effect analysis
+- **Season 6**: Mirror analysis and authenticity verification
+
+### Technical Specifications
+- **Data Format**: JSON-based case files with comprehensive mechanics structures
+- **Validation**: Automated integrity checking for all 72 episodes
+- **Unity Ready**: Complete technical specifications for game implementation
+- **Progressive Complexity**: Each season increases mechanical depth while maintaining accessibility
+
+See individual season documentation in `docs/` for detailed mechanics specifications.
+
 ## Development Status
 Recommended: Unity **2022.3 LTS**.
 

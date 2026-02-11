@@ -1,0 +1,325 @@
+{
+  "caseId": "CASE-0090",
+  "title": "Infinite Echo",
+  "tier": "season8",
+  "hook": "Actions echo eternally, each iteration more amplified",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "recursionDepth": 6,
+  "loopCycles": 10,
+  "causalNesting": [
+    {
+      "id": "CN16",
+      "level": 6,
+      "description": "Causal layer 6 in infinite regression",
+      "loopPoint": "effect-becomes-cause-6"
+    },
+    {
+      "id": "CN17",
+      "level": 7,
+      "description": "Nested consequence 7 feeding back into cause",
+      "loopPoint": "consequence-recursion-6"
+    },
+    {
+      "id": "CN18",
+      "level": 8,
+      "description": "Meta-causal reflection 8 observing its own creation",
+      "loopPoint": "self-reference-point-6"
+    }
+  ],
+  "infiniteLoops": [
+    {
+      "id": "IL11",
+      "type": "operational-cycle",
+      "description": "Complete operational cycle repeating every 13 hours",
+      "cycleLength": 13,
+      "intensity": 5
+    },
+    {
+      "id": "IL12",
+      "type": "causal-loop",
+      "description": "Causality loop with 9 nested levels",
+      "cycleLength": 9,
+      "intensity": 4
+    }
+  ],
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Infinite Loop",
+      "traits": [
+        "recursive-architect",
+        "cycle-creator"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Nested Paradox",
+      "traits": [
+        "causality-manipulator",
+        "meta-operative"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Eternal Return",
+      "traits": [
+        "pattern-repeater",
+        "infinity-generator"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Recursive Causation",
+      "signatures": [
+        "causes:infinitely-nested",
+        "effects:eternally-cycling"
+      ],
+      "recursionAnalysis": {
+        "nestingLevel": 5,
+        "cycleLength": 7,
+        "infinityThreshold": 10
+      }
+    },
+    {
+      "id": "M2",
+      "name": "Pattern Replication",
+      "signatures": [
+        "behaviors:self-repeating",
+        "outcomes:predictably-cycling"
+      ],
+      "loopDetection": {
+        "patternLength": 12,
+        "repetitionFrequency": 0.95,
+        "breakCondition": "meta-awareness"
+      }
+    },
+    {
+      "id": "M3",
+      "name": "Operational Echoing",
+      "signatures": [
+        "actions:self-referential",
+        "consequences:infinitely-amplified"
+      ],
+      "metaOperation": {
+        "reflectionDepth": 4,
+        "echoDecay": 0.1,
+        "selfReferencePoint": "operational-core"
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "L1",
+      "country": "Germany"
+    },
+    {
+      "id": "L2",
+      "country": "Japan"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "L1"
+  },
+  "caseToken": "Infinite Recursion",
+  "shadowToken": "Recursive Dread",
+  "clues": [
+    {
+      "id": "C1",
+      "text": "Evidence suggests this operation has occurred before in identical form",
+      "reliability": 0.8,
+      "recursionIndicator": true
+    },
+    {
+      "id": "C2",
+      "text": "Causal chains form perfect loops with no discernible origin",
+      "reliability": 0.7,
+      "loopSignature": true
+    },
+    {
+      "id": "C3",
+      "text": "Operational patterns repeat with increasing precision",
+      "reliability": 0.9,
+      "metaPattern": true
+    }
+  ],
+  "gadgetsOffered": [
+    "RECURSIONBREAKER",
+    "LOOPANALYZER",
+    "CAUSALITYUNRAVELER",
+    "PATTERNINTERRUPTOR",
+    "METADETECTOR",
+    "INFINITYSTABILIZER",
+    "CYCLETERMINATOR",
+    "REFLECTIONFILTER"
+  ],
+  "gadgetsSelectable": 3,
+  "advancedMechanics": {
+    "recursionBreaker": {
+      "enabled": true,
+      "description": "Breaks infinite operational loops by identifying and severing cycle points",
+      "capabilities": [
+        "loop-detection",
+        "cycle-severing",
+        "recursion-depth-analysis"
+      ],
+      "powerConsumption": {
+        "timeHours": 4,
+        "heat": 2
+      },
+      "successRate": 0.75,
+      "breakThreshold": 5
+    },
+    "loopAnalyzer": {
+      "enabled": true,
+      "description": "Analyzes operational patterns to detect and map infinite cycles",
+      "capabilities": [
+        "pattern-recognition",
+        "cycle-mapping",
+        "infinity-detection"
+      ],
+      "powerConsumption": {
+        "timeHours": 3,
+        "heat": 1
+      },
+      "analysisDepth": 8,
+      "patternAccuracy": 0.85
+    },
+    "causalityUnraveler": {
+      "enabled": true,
+      "description": "Untangles nested causal chains in infinite regression",
+      "capabilities": [
+        "causal-mapping",
+        "nesting-resolution",
+        "loop-identification"
+      ],
+      "powerConsumption": {
+        "timeHours": 5,
+        "heat": 3
+      },
+      "unravelDepth": 6,
+      "causalClarity": 0.7
+    },
+    "patternInterrupter": {
+      "enabled": true,
+      "description": "Interrupts repeating behavioral patterns before they become infinite",
+      "capabilities": [
+        "pattern-disruption",
+        "behavior-modification",
+        "cycle-prevention"
+      ],
+      "powerConsumption": {
+        "timeHours": 2,
+        "heat": 1
+      },
+      "interruptionStrength": 0.9,
+      "patternSensitivity": 0.95
+    },
+    "metaDetector": {
+      "enabled": true,
+      "description": "Detects self-referential operations and meta-operational constructs",
+      "capabilities": [
+        "self-reference-detection",
+        "meta-analysis",
+        "operational-reflection"
+      ],
+      "powerConsumption": {
+        "timeHours": 3,
+        "heat": 2
+      },
+      "reflectionDepth": 4,
+      "metaAccuracy": 0.8
+    },
+    "infinityStabilizer": {
+      "enabled": true,
+      "description": "Stabilizes operations threatened by infinite amplification",
+      "capabilities": [
+        "amplification-control",
+        "stability-maintenance",
+        "infinity-prevention"
+      ],
+      "powerConsumption": {
+        "timeHours": 4,
+        "heat": 2
+      },
+      "stabilizationStrength": 0.85,
+      "infinityThreshold": 10
+    },
+    "cycleTerminator": {
+      "enabled": true,
+      "description": "Terminates eternal operational cycles at their origin point",
+      "capabilities": [
+        "cycle-termination",
+        "origin-identification",
+        "eternal-end"
+      ],
+      "powerConsumption": {
+        "timeHours": 6,
+        "heat": 4
+      },
+      "terminationForce": 0.6,
+      "cycleSensitivity": 0.9
+    },
+    "reflectionFilter": {
+      "enabled": true,
+      "description": "Filters out self-referential echoes and operational reflections",
+      "capabilities": [
+        "echo-filtering",
+        "reflection-removal",
+        "clarity-restoration"
+      ],
+      "powerConsumption": {
+        "timeHours": 2,
+        "heat": 1
+      },
+      "filterStrength": 0.95,
+      "echoDecay": 0.1
+    }
+  },
+  "recursionMechanics": {
+    "activeLoops": 5,
+    "causalDepth": 12,
+    "metaLayers": 3,
+    "infinityRisk": 0.48,
+    "cycleComplexity": 18,
+    "selfReferencePoints": [
+      "operational-core-6",
+      "causal-origin-6",
+      "pattern-seed-6"
+    ]
+  },
+  "infiniteRecursionEvents": [
+    {
+      "id": "IRE16",
+      "type": "operational-loop",
+      "description": "Operation enters infinite cycle at depth 6",
+      "triggerCondition": "recursion_depth >= 6",
+      "effect": "time_acceleration",
+      "severity": 5
+    },
+    {
+      "id": "IRE17",
+      "type": "causal-nesting",
+      "description": "Causal chains nest infinitely at level 7",
+      "triggerCondition": "causal_nesting > 7",
+      "effect": "reality_distortion",
+      "severity": 4
+    },
+    {
+      "id": "IRE18",
+      "type": "meta-reflection",
+      "description": "Operation reflects upon itself 6 times",
+      "triggerCondition": "meta_layers >= 6",
+      "effect": "consciousness_drift",
+      "severity": 3
+    }
+  ]
+}
