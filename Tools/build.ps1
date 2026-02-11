@@ -9,6 +9,9 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+Write-Host "ProjectPath: $ProjectPath"
+Write-Host "OutDir: $OutDir"
+
 if (-not $OutDir) {
   $OutDir = Join-Path $ProjectPath "Builds"
 }
@@ -41,14 +44,7 @@ if (-not (Test-Path $UnityPath)) {
   throw "Unity executable not found at: $UnityPath. Update -UnityPath or install Unity 2022.3.62f3 in Unity Hub."
 }
 
-& $UnityPath `
-  -batchmode -nographics -quit `
-  -projectPath "$ProjectPath" `
-  -logFile "$logFile" `
-  -executeMethod BuildPlayerCLI.Build `
-  -buildTarget $Target `
-  -buildPath "$buildPath" `
-  -devBuild $dev
+& $UnityPath -batchmode -nographics -accept-apiupdate -quit -projectPath "$ProjectPath" -logFile "$logFile" -executeMethod BuildPlayerCLI.PerformBuild -buildTarget $Target -buildPath "$buildPath" -devBuild $dev
 
 $exitCode = $LASTEXITCODE
 if ($exitCode -ne 0) {

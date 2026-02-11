@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using CrimsonCompass.Agents;
 using CrimsonCompass.Core;
 
 public class HypothesisInput : MonoBehaviour
     {
-        public Dropdown whoDropdown;
-        public Dropdown howDropdown;
-        public Dropdown whereDropdown;
+        public TMP_Dropdown whoDropdown;
+        public TMP_Dropdown howDropdown;
+        public TMP_Dropdown whereDropdown;
         public Button submitButton;
 
         void Start()
@@ -28,16 +29,16 @@ public class HypothesisInput : MonoBehaviour
             }
             var caseData = GameManager.Instance.currentCase;
             whoDropdown.ClearOptions();
-            whoDropdown.options.Add(new Dropdown.OptionData("Select WHO"));
-            foreach (var s in caseData.suspects) whoDropdown.options.Add(new Dropdown.OptionData(s.name));
+            whoDropdown.options.Add(new TMP_Dropdown.OptionData("Select WHO"));
+            foreach (var s in caseData.suspects) whoDropdown.options.Add(new TMP_Dropdown.OptionData(s.name));
 
             howDropdown.ClearOptions();
-            howDropdown.options.Add(new Dropdown.OptionData("Select HOW"));
-            foreach (var m in caseData.methods) howDropdown.options.Add(new Dropdown.OptionData(m.name));
+            howDropdown.options.Add(new TMP_Dropdown.OptionData("Select HOW"));
+            foreach (var m in caseData.methods) howDropdown.options.Add(new TMP_Dropdown.OptionData(m.name));
 
             whereDropdown.ClearOptions();
-            whereDropdown.options.Add(new Dropdown.OptionData("Select WHERE"));
-            foreach (var l in caseData.locations) whereDropdown.options.Add(new Dropdown.OptionData(l.id));
+            whereDropdown.options.Add(new TMP_Dropdown.OptionData("Select WHERE"));
+            foreach (var l in caseData.locations) whereDropdown.options.Add(new TMP_Dropdown.OptionData(l.id));
         }
 
         void SubmitHypothesis()
