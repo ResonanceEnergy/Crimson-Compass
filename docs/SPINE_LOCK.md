@@ -35,22 +35,32 @@ The game now blends:
 - **Interrogation + Character Dynamics** = Team banter during investigations
 - **Mystery Solving + Action Sequences** = Cinematic chases and confrontations
 
-## Character Ensemble Overhaul
+## Standardized Character Ensemble
 
-### Omega (Y): Transformed from "Optimus" (dry intel luck paradox) to Executive Director / Bumbling Boomer
-- A genius outpaced by technology who represents the agency's absurd professionalism
+### Player (Gasket's Replacement)
+- Primary compass user across all episodes
+- Consistent role as investigator learning compass mechanics
+- Episode-specific specializations (deception detection, contamination scanning, temporal analysis)
 
-### Helix (X): Enhanced from basic "Big Sister Glue" to Administrative Glue / Big Sister Coordinator
-- The emotional core managing chaos with administrative warfare
+### Optimus (The Analyst)
+- Sarcastic data processor with deadpan reactions
+- Attempts statistical analysis of compass anomalies
+- Struggles with modern technology concepts
 
-### ZTech (Z): Expanded from "Insane Technical Ability" to Tech Genius / ZBRANCH Commander
-- Commands 250 AI agents and 5000 robots with unlimited resources
+### Helix (The Coordinator)
+- No-nonsense team coordinator with administrative efficiency
+- Creates security protocols and coordinates operations
+- Ensures team safety during investigations
 
-### Gasket (G): Deepened from "Unofficial Wildcard" to Broken Prodigy / Former Master
-- Intuitively understands compass anomalies because it's his old tool
+### ZTech (The Specialist)
+- Cocky inventor with absurd over-engineered gadgets
+- Builds detection tools and enhances compass capabilities
+- Fascinated by technological possibilities
 
-### Player (The Closer): Evolved from "Reality Punch" to Gasket's Replacement
-- Inherits the haunted Crimson Compass and brings professional sanity
+### Gasket (The Ghost)
+- Gruff holographic mentor providing cryptic warnings
+- Shares insights about compass dangers and techniques
+- Warns about anomaly and manipulation risks
 
 ## Narrative Integration
 
