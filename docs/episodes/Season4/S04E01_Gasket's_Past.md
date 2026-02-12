@@ -2,51 +2,153 @@
 
 ## Episode Overview
 **Title:** Gasket's Past
-**Case:** Industrial sabotage at a research facility with connections to Gasket's incident
-**Case Token:** Saboteurs arrested; facility secured
-**Shadow Token:** Compass shows "memory echoes" of Gasket's incident at the facility
-**Theme:** Investigating Gasket's incident and the compass's origins
+**Case:** Industrial sabotage operation with memory echo manipulation
+**Case Token:** Sabotage operation dismantled; memory echoes stabilized (95% closure)
+**Shadow Token:** Memory echoes reveal ancient civilization connections (5% unease)
+**Theme:** Memory echo analysis, past trauma investigation, and ancient civilization revelation
+**Crimson Compass Integration:** Team uses compass for memory echo mapping and sabotage detection, encounters echoes revealing Gasket's traumatic past and ancient technology origins
 
-## Character Ensemble (Season 4 Evolution)
+## Character Ensemble (SPINE LOCK Standardized)
 
-### The Closer (Player) - "Shadow Seeker"
-Nine months in, the compass has become an extension of your investigative instincts. However, the "memory echoes" - visions of Gasket's past - are becoming more frequent and disorienting. You're starting to question if the compass is showing you truth... or if it's using you to relive Gasket's trauma. The device's pirate aesthetic now feels like a haunted relic, with its quantum displays occasionally flickering to show scenes from Gasket's incident.
+### Player (Gasket's Replacement) - "Compass Master"
+- **Primary Role:** Inherits haunted Crimson Compass with pirate-tech aesthetic
+- **Development Arc:** Grows from novice to master of ancient technology
+- **Personality:** Brings professional sanity to dysfunctional brilliance
+- **Compass Integration:** Primary user across all episodes, episode-specific specializations
+- **Background:** Experiences "memory echoes" of Gasket's trauma
 
-### Optimus (Agent Y) - "Pattern Master"
-Optimus has fully embraced the compass's probability matrices, using them to predict enemy movements with uncanny accuracy. His technological adaptation has progressed - he now uses voice commands instead of touchscreens. However, the compass's personal readings about Gasket trouble him; he sees patterns that suggest his old friend was involved in something much larger than anyone suspected.
+### Optimus (Agent Y) - "The Bumbling Boomer Executive"
+- **Core Trait:** Precision genius outpaced by technology
+- **Personality:** Fumbles quantum communicators like rotary phones, calls AI "those talking computers"
+- **Role:** Strategic brilliance despite technological struggles
+- **Compass Role:** Attempts statistical analysis of memory echo patterns and manipulation correlations
 
-### Helix (Agent X) - "Empathetic Coordinator"
-Helix has become deeply concerned about the team's psychological well-being, especially regarding Gasket's past. She's created "emotional support protocols" that include mandatory check-ins and therapy sessions disguised as "strategy meetings." Her administrative skills now include tracking the compass's evolving effects on team members, and she's noticed how it seems to be forcing confrontations with personal demons.
+### Helix (Agent X) - "Big Sister Administrative Glue"
+- **Core Function:** Spunky coordinator who holds the team together
+- **Personality:** Mediates arguments, manages logistics, maintains morale with warmth and administrative warfare
+- **Role:** Creates "emotional support protocols" disguised as strategy meetings
+- **Compass Role:** Coordinates memory echo mapping procedures and team trauma analysis
 
-### ZTech (Agent Z) - "Compass Archaeologist"
-ZTech has become obsessed with the compass's origins, treating it like an ancient artifact he's reverse-engineering. He's built "temporal scanners" that can detect when the compass has been used in the past, creating maps of Gasket's old investigations. His enthusiasm for discovery often leads to dangerous experiments, but his findings are revealing the compass's true nature as something far beyond a navigation tool.
+### ZTech (Agent Z) - "Nerd Soldier Tech Genius"
+- **Capabilities:** Commands 250 AI agents and 5000 robots in secret facility
+- **Personality:** Over-engineered gadgets with absurd functionality (laser pointers that brew coffee)
+- **Philosophy:** "Maximum absurdity, maximum function"
+- **Compass Role:** Builds memory echo detection tools and enhances trauma analysis capabilities
 
-### Gasket (Agent G) - "Reluctant Subject"
-Gasket is more present than ever, drawn by the compass's revelations about his past. He provides fragmented insights but becomes increasingly erratic, disappearing for days at a time. The compass seems to be forcing him to confront memories he'd buried, causing him to question his own sanity. His presence is both a help and a hindrance, as the team navigates the fallout from his incident.
+### Gasket (Agent G) - "Broken Prodigy"
+- **Background:** Former compass master haunted by mysterious "incident"
+- **Role:** Provides cryptic insights and fragmented guidance
+- **Personality:** Intuitively understands memory echoes, reluctant mentor with personal stake
+- **Compass Role:** Haunted mentor warning about echo manipulation and ancient civilization risks
 
-## Scene 1: Incident Investigation (2 minutes)
+### NPCs
+- **Saboteur:** Late 30s, covert operative in tactical gear, memory echo manipulation specialist
+- **Facility Director:** Mid-40s, research administrator in lab coat, overseeing sabotage operations
+- **Memory Analyst:** Early 30s, psychological investigator with echo scanners, tracking trauma patterns
+- **Ancient Scholar:** Mid-50s, knowledgeable historian in formal attire, studying ancient civilizations
 
-**Background:** Abandoned research facility from Gasket's incident - overgrown vegetation, crumbling concrete, and residual quantum energy signatures. The Crimson Compass hums urgently as you approach.
+## Scene 1: Memory Echo Investigation (2 minutes)
 
-**Narrative:** A routine sabotage case leads you to a facility that matches coordinates from Gasket's incident files. The compass activates unprompted, showing "memory echoes" - holographic reconstructions of the incident.
+**Background:** Abandoned research facility with overgrown vegetation, crumbling concrete, and residual quantum energy signatures. Memory distortions create reality-bending visual effects.
+
+**Narrative:** The team investigates sabotage at a facility that matches Gasket's incident coordinates. The Crimson Compass activates unprompted, showing "memory echoes" - holographic reconstructions of Gasket's traumatic past.
+
+**Compass Mini-Puzzle:** Memory Echo Mapping - Trauma Detection
+- **Objective:** Use compass to map memory echoes and detect trauma patterns
+- **Mechanics:** Trace echo pathways, identify manipulation signatures, stabilize memory readings
+- **Solution:** Echo mapping reveals manipulation methods and ancient civilization connections
+- **Reward:** Access to enhanced memory capabilities and trauma intelligence
+
+**Treasure Hunting Element:** Facility Exploration - Echo Hunt
+- **Choice:** Direct sabotage investigation vs. compass-guided memory exploration
+- **Consequence:** Direct investigation yields sabotage relics but risks missing echo evidence; memory exploration reveals ancient civilization hints
 
 **Dialogue:**
 
-**Optimus:** "This facility... the coordinates match Gasket's incident report. Probability of coincidence: 0.0001%. The compass is showing temporal distortions. Or perhaps it's just being dramatic again."
+**Helix:** "Sabotage investigation and memory echo analysis. Remember: this is advanced trauma work, not a history lesson. ZTech, no experimental echo detectors that turn the facility into a time machine. Optimus, memory echoes aren't just statistical visualizations."
 
-**Helix:** "Gasket's incident... we've never pushed him about it. But the compass is forcing the issue. I've prepared emotional support protocols and coffee. Lots of coffee. Closer - how are you holding up with those memory echoes?"
+**Optimus:** "Echo analysis initiated. Probability of ancient interference: 87.4%. These manipulation patterns... they suggest civilization-level operations."
 
-**ZTech:** "Temporal distortions? That's my specialty! I built a temporal scanner last month. It also predicts stock prices and makes breakfast. The compass is showing us Gasket's past like a holographic movie!"
+**ZTech:** "Their echoes are laughable! Check this detector I built - it also predicts traumas and brews coffee! Maximum absurdity, maximum memory clarity!"
 
-**Gasket:** (appearing suddenly, voice strained) "You shouldn't be here. This place... it remembers. The compass remembers. It shows you what I tried to forget."
+**Gasket:** (sudden holographic appearance, urgent) "Patterns... they're not just echoes. Dangerous. The compass sees the sabotage... ancient civilizations awakening."
 
-**Compass Interaction:** The device projects a fragmented memory: Gasket using the compass in this very facility, facing something that defies description - a swirling vortex of quantum energy and shadow.
+**Player Choice Options:**
 
-## Scene 2: Memory Navigation (2 minutes)
+1. **X (Helix):** "Coordinate team memory procedures and sabotage analysis."
+   - **Consequence:** Systematic investigation reveals sabotage timeline and ancient connection patterns.
+   - **Dialogue:** Helix: "Good coordination. Echoes and ancient civilizations need careful handling. And right now, someone's manipulations are about to get very analyzed."
 
-**Background:** Facility interior - collapsed corridors, exposed wiring, and areas where quantum experiments went wrong. Reality seems to bend around compass readings.
+2. **Y (Optimus):** "Analyze the memory echo patterns statistically."
+   - **Consequence:** Statistical analysis reveals the manipulation structure and ancient connection correlations.
+   - **Dialogue:** Optimus: "The echo patterns... they're perfectly orchestrated. Probability of deliberate ancient connection: 94.2%."
 
-**Narrative:** The compass guides you through the facility, revealing that the "sabotage" is actually an attempt to cover up evidence of Gasket's incident. Memory echoes show you fragmented visions of what happened.
+3. **Z (ZTech):** "Deploy memory echo drones. Tech to the rescue!"
+   - **Consequence:** Drones map echoes but also accidentally trigger trauma field alerts.
+   - **Dialogue:** ZTech: "My drones work perfectly! Except for the one that started detecting echoes autonomously. But hey, we got the facility!"
+
+4. **G (Gasket):** "Trust the compass - the memory echoes show the real ancient fractures."
+   - **Consequence:** Compass reveals the echoes expose connections to ancient civilizations.
+   - **Dialogue:** Gasket: (haunted voice) "The revelation... it's not just memory. The compass remembers the ancient scars."
+
+## Scene 2: Echo Operation Confrontation & Ancient Analysis (2 minutes)
+
+**Background:** Facility central chamber with residual energy distortions, holographic memory fragments, and ancient technology remnants. Echo pathways and emergency protocols for action sequences.
+
+**Narrative:** The confrontation reveals the sabotage operation using memory technology to access ancient civilization secrets. The Crimson Compass detects echo patterns indicating deeper ancient layers.
+
+**Puzzle:** Memory Security & Echo Analysis
+- **Objective:** Secure sabotage operation while analyzing ancient civilization patterns
+- **Mechanics:** Manipulate echo fields, decode memory signatures, identify ancient connections
+- **Solution:** Operation secured, echo patterns reveal ancient civilization network
+- **Clue:** Echo patterns match signatures from ancient civilization operations
+
+**Environmental Interaction:** Chamber Chase - Ancient Pursuit
+- **Choice:** Pursue saboteur directly vs. secure ancient data first
+- **Consequence:** Direct pursuit captures saboteur but allows field reactivation; securing data first reveals complete ancient intelligence
+- **Cinematic Element:** Dynamic pursuit through memory fields with climbing and environmental puzzles
+
+**Dialogue:**
+
+**Saboteur:** (defensive, backing against echo console) "The memory echoes protect us! The ancient civilizations... they're ours to access!"
+
+**Helix:** "Oh sweetie, 'protective' memory echoes? That's like saying a diary is just a fancy notebook. Now, about those ancient civilization connections..."
+
+**Optimus:** "Echo analysis shows ancient interference. Probability of civilization connection: 96.7%. Most... concerning."
+
+**ZTech:** "Their manipulation is child's play! I could secure it with this analyzer! It also plays music and predicts the weather!"
+
+**Gasket:** (appearing urgently, fragmented) "The patterns... they're not just echoes. Someone's accessing ancient realities. The compass sees the civilizations."
+
+**Saboteur:** (breaking down) "The networks... they were everywhere! I didn't create them! Someone else did!"
+
+**Helix:** "And that's exactly what we've analyzed. Now, about those ancient contacts..."
+
+## Scene 3: Resolution (1 minute)
+
+**Background:** Facility security office with stabilized echoes, manipulation displays, and team debrief setup.
+
+**Narrative:** The sabotage operation is dismantled and memory echoes stabilized, but the compass reveals ancient civilization connections.
+
+**Case Closure (95%):** Sabotage operation dismantled; memory echoes stabilized, immediate threat neutralized.
+
+**Shadow Unease (5%):** Memory echoes reveal ancient civilization connections.
+
+**Team Debrief:**
+
+**Helix:** "Well handled, Player. Though I could do without the holographic warnings from our spectral companion."
+
+**Optimus:** "Disturbing echo patterns. The ancient connections suggest civilization-level sabotage involvement. Most... concerning."
+
+**ZTech:** "My echo detector worked perfectly! Except for the coffee brewing. And the weather predictions. But the manipulations? Analyzed!"
+
+**Gasket:** (fading, haunted) "The patterns... they're just the beginning. The ancient civilizations... they go deeper than you know."
+
+**Epilogue Hook:** The ancient civilization connections hint at deeper historical mysteries, suggesting Season 4 will explore the compass's true origins.
+
+---
+
+**SPINE LOCK Compliance:** This episode follows SPINE LOCK standards for character ensemble, Crimson Compass mechanics, dual narrative system, and Futurama Detective Noir + Uncharted Action-Adventure fusion.
 
 **Puzzle:** Memory Reconstruction
 - **Objective:** Piece together Gasket's incident from compass memory echoes
