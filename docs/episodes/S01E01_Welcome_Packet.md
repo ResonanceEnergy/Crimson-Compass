@@ -1,15 +1,6 @@
 # S01E01: Welcome Packet
 
 ## Episode Overview
-**Title:** Welcome Packet  
-**Case:** Contractor access ring siphons early builds  
-**Case Token:** Ring leader arrested; prototype recovered  
-**Shadow Token:** Access logs skewed by recurring offset  
-**Theme:** Introduction to the agency, team dynamics, and deduction mechanics  
-
-# S01E01: Welcome Packet
-
-## Episode Overview
 **Title:** Welcome Packet
 **Case:** Corporate contractor access ring siphons early prototype builds
 **Case Token:** Ring leader arrested; prototype recovered
@@ -42,7 +33,13 @@ The agency's legendary former agent, taken out of service after a mysterious "in
 
 **Background:** Urban rooftop overlooking corporate headquarters at dusk. City lights twinkle, rain-slicked streets below. Construction crane in distance.
 
-**Narrative:** You arrive at the stakeout location just as the target emerges from the building. The street is quiet, too quiet. Your informant mentioned unusual activity, but this seems... wrong.
+**Narrative:** You arrive at the stakeout location just as the target emerges from the building. The street is quiet, too quiet. Your informant mentioned unusual activity, but this seems... wrong. As you activate the Crimson Compass for the first time, it hums to life with a holographic display showing "truth vectors" - glowing lines that map potential deception patterns in the area.
+
+**Compass Mini-Puzzle:** First Activation
+- **Objective:** Calibrate the compass by aligning truth vectors with environmental cues
+- **Mechanics:** Rotate the compass to match holographic lines with suspicious elements (shadowy figures, unusual heat signatures)
+- **Solution:** Align with the target's movement pattern to reveal hidden security cameras
+- **Reward:** Early warning of approaching guards
 
 **Dialogue:**
 
@@ -74,13 +71,17 @@ The agency's legendary former agent, taken out of service after a mysterious "in
 
 **Background:** Abandoned warehouse district. Dim streetlights, puddles reflecting neon signs. Chain-link fences, graffiti-covered walls.
 
-**Narrative:** The target leads you to an abandoned warehouse district. Multiple vehicles are parked suspiciously, and you can hear muffled voices from inside one of the buildings.
+**Narrative:** The target leads you to an abandoned warehouse district. Multiple vehicles are parked suspiciously, and you can hear muffled voices from inside one of the buildings. As you approach, the Crimson Compass begins to vibrate, its holographic display showing erratic truth vectors that seem to bend around the warehouse like they're avoiding something.
 
 **Puzzle:** Vehicle Identification  
 - **Objective:** Match license plates to contractor database  
 - **Mechanics:** Examine 3 suspicious vehicles, cross-reference with agency database  
 - **Solution:** One vehicle belongs to the target company, others are decoys  
 - **Clue:** Partial plate visible, database shows full registration
+
+**Environmental Interaction:** Warehouse Perimeter
+- **Choice:** Approach quietly vs. create diversion
+- **Consequence:** Quiet approach reveals guard patrol patterns; diversion attracts attention but creates opening
 
 **Dialogue:**
 
@@ -93,6 +94,14 @@ The agency's legendary former agent, taken out of service after a mysterious "in
 **ZTech:** "Their security system? Child's play. I could hack it with a potato. Or this pen! It also brews coffee and predicts the weather. Maximum absurdity, maximum function!"
 
 **Gasket:** (appearing suddenly, voice haunted) "The offsets... they're not random. The compass sees them. It always sees them. But some truths... they cut deep."
+
+**Ring Leader:** (nervously adjusting his tie) "You people are insane! That device is malfunctioning - probably some cheap knockoff from the black market!"
+
+**Helix:** (rolling her eyes) "Cheap knockoff? Sweetie, this compass costs more than your entire executive bonus package. And it's showing me you're lying through your perfectly capped teeth."
+
+**Optimus:** (adjusting his data glasses) "Probability of deception: 94.7%. The compass doesn't lie. Unlike some corporate executives I could mention."
+
+**ZTech:** (excitedly waving his multi-tool pen) "Ooh, let me scan him! This pen also detects lies - and brews decaf for stressful interrogations!"
 
 ## Puzzles & Mechanics
 
@@ -198,3 +207,21 @@ The agency's legendary former agent, taken out of service after a mysterious "in
 **Action Moment:**
 - Track: ACTION_PULSE
 - Parameters: one-shot, volume 0.6
+
+## Episode Resolution
+
+**Case Closure (95%):** The ring leader is arrested, prototype recovered, and the immediate threat neutralized. The team celebrates with coffee and donuts back at headquarters.
+
+**Shadow Unease (5%):** As you examine the recovered prototype, the Crimson Compass displays one final anomaly - a faint 11-minute offset echo that wasn't in the original logs. Gasket's voice whispers through the device: "It begins again. The compass never forgets."
+
+**Team Debrief:**
+
+**Helix:** "Welcome to the family, Closer. You handled that compass better than most. Just... keep an eye on those readings. They have a way of sticking with you."
+
+**Optimus:** "Excellent work. The pattern recognition was textbook. Though I must say, this 'truth vector' technology continues to fascinate. Almost as if it has a mind of its own."
+
+**ZTech:** "That was awesome! Did you see how my pen hacked their entire network? Next time, I'm adding a built-in lie detector AND a pizza delivery function!"
+
+**Gasket:** (fading hologram) "Good work, kid. But remember... the compass shows what you need to see. Not always what you want to see."
+
+**Epilogue Hook:** The recovered prototype contains encrypted data that hints at a larger conspiracy. The 11-minute offsets appear in other agency cases, suggesting this was just the beginning of something much bigger.
