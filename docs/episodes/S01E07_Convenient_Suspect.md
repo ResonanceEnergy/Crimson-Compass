@@ -7,22 +7,37 @@
 **Shadow Token:** Exit plan staged before the crime (compass detects premeditated deception patterns)
 **Theme:** False flags, misdirection, pattern recognition, and Crimson Compass deception detection
 
-## Character Ensemble (Futurama Uncharted Vibes)
+## Character Ensemble
 
-### The Closer (Player) - "Gasket's Replacement"
-Learning to question obvious solutions, becoming more attuned to the compass's deception detection. The device seems to "warn" about false flags.
+### Player (Gasket's Replacement)
+- **Appearance:** Investigator questioning obvious solutions, compass holographic overlays highlighting false flag patterns
+- **Background:** Learning to detect misdirection with compass deception warnings
+- **Personality:** Skeptical investigator with growing awareness of false flag tactics
+- **Compass Role:** Primary deception detector, learning to identify manufactured evidence patterns
 
-### Optimus (Agent Y) - "The Bumbling Boomer Executive"
-Analyzes evidence chains with precision, but gets confused by modern "social engineering" tactics. Keeps calling phishing "those email tricks."
+### Optimus (The Analyst)
+- **Appearance:** Analytical drone attempting statistical analysis of evidence chains, confused by social engineering tactics
+- **Background:** Struggling to apply logic to misdirection, discovering probability patterns in false flags
+- **Personality:** Sarcastic data processor with deadpan reactions to deception tactics
+- **Compass Role:** Analyzes evidence patterns, attempts mathematical modeling of false flag threats
 
-### Helix (Agent X) - "Big Sister Administrative Glue"
-Excels at interviewing witnesses and suspects, using her interpersonal skills to cut through misdirection. Treats false flags like poorly planned parties.
+### Helix (The Coordinator)
+- **Appearance:** Command android creating interrogation protocols, holographic evidence overlays
+- **Background:** Developing team protection procedures around misdirection awareness
+- **Personality:** No-nonsense coordinator ensuring team safety during investigations
+- **Compass Role:** Creates interrogation protocols, coordinates deception detection sweeps
 
-### ZTech (Agent Z) - "Nerd Soldier Tech Genius"
-Investigates digital footprints with gadgets that include a "lie detector headset" that also plays music and takes notes.
+### ZTech (The Specialist)
+- **Appearance:** Cybernetic innovator with digital footprint gadgets, multiple prototype lie detectors
+- **Background:** Building devices to enhance deception detection and evidence analysis
+- **Personality:** Cocky inventor fascinated by misdirection technology
+- **Compass Role:** Creates deception scanning tools, enhances compass false flag detection capabilities
 
-### Gasket (Agent G) - "Broken Prodigy"
-Absent this episode, but the compass occasionally displays his old case notes about similar false flag operations.
+### Gasket (The Ghost)
+- **Appearance:** Holographic manifestation warning about misdirection dangers, providing cryptic false flag guidance
+- **Background:** Original deception navigator sharing insights about false flag operation threats
+- **Personality:** Gruff mentor with urgent warnings about manufactured evidence risks
+- **Compass Role:** Demonstrates deception detection techniques, warns about misdirection patterns
 
 ### NPCs
 - **Decoy Suspect:** Mid-30s, confused, ordinary appearance, genuinely believes they were framed

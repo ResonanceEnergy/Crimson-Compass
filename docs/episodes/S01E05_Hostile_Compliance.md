@@ -7,22 +7,37 @@
 **Shadow Token:** Legacy clause forces evidence into sealed track (compass reveals hidden legal precedents)
 **Theme:** Legal warfare, bureaucratic obstruction, and Crimson Compass precedent detection
 
-## Character Ensemble (Futurama Uncharted Vibes)
+## Character Ensemble
 
-### The Closer (Player) - "Gasket's Replacement"
-Frustrated with legal bureaucracy while the Crimson Compass provides insights into "legal truth vectors" that cut through the red tape.
+### Player (Gasket's Replacement)
+- **Appearance:** Investigator using compass for legal truth detection, holographic overlays highlighting deception patterns in legal arguments
+- **Background:** Learning to navigate bureaucratic obstacles with compass legal insights
+- **Personality:** Frustrated investigator with growing awareness of legal manipulation
+- **Compass Role:** Primary legal deception detector, learning to identify precedent vectors
 
-### Optimus (Agent Y) - "The Bumbling Boomer Executive"
-In his element with legal precedents, but keeps confusing modern legal frameworks with 20th-century concepts. Thinks "subpoena" is a type of sandwich.
+### Optimus (The Analyst)
+- **Appearance:** Analytical drone attempting statistical analysis of legal precedents, mixing modern and historical legal concepts
+- **Background:** Struggling to apply logic to legal warfare, discovering probability patterns in regulatory frameworks
+- **Personality:** Sarcastic data processor with deadpan reactions to legal bureaucracy
+- **Compass Role:** Analyzes legal patterns, attempts mathematical modeling of regulatory threats
 
-### Helix (Agent X) - "Big Sister Administrative Glue"
-Excels at legal coordination and negotiation, using her administrative skills to navigate bureaucratic mazes. Treats corporate counsel like misbehaving children.
+### Helix (The Coordinator)
+- **Appearance:** Command android creating legal coordination protocols, holographic regulatory overlays
+- **Background:** Developing team protection procedures around legal security
+- **Personality:** No-nonsense coordinator ensuring team safety during legal battles
+- **Compass Role:** Creates legal protocols, coordinates precedent detection sweeps
 
-### ZTech (Agent Z) - "Nerd Soldier Tech Genius"
-Creates absurd legal tech gadgets - a "precedent predictor" that also brews coffee and a "subpoena generator" that doubles as a lie detector.
+### ZTech (The Specialist)
+- **Appearance:** Cybernetic innovator with legal tech gadgets, multiple prototype precedent scanners
+- **Background:** Building devices to enhance legal detection and regulatory analysis
+- **Personality:** Cocky inventor fascinated by legal technology
+- **Compass Role:** Creates legal scanning tools, enhances compass precedent detection capabilities
 
-### Gasket (Agent G) - "Broken Prodigy"
-Absent this episode, but the compass displays fragments of his old legal battle notes, showing how he once navigated similar bureaucratic nightmares.
+### Gasket (The Ghost)
+- **Appearance:** Holographic manifestation warning about legal dangers, providing cryptic regulatory guidance
+- **Background:** Original legal navigator sharing insights about bureaucratic obstruction threats
+- **Personality:** Gruff mentor with urgent warnings about legal manipulation risks
+- **Compass Role:** Demonstrates legal detection techniques, warns about hidden precedent traps
 
 ### NPCs
 - **Corporate Counsel:** Mid-50s, smug, expensive suit, briefcase, thinks laws are weapons and he's the master swordsman

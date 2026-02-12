@@ -7,22 +7,37 @@
 **Shadow Token:** Deprecated custody route code ("ROUTE-NULL" style) (compass detects pattern anomalies)
 **Theme:** Twist introduction, Gasket's return, pattern recognition, and Crimson Compass anomaly detection
 
-## Character Ensemble (Futurama Uncharted Vibes)
+## Character Ensemble
 
-### The Closer (Player) - "Gasket's Replacement"
-First major encounter with the larger conspiracy patterns. The compass becomes more responsive, almost like it's trying to communicate something important.
+### Player (Gasket's Replacement)
+- **Appearance:** Investigator encountering larger conspiracy patterns, compass becoming more responsive with important communications
+- **Background:** First major encounter with pattern recognition, learning compass anomaly detection
+- **Personality:** Determined investigator with growing awareness of larger threats
+- **Compass Role:** Primary anomaly detector, learning to identify pattern disruptions
 
-### Optimus (Agent Y) - "The Bumbling Boomer Executive"
-Analyzes theft patterns with his analytical mind, but gets confused by modern "tactical" terminology. Keeps calling drones "those flying robots."
+### Optimus (The Analyst)
+- **Appearance:** Analytical drone attempting statistical analysis of theft patterns, confused by modern tactical terminology
+- **Background:** Struggling to apply logic to operational patterns, discovering probability patterns in theft methods
+- **Personality:** Sarcastic data processor with deadpan reactions to tactical confusion
+- **Compass Role:** Analyzes pattern anomalies, attempts mathematical modeling of theft threats
 
-### Helix (Agent X) - "Big Sister Administrative Glue"
-Coordinates the multi-agency response while keeping the team from imploding. Her administrative skills cut through jurisdictional red tape.
+### Helix (The Coordinator)
+- **Appearance:** Command android creating multi-agency coordination protocols, holographic jurisdictional overlays
+- **Background:** Developing team protection procedures around operational security
+- **Personality:** No-nonsense coordinator ensuring team safety during raids
+- **Compass Role:** Creates operational protocols, coordinates anomaly detection sweeps
 
-### ZTech (Agent Z) - "Nerd Soldier Tech Genius"
-Tracks the sensor module with absurd gadgets - a "quantum sniffer" that also predicts weather and suggests pizza toppings.
+### ZTech (The Specialist)
+- **Appearance:** Cybernetic innovator with signal tracking gadgets, multiple prototype quantum scanners
+- **Background:** Building devices to enhance signal detection and module tracking
+- **Personality:** Cocky inventor fascinated by quantum technology
+- **Compass Role:** Creates signal scanning tools, enhances compass anomaly detection capabilities
 
-### Gasket (Agent G) - "Broken Prodigy"
-**Returns with Fragment #1:** Makes his first major appearance since the incident, providing cryptic warnings about the larger pattern. His presence causes the compass to behave erratically.
+### Gasket (The Ghost)
+- **Appearance:** Holographic manifestation returning with urgent warnings, providing fragmented insights about larger patterns
+- **Background:** Original pattern navigator sharing insights about conspiracy threats
+- **Personality:** Gruff mentor with urgent warnings about pattern manipulation risks
+- **Compass Role:** Demonstrates anomaly detection techniques, warns about larger conspiracy patterns
 
 ### NPCs
 - **Subcontractor Leader:** Mid-40s, professional, betrayed expression, realizes too late they were being used
