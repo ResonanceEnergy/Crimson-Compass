@@ -6,7 +6,7 @@
 **Case Token:** Cleanup neutralized; evidence preserved (95% closure)
 **Shadow Token:** Safe house contains hidden exit protocol suggesting deeper cover-up (5% unease)
 **Theme:** Evidence preservation, cleanup operations, quantum verification
-**Crimson Compass Integration:** Quantum navigation detects hidden exit protocols in safe house systems, verifies evidence integrity through truth vector mapping, preserves chain of custody with deception detection
+**Crimson Compass Integration:** Team uses compass for exit protocol detection and evidence integrity verification, encounters cleanup anomalies revealing deeper cover-up connections
 
 ## Character Ensemble (SPINE LOCK Standardized)
 
@@ -21,83 +21,134 @@
 - **Core Trait:** Precision genius outpaced by technology
 - **Personality:** Fumbles quantum communicators like rotary phones, calls AI "those talking computers"
 - **Role:** Strategic brilliance despite technological struggles
-- **Compass Role:** Sarcastic data processor attempting statistical analysis of anomalies
+- **Compass Role:** Attempts statistical analysis of exit protocols and evidence tampering patterns
 
 ### Helix (Agent X) - "Big Sister Administrative Glue"
 - **Core Function:** Spunky coordinator who holds the team together
 - **Personality:** Mediates arguments, manages logistics, maintains morale with warmth and administrative warfare
 - **Role:** Creates "emotional support protocols" disguised as strategy meetings
-- **Compass Role:** No-nonsense team coordinator ensuring safety during investigations
+- **Compass Role:** Coordinates evidence preservation and team safety during cleanup operations
 
 ### ZTech (Agent Z) - "Nerd Soldier Tech Genius"
 - **Capabilities:** Commands 250 AI agents and 5000 robots in secret facility
 - **Personality:** Over-engineered gadgets with absurd functionality (laser pointers that brew coffee)
 - **Philosophy:** "Maximum absurdity, maximum function"
-- **Compass Role:** Cocky inventor building detection tools and enhancing compass capabilities
+- **Compass Role:** Builds evidence protection tools and enhances data recovery capabilities
 
 ### Gasket (Agent G) - "Broken Prodigy"
 - **Background:** Former compass master haunted by mysterious "incident"
 - **Role:** Provides cryptic insights and fragmented guidance
-- **Personality:** Intuitively understands compass anomalies, reluctant mentor with personal stake
-- **Compass Role:** Gruff holographic mentor warning about anomaly and manipulation risks
+- **Personality:** Intuitively understands cleanup patterns, reluctant mentor with personal stake
+- **Compass Role:** Haunted mentor warning about exit protocols and deeper cover-up risks
 
 ### NPCs
-- **Cleanup Specialist:** Mid-30s, tactical gear, professional cleaner, methodical about evidence destruction
-- **Evidence Custodian:** Early 40s, lab coat, clipboard, responsible for chain of custody
-- **Digital Forensics Expert:** Late 20s, casual clothes, laptop, specializes in data recovery
-- **Property Manager:** Mid-50s, keys, clipboard, manages the safe house facility
+- **Cleanup Leader:** Mid-40s, methodical professional in tactical gear, coldly efficient
+- **Evidence Techs:** Various specialized technicians in lab coats, focused on their protocols
+- **Legal Observer:** Late 30s, watchful attorney with digital clipboard, insistent on procedures
+- **Corrupt Official:** Early 50s, desperate executive in rumpled suit, sweating under pressure
 
-## Scene 1: Evidence Defense (2 minutes)
+## Scene 1: Evidence Threat Confrontation (2 minutes)
 
 **Background:** Hidden safe house with evidence storage, computer systems, and cleanup equipment. Hidden exit protocol interference creating navigation anomalies. Service entrances and hidden compartments for stealth approaches.
 
-**Narrative:** The team defends against a cleanup crew attempting to erase investigation evidence. The Crimson Compass detects hidden exit protocols in safe house systems, verifying evidence integrity.
+**Narrative:** The team confronts a cleanup crew attempting to erase investigation evidence. The Crimson Compass detects hidden exit protocols in safe house systems, verifying evidence integrity.
 
-**Compass Mini-Puzzle:** Exit Protocol Detection - Anomaly Detection
-- **Objective:** Use compass to detect hidden exit protocols and evidence tampering
-- **Mechanics:** Scan safe house systems for protocol anomalies, identify cleanup patterns, verify evidence integrity
+**Compass Mini-Puzzle:** Exit Protocol Detection - Evidence Integrity Verification
+- **Objective:** Use compass to detect hidden exit protocols and evidence tampering during cleanup
+- **Mechanics:** Scan for protocol anomalies, identify cleanup patterns, verify evidence integrity
 - **Solution:** Protocol detection reveals cleanup routes and evidence preservation methods
 - **Reward:** Access to hidden evidence caches and exit protocol evidence
 
-**Treasure Hunting Element:** Safe House Defense - Relic Preservation
+**Treasure Hunting Element:** Safe House Exploration - Evidence Relic Hunt
 - **Choice:** Direct cleanup confrontation vs. evidence integrity verification
 - **Consequence:** Direct confrontation yields cleanup relics but risks evidence damage; verification reveals tampering evidence
 
 **Dialogue:**
 
-**Helix:** "Alright team, cleanup incoming and remember: this is evidence preservation, not a demolition derby. ZTech, no reprogramming the security systems. Optimus, try not to confuse the evidence scanner with a photocopier."
+**Helix:** "Evidence threat confrontation and cleanup operations. Remember: evidence is like gold, and we're the treasure hunters. ZTech, no experimental data recovery that creates time loops. Optimus, exit protocols aren't just statistical deviations."
 
-**Optimus:** "Exit protocols detected. Probability of evidence tampering: 92.1%. This cleanup crew... they're too thorough. Someone's been very systematic."
+**Optimus:** "Exit protocols detected. Probability of deeper cover-up: 85.4%. These patterns... they suggest systematic evidence destruction."
 
-**ZTech:** "Their protocols are laughable! Check this evidence scanner I built - it also brews coffee and predicts when it'll rain! Maximum absurdity, maximum function!"
+**ZTech:** "Their cleanup is primitive! Check this evidence protector I built - it also predicts cover-ups and brews coffee! Maximum absurdity, maximum function!"
 
-**Gasket:** (sudden holographic appearance, urgent) "Not systematic. Dangerous. The compass sees the patterns... cleanup ghosts in the systems."
+**Gasket:** (sudden holographic appearance, urgent) "Protocols... they're hidden. Dangerous. The cleanup... it erases the truth."
 
 **Player Choice Options:**
 
-1. **X (Helix):** "Coordinate evidence preservation protocols and team safety."
-   - **Consequence:** Systematic preservation reveals cleanup crew communications and exit strategies.
-   - **Dialogue:** Helix: "Good instincts. Evidence talks when it's preserved. And right now, someone's cleanup plan is falling apart."
+1. **X (Helix):** "Coordinate evidence preservation protocols and cleanup safety."
+   - **Consequence:** Systematic approach reveals cleanup crew timeline and exit strategies.
+   - **Dialogue:** Helix: "Good coordination. Evidence and protocols need careful handling. And right now, someone's cover-up is about to get very exposed."
 
 2. **Y (Optimus):** "Analyze the exit protocol patterns statistically."
-   - **Consequence:** Statistical analysis reveals the cleanup methodology and deeper cover-up implications.
-   - **Dialogue:** Optimus: "The protocol patterns... they're not random. Probability of deeper conspiracy: 88.9%."
+   - **Consequence:** Statistical analysis reveals the cleanup methodology and cover-up connections.
+   - **Dialogue:** Optimus: "The protocol patterns... they're not random. Probability of deeper conspiracy: 82.7%."
 
 3. **Z (ZTech):** "Deploy evidence protection drones. Tech to the rescue!"
-   - **Consequence:** Drones secure the safe house but also accidentally trigger emergency protocols.
-   - **Dialogue:** ZTech: "My drones work perfectly! Except for the one that started analyzing air quality. But hey, we got the evidence!"
+   - **Consequence:** Drones stabilize evidence but also accidentally trigger security protocols.
+   - **Dialogue:** ZTech: "My drones work perfectly! Except for the one that started analyzing employee evidence habits. But hey, we got the protocols!"
 
-4. **G (Gasket):** "Trust the compass - the protocol anomalies show the real cover-up."
-   - **Consequence:** Compass reveals the cleanup is part of a larger evidence destruction network.
-   - **Dialogue:** Gasket: (haunted voice) "The safe house... it's not safe. The compass remembers these evidence scars."
+4. **G (Gasket):** "Trust the compass - the exit protocol anomalies show the real cover-up fractures."
+   - **Consequence:** Compass reveals the cleanup is connected to deeper cover-up operations.
+   - **Dialogue:** Gasket: (haunted voice) "The safe house... it's not just evidence. The compass remembers the hidden exits."
 
-## Scene 2: Cleanup Neutralization & Confrontation (2 minutes)
+## Scene 2: Cleanup Neutralization & Protocol Confrontation (2 minutes)
 
 **Background:** Evidence storage area with computer terminals, file cabinets, and cleanup equipment. Hidden exit protocols and emergency systems for action sequences.
 
-**Narrative:** The confrontation reveals the cleanup specialist's role in a larger cover-up operation. The Crimson Compass detects hidden exit protocols suggesting deeper conspiracy.
+**Narrative:** The confrontation reveals the cleanup leader's role in a larger cover-up operation. The Crimson Compass detects hidden exit protocols suggesting deeper conspiracy.
 
 **Puzzle:** Evidence Preservation & Protocol Analysis
+- **Objective:** Neutralize cleanup crew while analyzing exit protocol patterns
+- **Mechanics:** Secure evidence systems, decode protocol signatures, identify cover-up connections
+- **Solution:** Cleanup neutralized, protocol patterns reveal deeper cover-up connections
+- **Clue:** Protocol anomalies match patterns from systematic evidence destruction operations
+
+**Environmental Interaction:** Storage Area Chase - Protocol Pursuit
+- **Choice:** Pursue cleanup leader directly vs. secure evidence data first
+- **Consequence:** Direct pursuit captures leader but allows evidence damage; securing data first reveals protocol evidence
+- **Cinematic Element:** Dynamic pursuit through storage area with climbing and environmental puzzles
+
+**Dialogue:**
+
+**Cleanup Leader:** (defensive, backing against evidence terminal) "I was just following cleanup protocols! The exit routes... they're not my design!"
+
+**Helix:** "Oh sweetie, 'not my design' exit protocols? That's like saying evidence destruction is just spring cleaning. Now, about those deeper cover-up patterns..."
+
+**Optimus:** "Protocol analysis shows cover-up interference. Probability of systematic operation: 91.2%. Most... concerning."
+
+**ZTech:** "Their cleanup is child's play! I could neutralize it with this interface! It also plays music and predicts the weather!"
+
+**Gasket:** (appearing urgently, fragmented) "The protocols... they're not just exits. Someone's covering up evidence. The compass sees the cleanup."
+
+**Cleanup Leader:** (breaking down) "The patterns... they were everywhere! I didn't create them! Someone else did!"
+
+**Helix:** "And that's exactly what we're going to find out. Now, about those cover-up contacts..."
+
+## Scene 3: Resolution (1 minute)
+
+**Background:** Evidence storage area with preserved evidence, protocol displays, and team debrief setup.
+
+**Narrative:** The cleanup operation is neutralized and evidence preserved, but the compass reveals disturbing hidden exit protocols.
+
+**Case Closure (95%):** Cleanup neutralized; evidence preserved, immediate threat neutralized.
+
+**Shadow Unease (5%):** Safe house contains hidden exit protocol suggesting deeper cover-up.
+
+**Team Debrief:**
+
+**Helix:** "Well handled, Player. Though I could do without the holographic warnings from our spectral companion."
+
+**Optimus:** "Disturbing protocol patterns. The exit routes suggest deeper cover-up. Most... concerning."
+
+**ZTech:** "My protector worked perfectly! Except for the coffee brewing. And the weather predictions. But the cleanup? Neutralized!"
+
+**Gasket:** (fading, haunted) "The protocols... they're just the beginning. The cover-up... they go deeper than you know."
+
+**Epilogue Hook:** The hidden exit protocols hint at deeper cover-up operations, suggesting the team's investigation will uncover larger conspiracy elements.
+
+---
+
+**SPINE LOCK Compliance:** This episode follows SPINE LOCK standards for character ensemble, Crimson Compass mechanics, dual narrative system, and Futurama Detective Noir + Uncharted Action-Adventure fusion.
 - **Objective:** Neutralize cleanup while analyzing hidden exit protocols
 - **Mechanics:** Secure evidence integrity, decode protocol signatures, identify cover-up networks
 - **Solution:** Cleanup neutralized, protocols reveal coordinated evidence destruction operation

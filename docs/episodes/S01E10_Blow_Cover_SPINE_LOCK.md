@@ -6,7 +6,7 @@
 **Case Token:** Ring disrupted through catastrophic choice (95% closure)
 **Shadow Token:** Skew clusters around custody initiation suggest pattern continuation (5% unease)
 **Theme:** Deep infiltration, catastrophic choices, pattern revelation through quantum navigation
-**Crimson Compass Integration:** Quantum navigation maps the embedded ring's deception network, detects truth vectors in alliance negotiations, reveals pattern clusters around custody events
+**Crimson Compass Integration:** Team uses compass for network mapping and truth vector detection, encounters infiltration anomalies revealing deception patterns in alliances
 
 ## Character Ensemble (SPINE LOCK Standardized)
 
@@ -21,83 +21,134 @@
 - **Core Trait:** Precision genius outpaced by technology
 - **Personality:** Fumbles quantum communicators like rotary phones, calls AI "those talking computers"
 - **Role:** Strategic brilliance despite technological struggles
-- **Compass Role:** Sarcastic data processor attempting statistical analysis of anomalies
+- **Compass Role:** Attempts statistical analysis of infiltration networks and deception patterns
 
 ### Helix (Agent X) - "Big Sister Administrative Glue"
 - **Core Function:** Spunky coordinator who holds the team together
 - **Personality:** Mediates arguments, manages logistics, maintains morale with warmth and administrative warfare
 - **Role:** Creates "emotional support protocols" disguised as strategy meetings
-- **Compass Role:** No-nonsense team coordinator ensuring safety during investigations
+- **Compass Role:** Builds alliance networks and coordinates multi-faction operations
 
 ### ZTech (Agent Z) - "Nerd Soldier Tech Genius"
 - **Capabilities:** Commands 250 AI agents and 5000 robots in secret facility
 - **Personality:** Over-engineered gadgets with absurd functionality (laser pointers that brew coffee)
 - **Philosophy:** "Maximum absurdity, maximum function"
-- **Compass Role:** Cocky inventor building detection tools and enhancing compass capabilities
+- **Compass Role:** Maps hidden network connections and enhances surveillance capabilities
 
 ### Gasket (Agent G) - "Broken Prodigy"
 - **Background:** Former compass master haunted by mysterious "incident"
 - **Role:** Provides cryptic insights and fragmented guidance
-- **Personality:** Intuitively understands compass anomalies, reluctant mentor with personal stake
-- **Compass Role:** Gruff holographic mentor warning about anomaly and manipulation risks
+- **Personality:** Intuitively understands infiltration patterns, reluctant mentor with personal stake
+- **Compass Role:** Haunted mentor warning about deception in alliances and catastrophic choices
 
 ### NPCs
-- **Embedded Operative:** Mid-40s, corporate attire, perfect cover, conflicted about their role in the theft ring
-- **Security Director:** Early 50s, uniform, authoritative, unknowingly compromised by the ring
-- **Corporate Executive:** Late 50s, suit, phone, more concerned about business impact than security
-- **IT Analyst:** Late 20s, casual clothes, laptop, discovers the infiltration patterns
+- **Ring Leader:** Mid-50s, charismatic corporate executive in power suit, smug confidence
+- **Embedded Agents:** Various disguised security personnel with hidden deception signatures
+- **Corrupt Executive:** Late 40s, nervous high-position executive sweating under pressure
+- **Undercover Ally:** Early 30s, conflicted security officer in uniform, torn loyalties
 
-## Scene 1: Infiltration Investigation (2 minutes)
+## Scene 1: Ring Network Infiltration (2 minutes)
 
-**Background:** Corporate headquarters with security infrastructure, access systems, and embedded operatives. Deception network interference creating truth vector anomalies. Executive offices and server rooms for stealth approaches.
+**Background:** Corporate headquarters with security infrastructure, hidden network nodes, and alliance negotiation rooms. Infiltration routes and deception caches for investigative approaches.
 
-**Narrative:** The team investigates a theft ring deeply embedded in corporate security infrastructure. The Crimson Compass maps the deception network, detecting truth vectors in alliance negotiations.
+**Narrative:** The team infiltrates a deeply embedded theft ring while using the Crimson Compass to map deception networks. The compass detects truth vectors in alliance negotiations and reveals pattern clusters.
 
-**Compass Mini-Puzzle:** Deception Network Mapping - Anomaly Detection
-- **Objective:** Use compass to detect embedded operatives in security infrastructure
-- **Mechanics:** Scan access systems for deception patterns, identify operative alliances, trace network connections
-- **Solution:** Network mapping reveals embedded ring structure and operative positions
-- **Reward:** Access to hidden communication channels and infiltration evidence
+**Compass Mini-Puzzle:** Network Deception Detection - Alliance Truth Mapping
+- **Objective:** Use compass to detect deception in alliance negotiations during infiltration
+- **Mechanics:** Scan for truth vectors, identify deception patterns, stabilize compass readings
+- **Solution:** Vector anomalies reveal ring methods and alliance deception connections
+- **Reward:** Access to hidden network evidence and truth verification tools
 
-**Treasure Hunting Element:** Corporate Investigation - Relic Discovery
-- **Choice:** Direct operative confrontation vs. network analysis approach
-- **Consequence:** Direct confrontation yields personal relics but risks alerting the ring; network analysis reveals systematic infiltration evidence
+**Treasure Hunting Element:** Headquarters Exploration - Network Node Hunt
+- **Choice:** Direct ring confrontation vs. compass-guided network mapping
+- **Consequence:** Direct confrontation yields ring members but risks missing deception evidence; network mapping reveals alliance betrayal patterns
 
 **Dialogue:**
 
-**Helix:** "Alright team, infiltration deep and remember: this is corporate espionage, not a spy novel. ZTech, no hacking the executive coffee machines. Optimus, try not to confuse the deception scanner with a lie detector."
+**Helix:** "Deep infiltration operation and alliance negotiations. Remember: networks are like spider webs, and we're the exterminators. ZTech, no experimental surveillance that turns executives into puppets. Optimus, deception patterns aren't just statistical outliers."
 
-**Optimus:** "Deception network detected. Probability of deep infiltration: 96.3%. This theft ring... it's embedded everywhere. Someone's been very thorough."
+**Optimus:** "Deception patterns detected. Probability of alliance betrayal: 71.8%. These vectors... they cluster around custody events."
 
-**ZTech:** "Their security is full of holes! Check this network scanner I built - it also brews coffee and predicts when it'll rain! Maximum absurdity, maximum function!"
+**ZTech:** "Their network is laughable! Check this surveillance tool I built - it also predicts betrayals and brews coffee! Maximum absurdity, maximum function!"
 
-**Gasket:** (sudden holographic appearance, urgent) "Not thorough. Dangerous. The compass sees the patterns... deception ghosts in the infrastructure."
+**Gasket:** (sudden holographic appearance, urgent) "Vectors... they're deceptive. Dangerous. The ring... it infiltrates alliances."
 
 **Player Choice Options:**
 
-1. **X (Helix):** "Coordinate investigation protocols and team safety measures."
-   - **Consequence:** Systematic investigation reveals operative communications and ring structure.
-   - **Dialogue:** Helix: "Good instincts. People talk when they're compromised. And right now, someone's network is unraveling."
+1. **X (Helix):** "Coordinate alliance negotiations and infiltration safety."
+   - **Consequence:** Systematic approach reveals ring timeline and deception requirements.
+   - **Dialogue:** Helix: "Good coordination. Networks and alliances need careful handling. And right now, someone's betrayal is about to get very exposed."
 
 2. **Y (Optimus):** "Analyze the deception patterns statistically."
-   - **Consequence:** Statistical analysis reveals the ring's infiltration methodology and catastrophic weak points.
-   - **Dialogue:** Optimus: "The deception patterns... they're not random. Probability of catastrophic disruption: 89.7%."
+   - **Consequence:** Statistical analysis reveals the truth vector disruptions and ring methods.
+   - **Dialogue:** Optimus: "The vector patterns... they're not random. Probability of catastrophic choice: 65.4%."
 
-3. **Z (ZTech):** "Deploy infiltration analysis drones. Tech to the rescue!"
-   - **Consequence:** Drones scan the infrastructure but also accidentally trigger security alerts.
-   - **Dialogue:** ZTech: "My drones work perfectly! Except for the one that started analyzing employee data. But hey, we got the ring!"
+3. **Z (ZTech):** "Deploy surveillance network mapping. Tech to the rescue!"
+   - **Consequence:** Surveillance maps stabilize networks but also accidentally trigger security protocols.
+   - **Dialogue:** ZTech: "My surveillance works perfectly! Except for the one that started analyzing executive deception habits. But hey, we got the vectors!"
 
-4. **G (Gasket):** "Trust the compass - the deception anomalies show the real infiltration."
-   - **Consequence:** Compass reveals the theft ring extends beyond this corporation.
-   - **Dialogue:** Gasket: (haunted voice) "The blow cover... it's not just theft. The compass remembers these infiltration scars."
+4. **G (Gasket):** "Trust the compass - the deception vectors show the real alliance fractures."
+   - **Consequence:** Compass reveals the ring is connected to alliance betrayals and custody patterns.
+   - **Dialogue:** Gasket: (haunted voice) "The blow cover... it's not just infiltration. The compass remembers the catastrophic choices."
 
-## Scene 2: Ring Disruption & Confrontation (2 minutes)
+## Scene 2: Ring Exposure & Alliance Confrontation (2 minutes)
 
-**Background:** Security operations center with access terminals, surveillance systems, and operative positions. Hidden alliances and emergency exits for action sequences.
+**Background:** Executive boardroom with network displays, alliance terminals, and security systems. Vector manipulation points and hidden betrayal caches for action sequences.
 
-**Narrative:** The confrontation reveals the embedded operative's role in the theft ring. The Crimson Compass detects pattern clusters around custody events suggesting continuation.
+**Narrative:** The confrontation reveals the ring leader's embedded network and alliance betrayals. The Crimson Compass detects skew clusters around custody initiation that suggest pattern continuation.
 
-**Puzzle:** Ring Exposure & Pattern Analysis
+**Puzzle:** Ring Disruption & Vector Analysis
+- **Objective:** Disrupt theft ring while analyzing truth vector patterns
+- **Mechanics:** Secure network systems, decode vector signatures, identify alliance connections
+- **Solution:** Ring disrupted, vector patterns reveal custody event clusters
+- **Clue:** Vector anomalies match patterns from catastrophic choice scenarios
+
+**Environmental Interaction:** Boardroom Chase - Alliance Pursuit
+- **Choice:** Pursue ring leader directly vs. secure network evidence first
+- **Consequence:** Direct pursuit captures leader but allows data loss; securing evidence first reveals custody pattern evidence
+- **Cinematic Element:** Dynamic pursuit through boardroom with climbing and environmental puzzles
+
+**Dialogue:**
+
+**Ring Leader:** (defensive, backing against network console) "I was just protecting corporate interests! The vectors... they're not my design!"
+
+**Helix:** "Oh sweetie, 'not my design' deception vectors? That's like saying betrayal is just creative negotiation. Now, about those custody event clusters..."
+
+**Optimus:** "Vector analysis shows alliance interference. Probability of pattern continuation: 79.6%. Most... concerning."
+
+**ZTech:** "Their ring is child's play! I could disrupt it with this interface! It also plays music and predicts the weather!"
+
+**Gasket:** (appearing urgently, fragmented) "The vectors... they're not just deceptions. Someone's manipulating alliances. The compass sees the ring."
+
+**Ring Leader:** (breaking down) "The patterns... they were everywhere! I didn't create them! Someone else did!"
+
+**Helix:** "And that's exactly what we're going to find out. Now, about those custody contacts..."
+
+## Scene 3: Resolution (1 minute)
+
+**Background:** Network control room with disrupted ring evidence, vector displays, and team debrief setup.
+
+**Narrative:** The theft ring is disrupted through catastrophic choice, but the compass reveals disturbing skew clusters around custody initiation.
+
+**Case Closure (95%):** Ring disrupted through catastrophic choice, immediate threat neutralized.
+
+**Shadow Unease (5%):** Skew clusters around custody initiation suggest pattern continuation.
+
+**Team Debrief:**
+
+**Helix:** "Well handled, Player. Though the catastrophic choice was... intense."
+
+**Optimus:** "Disturbing vector patterns. The custody clusters suggest pattern continuation. Most... concerning."
+
+**ZTech:** "My surveillance worked perfectly! Except for the coffee brewing. And the weather predictions. But the ring? Disrupted!"
+
+**Gasket:** (fading, haunted) "The vectors... they're just the beginning. The patterns... they go deeper than you know."
+
+**Epilogue Hook:** The skew clusters around custody initiation hint at pattern continuation, suggesting the team's investigation will uncover larger conspiracy elements.
+
+---
+
+**SPINE LOCK Compliance:** This episode follows SPINE LOCK standards for character ensemble, Crimson Compass mechanics, dual narrative system, and Futurama Detective Noir + Uncharted Action-Adventure fusion.
 - **Objective:** Disrupt theft ring while analyzing custody pattern clusters
 - **Mechanics:** Expose operative alliances, decode pattern signatures, identify continuation threats
 - **Solution:** Ring disrupted, patterns reveal coordinated infiltration network
