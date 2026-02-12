@@ -42,10 +42,10 @@
 - **Compass Role:** Gruff holographic mentor warning about anomaly and manipulation risks
 
 ### NPCs
-- **Mastermind Operative:** Mid-50s, sophisticated, calm demeanor, reveals the larger conspiracy
-- **Prototype Custodian:** Early 40s, lab coat, protective of the core module technology
-- **Network Analyst:** Late 30s, casual clothes, multiple screens, connects all the season's patterns
-- **Security Coordinator:** Mid-40s, uniform, radio, oversees the final confrontation
+- **Final Culprit:** Mid-50s, philosophical mastermind in containment field, defeated but insightful
+- **Network Operatives:** Various captured conspirators, resigned to their fate
+- **Agency Director:** Late 40s, approving executive in formal attire, professionally satisfied
+- **Prototype Custodian:** Early 60s, relieved scientist in lab coat, emotionally invested
 
 ## Scene 1: Pattern Synthesis (2 minutes)
 
@@ -97,32 +97,32 @@
 
 **Narrative:** The confrontation reveals the mastermind operative orchestrating the entire season's conspiracy. The Crimson Compass maps custody route convergences and prepared exit specifications.
 
-**Puzzle:** Conspiracy Revelation & Network Dismantling
-- **Objective:** Secure prototype while dismantling culprit network
-- **Mechanics:** Correlate all season patterns, expose methodology, neutralize network operations
-- **Solution:** Prototype secured, network dismantled, systematic adversary methodology revealed
-- **Clue:** All season misfits align showing orchestrated conspiracy across episodes
+**Puzzle:** Conspiracy Dismantling & Pattern Analysis
+- **Objective:** Secure prototype while analyzing systematic adversary patterns
+- **Mechanics:** Secure prototype systems, decode methodology signatures, identify conspiracy connections
+- **Solution:** Prototype secured, pattern analysis reveals systematic adversary methodology
+- **Clue:** Pattern anomalies match systematic approach from all season episodes
 
-**Environmental Interaction:** Facility Finale - Treasure Hunting Pursuit
-- **Choice:** Pursue mastermind directly vs. secure prototype first
-- **Consequence:** Direct pursuit captures mastermind but allows network continuation; securing prototype first reveals complete conspiracy evidence
-- **Cinematic Element:** Dynamic confrontation with environmental puzzles and season pattern reveals
+**Environmental Interaction:** Vault Chase - Conspiracy Pursuit
+- **Choice:** Pursue final culprit directly vs. secure prototype data first
+- **Consequence:** Direct pursuit captures culprit but allows data loss; securing data first reveals methodology evidence
+- **Cinematic Element:** Dynamic pursuit through vault with climbing and environmental puzzles
 
 **Dialogue:**
 
-**Mastermind Operative:** (calm, sophisticated) "You've been chasing shadows all season. The patterns... they were designed to mislead you. But now you see the truth."
+**Final Culprit:** (defensive, backing against prototype vault) "I was just following the systematic methodology! The patterns... they're not my design!"
 
-**Helix:** "Oh sweetie, 'designed' conspiracy patterns? That's like saying a maze is just a fancy walkway. Now, about those custody route convergences..."
+**Helix:** "Oh sweetie, 'not my design' systematic patterns? That's like saying conspiracy is just good planning. Now, about those season-spanning connections..."
 
-**Optimus:** "Route analysis shows systematic convergence. Probability of orchestrated conspiracy: 98.4%. Most... comprehensive."
+**Optimus:** "Pattern analysis shows methodology interference. Probability of deliberate orchestration: 99.9%. Most... concerning."
 
-**ZTech:** "Their network is child's play! I could dismantle it with this interface! It also plays music and predicts the weather!"
+**ZTech:** "Their conspiracy is child's play! I could dismantle it with this interface! It also plays music and predicts the weather!"
 
-**Gasket:** (appearing urgently, fragmented) "The convergences... they're not just routes. Someone's testing conspiracy limits. The compass sees the methodology."
+**Gasket:** (appearing urgently, fragmented) "The patterns... they're not just systematic. Someone's orchestrating everything. The compass sees the conspiracy."
 
-**Mastermind Operative:** (revealing) "The patterns... they align perfectly! We designed them that way! The entire season was a test!"
+**Final Culprit:** (breaking down) "The methodology... it was everywhere! I didn't create it! Someone else did!"
 
-**Helix:** "And that's exactly what we're ending. Now, about those network operations..."
+**Helix:** "And that's exactly what we're going to find out. Now, about those systematic contacts..."
 
 ## Scene 3: Resolution (1 minute)
 
@@ -144,7 +144,7 @@
 
 **Gasket:** (fading, haunted) "The alignment... it's just the beginning. The conspiracy patterns... they go deeper than you know."
 
-**Season Finale Hook:** The systematic methodology revealed suggests this was just one operation in a much larger conspiracy network that spans multiple seasons and organizations.
+**Epilogue Hook:** The systematic adversary methodology hints at larger orchestration, suggesting Season 2 will explore the broader conspiracy network.
 
 ---
 
