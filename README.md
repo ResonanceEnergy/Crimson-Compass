@@ -2,16 +2,17 @@
 
 Mobile-first **international spy whodunnit**.
 
-**Cadence:** weekly ~60-minute missions delivered via 5–10 minute micro-episodes.
+**Cadence:** weekly ~5-minute micro-episodes (2-3 scenes each) delivered as bite-sized investigations.
 
 ## Pillars
 - Clue-style triad deduction: **WHO / HOW / WHERE**
 - Globe chase & geography-as-clues
 - Cliffhanger pacing ("one more")
-- Agent trio:
-  - **HELIX** (AGENT X) = persistent mission secretary/EA
-  - **OPTIMUS** (AGENT Y) = mission coordinator + help valve
-  - **ZTECH** (AGENT Z) = gadgets + toolkit progression
+- Agent foundation:
+  - **OMEGA** (AGENT Y) = Executive Director, precision organizational genius outpaced by technology
+  - **HELIX** (AGENT X) = Admin librarian, mission coordinator, big sister glue
+  - **ZTECH** (AGENT Z) = Tech genius, gadget creator, ZBRANCH commander with unlimited resources
+  - **GASKET** (AGENT G) = Former agent (post-incident), unofficial wildcard presence
 
 ## Repo layout
 - `Assets/Data/Cases/` → case/mission JSON
@@ -22,31 +23,47 @@ Mobile-first **international spy whodunnit**.
   - `docs/SeriesFoundation_Season1Kit.md` → canonical narrative rules and Season 1 episode kit
 
 ## Narrative Foundation
-> **You’re the sane detective brought in to close cases for an absurdly elite but dysfunctional covert agency that prevents global collapse through paperwork, gadgets, and luck—while a shadowy adversary is only ever inferred through the clues left behind, always slipping away.**
+> **"You are a new Detective brought into a dysfunctional international shadowy covert espionage agency that 'prevents global collapse, crime, chaos, villains through - top level funding and clearance.. but vague on where it comes from that's top secret, gadgets - 2100 future proof over engineered for max absurdity and function in all areas of espionage and spy life and everyday living at the agency, and luck - they survive because of the dynamic, Agents Y, X, Z form the foundation of agency, Y is the head (Omega), he is a bumbling boomer who doesn't understand the technology he is forced to use to keep up, he is a top level executive director with precision organizational investigational and analytical skills a genius outpaced by time, Agent x (Helix) is the big sister glue that holds the agency together she is the admin librarian archivist, mission planner, mission executer under Y, coordinator and dispatch, Agent Z of ZBRANCH is a tech genius and engineering super agent, with unlimited budget and resources z is on the cutting edge of technology and innovation, nerd through and through with the determination of a front line soldier, Z makes the gadgets and handles all the it and tech for the agency.. his lab is 100% AI Robots and agents with over 250 agents and 5000 robots at his secret production and testing facility that no one knows about. Agent G (Gasket) was involved in an incident and was taken out of service, he is still around but not officially on or off team, '—but the real investigation begins when you discover that the agency's most powerful tool is haunted by the ghost of its former master."**
 
-**Tone:** Mission: Impossible stakes + James Bond global cool + Ocean’s team chemistry + Futurama-style institutional absurdity.
+**Tone Formula:** Professionally absurd and absurdly professional - Futurama Detective Noir + Uncharted Action-Adventure + Institutional Irony.
 
-**Core Rule:** 95% closure per episode, but the final 5% never sits right—dual pursuit of explicit crimes and implicit shadow adversary.
+**Two Core Hooks (every episode must serve both):**
+1) **Mission Hook:** close the case using the Crimson Compass
+2) **Team Hook:** survive the compass's psychological toll and Gasket's secrets.
+
+**Signature Mechanic:** 95% closure with 5% unease—every case is solved, but the Crimson Compass always leaves a haunting anomaly.
+
+**The Architect:** Faceless mastermind criminal running the shadowy international syndicate, always one step ahead, motives unknown.
+
+**HQ:** Regular office building above (boring, bland), international underground spy agency below (Batman cave meets DARPA meets Skunkworks).
 
 See `docs/SeriesFoundation_Season1Kit.md` for full details, team roles, Season 1 episode grid, and authoring guidelines.
 
 ## Content Foundation
-The project includes a complete 6-season content foundation with 72 episodes, each featuring unique thematic mechanics and progressive complexity:
+The project includes a complete 12-season content foundation with 144 episodes, each delivered as ~5-minute micro-episodes with 2-3 scenes featuring unique thematic mechanics and progressive complexity:
 
 ### Season Overview
-- **Season 1** (Episodes 0001-0012): Core deduction mechanics with basic agent interactions
-- **Season 2** (Episodes 0013-0024): Enhanced with decoy systems and misdirection tactics
-- **Season 3** (Episodes 0025-0036): Advanced consequence mechanics and butterfly effects
-- **Season 4** (Episodes 0037-0048): Network mapping and interconnected operations
-- **Season 5** (Episodes 0049-0060): Scanner technologies and advanced detection systems
-- **Season 6** (Episodes 0061-0072): Mirror tactics where adversaries perfectly replicate agency methods
-- **Season 7** (Episodes 0073-0084): Fractured reality where simulation and authenticity become indistinguishable
+- **Season 1** (Episodes 0001-0012): "The Replacement" - Player replaces Gasket, discovers Crimson Compass
+- **Season 2** (Episodes 0013-0024): "Compass Calibration" - Learning compass mechanics and basic investigations
+- **Season 3** (Episodes 0025-0036): "Truth Vectors" - Advanced compass usage and anomaly recognition
+- **Season 4** (Episodes 0037-0048): "The 5% Unease" - Psychological toll and first Architect hints
+- **Season 5** (Episodes 0049-0060): "Gasket's Shadow" - Investigating Gasket's incident and compass origins
+- **Season 6** (Episodes 0061-0072): "Architect's Web" - First direct confrontations with syndicate operations
+- **Season 7** (Episodes 0073-0084): "Network of Deception" - Interconnected conspiracies revealed
+- **Season 8** (Episodes 0085-0096): "Fractured Reality" - Compass-induced illusions vs. actual threats
+- **Season 9** (Episodes 0097-0108): "ZBRANCH Unleashed" - Maximum absurdity with unlimited tech resources
+- **Season 10** (Episodes 0109-0120): "Omega's Burden" - Executive challenges and technological adaptation
+- **Season 11** (Episodes 0121-0132): "Helix's Network" - Administrative mastery and coordination complexity
+- **Season 12** (Episodes 0133-0144): "The Final Calibration" - Confronting The Architect and compass mastery
 
 ### Core Mechanics (All Seasons)
 - **WHO/HOW/WHERE Deduction**: Triad-based clue resolution system
+- **Crimson Compass Navigation**: Truth vector scanning and anomaly detection
 - **Time & Heat Management**: Resource constraints with risk/reward tradeoffs
-- **Agent Interactions**: Three specialized AI agents (HELIX, OPTIMUS, ZTECH)
-- **Shadow Adversary**: Inferred antagonist creating psychological tension
+- **Agent Interactions**: Four specialized agents (OMEGA, HELIX, ZTECH, GASKET)
+- **The Architect**: Faceless antagonist creating psychological tension
+- **95% Closure, 5% Unease**: Signature mechanic with compass anomalies
+- **HQ Operations**: Regular office above, spy agency below with absurd professionalism
 
 ### Advanced Mechanics (Season-Specific)
 Each season introduces unique advanced mechanics that build upon the core foundation:
@@ -56,8 +73,9 @@ Each season introduces unique advanced mechanics that build upon the core founda
 
 ### Technical Specifications
 - **Data Format**: JSON-based case files with comprehensive mechanics structures
-- **Validation**: Automated integrity checking for all 72 episodes
+- **Validation**: Automated integrity checking for all 144 episodes
 - **Unity Ready**: Complete technical specifications for game implementation
+- **Micro-Episode Format**: 5-minute episodes with 2-3 scenes each
 - **Progressive Complexity**: Each season increases mechanical depth while maintaining accessibility
 
 See individual season documentation in `docs/` for detailed mechanics specifications.

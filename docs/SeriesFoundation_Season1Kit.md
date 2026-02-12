@@ -6,13 +6,13 @@
 
 ## 0) Brand Spine (Pinned / Immutable)
 
-> **You’re the sane detective brought in to close cases for an absurdly elite but dysfunctional covert agency that prevents global collapse through paperwork, gadgets, and luck—while a shadowy adversary is only ever inferred through the clues left behind, always slipping away.**
+> **"You are the Sane Detective brought into a dysfunctional covert agency that 'prevents global collapse through paperwork, gadgets, and luck'—but the real investigation begins when you discover that the agency's most powerful tool is haunted by the ghost of its former master."**
 
-**Tone Formula:** Mission: Impossible stakes + James Bond global cool + Ocean’s team chemistry + Futurama-style institutional absurdity.
+**Tone Formula:** Futurama Detective Noir + Uncharted Action-Adventure + Ocean's Team Chemistry + Institutional Absurdity.
 
 **Two Core Hooks (every episode must serve both):**
-1) **Mission Hook:** close the case.
-2) **Team Hook:** survive the team.
+1) **Mission Hook:** close the case using the Crimson Compass
+2) **Team Hook:** survive the compass's psychological toll and Gasket's secrets.
 
 ---
 
@@ -42,26 +42,25 @@
 
 ## 2) Core Feel: 95% Closure / 5% Unease (Signature)
 
-**Non‑negotiable rule:**
-- Each episode gives **95% closure** (case solved; culprit/mechanism pinned; consequences applied).
-- But the final **5% never sits right** (non‑actionable misfit: timing off, custody routing oddity, exit too clean, etc.).
+**Non‑negotiable rule:** Each episode gives **95% closure** (case solved; culprit/mechanism pinned; consequences applied) but the final **5% never sits right** (non‑actionable misfit: timing off, custody routing oddity, exit too clean, etc.).
 
-> **The case is closed. Something else isn’t.**
+> **The case is closed. The Crimson Compass shows the truth... but something about the reading haunts you.**
 
-This is not “withholding resolution.” It is withholding comfort.
+This is not "withholding resolution." It is withholding comfort. The Crimson Compass embodies this - it shows 95% of the path clearly, but always leaves 5% ambiguous, creating unease that drives the shadow hunt.
 
 ---
 
 ## 3) Series Spine: Dual Pursuit (One Mission, Two Hunts)
 
-**Agency believes it is pursuing crimes** (explicit Case Hunt) **while unknowingly pursuing the shadow** (implicit Shadow Hunt).
+**Agency believes it is pursuing crimes** (explicit Case Hunt) **while unknowingly pursuing the shadow** (implicit Shadow Hunt) through the Crimson Compass's anomalies.
 
 ### Hunt 1 — Case Hunt (Known)
-- Investigate → stop plot → arrest/contain → close file.
+- Investigate → scan with compass → follow truth vectors → arrest/contain → close file.
 
 ### Hunt 2 — Shadow Hunt (Unknown)
-- Each closure produces a tiny anomaly (the 5%) that becomes a puzzle piece.
+- Each compass reading produces a tiny anomaly (the 5% unease) that becomes a puzzle piece.
 - The player only starts connecting pieces late-season or later-season.
+- Gasket's reactions to compass anomalies provide additional shadow tokens.
 
 **Episode Output Rule:** Every episode must output two tokens:
 - **Case Token:** what was solved/stopped.
@@ -71,26 +70,19 @@ This is not “withholding resolution.” It is withholding comfort.
 
 ## 4) Team Roles (Locked)
 
-### Helix (X) — Big Sister Glue
-- Young, spunky, cute, socially aware; holds her own flawlessly in a dysfunctional male‑dominated industry.
-- Orchestrates; makes things work; admin warfare; morale glue.
+### Helix (X) — Administrative Glue / Big Sister Coordinator
+Admin librarian, archivist, mission planner, executer, coordinator, and dispatch. Spunky, cute, socially aware; she holds the dysfunctional male-dominated team together with warmth and professionalism. The emotional core of the agency, she manages the chaos with administrative warfare and social intelligence, turning bureaucratic nightmares into smooth operations. She's the one who remembers everyone's birthdays, mediates arguments, and somehow gets the paperwork filed on time despite the constant explosions and chases.
 
-### Optimus (Y) — Dry Intel + “Luck Paradox”
-- Deadpan, accurate, clipped under pressure.
-- The universe seems to “fall into outcomes” around him; unintentional humor.
+### Optimus (Y) — Executive Director / Bumbling Boomer
+Top level executive director with precision organizational, investigational, and analytical skills. A genius outpaced by time who doesn't understand the technology he must use to keep up. This bumbling boomer fumbles with gadgets but has unmatched strategic brilliance, representing the agency's "professional" face while embodying its absurd dysfunction. He's the guy who insists on using fax machines in a world of quantum communicators, but somehow his old-school methods keep the team afloat.
 
-### ZTech (Z) — Insane Technical Ability
-- Gadgets/tools; solves one layer while creating another problem.
+### ZTech (Z) — Tech Genius / ZBRANCH Commander
+Tech genius and engineering super agent with unlimited budget and resources. A nerd through and through with the determination of a front line soldier, he commands a secret facility with 250 AI agents and 5000 robots. ZTech creates gadgets that are absurdly over-engineered yet brilliantly functional - think a laser pointer that also brews coffee and predicts weather patterns. His inventions often cause more problems than they solve, but they're always entertaining and usually work in the end.
 
-### Gasket — Unofficial Wildcard / Broken Prodigy
-- The “incident” ended his formal career. He’s not officially on the team and not officially released.
-- Appears intermittently for maximum impact.
-- **Feels what’s off** but doesn’t understand the method yet.
-- Provides coded nuance, plausible deniability, and sensory “fragments.”
-
-### Player — The Closer / Reality Punch
-- Solid detective work integrates evidence + people + pressure into closure.
-- The unforeseen variable.
+### Gasket (G) — Broken Prodigy / Former Master
+Former agent taken out of service after a mysterious "incident" that haunts the team. Still around but not officially on or off team, he intuitively understands compass anomalies because the Crimson Compass was his old tool before the incident. Gasket provides coded nuance and fragmented insights from his trauma, appearing intermittently for maximum impact. He's the wildcard who shows up at the worst (or best) times, offering cryptic advice that somehow always points in the right direction.
+### Player (The Closer) — Gasket's Replacement
+New detective brought in to replace Gasket post-incident. Inherits Gasket's console and the Crimson Compass - a cutting-edge piece of future tech with an old-sounding name that creates hilarious contrast in this retro-futuristic world. Discovers the compass's quirky connection to its former master through funny malfunctions and unexpected features. Brings professional sanity to the agency's absurd professionalism, trying to maintain order amidst the chaos while learning to embrace the team's dysfunctional brilliance.
 
 ---
 
