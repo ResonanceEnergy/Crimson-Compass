@@ -48,6 +48,107 @@
 
 ## Scene 1: Legal Battleground (2 minutes)
 
+**Background:** Corporate boardroom with legal documents, holographic court displays, and security checkpoints. Legal precedent interference creating deception fields. Executive elevators and service corridors for stealth approaches.
+
+**Narrative:** The team faces corporate counsel who legally blocks their investigative access using bureaucratic obstruction. The Crimson Compass detects hidden legal precedents, with Gasket's memories surfacing about similar legal warfare.
+
+**Compass Mini-Puzzle:** Precedent Vector Mapping - Anomaly Detection
+- **Objective:** Use compass to detect legal precedent anomalies in court documents
+- **Mechanics:** Scan legal filings for deception patterns, identify precedent vectors, trace hidden clauses
+- **Solution:** Precedent anomalies reveal legacy clauses and obstruction routes
+- **Reward:** Access to sealed legal documents and precedent evidence
+
+**Treasure Hunting Element:** Corporate Exploration - Relic Collection
+- **Choice:** Direct legal challenge vs. bureaucratic workaround
+- **Consequence:** Legal challenge yields precedent relics but risks court sanctions; workaround reveals hidden legal evidence
+
+**Dialogue:**
+
+**Helix:** "Alright team, suits and ties and remember: this is legal warfare, not a courtroom drama. ZTech, no hacking the holographic judges. Optimus, try not to confuse the legal database with a phone book."
+
+**Optimus:** "Legal precedent anomalies detected. Probability of obstruction: 94.7%. This bureaucratic warfare... it's not standard. Someone's been very thorough."
+
+**ZTech:** "Their legal firewalls are full of holes! Check this precedent scanner I built - it also brews coffee and predicts when it'll rain! Maximum absurdity, maximum function!"
+
+**Gasket:** (sudden holographic appearance, urgent) "Not thorough. Dangerous. The compass sees the patterns... legal ghosts in the precedents."
+
+**Player Choice Options:**
+
+1. **X (Helix):** "Coordinate legal team for proper precedent research."
+   - **Consequence:** Official research reveals legal filing history and obstruction timeline.
+   - **Dialogue:** Helix: "Good call. Lawyers love paperwork. And right now, someone's paperwork is about to get very interesting."
+
+2. **Y (Optimus):** "Analyze the precedent patterns statistically."
+   - **Consequence:** Statistical analysis reveals the obstruction algorithm's structure and legal weaknesses.
+   - **Dialogue:** Optimus: "The precedent patterns... they're not random. Probability of legacy clause abuse: 87.3%."
+
+3. **Z (ZTech):** "Deploy legal analysis drones. Tech to the rescue!"
+   - **Consequence:** Drones scan the legal system but also accidentally trigger a document backup.
+   - **Dialogue:** ZTech: "My drones work perfectly! Except for the one that started analyzing coffee preferences. But hey, we got the precedents!"
+
+4. **G (Gasket):** "Trust the compass - the legal anomalies show the real obstruction."
+   - **Consequence:** Compass reveals the counsel is part of a larger bureaucratic conspiracy.
+   - **Dialogue:** Gasket: (haunted voice) "The hostile compliance... it's not just legal. The compass remembers these bureaucratic scars."
+
+## Scene 2: Obstruction Breakthrough & Confrontation (2 minutes)
+
+**Background:** Virtual courtroom with holographic judges, legal databases, and evidence displays. Hidden legal chambers and emergency exits for action sequences.
+
+**Narrative:** The confrontation reveals the corporate counsel is abusing legacy clauses to block access. The Crimson Compass detects legal precedent anomalies that suggest a coordinated bureaucratic operation.
+
+**Puzzle:** Legal Precedent Decoding & Access Restoration
+- **Objective:** Decode precedent anomalies while restoring investigative access
+- **Mechanics:** Analyze legal vectors, identify obstruction patterns, bypass bureaucratic blocks
+- **Solution:** Access restored, anomalies reveal coordinated legal warfare operation
+- **Clue:** Precedent signatures match corporate intelligence patterns, anomalies show systematic access denial
+
+**Environmental Interaction:** Corporate Chase - Treasure Hunting Pursuit
+- **Choice:** Pursue counsel directly vs. secure legal evidence first
+- **Consequence:** Direct pursuit captures counsel but allows evidence destruction; securing evidence first reveals additional precedent anomalies
+- **Cinematic Element:** Dynamic pursuit through corporate offices and virtual courtrooms with climbing and environmental puzzles
+
+**Dialogue:**
+
+**Corporate Counsel:** (smug, adjusting tie) "This is all perfectly legal! You have no right to interfere with corporate proceedings! The legacy clauses are ironclad!"
+
+**Helix:** "Oh sweetie, 'perfectly legal' obstruction of justice? That's like saying a loophole is just a creative solution. Now, about those precedent anomalies..."
+
+**Optimus:** "Anomaly analysis shows obstruction patterns. Probability of coordinated denial: 91.4%. Most... unethical."
+
+**ZTech:** "Their legal encryption is child's play! I could decode it with this pen! It also writes in invisible ink and predicts the weather!"
+
+**Gasket:** (appearing urgently, fragmented) "The anomalies... they're not just legal. Someone's testing bureaucratic limits. The compass sees the obstruction."
+
+**Corporate Counsel:** (breaking composure) "The anomalies... they were in the system! We didn't create them! Someone else did!"
+
+**Helix:** "And that's exactly what we're going to find out. Now, about those legacy clause contacts..."
+
+## Scene 3: Resolution (1 minute)
+
+**Background:** Corporate security office with restored access documents, evidence displays, and team debrief setup.
+
+**Narrative:** The legal obstruction is routed around and access restored, but the compass reveals disturbing precedent anomalies.
+
+**Case Closure (95%):** Access restored, obstruction routed around, immediate legal warfare operation dismantled.
+
+**Shadow Unease (5%):** Legacy clause forces evidence into sealed track. The compass detects hidden legal precedents suggesting a coordinated bureaucratic network.
+
+**Team Debrief:**
+
+**Helix:** "Well handled, Player. Though I could do without the holographic warnings from our spectral colleague."
+
+**Optimus:** "Disturbing legal patterns. The precedent anomalies suggest sophisticated obstruction. Most... concerning."
+
+**ZTech:** "My precedent scanner worked perfectly! Except for the coffee brewing. And the weather predictions. But the access? Restored!"
+
+**Gasket:** (fading, haunted) "The anomalies... they're just the beginning. The legal breaches... they go deeper than you know."
+
+**Epilogue Hook:** The legacy clauses trace back to outdated corporate bylaws that were never properly retired. The pattern suggests someone is reactivating dormant legal frameworks for systematic obstruction.
+
+---
+
+**SPINE LOCK Compliance:** This episode follows SPINE LOCK standards for character ensemble, Crimson Compass mechanics, dual narrative system, and Futurama Detective Noir + Uncharted Action-Adventure fusion.
+
 **Background:** Corporate boardroom, mahogany table, legal documents scattered. City skyline through floor-to-ceiling windows. Hidden service corridors and emergency access points for exploration.
 
 **Narrative:** You've arrived at corporate headquarters where legal counsel invokes privacy laws to prevent access to the investigation site. The Crimson Compass activates, showing "legal truth vectors" emanating from the corporate counsel like tangled webs. The compass's haunted nature manifests as holographic echoes of past legal battles.
