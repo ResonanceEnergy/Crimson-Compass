@@ -7,22 +7,37 @@
 **Shadow Token:** Deployment timestamps show the same skew (compass detects temporal manipulation signatures)
 **Theme:** Cyber security, digital forensics, and Crimson Compass temporal anomaly detection
 
-## Character Ensemble (Futurama Uncharted Vibes)
+## Character Ensemble
 
-### The Closer (Player) - "Gasket's Replacement"
-Struggling with the technical complexity while the Crimson Compass provides insights that seem to "predict" digital anomalies before they appear on screens.
+### Player (Gasket's Replacement)
+- **Appearance:** Investigator using compass for temporal anomaly detection, holographic overlays highlighting timestamp manipulations
+- **Background:** Learning to navigate digital forensics with compass temporal insights
+- **Personality:** Technical investigator with growing awareness of digital threats
+- **Compass Role:** Primary temporal detector, learning to identify manipulation signatures
 
-### Optimus (Agent Y) - "The Bumbling Boomer Executive"
-Completely overwhelmed by modern cybersecurity, keeps referencing outdated concepts like "firewalls" and "antivirus software" from the early 21st century.
+### Optimus (The Analyst)
+- **Appearance:** Analytical drone attempting statistical analysis of temporal patterns, overwhelmed by cybersecurity concepts
+- **Background:** Struggling to apply logic to digital forensics, discovering probability patterns in timestamp anomalies
+- **Personality:** Sarcastic data processor with deadpan reactions to modern security
+- **Compass Role:** Analyzes temporal patterns, attempts mathematical modeling of digital threats
 
-### Helix (Agent X) - "Big Sister Administrative Glue"
-Coordinates with IT staff while translating technical jargon into plain English. Her administrative skills help navigate corporate IT bureaucracy.
+### Helix (The Coordinator)
+- **Appearance:** Command android creating temporal security protocols, holographic network overlays
+- **Background:** Developing team protection procedures around digital security
+- **Personality:** No-nonsense coordinator ensuring team safety during cyber investigations
+- **Compass Role:** Creates security protocols, coordinates temporal detection sweeps
 
-### ZTech (Agent Z) - "Nerd Soldier Tech Genius"
-In his element with the digital forensics, but his "helpful" hacking tools keep accidentally triggering security protocols. Creates a "cybersecurity survival kit" with absurd features.
+### ZTech (The Specialist)
+- **Appearance:** Cybernetic innovator with temporal detection gadgets, multiple prototype chronometers
+- **Background:** Building devices to enhance temporal detection and digital forensics
+- **Personality:** Cocky inventor fascinated by temporal manipulation technology
+- **Compass Role:** Creates temporal scanning tools, enhances compass signature detection capabilities
 
-### Gasket (Agent G) - "Broken Prodigy"
-Absent this episode, but the compass displays fragments of his old digital investigation notes, hinting at similar temporal manipulation techniques.
+### Gasket (The Ghost)
+- **Appearance:** Holographic manifestation warning about temporal dangers, providing cryptic digital guidance
+- **Background:** Original temporal navigator sharing insights about digital manipulation threats
+- **Personality:** Gruff mentor with urgent warnings about timeline risks
+- **Compass Role:** Demonstrates temporal detection techniques, warns about manipulation patterns
 
 ### NPCs
 - **IT Director:** Mid-40s, stressed, casual tech attire, convinced their "air-gapped" systems are unhackable

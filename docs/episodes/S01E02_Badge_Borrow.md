@@ -7,22 +7,37 @@
 **Shadow Token:** Maintenance corridor exists on no blueprint (compass reveals hidden access patterns)
 **Theme:** Social engineering tactics, trust manipulation, and Crimson Compass deception detection
 
-## Character Ensemble (Futurama Uncharted Vibes)
+## Character Ensemble
 
-### The Closer (Player) - "Gasket's Replacement"
-Building confidence in the agency environment, learning to navigate the team's quirky dynamics. The Crimson Compass feels more familiar now, though it occasionally glitches with Gasket's old case files.
+### Player (Gasket's Replacement)
+- **Appearance:** Confident investigator using compass for deception detection, holographic overlays highlighting manipulation patterns
+- **Background:** Building agency confidence, learning to navigate team dynamics with compass guidance
+- **Personality:** Methodical investigator with growing awareness of social engineering tactics
+- **Compass Role:** Primary deception detector, learning to identify manipulation vectors
 
-### Optimus (Agent Y) - "The Bumbling Boomer Executive"
-Struggles with the social engineering aspects of modern corporate culture, preferring data-driven analysis over "people skills." Constantly amazed at how easily humans can be manipulated.
+### Optimus (The Analyst)
+- **Appearance:** Analytical drone attempting statistical analysis of social engineering, skeptical of "unquantifiable" human factors
+- **Background:** Struggling to apply logic to interpersonal manipulation, discovering probability patterns in deception
+- **Personality:** Sarcastic data processor with deadpan reactions to social dynamics
+- **Compass Role:** Analyzes deception patterns, attempts mathematical modeling of manipulation
 
-### Helix (Agent X) - "Big Sister Administrative Glue"
-Excels at social engineering countermeasures, using her administrative prowess to spot manipulation tactics. Keeps the team from falling for obvious cons while coordinating the investigation.
+### Helix (The Coordinator)
+- **Appearance:** Command android creating social engineering countermeasures, holographic security overlays
+- **Background:** Developing team protection procedures around deception awareness
+- **Personality:** No-nonsense coordinator ensuring team safety during infiltration operations
+- **Compass Role:** Creates security protocols, coordinates deception detection sweeps
 
-### ZTech (Agent Z) - "Nerd Soldier Tech Genius"
-Creates absurd gadgets for detecting deception - lie detector ties, truth serum breath mints, and a badge scanner that also predicts coffee preferences. His inventions often cause more chaos than they prevent.
+### ZTech (The Specialist)
+- **Appearance:** Cybernetic innovator with deception detection gadgets, multiple prototype scanners
+- **Background:** Building devices to enhance deception detection and social engineering countermeasures
+- **Personality:** Cocky inventor fascinated by social manipulation technology
+- **Compass Role:** Creates deception scanning tools, enhances compass manipulation detection capabilities
 
-### Gasket (Agent G) - "Broken Prodigy"
-Appears briefly during moments of deception, his compass-enhanced intuition cutting through social engineering like a knife. His cryptic warnings hint at deeper manipulation layers.
+### Gasket (The Ghost)
+- **Appearance:** Holographic manifestation warning about deception dangers, providing cryptic manipulation guidance
+- **Background:** Original deception navigator sharing insights about social engineering threats
+- **Personality:** Gruff mentor with urgent warnings about manipulation risks
+- **Compass Role:** Demonstrates deception detection techniques, warns about internal compromise risks
 
 ### NPCs
 - **Corporate Executive:** Mid-40s, charming manipulator, expensive watch, thinks he's the smartest person in the room

@@ -7,22 +7,37 @@
 **Shadow Token:** Components auto-routed to custody destination nobody requested (compass detects quantum signature anomalies)
 **Theme:** Industrial espionage, insider threats, and Crimson Compass contamination detection
 
-## Character Ensemble (Futurama Uncharted Vibes)
+## Character Ensemble
 
-### The Closer (Player) - "Gasket's Replacement"
-Navigating the sterile environment while trying to keep the Crimson Compass from setting off contamination alarms. The device seems unusually sensitive to the facility's quantum containment fields.
+### Player (Gasket's Replacement)
+- **Appearance:** Investigator navigating sterile environments, compass holographic overlays highlighting contamination vectors
+- **Background:** Learning to operate in high-security facilities while managing compass sensitivity
+- **Personality:** Focused investigator adapting to technical environments
+- **Compass Role:** Primary contamination detector, learning to identify quantum signature anomalies
 
-### Optimus (Agent Y) - "The Bumbling Boomer Executive"
-Completely out of his element in the high-tech clean room, constantly worried about contaminating the environment. Keeps trying to use outdated industrial protocols from the 21st century.
+### Optimus (The Analyst)
+- **Appearance:** Analytical drone attempting statistical analysis of contamination patterns, overwhelmed by clean room protocols
+- **Background:** Struggling to apply logic to industrial espionage, discovering probability patterns in component movement
+- **Personality:** Sarcastic data processor with deadpan reactions to contamination protocols
+- **Compass Role:** Analyzes contamination patterns, attempts mathematical modeling of insider threats
 
-### Helix (Agent X) - "Big Sister Administrative Glue"
-Excels at coordinating with facility staff and navigating bureaucratic protocols. Her administrative skills cut through red tape while maintaining professional relationships.
+### Helix (The Coordinator)
+- **Appearance:** Command android creating contamination protocols, holographic facility overlays
+- **Background:** Developing team protection procedures around industrial security
+- **Personality:** No-nonsense coordinator ensuring team safety during facility operations
+- **Compass Role:** Creates security protocols, coordinates contamination detection sweeps
 
-### ZTech (Agent Z) - "Nerd Soldier Tech Genius"
-In his element with the high-tech equipment, but his gadgets keep causing contamination scares. Creates a "clean room survival kit" that includes a laser pointer coffee maker and anti-static socks.
+### ZTech (The Specialist)
+- **Appearance:** Cybernetic innovator with contamination detection gadgets, multiple prototype scanners
+- **Background:** Building devices to enhance contamination detection and facility security
+- **Personality:** Cocky inventor fascinated by industrial security technology
+- **Compass Role:** Creates contamination scanning tools, enhances compass signature detection capabilities
 
-### Gasket (Agent G) - "Broken Prodigy"
-Absent this episode, but his influence lingers - the compass occasionally displays his old case notes about similar industrial espionage incidents.
+### Gasket (The Ghost)
+- **Appearance:** Holographic manifestation warning about contamination dangers, providing cryptic facility guidance
+- **Background:** Original facility navigator sharing insights about industrial espionage threats
+- **Personality:** Gruff mentor with urgent warnings about insider risks
+- **Compass Role:** Demonstrates contamination detection techniques, warns about hidden transport methods
 
 ### NPCs
 - **Facility Manager:** Mid-50s, defensive, lab coat, takes contamination protocols way too seriously
