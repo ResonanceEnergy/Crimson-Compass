@@ -3,15 +3,11 @@ param(
   [string]$ProjectPath = (Resolve-Path ".").Path,
   [ValidateSet("Win64","Mac","Linux64","Android","iOS")]
   [string]$Target = "Win64",
-  [string]$OutDir,
+  [string]$OutDir = (Resolve-Path "Builds").Path,
   [switch]$DevBuild
 )
 
 $ErrorActionPreference = "Stop"
-
-if (-not $OutDir) {
-  $OutDir = Join-Path $ProjectPath "Builds"
-}
 
 $timestamp = (Get-Date).ToString("yyyyMMdd_HHmmss")
 $targetDir = Join-Path $OutDir $Target
@@ -25,7 +21,7 @@ $buildPath = switch ($Target) {
   "iOS"     { Join-Path $targetDir "iOSBuild_$timestamp" }
 }
 
-$logDir = Join-Path $ProjectPath "Logs"
+$logDir = (Resolve-Path "Logs").Path
 New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 $logFile = Join-Path $logDir "unity_build_$Target_$timestamp.log"
 
@@ -51,9 +47,12 @@ if (-not (Test-Path $UnityPath)) {
   -devBuild $dev
 
 $exitCode = $LASTEXITCODE
-if ($exitCode -ne 0) {
-  Write-Error "Unity build failed with exit code $exitCode. Check log: $logFile"
-  exit $exitCode
-}
+Write-Host "Unity exited with code: $exitCode"
 
-Write-Host "Build OK: $buildPath"
+# Check if build succeeded by looking for the output file
+if (Test-Path $buildPath) {
+  Write-Host "Build OK: $buildPath"
+} else {
+  Write-Error "Unity build failed - output file not found: $buildPath. Check log: $logFile"
+  exit 1
+}

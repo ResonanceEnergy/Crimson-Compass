@@ -1,0 +1,91 @@
+{
+  "episode_id": "EP02",
+  "title": "Badge & Borrow",
+  "description": "A social engineering theft of hardware keys threatens to compromise the entire system.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "narrative": "You've tracked the suspect to a corporate office building. Security is tight, but your informant suggests the target is using social engineering tactics to gain access to restricted areas.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Pose as IT support to gain entry and observe.",
+          "consequence": "You blend in seamlessly with the staff, overhearing conversations about the key theft.",
+          "heat_delta": 2,
+          "time_delta": 0,
+          "awards": ["social"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Analyze security patterns from external surveillance.",
+          "consequence": "You identify a vulnerability in the badge system that could be exploited.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["analytical"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Deploy a micro-drone to scout the interior.",
+          "consequence": "The drone captures footage of the suspect using a borrowed badge.",
+          "heat_delta": 5,
+          "time_delta": 0,
+          "awards": ["technical"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "This feels staged - abort and watch from afar.",
+          "consequence": "You pull back just as security responds to an alarm, avoiding detection.",
+          "heat_delta": -3,
+          "time_delta": 1,
+          "awards": ["instinctive"]
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "narrative": "Inside the building, you confront the suspect who claims to be a legitimate contractor. The hardware keys are missing from the secure vault.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Question the suspect diplomatically to gather information.",
+          "consequence": "The suspect reveals details about the social engineering method used.",
+          "heat_delta": 1,
+          "time_delta": 0,
+          "awards": ["interpersonal"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Check security logs for the breach timeline.",
+          "consequence": "Logs show the keys were accessed during a maintenance window.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["forensic"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Use a portable scanner to trace the keys' signal.",
+          "consequence": "The scanner detects the keys are still in the building but moving.",
+          "heat_delta": 3,
+          "time_delta": 0,
+          "awards": ["tracking"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The setup is too perfect - this is a distraction.",
+          "consequence": "You ignore the suspect and focus on the real threat, finding the keys hidden elsewhere.",
+          "heat_delta": -2,
+          "time_delta": 0,
+          "awards": ["intuitive"]
+        }
+      ]
+    }
+  ]
+}

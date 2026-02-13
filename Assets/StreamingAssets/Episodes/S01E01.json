@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "episode": {
+    "episode_id": "S01E01",
+    "title": "Opening Gambit",
+    "arc": "Introduction",
+    "blueprint_fragment": "Pattern Recognition",
+    "architect_echo": "Trust but verify",
+    "surface_crime_pillar": "art_finance",
+    "faction_focus": "Eastern European Syndicate",
+    "villain_traits": ["Misdirector", "HeatSculptor"],
+    "primary_learning_axis": "Time",
+    "warrant_pressure": "none",
+    "neon_snap_opportunity": "countermeasure_activation",
+    "end_hook": "The network runs deeper than expected...",
+    "ship_gate": "Pattern established",
+    "package_pdf": "S01E01_Package.pdf",
+    "scenes": [
+      {
+        "scene_id": 1,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Follow the suspect discreetly through the crowded market",
+            "primary_effect": "Gather initial evidence without raising suspicion",
+            "shadow_effect": "Suspect notices tail, increases personal heat",
+            "deltas": {
+              "time": -1,
+              "heat": 5,
+              "lead_integrity": "clean",
+              "gasket": "no_change",
+              "flag": "no_change"
+            },
+            "notes": "Network pull opportunity"
+          },
+          {
+            "id": "B",
+            "text": "Confront the suspect directly in the alley",
+            "primary_effect": "Force immediate information disclosure",
+            "shadow_effect": "Suspect triggers countermeasure, route compromised",
+            "deltas": {
+              "time": -2,
+              "heat": 20,
+              "lead_integrity": "tainted",
+              "gasket": "no_change",
+              "flag": "route_collapsed"
+            },
+            "notes": "High risk, high reward"
+          },
+          {
+            "id": "C",
+            "text": "Use network contacts to gather intelligence first",
+            "primary_effect": "Build comprehensive picture before acting",
+            "shadow_effect": "Contact demands favor, increases warrant pressure",
+            "deltas": {
+              "time": -3,
+              "heat": 0,
+              "lead_integrity": "clean",
+              "gasket": "no_change",
+              "flag": "no_change"
+            },
+            "notes": "Slow but safe approach"
+          }
+        ]
+      },
+      {
+        "scene_id": 2,
+        "choices": [
+          {
+            "id": "A",
+            "text": "Analyze the gathered evidence in a safe house",
+            "primary_effect": "Process information methodically",
+            "shadow_effect": "Time pressure builds as suspect moves",
+            "deltas": {
+              "time": -2,
+              "heat": 0,
+              "lead_integrity": "clean",
+              "gasket": "no_change",
+              "flag": "no_change"
+            },
+            "notes": "Information processing"
+          },
+          {
+            "id": "B",
+            "text": "Share findings with agency contacts immediately",
+            "primary_effect": "Get expert analysis and backup",
+            "shadow_effect": "Information leak increases heat globally",
+            "deltas": {
+              "time": -1,
+              "heat": 15,
+              "lead_integrity": "tainted",
+              "gasket": "no_change",
+              "flag": "no_change"
+            },
+            "notes": "Collaboration vs security"
+          }
+        ]
+      }
+    ]
+  }
+}

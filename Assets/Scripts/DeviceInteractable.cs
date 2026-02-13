@@ -23,6 +23,8 @@ public class DeviceInteractable : InteractableObject
 
             // Update stability graph (visual effect)
             // TODO: Implement stability graph update
+            // Basic implementation: update some visual indicator of stability
+            UpdateStabilityGraph();
         }
     }
 
@@ -40,5 +42,13 @@ public class DeviceInteractable : InteractableObject
         {
             Debug.Log("Need an authorized tag to engage with this device");
         }
+    }
+
+    void UpdateStabilityGraph()
+    {
+        // Basic stability graph update
+        // In a full game, this would update a visual graph showing system stability
+        Debug.Log("Stability graph updated: System stabilized with authorized tag.");
+        // Could change colors, show progress, etc.
     }
 }

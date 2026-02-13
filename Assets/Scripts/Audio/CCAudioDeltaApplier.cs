@@ -4,7 +4,7 @@ public class CCAudioDeltaApplier : MonoBehaviour
 {
     public static CCAudioDeltaApplier Instance { get; private set; }
 
-    [SerializeField] private CCAudioDeltaLibrarySO deltaLibrary;
+    [SerializeField] public CCAudioDeltaLibrarySO deltaLibrary;
 
     private void Awake()
     {

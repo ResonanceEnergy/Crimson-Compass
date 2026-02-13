@@ -1,0 +1,88 @@
+{
+  "caseId": "CASE-0010",
+  "title": "Blow Cover",
+  "tier": "season1",
+  "hook": "Theft ring embedded in corporate security steals classified data.",
+  "timeBudget": 48,
+  "hintsPerMission": 2,
+  "hintCost": {
+    "timeHours": 3,
+    "heat": 2
+  },
+  "gadgetsOffered": [
+    "DRONE",
+    "HACKINGTOOL",
+    "THERMALVISION",
+    "EMP",
+    "CLOAK"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Ring Leader",
+      "traits": [
+        "corporate-security",
+        "access:high-level"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Data Extractor",
+      "traits": [
+        "hacker",
+        "collects:intel"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Embedded Mole",
+      "traits": [
+        "undercover",
+        "wears:badge"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Security Bypass",
+      "signatures": [
+        "badge:compromised"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Data Theft",
+      "signatures": [
+        "files:encrypted"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "Ring Coordination",
+      "signatures": [
+        "communication:secure"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "Seattle",
+      "country": "USA"
+    },
+    {
+      "id": "Vancouver",
+      "country": "Canada"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "Seattle"
+  },
+  "caseToken": "Ring disrupted.",
+  "shadowToken": "Motif B+C alignment — skew clusters around custody initiation.",
+  "gasket": true,
+  "catastrophicChoice": true
+}

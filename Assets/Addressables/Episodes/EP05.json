@@ -1,0 +1,91 @@
+{
+  "episode_id": "EP05",
+  "title": "Hostile Compliance",
+  "description": "Corporate counsel is legally blocking investigative access to critical evidence.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "narrative": "You've arrived at the corporate headquarters where legal counsel is invoking privacy laws to prevent access to the investigation site.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Negotiate with counsel to find a compromise.",
+          "consequence": "You reach an agreement that allows limited access while maintaining legal compliance.",
+          "heat_delta": 1,
+          "time_delta": 0,
+          "awards": ["diplomatic"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Review legal precedents for similar cases.",
+          "consequence": "You find a loophole that allows access under emergency provisions.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["legal"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Bypass legal channels with technical access tools.",
+          "consequence": "Technical tools allow you to access the site without legal permission.",
+          "heat_delta": 5,
+          "time_delta": 0,
+          "awards": ["bypass"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The legal block feels like a distraction - find another way in.",
+          "consequence": "You discover an unguarded service entrance that bypasses legal restrictions.",
+          "heat_delta": -1,
+          "time_delta": 0,
+          "awards": ["creative"]
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "narrative": "Inside the restricted area, you find evidence of tampering, but counsel is demanding you leave immediately.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Explain the urgency to counsel to buy time.",
+          "consequence": "Counsel grants a brief extension to document the evidence.",
+          "heat_delta": 2,
+          "time_delta": 0,
+          "awards": ["persuasive"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Document evidence with precise legal language.",
+          "consequence": "Your documentation withstands legal scrutiny and preserves the case.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["documentation"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Use mobile scanning to capture evidence digitally.",
+          "consequence": "Scanners capture all evidence before legal removal is enforced.",
+          "heat_delta": 3,
+          "time_delta": 0,
+          "awards": ["capture"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The counsel's timing is suspicious - they're protecting something.",
+          "consequence": "You uncover additional evidence that implicates the counsel in the obstruction.",
+          "heat_delta": -2,
+          "time_delta": 1,
+          "awards": ["investigative"]
+        }
+      ]
+    }
+  ]
+}

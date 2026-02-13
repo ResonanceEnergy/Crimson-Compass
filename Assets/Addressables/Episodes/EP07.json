@@ -1,0 +1,91 @@
+{
+  "episode_id": "EP07",
+  "title": "The Convenient Suspect",
+  "description": "A decoy culprit has been framed to divert attention from the real operation.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "narrative": "The suspect in custody appears to be the perfect culprit - all evidence points to them, but something feels staged.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Interview the suspect to understand their side of the story.",
+          "consequence": "The suspect reveals inconsistencies in their own alibi that suggest framing.",
+          "heat_delta": 1,
+          "time_delta": 0,
+          "awards": ["interview"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Cross-reference evidence with the suspect's known patterns.",
+          "consequence": "You find evidence that doesn't match the suspect's established behavior.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["pattern"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Analyze digital footprints for manipulation signs.",
+          "consequence": "Digital analysis reveals fabricated timestamps and altered logs.",
+          "heat_delta": 3,
+          "time_delta": 0,
+          "awards": ["digital_forensic"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "This suspect is too convenient - look for the real perpetrator.",
+          "consequence": "You identify the actual culprit who framed the decoy suspect.",
+          "heat_delta": -2,
+          "time_delta": 0,
+          "awards": ["discernment"]
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "narrative": "You've uncovered the framing operation. The decoy was planted to cover the real sabotage attempt.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Confront the real culprit through diplomatic channels.",
+          "consequence": "The culprit surrenders information to avoid escalation.",
+          "heat_delta": 2,
+          "time_delta": 0,
+          "awards": ["confrontation"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Gather irrefutable evidence before making accusations.",
+          "consequence": "Evidence compilation leads to a solid case against the real perpetrator.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["evidence"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Use surveillance tools to track the culprit's movements.",
+          "consequence": "Tracking confirms the sabotage attempt and provides arrest evidence.",
+          "heat_delta": 4,
+          "time_delta": 0,
+          "awards": ["surveillance"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The framing was planned before the crime - check exit routes.",
+          "consequence": "You discover prepared exit plans that confirm the shadow involvement.",
+          "heat_delta": -1,
+          "time_delta": 1,
+          "awards": ["exit_analysis"]
+        }
+      ]
+    }
+  ]
+}

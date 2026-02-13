@@ -45,6 +45,16 @@ namespace CrimsonCompass.Agents
             _intelSources = sources;
         }
 
+        public Hypothesis GetTruth()
+        {
+            return _truth;
+        }
+
+        public List<IntelSource> GetIntelSources()
+        {
+            return _intelSources;
+        }
+
         // Returns exactly ONE disproof based on available intel
         public Disproof Disprove(Hypothesis h, string sourceId)
         {
@@ -54,28 +64,17 @@ namespace CrimsonCompass.Agents
             var source = _intelSources.Find(s => s.id == sourceId);
             if (source == null) return null;
 
-            // Check if hypothesis matches truth on this axis
+            // Get the hypothesis value for this axis
             string hypothesisValue = GetHypothesisValue(h, source.axis);
-            if (hypothesisValue == _truth.GetValue(source.axis))
+            
+            // If the hypothesis value doesn't match the truth, but this intel source reveals the truth,
+            // then the hypothesis is wrong and should be disproven
+            if (hypothesisValue != _truth.GetValue(source.axis) && source.value == _truth.GetValue(source.axis))
             {
-                // Hypothesis is correct on this axis, but source reveals the truth, so disprove wrong ones
-                // Actually, intel sources reveal correct values, so if hypothesis has wrong value, disprove it
-                if (hypothesisValue != source.value)
-                {
-                    return new Disproof { axis = source.axis, disprovedId = hypothesisValue, source = sourceId };
-                }
-            }
-            else
-            {
-                // Hypothesis is wrong, but source might confirm or disprove
-                // For simplicity, if source reveals the correct value, and hypothesis is wrong, disprove hypothesis
-                if (source.value == _truth.GetValue(source.axis))
-                {
-                    return new Disproof { axis = source.axis, disprovedId = hypothesisValue, source = sourceId };
-                }
+                return new Disproof { axis = source.axis, disprovedId = hypothesisValue, source = sourceId };
             }
 
-            return null; // No disproof
+            return null; // No disproof - either hypothesis is correct or intel doesn't contradict it
         }
 
         private string GetHypothesisValue(Hypothesis h, TriadAxis axis)

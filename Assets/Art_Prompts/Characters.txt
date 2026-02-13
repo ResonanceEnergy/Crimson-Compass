@@ -1,0 +1,16 @@
+# Character Portraits Prompts
+
+## Female Detective
+Young female detective, determined expression, trench coat and fedora, holding antique clue, steampunk accessories, mystery game character art, cel-shaded style, dramatic rim lighting, professional illustration, iPhone display quality --ar 3:4
+
+## Male Investigator
+Middle-aged male investigator, stern gaze, tweed jacket with elbow patches, magnifying glass in hand, pipe smoke curling, Victorian mystery character, detailed portrait, warm indoor lighting, character art style, high resolution --ar 3:4
+
+## Suspicious NPC
+Shady informant character, nervous expression, bowler hat tilted, collar turned up, alleyway shadows, mystery game NPC portrait, atmospheric lighting, detailed facial features, noir style, professional illustration --ar 3:4
+
+## Elderly Butler
+Distinguished elderly butler, formal attire with brass buttons, knowing smile, candlelight illumination, Victorian mansion setting, character portrait, warm golden lighting, detailed wrinkles and expression, mystery game art --ar 3:4
+
+## Young Witness
+Frightened young witness, wide eyes, simple Victorian dress, clutching handkerchief, dramatic shadow lighting, mystery game character, emotional expression, detailed illustration, atmospheric mood, high quality --ar 3:4

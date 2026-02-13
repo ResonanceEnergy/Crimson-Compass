@@ -102,6 +102,9 @@ public class AdventureGameManager : MonoBehaviour
         // Move character to position
         Debug.Log("Moving to position: " + position);
         // TODO: Implement character movement
+        // Basic implementation: move the character transform to the position
+        // In a full game, this would use a character controller or pathfinding
+        transform.position = position; // Assuming this script is on the character
     }
 
     public void AddToInventory(Item item)
@@ -154,20 +157,41 @@ public class AdventureGameManager : MonoBehaviour
     public void TriggerUneaseTail()
     {
         // TODO: Implement UneaseTail audio/visual effect
+        // Basic implementation: play audio and visual effect
         Debug.Log("UneaseTail triggered!");
+        // Play audio
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayEffect("unease_tail");
+        }
+        // Visual effect - could flash screen, shake camera, etc.
+        StartCoroutine(UneaseTailVisualEffect());
     }
 
     public void CloseCase()
     {
         caseClosureUI.ShowCaseClosed();
         // TODO: Play motif puncture
+        // Basic implementation: play audio cue
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.PlayEffect("motif_puncture");
+        }
         // TODO: Trigger UneaseTail after delay
         StartCoroutine(DelayedUneaseTail(2f));
     }
 
-    IEnumerator DelayedUneaseTail(float delay)
+    private IEnumerator DelayedUneaseTail(float delay)
     {
         yield return new WaitForSeconds(delay);
         TriggerUneaseTail();
+    }
+
+    IEnumerator UneaseTailVisualEffect()
+    {
+        // Basic visual effect: screen flash or shake
+        // In a full game, this would be more sophisticated
+        Debug.Log("UneaseTail visual effect playing");
+        yield return new WaitForSeconds(1f);
     }
 }

@@ -1,0 +1,86 @@
+{
+  "caseId": "CASE-0001",
+  "title": "Welcome Packet",
+  "tier": "season1",
+  "hook": "Contractor access ring siphons early builds from a cutting-edge tech firm.",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "gadgetsOffered": [
+    "MICROCAM",
+    "SIGNALTAP",
+    "PASSPORT",
+    "CLEANER",
+    "DEADDROP"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Lead Contractor",
+      "traits": [
+        "access:badge-level-5",
+        "speaks:Mandarin"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Insider Handler",
+      "traits": [
+        "wears:lab-coat",
+        "collects:prototypes"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Data Courier",
+      "traits": [
+        "left-handed",
+        "drives:black-sedan"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Access Ring Duplication",
+      "signatures": [
+        "badge:cloned-chip"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Build Siphoning Script",
+      "signatures": [
+        "code:encrypted-transfer"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "Prototype Extraction Kit",
+      "signatures": [
+        "container:anti-static"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "Silicon Valley",
+      "country": "USA"
+    },
+    {
+      "id": "Taipei",
+      "country": "Taiwan"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "Silicon Valley"
+  },
+  "caseToken": "Ring leader arrested; prototype recovered.",
+  "shadowToken": "Motif B — access logs skewed by recurring 11-minute offset."
+}

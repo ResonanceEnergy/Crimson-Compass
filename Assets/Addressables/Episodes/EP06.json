@@ -1,0 +1,97 @@
+{
+  "episode_id": "EP06",
+  "title": "Double Stamp",
+  "description": "A subcontractor cell steals a prototype sensor module, marking the beginning of Twist 1.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "narrative": "You've tracked the subcontractor cell to an industrial warehouse. Security is minimal, but the sensor module is highly valuable.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Infiltrate by posing as a delivery driver.",
+          "consequence": "You gain access and overhear the cell discussing the sensor theft.",
+          "heat_delta": 2,
+          "time_delta": 0,
+          "awards": ["infiltration"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Monitor perimeter for patterns in guard rotations.",
+          "consequence": "You identify a predictable gap in security coverage.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["surveillance"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Use thermal imaging to locate the module inside.",
+          "consequence": "Imaging shows the module's heat signature in a specific storage unit.",
+          "heat_delta": 3,
+          "time_delta": 0,
+          "awards": ["thermal"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The warehouse layout feels familiar - check for hidden compartments.",
+          "consequence": "You find concealed storage areas not on the blueprints.",
+          "heat_delta": -1,
+          "time_delta": 0,
+          "awards": ["architectural"]
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "narrative": "Inside the warehouse, you confront the cell leader. Gasket appears briefly, muttering about timing.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Try to de-escalate and get information from the leader.",
+          "consequence": "The leader reveals details about the subcontractor's involvement.",
+          "heat_delta": 1,
+          "time_delta": 0,
+          "awards": ["negotiation"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Secure the sensor module first, question later.",
+          "consequence": "You recover the module intact and gather evidence from the scene.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["recovery"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Deploy containment field around the module.",
+          "consequence": "The field prevents tampering and preserves evidence.",
+          "heat_delta": 4,
+          "time_delta": 0,
+          "awards": ["containment"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "Gasket's right - the timing is everything here.",
+          "consequence": "You notice custody forms with double stamps, triggering Gasket's fragment.",
+          "heat_delta": -3,
+          "time_delta": 0,
+          "awards": ["temporal"]
+        }
+      ]
+    }
+  ],
+  "gasket_fragment": {
+    "id": "GF_S01_01",
+    "trigger": "custody form double stamp",
+    "sensory": "THUNK-THUNK; ink crescent smear",
+    "spoken": "...we were already late—"
+  }
+}

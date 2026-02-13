@@ -1,0 +1,91 @@
+{
+  "episode_id": "EP12",
+  "title": "Hindsight",
+  "description": "Final recovery of a core prototype module, where all season misfits align in hindsight.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "narrative": "The final prototype module is being moved to a secure facility. All previous anomalies begin to connect in unexpected ways.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Coordinate with facility security for seamless transfer.",
+          "consequence": "Smooth coordination ensures the module reaches its destination safely.",
+          "heat_delta": 1,
+          "time_delta": 0,
+          "awards": ["coordination"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Verify all security protocols are in place.",
+          "consequence": "Protocol verification confirms the transfer is secure.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["verification"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Monitor the transfer with advanced tracking systems.",
+          "consequence": "Advanced monitoring detects and prevents any interference attempts.",
+          "heat_delta": 3,
+          "time_delta": 0,
+          "awards": ["monitoring"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "All the pieces fit now - prepared exits, skews, routes all converge.",
+          "consequence": "You see the full pattern: standardized exits, timing clusters, converging custody routes.",
+          "heat_delta": -2,
+          "time_delta": 0,
+          "awards": ["pattern_completion"]
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "narrative": "As the module is secured, the full scope of the season's events becomes clear. The case is closed, but questions remain.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "File the final report with all collected evidence.",
+          "consequence": "Comprehensive report documents the case closure and shadow implications.",
+          "heat_delta": 2,
+          "time_delta": 0,
+          "awards": ["documentation"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Analyze the complete pattern of anomalies.",
+          "consequence": "Pattern analysis confirms the shadow adversary's methods and motives.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["analysis"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Secure all evidence for future investigation.",
+          "consequence": "Evidence preservation ensures future cases can reference these patterns.",
+          "heat_delta": 4,
+          "time_delta": 0,
+          "awards": ["preservation"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The network is dismantled, but the adversary slipped away again.",
+          "consequence": "Final reflection on the 5% that never sits right - the shadow endures.",
+          "heat_delta": -3,
+          "time_delta": 1,
+          "awards": ["reflection"]
+        }
+      ]
+    }
+  ]
+}

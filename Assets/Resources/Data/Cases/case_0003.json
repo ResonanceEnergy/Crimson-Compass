@@ -1,0 +1,86 @@
+{
+  "caseId": "CASE-0003",
+  "title": "Clean Room",
+  "tier": "season1",
+  "hook": "Insider moves micro-components out via 'approved waste' from a semiconductor fab.",
+  "timeBudget": 48,
+  "hintsPerMission": 2,
+  "hintCost": {
+    "timeHours": 3,
+    "heat": 2
+  },
+  "gadgetsOffered": [
+    "DRONE",
+    "HACKINGTOOL",
+    "THERMALVISION",
+    "EMP",
+    "CLOAK"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Waste Handler",
+      "traits": [
+        "access:clean-room",
+        "wears:protective-gear"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Component Thief",
+      "traits": [
+        "tech-savvy",
+        "collects:chips"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Facility Manager",
+      "traits": [
+        "overworked",
+        "speaks:English"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Waste Diversion",
+      "signatures": [
+        "container:mis-labeled"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Component Substitution",
+      "signatures": [
+        "parts:fake"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "Clean Room Breach",
+      "signatures": [
+        "airlock:bypassed"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "Hsinchu",
+      "country": "Taiwan"
+    },
+    {
+      "id": "Austin",
+      "country": "USA"
+    }
+  ],
+  "truth": {
+    "whoId": "S2",
+    "howId": "M1",
+    "whereId": "Hsinchu"
+  },
+  "caseToken": "Insider exposed; pipeline halted.",
+  "shadowToken": "Motif C — components auto-routed to custody destination nobody requested."
+}

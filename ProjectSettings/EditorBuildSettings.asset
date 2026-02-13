@@ -7,5 +7,11 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
-    guid: 1cf80ab4a9b9d4845bc4e20e31d55317
+    guid: 1607e0557752e2242b114804d8bca65a
+  - enabled: 1
+    path: Assets/Scenes/S01E01_AgencyBriefingRoom.unity
+    guid: 31777489da5ae3741996b11f53371b54
+  - enabled: 1
+    path: Assets/Scenes/S01E01_UrbanRooftop.unity
+    guid: f747d343673f5e64ab286c8075a99e1d
   m_configObjects: {}

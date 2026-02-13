@@ -1,103 +1,61 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using CrimsonCompass.Core;
 using CrimsonCompass.Runtime;
 
 public class SaveManager : MonoBehaviour
 {
+    public static SaveManager Instance { get; private set; }
+
     private const string SAVE_KEY = "CrimsonCompass_Save";
 
     [System.Serializable]
-    private class SaveData
+    public class SaveData
     {
-        public GameState state;
-        public string currentEpisodeId;
-        public int currentSceneIndex;
-        public List<string> completedEpisodes;
-        public Dictionary<string, object> customData;
+        public GameState State;
+        public string CurrentEpisodeId;
+        public int CurrentSceneId;
+        public string[] CompletedEpisodes;
     }
 
-    void Start()
+    void Awake()
     {
-        GameManager.Instance.eventBus.Subscribe(GameEventType.STATE_CHANGED, OnStateChanged);
-        GameManager.Instance.eventBus.Subscribe(GameEventType.EPISODE_COMPLETED, OnEpisodeCompleted);
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
-    public void SaveGame()
+    public void SaveGame(GameState state, string episodeId, int sceneId, string[] completedEpisodes)
     {
         var saveData = new SaveData
         {
-            state = GameManager.Instance.currentState,
-            currentEpisodeId = GameManager.Instance.seasonManager?.CurrentEpisodeId,
-            currentSceneIndex = GameManager.Instance.seasonManager?.CurrentSceneId ?? 1,
-            completedEpisodes = new List<string>(GameManager.Instance.completedEpisodes),
-            customData = new Dictionary<string, object>()
+            State = state,
+            CurrentEpisodeId = episodeId,
+            CurrentSceneId = sceneId,
+            CompletedEpisodes = completedEpisodes
         };
 
-        string json = JsonUtility.ToJson(saveData);
+        var json = JsonUtility.ToJson(saveData);
         PlayerPrefs.SetString(SAVE_KEY, json);
         PlayerPrefs.Save();
 
         Debug.Log("Game saved successfully");
     }
 
-    public bool LoadGame()
+    public SaveData LoadGame()
     {
         if (!PlayerPrefs.HasKey(SAVE_KEY))
-        {
-            Debug.Log("No save data found");
-            return false;
-        }
+            return null;
 
-        string json = PlayerPrefs.GetString(SAVE_KEY);
-        var saveData = JsonUtility.FromJson<SaveData>(json);
-
-        GameManager.Instance.currentState = saveData.state;
-        GameManager.Instance.completedEpisodes = new HashSet<string>(saveData.completedEpisodes);
-
-        if (!string.IsNullOrEmpty(saveData.currentEpisodeId))
-        {
-            // Load the episode and set the scene index
-            GameManager.Instance.LoadEpisode(saveData.currentEpisodeId, saveData.currentSceneIndex);
-        }
-
-        GameManager.Instance.eventBus.Publish(GameEventType.GAME_LOADED, null);
-        Debug.Log("Game loaded successfully");
-        return true;
+        var json = PlayerPrefs.GetString(SAVE_KEY);
+        return JsonUtility.FromJson<SaveData>(json);
     }
 
-    public void NewGame()
+    public void DeleteSave()
     {
-        GameManager.Instance.currentState = new GameState();
-        GameManager.Instance.completedEpisodes.Clear();
-        GameManager.Instance.currentCase = null;
-
         PlayerPrefs.DeleteKey(SAVE_KEY);
-        PlayerPrefs.Save();
-
-        GameManager.Instance.eventBus.Publish(GameEventType.NEW_GAME_STARTED, null);
-        Debug.Log("New game started");
-    }
-
-    public bool HasSaveData()
-    {
-        return PlayerPrefs.HasKey(SAVE_KEY);
-    }
-
-    void OnStateChanged(object payload)
-    {
-        // Auto-save on state changes
-        SaveGame();
-    }
-
-    void OnEpisodeCompleted(object payload)
-    {
-        SaveGame();
-    }
-
-    void OnDestroy()
-    {
-        SaveGame();
+        Debug.Log("Save deleted");
     }
 }

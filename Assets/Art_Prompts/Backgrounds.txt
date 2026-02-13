@@ -1,0 +1,16 @@
+# Background Scenes Prompts
+
+## Victorian Library
+Abandoned Victorian library at dusk, towering bookshelves with hidden passages, dust motes in golden hour light, mystery adventure game background, stylized illustration, atmospheric depth, muted sepia tones, high detail, mobile optimized --ar 9:16
+
+## Foggy Alley
+Foggy crime scene alley, cobblestone streets with gas lamps, detective silhouette examining evidence, rain-slicked pavement reflecting neon signs, atmospheric tension, detailed mystery game environment, high contrast shadows, immersive composition, mobile performance optimized --ar 9:16
+
+## Mansion Interior
+Ornate Victorian mansion hallway, crystal chandelier casting dramatic shadows, Persian carpet runner, antique furniture silhouettes, eerie atmosphere, mystery game background, detailed illustration, warm amber lighting, high resolution --ar 9:16
+
+## Underground Chamber
+Ancient underground chamber, stone walls with arcane symbols, torchlight flickering on damp surfaces, mysterious artifacts on pedestal, tense atmosphere, adventure game environment, atmospheric lighting, detailed textures, mobile optimized --ar 9:16
+
+## Rooftop Scene
+Urban rooftop at night, chimney pots and weather vanes silhouetted against moonlit sky, distant city lights, fog rolling across tiles, suspenseful mystery scene, cinematic composition, high contrast, stylized illustration --ar 9:16

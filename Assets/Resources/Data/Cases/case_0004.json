@@ -1,0 +1,86 @@
+{
+  "caseId": "CASE-0004",
+  "title": "The Update That Never Shipped",
+  "tier": "season1",
+  "hook": "Firmware staging server hijacked during deployment window.",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "gadgetsOffered": [
+    "NIGHTVISION",
+    "GRAPPLINGHOOK",
+    "SILENCER",
+    "DECOY",
+    "SCANNER"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Server Admin",
+      "traits": [
+        "access:root",
+        "speaks:Code"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Firmware Hacker",
+      "traits": [
+        "expert:hacking",
+        "collects:zero-days"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Deployment Coordinator",
+      "traits": [
+        "overseen",
+        "wears:headset"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Server Hijack",
+      "signatures": [
+        "exploit:zero-day"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Firmware Injection",
+      "signatures": [
+        "code:backdoor"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "Staging Bypass",
+      "signatures": [
+        "credentials:stolen"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "Seattle",
+      "country": "USA"
+    },
+    {
+      "id": "Bangalore",
+      "country": "India"
+    }
+  ],
+  "truth": {
+    "whoId": "S2",
+    "howId": "M1",
+    "whereId": "Seattle"
+  },
+  "caseToken": "Server reclaimed; breach sealed.",
+  "shadowToken": "Motif B — deployment timestamps show the same 11-minute skew."
+}

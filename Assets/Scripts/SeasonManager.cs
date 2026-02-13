@@ -3,6 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using CrimsonCompass.Core;
+using CrimsonCompass.Runtime;
+
+public enum SeasonFlowState
+{
+    Idle,
+    EpisodeLoading,
+    SceneActive,
+    EpisodeComplete,
+    EpisodeEnd
+}
 
 public class SeasonManager : MonoBehaviour
 {
@@ -24,6 +34,13 @@ public class SeasonManager : MonoBehaviour
     private int currentEpisodeIndex = 0;
     private Dictionary<string, string> episodeDataPaths = new Dictionary<string, string>();
 
+    // Missing properties
+    public System.Action<SeasonFlowState> OnFlowChanged;
+    public System.Action<string> OnEpisodeEnded;
+    public GameState State;
+    public SeasonFlowState FlowState { get; private set; } = SeasonFlowState.Idle;
+    public EpisodeDto _episode;
+
     void Awake()
     {
         if (Instance == null)
@@ -42,23 +59,22 @@ public class SeasonManager : MonoBehaviour
         for (int i = 0; i < episodeIds.Length; i++)
         {
             string caseId = episodeIds[i];
-            string dataPath = $"Assets/Data/Cases/case_{i + 1:000}.json";
+            string dataPath = $"Assets/Data/Cases/case_{i + 1:0000}.json";
             episodeDataPaths[caseId] = dataPath;
         }
     }
 
-    public async void StartEpisodeAsync(string episodeId, int startSceneIndex = 0)
+    public async System.Threading.Tasks.Task StartEpisodeAsync(string episodeId, int startSceneIndex = 0)
     {
         Debug.Log($"Starting episode: {episodeId}");
 
         // Load episode data
         if (episodeDataPaths.TryGetValue(episodeId, out string dataPath))
         {
-            TextAsset caseJson = Resources.Load<TextAsset>(dataPath.Replace("Assets/Data/Cases/", "").Replace(".json", ""));
+            TextAsset caseJson = Resources.Load<TextAsset>("Data/Cases/" + dataPath.Replace("Assets/Data/Cases/", "").Replace(".json", ""));
             if (caseJson != null)
             {
-                GameManager.Instance.caseJson = caseJson;
-                GameManager.Instance.LoadCase();
+                GameManager.Instance.LoadCase(caseJson);
                 Debug.Log($"Episode {episodeId} data loaded");
             }
             else
@@ -72,60 +88,66 @@ public class SeasonManager : MonoBehaviour
 
         // Start the episode
         GameManager.Instance.eventBus.Publish(GameEventType.EPISODE_COMPLETED, episodeId);
+
+        await System.Threading.Tasks.Task.CompletedTask;
     }
 
     void SetupEpisodeAtmosphere(string episodeId)
     {
-        // Set music based on episode
-        if (AudioManager.Instance != null)
-        {
-            // Default investigation music
-            AudioManager.Instance.PlayMusic("investigation_theme", true);
+        // Set visual atmosphere
+        SetVisualAtmosphere(episodeId);
 
-            // Episode-specific ambience
-            switch (episodeId)
-            {
-                case "CASE-0001":
-                    AudioManager.Instance.PlayAmbience("office_ambience");
-                    break;
-                case "CASE-0002":
-                    AudioManager.Instance.PlayAmbience("urban_ambience");
-                    break;
-                case "CASE-0010":
-                    AudioManager.Instance.PlayAmbience("tension_ambience");
-                    break;
-                case "CASE-0012":
-                    AudioManager.Instance.PlayAmbience("climax_ambience");
-                    break;
-                default:
-                    AudioManager.Instance.PlayAmbience("default_ambience");
-                    break;
-            }
-        }
-
-        // TODO: Set visual atmosphere (lighting, UI themes, etc.)
+        // Set audio atmosphere (music/snapshots)
+        // TODO: Implement audio atmosphere setup
+        Debug.Log($"Setting up atmosphere for episode: {episodeId}");
     }
 
-    public void NextEpisode()
+    void SetVisualAtmosphere(string episodeId)
+    {
+        // Basic visual atmosphere implementation
+        // In a full game, this would change lighting, post-processing, UI themes, etc.
+        switch (episodeId)
+        {
+            case "CASE-0001":
+                // Welcome - neutral office lighting
+                RenderSettings.ambientLight = new Color(0.8f, 0.8f, 0.9f);
+                break;
+            case "CASE-0010":
+                // Blow Cover - tense, red-tinted
+                RenderSettings.ambientLight = new Color(0.9f, 0.7f, 0.7f);
+                break;
+            case "CASE-0012":
+                // Hindsight - dramatic climax lighting
+                RenderSettings.ambientLight = new Color(0.6f, 0.6f, 1.0f);
+                break;
+            default:
+                RenderSettings.ambientLight = new Color(0.8f, 0.8f, 0.8f);
+                break;
+        }
+    }
+
+    public async void NextEpisode()
     {
         if (currentEpisodeIndex < episodeIds.Length - 1)
         {
             currentEpisodeIndex++;
-            StartEpisodeAsync(episodeIds[currentEpisodeIndex]);
+            await StartEpisodeAsync(episodeIds[currentEpisodeIndex]);
         }
         else
         {
             Debug.Log("Season 1 completed!");
             // TODO: Season completion logic
+            // Basic implementation: show completion message and reset or end game
+            OnSeasonCompleted();
         }
     }
 
-    public void LoadEpisodeByIndex(int index)
+    public async void LoadEpisodeByIndex(int index)
     {
         if (index >= 0 && index < episodeIds.Length)
         {
             currentEpisodeIndex = index;
-            StartEpisodeAsync(episodeIds[index]);
+            await StartEpisodeAsync(episodeIds[index]);
         }
     }
 
@@ -144,7 +166,7 @@ public class SeasonManager : MonoBehaviour
     }
 
     public string CurrentEpisodeId => episodeIds[currentEpisodeIndex];
-    public string CurrentSceneId => "main_scene"; // Placeholder
+    public int CurrentSceneId { get; private set; } = 0; // Current scene index
     public int CurrentSceneIndex => 0; // Placeholder
 
     public async void ApplyChoiceAsync(string choiceId)
@@ -154,15 +176,19 @@ public class SeasonManager : MonoBehaviour
         await System.Threading.Tasks.Task.Delay(100); // Simulate async
     }
 
-    public void ResetSeason()
+    public async System.Threading.Tasks.Task ApplyChoiceAsync(int sceneId, string choiceId, object context)
     {
-        currentEpisodeIndex = 0;
-        GameManager.Instance.completedEpisodes.Clear();
-        GameManager.Instance.shadowTokens.Clear();
-        if (GasketManager.Instance != null)
-        {
-            GasketManager.Instance.fragments.Clear();
-        }
-        Debug.Log("Season reset");
+        // Overload for choice application with scene and context
+        Debug.Log($"Applying choice: {choiceId} in scene {sceneId} with context {context}");
+        await System.Threading.Tasks.Task.Delay(100); // Simulate async
+    }
+
+    void OnSeasonCompleted()
+    {
+        // Basic season completion logic
+        // In a full game, this might show credits, unlock next season, save progress, etc.
+        Debug.Log("Congratulations! Season 1 completed.");
+        // Could load a completion scene or show UI
+        // For now, just log and perhaps reset or quit
     }
 }

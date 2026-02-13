@@ -1,0 +1,97 @@
+{
+  "episode_id": "EP10",
+  "title": "Blow Cover",
+  "description": "A theft ring embedded in corporate security requires extreme measures, including an optional catastrophic G choice.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "narrative": "The theft ring has infiltrated corporate security at multiple levels. Their operation is deeply embedded.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Build alliances with trustworthy security personnel.",
+          "consequence": "Internal allies provide intelligence on the ring's operations.",
+          "heat_delta": 1,
+          "time_delta": 0,
+          "awards": ["alliance"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Map the ring's communication patterns.",
+          "consequence": "Communication analysis reveals the ring's command structure.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["mapping"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Infiltrate their communication network.",
+          "consequence": "Network infiltration provides real-time intelligence on their plans.",
+          "heat_delta": 3,
+          "time_delta": 0,
+          "awards": ["infiltration"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The ring's too deep - burn it all to start over.",
+          "consequence": "Catastrophic reset: cover blown, safe house extraction, investigation board reset. Grants SHARD_S01_01.",
+          "heat_delta": 20,
+          "time_delta": 10,
+          "awards": ["shard_s01_01"]
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "narrative": "Gasket appears, triggered by timing skew and siren tones. The ring is preparing their final move.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Coordinate a multi-agency takedown.",
+          "consequence": "Coordinated effort disrupts the ring without catastrophic damage.",
+          "heat_delta": 2,
+          "time_delta": 0,
+          "awards": ["coordination"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Time the disruption to minimize collateral damage.",
+          "consequence": "Precise timing prevents the ring's final operation.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["timing"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Deploy comprehensive surveillance network.",
+          "consequence": "Surveillance captures the entire ring's operations for prosecution.",
+          "heat_delta": 4,
+          "time_delta": 0,
+          "awards": ["surveillance"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The skew clusters around custody - this is the pattern.",
+          "consequence": "You recognize the timing anomaly pattern, strengthening the shadow investigation.",
+          "heat_delta": -3,
+          "time_delta": 0,
+          "awards": ["pattern_recognition"]
+        }
+      ]
+    }
+  ],
+  "gasket_fragment": {
+    "id": "GF_S01_02",
+    "trigger": "timing skew + siren tone",
+    "sensory": "tinnitus ring; elevator chime wrong note",
+    "spoken": "Not like this."
+  }
+}

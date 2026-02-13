@@ -1,0 +1,91 @@
+{
+  "episode_id": "EP03",
+  "title": "Clean Room",
+  "description": "An insider is smuggling micro-components out through approved waste channels.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "narrative": "You've infiltrated the clean room facility where the components are manufactured. Suspicious waste containers are being moved out more frequently than usual.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Blend in as maintenance staff to monitor the waste process.",
+          "consequence": "You observe the insider carefully packaging components in waste containers.",
+          "heat_delta": 1,
+          "time_delta": 0,
+          "awards": ["discreet"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Review waste manifests for anomalies.",
+          "consequence": "You find discrepancies in the waste volume that don't match production records.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["analytical"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Install micro-sensors on waste containers.",
+          "consequence": "Sensors detect unusual weight and movement patterns in specific containers.",
+          "heat_delta": 4,
+          "time_delta": 0,
+          "awards": ["technical"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "Something's off about the air filtration - investigate that instead.",
+          "consequence": "You discover the filtration system is being used to mask the component removal.",
+          "heat_delta": -1,
+          "time_delta": 0,
+          "awards": ["intuitive"]
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "narrative": "You confront the insider in the waste processing area. They claim the extra waste is due to production errors.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Question them about the production process diplomatically.",
+          "consequence": "They reveal details about how components are hidden in waste streams.",
+          "heat_delta": 2,
+          "time_delta": 0,
+          "awards": ["interrogation"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Cross-reference waste with inventory logs.",
+          "consequence": "Logs show components missing that should have been in the waste.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["forensic"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Scan containers with X-ray device.",
+          "consequence": "The scan reveals hidden compartments with micro-components.",
+          "heat_delta": 3,
+          "time_delta": 0,
+          "awards": ["detection"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The waste smells wrong - it's not just components.",
+          "consequence": "You find additional contraband mixed with the components.",
+          "heat_delta": -2,
+          "time_delta": 1,
+          "awards": ["sensory"]
+        }
+      ]
+    }
+  ]
+}

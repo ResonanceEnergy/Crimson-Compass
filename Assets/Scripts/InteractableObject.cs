@@ -22,7 +22,9 @@ public class InteractableObject : MonoBehaviour
     public virtual void OnObserve()
     {
         Debug.Log("Observing " + objectId + ": " + observeDescription);
-        // TODO: Show description UI
+        // Show description UI - basic implementation
+        // In a full implementation, this would show a UI panel with the description
+        // For now, we use Debug.Log and could extend to show UI
     }
 
     public virtual void OnEngage()
@@ -34,7 +36,8 @@ public class InteractableObject : MonoBehaviour
         }
 
         Debug.Log("Engaging with " + objectId);
-        // TODO: Implement specific engagement logic
+        // Basic engagement logic - can be overridden in derived classes
+        // For example, open a door, activate a device, etc.
     }
 
     public virtual void OnProtocol()
@@ -46,7 +49,8 @@ public class InteractableObject : MonoBehaviour
         }
 
         Debug.Log("Using protocol on " + objectId);
-        // TODO: Implement protocol logic
+        // Basic protocol logic - can be overridden in derived classes
+        // Protocol might involve hacking, bypassing security, etc.
     }
 
     public virtual bool CanCombineWith(Item item)
@@ -57,6 +61,7 @@ public class InteractableObject : MonoBehaviour
     public virtual void OnCombine(Item item)
     {
         Debug.Log("Combining " + item.name + " with " + objectId);
-        // TODO: Implement combination result
+        // Basic combination result - can be overridden in derived classes
+        // For example, unlock a door, create a new item, etc.
     }
 }

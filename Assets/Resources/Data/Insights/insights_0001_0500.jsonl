@@ -1,0 +1,500 @@
+{"id": "CARMEN-001", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Warrant/commit gate before arrest to force commitment. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-002", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-003", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Procedural case generation via suspect traits + route graph. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-004", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Warrant/commit gate before arrest to force commitment. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-005", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Multi-source clues: witness, search, network. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-006", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Warrant/commit gate before arrest to force commitment. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-007", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Multi-source clues: witness, search, network. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-008", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-009", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-010", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Warrant/commit gate before arrest to force commitment. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-011", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-012", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Multi-source clues: witness, search, network. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-013", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-014", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-015", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Procedural case generation via suspect traits + route graph. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-016", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-017", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-018", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Reference/lookup as gameplay: dossiers and archives. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-019", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Multi-source clues: witness, search, network. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-020", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Time as primary resource: every action spends time. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-021", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Reference/lookup as gameplay: dossiers and archives. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-022", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Procedural case generation via suspect traits + route graph. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-023", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Multi-source clues: witness, search, network. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-024", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Time as primary resource: every action spends time. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-025", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Procedural case generation via suspect traits + route graph. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-026", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-027", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Multi-source clues: witness, search, network. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-028", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Reference/lookup as gameplay: dossiers and archives. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-029", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Procedural case generation via suspect traits + route graph. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-030", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Reference/lookup as gameplay: dossiers and archives. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-031", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Multi-source clues: witness, search, network. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-032", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-033", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Multi-source clues: witness, search, network. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-034", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Reference/lookup as gameplay: dossiers and archives. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-035", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Reference/lookup as gameplay: dossiers and archives. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-036", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Reference/lookup as gameplay: dossiers and archives. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-037", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-038", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Warrant/commit gate before arrest to force commitment. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-039", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-040", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Warrant/commit gate before arrest to force commitment. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-041", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Multi-source clues: witness, search, network. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-042", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Warrant/commit gate before arrest to force commitment. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-043", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Procedural case generation via suspect traits + route graph. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-044", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-045", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Time as primary resource: every action spends time. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-046", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Reference/lookup as gameplay: dossiers and archives. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-047", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Warrant/commit gate before arrest to force commitment. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-048", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Warrant/commit gate before arrest to force commitment. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-049", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-050", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Warrant/commit gate before arrest to force commitment. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-051", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-052", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Procedural case generation via suspect traits + route graph. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-053", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Procedural case generation via suspect traits + route graph. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-054", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Reference/lookup as gameplay: dossiers and archives. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-055", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-056", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Multi-source clues: witness, search, network. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-057", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Multi-source clues: witness, search, network. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-058", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Warrant/commit gate before arrest to force commitment. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-059", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Multi-source clues: witness, search, network. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-060", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Time as primary resource: every action spends time. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-061", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-062", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-063", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-064", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Procedural case generation via suspect traits + route graph. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-065", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Reference/lookup as gameplay: dossiers and archives. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-066", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Procedural case generation via suspect traits + route graph. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-067", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-068", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Multi-source clues: witness, search, network. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-069", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Time as primary resource: every action spends time. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-070", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-071", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Multi-source clues: witness, search, network. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-072", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-073", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Time as primary resource: every action spends time. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-074", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-075", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Reference/lookup as gameplay: dossiers and archives. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-076", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Time as primary resource: every action spends time. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-077", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-078", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Procedural case generation via suspect traits + route graph. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-079", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Procedural case generation via suspect traits + route graph. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-080", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-081", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Warrant/commit gate before arrest to force commitment. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-082", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Reference/lookup as gameplay: dossiers and archives. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-083", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-084", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Time as primary resource: every action spends time. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-085", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Time as primary resource: every action spends time. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-086", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Time as primary resource: every action spends time. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-087", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-088", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Warrant/commit gate before arrest to force commitment. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-089", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Multi-source clues: witness, search, network. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-090", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Reference/lookup as gameplay: dossiers and archives. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-091", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-092", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-093", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Warrant/commit gate before arrest to force commitment. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-094", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-095", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Multi-source clues: witness, search, network. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-096", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Warrant/commit gate before arrest to force commitment. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-097", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Warrant/commit gate before arrest to force commitment. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-098", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Procedural case generation via suspect traits + route graph. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-099", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Warrant/commit gate before arrest to force commitment. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-100", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-101", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Reference/lookup as gameplay: dossiers and archives. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-102", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-103", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-104", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Time as primary resource: every action spends time. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-105", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Time as primary resource: every action spends time. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-106", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Multi-source clues: witness, search, network. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-107", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Reference/lookup as gameplay: dossiers and archives. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-108", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Reference/lookup as gameplay: dossiers and archives. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-109", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Warrant/commit gate before arrest to force commitment. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-110", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Procedural case generation via suspect traits + route graph. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-111", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-112", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-113", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Warrant/commit gate before arrest to force commitment. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-114", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Reference/lookup as gameplay: dossiers and archives. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-115", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-116", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Procedural case generation via suspect traits + route graph. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-117", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Procedural case generation via suspect traits + route graph. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-118", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Warrant/commit gate before arrest to force commitment. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-119", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-120", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Multi-source clues: witness, search, network. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-121", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Multi-source clues: witness, search, network. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-122", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Procedural case generation via suspect traits + route graph. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-123", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Multi-source clues: witness, search, network. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-124", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Warrant/commit gate before arrest to force commitment. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-125", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Warrant/commit gate before arrest to force commitment. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-126", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Multi-source clues: witness, search, network. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-127", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Multi-source clues: witness, search, network. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-128", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Reference/lookup as gameplay: dossiers and archives. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-129", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-130", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-131", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Reference/lookup as gameplay: dossiers and archives. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-132", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Time as primary resource: every action spends time. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-133", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Warrant/commit gate before arrest to force commitment. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-134", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Multi-source clues: witness, search, network. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-135", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Warrant/commit gate before arrest to force commitment. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-136", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Multi-source clues: witness, search, network. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-137", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Warrant/commit gate before arrest to force commitment. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-138", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-139", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Time as primary resource: every action spends time. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-140", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Reference/lookup as gameplay: dossiers and archives. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-141", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Time as primary resource: every action spends time. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-142", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-143", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-144", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Time as primary resource: every action spends time. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-145", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Time as primary resource: every action spends time. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-146", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-147", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Warrant/commit gate before arrest to force commitment. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-148", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-149", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-150", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-151", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Reference/lookup as gameplay: dossiers and archives. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-152", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-153", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Time as primary resource: every action spends time. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-154", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-155", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Multi-source clues: witness, search, network. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-156", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Warrant/commit gate before arrest to force commitment. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-157", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Reference/lookup as gameplay: dossiers and archives. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-158", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Warrant/commit gate before arrest to force commitment. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-159", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Warrant/commit gate before arrest to force commitment. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-160", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Reference/lookup as gameplay: dossiers and archives. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-161", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-162", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Multi-source clues: witness, search, network. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-163", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Time as primary resource: every action spends time. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-164", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-165", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Reference/lookup as gameplay: dossiers and archives. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-166", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Multi-source clues: witness, search, network. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-167", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-168", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Procedural case generation via suspect traits + route graph. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-169", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Time as primary resource: every action spends time. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-170", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Time as primary resource: every action spends time. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-171", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Multi-source clues: witness, search, network. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-172", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-173", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-174", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Warrant/commit gate before arrest to force commitment. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-175", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Reference/lookup as gameplay: dossiers and archives. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-176", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Reference/lookup as gameplay: dossiers and archives. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-177", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Warrant/commit gate before arrest to force commitment. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-178", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Multi-source clues: witness, search, network. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-179", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Time as primary resource: every action spends time. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-180", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Time as primary resource: every action spends time. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-181", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Procedural case generation via suspect traits + route graph. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-182", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-183", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Time as primary resource: every action spends time. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-184", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Time as primary resource: every action spends time. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-185", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Multi-source clues: witness, search, network. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-186", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Reference/lookup as gameplay: dossiers and archives. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-187", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Procedural case generation via suspect traits + route graph. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-188", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Time as primary resource: every action spends time. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-189", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Multi-source clues: witness, search, network. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-190", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-191", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Reference/lookup as gameplay: dossiers and archives. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-192", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Procedural case generation via suspect traits + route graph. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-193", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Multi-source clues: witness, search, network. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-194", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Warrant/commit gate before arrest to force commitment. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-195", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Reference/lookup as gameplay: dossiers and archives. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-196", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-197", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Warrant/commit gate before arrest to force commitment. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-198", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-199", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-200", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Reference/lookup as gameplay: dossiers and archives. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-201", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Multi-source clues: witness, search, network. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-202", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-203", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Reference/lookup as gameplay: dossiers and archives. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-204", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Time as primary resource: every action spends time. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-205", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-206", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Procedural case generation via suspect traits + route graph. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-207", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-208", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-209", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Warrant/commit gate before arrest to force commitment. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-210", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Reference/lookup as gameplay: dossiers and archives. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-211", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-212", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Multi-source clues: witness, search, network. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-213", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Procedural case generation via suspect traits + route graph. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-214", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Procedural case generation via suspect traits + route graph. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-215", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Time as primary resource: every action spends time. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-216", "source_family": "CARMEN", "taxonomy": "TOOLING_QA", "insight": "Procedural case generation via suspect traits + route graph. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-217", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Multi-source clues: witness, search, network. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "CARMEN-218", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Time as primary resource: every action spends time. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-219", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Reference/lookup as gameplay: dossiers and archives. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-220", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Reference/lookup as gameplay: dossiers and archives. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-221", "source_family": "CARMEN", "taxonomy": "GEO_LEARNING", "insight": "Multi-source clues: witness, search, network. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-222", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Procedural case generation via suspect traits + route graph. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-223", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-224", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Time as primary resource: every action spends time. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-225", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-226", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Multi-source clues: witness, search, network. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-227", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-228", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Reference/lookup as gameplay: dossiers and archives. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-229", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Warrant/commit gate before arrest to force commitment. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-230", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Reference/lookup as gameplay: dossiers and archives. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-231", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Multi-source clues: witness, search, network. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-232", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-233", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Multi-source clues: witness, search, network. Offer OPTIMUS help only on request or timeout."}
+{"id": "CARMEN-234", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Time as primary resource: every action spends time. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "CARMEN-235", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Time as primary resource: every action spends time. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-236", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-237", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Time as primary resource: every action spends time. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-238", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-239", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Reference/lookup as gameplay: dossiers and archives. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-240", "source_family": "CARMEN", "taxonomy": "HEAT", "insight": "Time as primary resource: every action spends time. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-241", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Multi-source clues: witness, search, network. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-242", "source_family": "CARMEN", "taxonomy": "PROGRESSION", "insight": "Multi-source clues: witness, search, network. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-243", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Time as primary resource: every action spends time. Tie clue to geography fact (language/flag/transit)."}
+{"id": "CARMEN-244", "source_family": "CARMEN", "taxonomy": "DEDUCTION", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-245", "source_family": "CARMEN", "taxonomy": "TRAVEL", "insight": "Warrant/commit gate before arrest to force commitment. Use Heat as the pressure dial for risky actions."}
+{"id": "CARMEN-246", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Procedural case generation via suspect traits + route graph. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-247", "source_family": "CARMEN", "taxonomy": "SETPIECE", "insight": "Globe fantasy: real cities, landmarks, and cultural hints. Reward with a card reveal + progress bump + sting."}
+{"id": "CARMEN-248", "source_family": "CARMEN", "taxonomy": "VOICE", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Add a spoiler-safe HELIX recap line."}
+{"id": "CARMEN-249", "source_family": "CARMEN", "taxonomy": "ECONOMY", "insight": "Procedural case generation via suspect traits + route graph. Branch then reconverge within 1–2 steps."}
+{"id": "CARMEN-250", "source_family": "CARMEN", "taxonomy": "PACING", "insight": "Travel-to-deduce loop: move to a location based on clue inference. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-001", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Duo cognition split: logic vs intuition roles. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-002", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Recurring hub provides stability; cases branch outward. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-003", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Cliffhanger pacing to drive “one more” behavior. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-004", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Recurring hub provides stability; cases branch outward. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-005", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "False accusation mid-case forces pivot and urgency. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-006", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Recurring hub provides stability; cases branch outward. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-007", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Recurring hub provides stability; cases branch outward. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-008", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Cliffhanger pacing to drive “one more” behavior. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-009", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Cliffhanger pacing to drive “one more” behavior. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-010", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Cliffhanger pacing to drive “one more” behavior. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-011", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "Template-first writing: outline → beats → setpieces. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-012", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Cliffhanger pacing to drive “one more” behavior. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-013", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cold open danger within first minute. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-014", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "Duo cognition split: logic vs intuition roles. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-015", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "Cliffhanger pacing to drive “one more” behavior. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-016", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Template-first writing: outline → beats → setpieces. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-017", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-018", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Recurring hub provides stability; cases branch outward. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-019", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "False accusation mid-case forces pivot and urgency. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-020", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Recurring hub provides stability; cases branch outward. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-021", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "False accusation mid-case forces pivot and urgency. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-022", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Duo cognition split: logic vs intuition roles. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-023", "source_family": "HARDY", "taxonomy": "PACING", "insight": "False accusation mid-case forces pivot and urgency. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-024", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Recurring hub provides stability; cases branch outward. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-025", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "False accusation mid-case forces pivot and urgency. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-026", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Cold open danger within first minute. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-027", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Duo cognition split: logic vs intuition roles. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-028", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Cold open danger within first minute. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-029", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Template-first writing: outline → beats → setpieces. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-030", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Cliffhanger pacing to drive “one more” behavior. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-031", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cliffhanger pacing to drive “one more” behavior. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-032", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-033", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Cold open danger within first minute. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-034", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Template-first writing: outline → beats → setpieces. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-035", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Duo cognition split: logic vs intuition roles. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-036", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Cliffhanger pacing to drive “one more” behavior. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-037", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-038", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Cold open danger within first minute. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-039", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Duo cognition split: logic vs intuition roles. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-040", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "False accusation mid-case forces pivot and urgency. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-041", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Cold open danger within first minute. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-042", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "False accusation mid-case forces pivot and urgency. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-043", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "False accusation mid-case forces pivot and urgency. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-044", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Duo cognition split: logic vs intuition roles. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-045", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Cliffhanger pacing to drive “one more” behavior. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-046", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-047", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Cold open danger within first minute. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-048", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-049", "source_family": "HARDY", "taxonomy": "PACING", "insight": "False accusation mid-case forces pivot and urgency. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-050", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "False accusation mid-case forces pivot and urgency. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-051", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Cold open danger within first minute. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-052", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "False accusation mid-case forces pivot and urgency. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-053", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cold open danger within first minute. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-054", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Cold open danger within first minute. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-055", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Cliffhanger pacing to drive “one more” behavior. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-056", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cliffhanger pacing to drive “one more” behavior. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-057", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "False accusation mid-case forces pivot and urgency. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-058", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Duo cognition split: logic vs intuition roles. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-059", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Cliffhanger pacing to drive “one more” behavior. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-060", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Recurring hub provides stability; cases branch outward. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-061", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Cliffhanger pacing to drive “one more” behavior. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-062", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Cliffhanger pacing to drive “one more” behavior. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-063", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Cliffhanger pacing to drive “one more” behavior. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-064", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-065", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Recurring hub provides stability; cases branch outward. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-066", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-067", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Cliffhanger pacing to drive “one more” behavior. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-068", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cliffhanger pacing to drive “one more” behavior. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-069", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "False accusation mid-case forces pivot and urgency. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-070", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "False accusation mid-case forces pivot and urgency. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-071", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Cold open danger within first minute. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-072", "source_family": "HARDY", "taxonomy": "PACING", "insight": "False accusation mid-case forces pivot and urgency. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-073", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "Recurring hub provides stability; cases branch outward. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-074", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Template-first writing: outline → beats → setpieces. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-075", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "False accusation mid-case forces pivot and urgency. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-076", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Cold open danger within first minute. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-077", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Cliffhanger pacing to drive “one more” behavior. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-078", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Recurring hub provides stability; cases branch outward. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-079", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "False accusation mid-case forces pivot and urgency. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-080", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-081", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Template-first writing: outline → beats → setpieces. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-082", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Recurring hub provides stability; cases branch outward. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-083", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Cold open danger within first minute. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-084", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Cliffhanger pacing to drive “one more” behavior. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-085", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "False accusation mid-case forces pivot and urgency. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-086", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "False accusation mid-case forces pivot and urgency. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-087", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-088", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "False accusation mid-case forces pivot and urgency. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-089", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Template-first writing: outline → beats → setpieces. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-090", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Template-first writing: outline → beats → setpieces. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-091", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Recurring hub provides stability; cases branch outward. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-092", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Template-first writing: outline → beats → setpieces. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-093", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Template-first writing: outline → beats → setpieces. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-094", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Recurring hub provides stability; cases branch outward. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-095", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Template-first writing: outline → beats → setpieces. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-096", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Duo cognition split: logic vs intuition roles. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-097", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "Template-first writing: outline → beats → setpieces. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-098", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "False accusation mid-case forces pivot and urgency. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-099", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Cliffhanger pacing to drive “one more” behavior. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-100", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Cliffhanger pacing to drive “one more” behavior. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-101", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-102", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Duo cognition split: logic vs intuition roles. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-103", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Recurring hub provides stability; cases branch outward. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-104", "source_family": "HARDY", "taxonomy": "PACING", "insight": "False accusation mid-case forces pivot and urgency. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-105", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cold open danger within first minute. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-106", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-107", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Cliffhanger pacing to drive “one more” behavior. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-108", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Recurring hub provides stability; cases branch outward. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-109", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Template-first writing: outline → beats → setpieces. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-110", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "False accusation mid-case forces pivot and urgency. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-111", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "False accusation mid-case forces pivot and urgency. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-112", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-113", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Recurring hub provides stability; cases branch outward. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-114", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Cliffhanger pacing to drive “one more” behavior. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-115", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "False accusation mid-case forces pivot and urgency. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-116", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "Cold open danger within first minute. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-117", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Cliffhanger pacing to drive “one more” behavior. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-118", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-119", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Cold open danger within first minute. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-120", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Template-first writing: outline → beats → setpieces. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-121", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "False accusation mid-case forces pivot and urgency. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-122", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Cliffhanger pacing to drive “one more” behavior. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-123", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Cliffhanger pacing to drive “one more” behavior. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-124", "source_family": "HARDY", "taxonomy": "PACING", "insight": "False accusation mid-case forces pivot and urgency. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-125", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Duo cognition split: logic vs intuition roles. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-126", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Cold open danger within first minute. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-127", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cold open danger within first minute. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-128", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "Cliffhanger pacing to drive “one more” behavior. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-129", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "False accusation mid-case forces pivot and urgency. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-130", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-131", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Template-first writing: outline → beats → setpieces. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-132", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-133", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Duo cognition split: logic vs intuition roles. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-134", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Cliffhanger pacing to drive “one more” behavior. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-135", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Duo cognition split: logic vs intuition roles. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-136", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Recurring hub provides stability; cases branch outward. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-137", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-138", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Cold open danger within first minute. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-139", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-140", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "False accusation mid-case forces pivot and urgency. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-141", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Cold open danger within first minute. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-142", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "False accusation mid-case forces pivot and urgency. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-143", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Cold open danger within first minute. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-144", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Recurring hub provides stability; cases branch outward. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-145", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cold open danger within first minute. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-146", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Recurring hub provides stability; cases branch outward. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-147", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Recurring hub provides stability; cases branch outward. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-148", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Template-first writing: outline → beats → setpieces. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-149", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Cold open danger within first minute. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-150", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Cliffhanger pacing to drive “one more” behavior. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-151", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Duo cognition split: logic vs intuition roles. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-152", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Cliffhanger pacing to drive “one more” behavior. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-153", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "False accusation mid-case forces pivot and urgency. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-154", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Cliffhanger pacing to drive “one more” behavior. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-155", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Recurring hub provides stability; cases branch outward. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-156", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "False accusation mid-case forces pivot and urgency. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-157", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Recurring hub provides stability; cases branch outward. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-158", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Duo cognition split: logic vs intuition roles. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-159", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-160", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Duo cognition split: logic vs intuition roles. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-161", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Template-first writing: outline → beats → setpieces. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-162", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Cliffhanger pacing to drive “one more” behavior. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-163", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Recurring hub provides stability; cases branch outward. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-164", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "False accusation mid-case forces pivot and urgency. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-165", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Cliffhanger pacing to drive “one more” behavior. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-166", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Duo cognition split: logic vs intuition roles. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-167", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "Cold open danger within first minute. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-168", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Recurring hub provides stability; cases branch outward. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-169", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "False accusation mid-case forces pivot and urgency. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-170", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Recurring hub provides stability; cases branch outward. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-171", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Duo cognition split: logic vs intuition roles. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-172", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Cold open danger within first minute. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-173", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Recurring hub provides stability; cases branch outward. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-174", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Recurring hub provides stability; cases branch outward. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-175", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Template-first writing: outline → beats → setpieces. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-176", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Cold open danger within first minute. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-177", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "False accusation mid-case forces pivot and urgency. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-178", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "Cold open danger within first minute. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-179", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Duo cognition split: logic vs intuition roles. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-180", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-181", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-182", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Cold open danger within first minute. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-183", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Recurring hub provides stability; cases branch outward. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-184", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Template-first writing: outline → beats → setpieces. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-185", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-186", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cliffhanger pacing to drive “one more” behavior. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-187", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Template-first writing: outline → beats → setpieces. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-188", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cold open danger within first minute. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-189", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Template-first writing: outline → beats → setpieces. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-190", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "False accusation mid-case forces pivot and urgency. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-191", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Cliffhanger pacing to drive “one more” behavior. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-192", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Recurring hub provides stability; cases branch outward. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-193", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "False accusation mid-case forces pivot and urgency. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-194", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "False accusation mid-case forces pivot and urgency. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-195", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cliffhanger pacing to drive “one more” behavior. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-196", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-197", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "Recurring hub provides stability; cases branch outward. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-198", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Cold open danger within first minute. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-199", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "Template-first writing: outline → beats → setpieces. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-200", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Duo cognition split: logic vs intuition roles. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-201", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Duo cognition split: logic vs intuition roles. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-202", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "False accusation mid-case forces pivot and urgency. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-203", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "Duo cognition split: logic vs intuition roles. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-204", "source_family": "HARDY", "taxonomy": "PROGRESSION", "insight": "False accusation mid-case forces pivot and urgency. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-205", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Cliffhanger pacing to drive “one more” behavior. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-206", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-207", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Template-first writing: outline → beats → setpieces. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-208", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-209", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-210", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cliffhanger pacing to drive “one more” behavior. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-211", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-212", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Duo cognition split: logic vs intuition roles. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-213", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Cliffhanger pacing to drive “one more” behavior. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-214", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Duo cognition split: logic vs intuition roles. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-215", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Cold open danger within first minute. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-216", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "False accusation mid-case forces pivot and urgency. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-217", "source_family": "HARDY", "taxonomy": "PACING", "insight": "Duo cognition split: logic vs intuition roles. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-218", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Cliffhanger pacing to drive “one more” behavior. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-219", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "False accusation mid-case forces pivot and urgency. Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-220", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "False accusation mid-case forces pivot and urgency. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-221", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Cliffhanger pacing to drive “one more” behavior. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-222", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Convert into a 30–90s minigame (tail/decode/lockpick)."}
+{"id": "HARDY-223", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Cold open danger within first minute. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-224", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Template-first writing: outline → beats → setpieces. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-225", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Template-first writing: outline → beats → setpieces. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-226", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Cold open danger within first minute. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-227", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-228", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Duo cognition split: logic vs intuition roles. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-229", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cliffhanger pacing to drive “one more” behavior. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-230", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Cold open danger within first minute. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-231", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Cliffhanger pacing to drive “one more” behavior. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-232", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Cold open danger within first minute. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-233", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "Duo cognition split: logic vs intuition roles. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-234", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Recurring hub provides stability; cases branch outward. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-235", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "Duo cognition split: logic vs intuition roles. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-236", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Cliffhanger pacing to drive “one more” behavior. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-237", "source_family": "HARDY", "taxonomy": "PACING", "insight": "False accusation mid-case forces pivot and urgency. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-238", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Hideouts as labyrinth setpieces (tunnels/caves/secret rooms). Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-239", "source_family": "HARDY", "taxonomy": "VOICE", "insight": "Template-first writing: outline → beats → setpieces. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-240", "source_family": "HARDY", "taxonomy": "GEO_LEARNING", "insight": "Cold open danger within first minute. Offer OPTIMUS help only on request or timeout."}
+{"id": "HARDY-241", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "Cliffhanger pacing to drive “one more” behavior. Tie clue to geography fact (language/flag/transit)."}
+{"id": "HARDY-242", "source_family": "HARDY", "taxonomy": "HEAT", "insight": "Cliffhanger pacing to drive “one more” behavior. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-243", "source_family": "HARDY", "taxonomy": "PACING", "insight": "False accusation mid-case forces pivot and urgency. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-244", "source_family": "HARDY", "taxonomy": "DEDUCTION", "insight": "False accusation mid-case forces pivot and urgency. Add a spoiler-safe HELIX recap line."}
+{"id": "HARDY-245", "source_family": "HARDY", "taxonomy": "ECONOMY", "insight": "False accusation mid-case forces pivot and urgency. Use Heat as the pressure dial for risky actions."}
+{"id": "HARDY-246", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cold open danger within first minute. Wrap as a 5–10 minute micro-episode with an intel ping."}
+{"id": "HARDY-247", "source_family": "HARDY", "taxonomy": "TRAVEL", "insight": "False accusation mid-case forces pivot and urgency. Branch then reconverge within 1–2 steps."}
+{"id": "HARDY-248", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Cliffhanger pacing to drive “one more” behavior. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-249", "source_family": "HARDY", "taxonomy": "SETPIECE", "insight": "Recurring hub provides stability; cases branch outward. Reward with a card reveal + progress bump + sting."}
+{"id": "HARDY-250", "source_family": "HARDY", "taxonomy": "TOOLING_QA", "insight": "Cliffhanger pacing to drive “one more” behavior. Add a spoiler-safe HELIX recap line."}

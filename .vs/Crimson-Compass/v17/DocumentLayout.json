@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gripa\\OneDrive\\Desktop\\CrimsonCompass\\Crimson-Compass\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D00C6988-4FC8-E1DA-3B30-75740B403E4F}|Assembly-CSharp.csproj|c:\\users\\gripa\\onedrive\\desktop\\crimsoncompass\\crimson-compass\\assets\\scripts\\episoderunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D00C6988-4FC8-E1DA-3B30-75740B403E4F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\episoderunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EpisodeRunner.cs",
+              "DocumentMoniker": "C:\\Users\\gripa\\OneDrive\\Desktop\\CrimsonCompass\\Crimson-Compass\\Assets\\Scripts\\EpisodeRunner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EpisodeRunner.cs",
+              "ToolTip": "C:\\Users\\gripa\\OneDrive\\Desktop\\CrimsonCompass\\Crimson-Compass\\Assets\\Scripts\\EpisodeRunner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EpisodeRunner.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAIAwwHMAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T09:14:04.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

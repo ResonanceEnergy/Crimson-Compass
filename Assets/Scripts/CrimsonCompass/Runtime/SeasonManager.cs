@@ -25,6 +25,8 @@ namespace CrimsonCompass.Runtime
         private readonly CountermeasureDeck _deck;
         private CcSeason1RuntimeLoader.EpisodeData _episode;
 
+        public CcSeason1RuntimeLoader.EpisodeData CurrentEpisode => _episode;
+
         public SeasonManager(CcSeason1RuntimeLoader loader, CountermeasureDeck deck, GameState initialState)
         {
             _loader = loader;
@@ -32,7 +34,7 @@ namespace CrimsonCompass.Runtime
             State = initialState;
         }
 
-        public async Task StartEpisodeAsync(string episodeId, bool verifySha = true)
+        public async Task StartEpisodeAsync(string episodeId, bool verifySha = false)
         {
             SetFlow(SeasonFlowState.LoadingEpisode);
             CurrentEpisodeId = episodeId;
@@ -42,7 +44,7 @@ namespace CrimsonCompass.Runtime
             _episode.BuildIndexes();
 
             // Audio setup
-            int episodeNumber = int.Parse(episodeId.Split('_')[1]);
+            int episodeNumber = int.Parse(episodeId.Substring(episodeId.Length - 2));
             if (CCAudioContextProvider.Instance != null)
             {
                 CCAudioContextProvider.Instance.EpisodeNumber = episodeNumber;

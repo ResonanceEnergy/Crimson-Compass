@@ -1,0 +1,91 @@
+{
+  "episode_id": "EP11",
+  "title": "Safe House",
+  "description": "A cleanup crew attempts to erase evidence, but the safe house contains hidden exit protocols.",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "narrative": "The cleanup crew has moved to a designated safe house to destroy evidence. They're working methodically through the files.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Attempt to negotiate with the crew for information.",
+          "consequence": "Some crew members provide details about the evidence destruction process.",
+          "heat_delta": 1,
+          "time_delta": 0,
+          "awards": ["negotiation"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Prioritize evidence preservation over crew apprehension.",
+          "consequence": "You secure critical evidence before it can be destroyed.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["preservation"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Use remote access tools to lock down the safe house systems.",
+          "consequence": "System lockdown prevents evidence destruction and traps the crew.",
+          "heat_delta": 3,
+          "time_delta": 0,
+          "awards": ["lockdown"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The safe house has hidden exits - they're planning to escape.",
+          "consequence": "You discover concealed exit protocols that the crew was preparing to use.",
+          "heat_delta": -2,
+          "time_delta": 0,
+          "awards": ["exit_discovery"]
+        }
+      ]
+    },
+    {
+      "scene_id": 2,
+      "narrative": "The crew has been contained, but they're demanding legal representation. Evidence recovery is critical.",
+      "choices": [
+        {
+          "id": "X",
+          "advisor": "X",
+          "label": "Handle the crew's demands professionally to maintain cooperation.",
+          "consequence": "Professional handling leads to additional intelligence from the crew.",
+          "heat_delta": 2,
+          "time_delta": 0,
+          "awards": ["professional"]
+        },
+        {
+          "id": "Y",
+          "advisor": "Y",
+          "label": "Document all evidence with forensic precision.",
+          "consequence": "Comprehensive documentation ensures evidence admissibility.",
+          "heat_delta": 0,
+          "time_delta": -1,
+          "awards": ["forensic"]
+        },
+        {
+          "id": "Z",
+          "advisor": "Z",
+          "label": "Extract digital evidence from crew devices.",
+          "consequence": "Device extraction reveals communication logs and planning details.",
+          "heat_delta": 4,
+          "time_delta": 0,
+          "awards": ["extraction"]
+        },
+        {
+          "id": "G",
+          "advisor": "G",
+          "label": "The cleanup was too thorough - they were hiding something bigger.",
+          "consequence": "You find evidence of a larger operation that the cleanup was meant to conceal.",
+          "heat_delta": -1,
+          "time_delta": 1,
+          "awards": ["concealment"]
+        }
+      ]
+    }
+  ]
+}

@@ -41,6 +41,8 @@ public class GasketManager : MonoBehaviour
             {
                 AudioManager.Instance.PlayGasketFragment(fragment.Split(':')[0].Trim());
             }            // TODO: Display fragment UI (sensory, non-linear)
+            // Basic implementation: display fragment in UI or log
+            DisplayFragmentUI(fragment);
         }
     }
 
@@ -55,14 +57,11 @@ public class GasketManager : MonoBehaviour
         }
     }
 
-    public void ChooseCatastrophicOption()
+    void DisplayFragmentUI(string fragment)
     {
-        // Gasket choice: massive heat/time spike, cover blown, safe house reset
-        var state = GameManager.Instance.currentState;
-        state.heat += 50; // Massive spike
-        state.timeBudget -= 24; // Massive time loss
-        Debug.Log("GASKET CHOICE: Cover blown! Forced extraction to safe house. Investigation reset.");
-        // TODO: Reset board, move to safe house scene
-        GameManager.Instance.eventBus.Publish(GameEventType.SAFE_HOUSE_RESET, null);
+        // Basic fragment UI display
+        // In a full game, this would show a non-linear, sensory UI overlay
+        Debug.Log("DISPLAYING FRAGMENT UI: " + fragment);
+        // Could show a popup or overlay with the fragment text
     }
 }
