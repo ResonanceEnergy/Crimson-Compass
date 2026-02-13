@@ -81,6 +81,25 @@ grokService.GenerateImage(
     (error) => Debug.LogError($"Generation failed: {error}")
 );
 
+// Generate multiple images
+grokService.GenerateImage(
+    "Detective character portrait",
+    "1:1",
+    4, // Generate 4 variations
+    "url", // Return URLs (or "base64" for embedded data)
+    (url) => Debug.Log($"Image ready: {url}"),
+    (error) => Debug.LogError($"Generation failed: {error}")
+);
+
+// Edit an existing image
+grokService.EditImage(
+    "Add a mysterious glowing artifact in the detective's hand",
+    "https://example.com/existing-image.jpg",
+    "16:9",
+    (url) => Debug.Log($"Edited image ready: {url}"),
+    (error) => Debug.LogError($"Edit failed: {error}")
+);
+
 // Generate a video
 grokService.GenerateVideo(
     "Dynamic scene of detective examining evidence, handheld camera, slow deliberate movement",
@@ -112,16 +131,97 @@ manager.GenerateUIAssets();
 - **Video Generation**: Text-to-video with duration and resolution control
 - **Image Editing**: Modify existing images with natural language
 - **Batch Processing**: Generate multiple assets concurrently
+- **Base64 Output**: Get images as embedded data instead of URLs
 - **Automatic Download**: Assets are saved to `Assets/GeneratedAssets/GrokImagine/`
+
+#### API Parameters
+
+**GenerateImage Parameters:**
+- `prompt` (string): Text description of the image to generate
+- `aspectRatio` (string, optional): Aspect ratio (e.g., "16:9", "1:1", "9:16"). Default: "16:9"
+- `n` (int, optional): Number of images to generate (1-10). Default: 1
+- `imageFormat` (string, optional): "url" for temporary URLs or "base64" for embedded data. Default: "url"
+- `onComplete` (Action<string>): Callback with generated image URL or base64 data
+- `onError` (Action<string>): Callback with error message
+
+**EditImage Parameters:**
+- `prompt` (string): Description of the edits to apply
+- `imageUrl` (string): URL of the source image to edit
+- `aspectRatio` (string, optional): Aspect ratio. Default: "16:9"
+- `n` (int, optional): Number of edited versions. Default: 1
+- `imageFormat` (string, optional): "url" or "base64". Default: "url"
+- `onComplete` (Action<string>): Callback with edited image URL or data
+- `onError` (Action<string>): Callback with error message
+
+**Supported Aspect Ratios:**
+- "1:1" - Square (social media, thumbnails)
+- "16:9" - Widescreen (presentations, banners)
+- "9:16" - Vertical (mobile, stories)
+- "4:3" - Classic (photography)
+- "3:2" - Photography
+- "2:1" - Ultra-wide
+- "auto" - Model auto-selects best ratio
 
 #### Editor Testing Tool
 Use the Unity Editor tool to test the API integration:
 
-1. Open Unity Editor
-2. Go to `Crimson Compass > Grok Imagine API Tester`
-3. Enter your xAI API key
-4. Test image/video generation with custom prompts
-5. Use quick test buttons for common asset types
+1. **Open the Editor Tool**:
+   - Go to `Crimson Compass > Grok API Tester` in the Unity menu
+2. **Enter your API key** (if not already set)
+3. **Test image/video generation**:
+   - Switch to "Image/Video Generation" tab
+   - Try the preset buttons or enter custom prompts
+   - Click "Generate Image" or "Generate Video" to test
+4. **Test chat completions**:
+   - Switch to "Chat Completions" tab
+   - Enter system and user messages
+   - Click "Send Chat Message" to test
+5. **Use quick test buttons** for common asset types and chat examples
+
+## Grok Chat API Integration
+
+In addition to image/video generation, the project now includes integration with Grok's chat completions API for interactive AI assistance.
+
+### Chat API Features
+- **Conversational AI**: Multi-turn conversations with context retention
+- **System Prompts**: Customizable AI behavior and personality
+- **Game Integration**: Specialized prompts for Crimson Compass gameplay
+- **Clue Assistance**: AI help with detective puzzles and story elements
+- **Story Guidance**: Lore explanations and narrative support
+
+### Chat API Setup
+```csharp
+using CrimsonCompass;
+
+// Add GrokChatService to a GameObject
+var chatService = gameObject.AddComponent<GrokChatService>();
+
+// Send a simple message
+chatService.SendChatMessage(
+    "Hello, can you help me with a clue?",
+    "You are a helpful AI assistant for the Crimson Compass detective game.",
+    (response) => Debug.Log($"AI: {response}"),
+    (error) => Debug.LogError($"Error: {error}")
+);
+```
+
+### Chat Manager Usage
+```csharp
+// Use GrokChatManager for conversation management
+var chatManager = FindObjectOfType<GrokChatManager>();
+
+// Ask for clue help
+chatManager.AskForClueHelp("The butler says he was in the kitchen...");
+
+// Ask about story elements
+chatManager.AskAboutStory("What's the significance of the crimson compass?");
+
+// Get gameplay tips
+chatManager.AskForGameplayTips();
+```
+
+### API Key Configuration
+The API key has been integrated into the service components. For security, API keys should be set via the Unity Inspector or PlayerPrefs, not hardcoded in documentation.
 
 ## Asset Categories (58 Total)
 
