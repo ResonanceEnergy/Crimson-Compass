@@ -1,0 +1,86 @@
+{
+  "caseId": "CASE-0007",
+  "title": "The Convenient Suspect",
+  "tier": "season1",
+  "hook": "Decoy culprit framed for sabotage to cover real theft.",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "gadgetsOffered": [
+    "LOCKPICK",
+    "SIGNALJAMMER",
+    "FAKEID",
+    "CLEANER",
+    "DEADDROP"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Decoy Culprit",
+      "traits": [
+        "framed",
+        "alibi:weak"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Real Saboteur",
+      "traits": [
+        "careful",
+        "access:maintenance"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Frame Artist",
+      "traits": [
+        "deceptive",
+        "collects:evidence"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Evidence Planting",
+      "signatures": [
+        "prints:forged"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Sabotage Setup",
+      "signatures": [
+        "device:tampered"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "Alibi Destruction",
+      "signatures": [
+        "records:altered"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "Austin",
+      "country": "USA"
+    },
+    {
+      "id": "Boston",
+      "country": "USA"
+    }
+  ],
+  "truth": {
+    "whoId": "S3",
+    "howId": "M1",
+    "whereId": "Austin"
+  },
+  "caseToken": "Sabotage prevented; decoy arrested.",
+  "shadowToken": "Motif A — exit plan staged before the crime."
+}

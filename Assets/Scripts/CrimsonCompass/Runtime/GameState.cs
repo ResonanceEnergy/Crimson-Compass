@@ -25,6 +25,14 @@ namespace CrimsonCompass.Runtime
 
         public List<string> tokens; // awarded tokens
 
+        // Aliases for compatibility
+        public int TimeRemaining { get => timeBudget; set => timeBudget = value; }
+        public int Heat { get => heat; set => heat = value; }
+        public LeadIntegrity LeadIntegrity { get => leadIntegrity; set => leadIntegrity = value; }
+        public GasketState Gasket { get => gasket; set => gasket = value; }
+        public FlagState Flag { get => flag; set => flag = value; }
+        public WarrantPressure WarrantPressure { get => warrantPressure; set => warrantPressure = value; }
+
         public HeatBand GetHeatBand()
         {
             if (heat <= 33) return HeatBand.Low;

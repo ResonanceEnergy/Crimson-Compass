@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SceneSetup : MonoBehaviour
+public class OnboardingSceneSetup : MonoBehaviour
 {
     [Header("Scene Objects")]
     public GameObject clockInPrompt;

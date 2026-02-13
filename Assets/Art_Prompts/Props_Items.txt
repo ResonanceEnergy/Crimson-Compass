@@ -1,0 +1,16 @@
+# Props and Items Prompts
+
+## Antique Key
+Ornate brass key, intricate filigree design, glowing ethereal runes, mystery game prop, detailed metallic texture, atmospheric lighting, high resolution, collectible item art --ar 1:1
+
+## Mysterious Letter
+Crumpled parchment letter, wax seal with family crest, faded ink writing, candle wax drips, mystery game evidence, detailed paper texture, warm lighting, antique document style --ar 4:3
+
+## Brass Compass
+Victorian brass compass, ornate engravings, needle pointing north, mystery game artifact, metallic gold and brass, detailed craftsmanship, atmospheric presentation, high quality --ar 1:1
+
+## Poisoned Chalice
+Crystal chalice with emerald inlays, mysterious green liquid swirling, ornate gold stem, poison mystery prop, detailed glass texture, dramatic lighting, sinister atmosphere --ar 3:4
+
+## Hidden Dagger
+Concealed dagger, jeweled hilt hidden in sleeve, sharp blade glinting, mystery weapon, detailed metallic textures, dramatic shadow lighting, intrigue atmosphere --ar 16:9

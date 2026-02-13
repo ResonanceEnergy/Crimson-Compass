@@ -1,0 +1,16 @@
+# UI Elements Prompts
+
+## Case File Icon
+Mysterious case file icon, antique parchment with glowing runes, detective magnifying glass overlay, mobile game UI element, flat vector style, high contrast black and gold, clean edges, touch-friendly design --ar 1:1
+
+## Evidence Clue Icon
+Intricate clue icon, brass compass rose with hidden symbols, glowing investigation light, mystery game UI element, detailed vector art, metallic gold and deep blue, professional mobile design --ar 1:1
+
+## Notebook Button
+Leather-bound notebook button, aged pages with handwritten notes, quill pen bookmark, mobile game UI element, realistic texture, warm brown tones, interactive hover effect --ar 1:1
+
+## Dialogue Box Background
+Victorian dialogue box, ornate scrollwork frame, subtle parchment texture, mystery game UI panel, semi-transparent overlay, elegant typography space, mobile optimized --ar 16:9
+
+## Inventory Slot
+Antique wooden inventory slot, brass hinges and lock, empty with dust particles, mobile game UI element, detailed material textures, atmospheric lighting --ar 1:1

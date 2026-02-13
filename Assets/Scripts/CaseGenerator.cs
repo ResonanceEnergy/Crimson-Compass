@@ -90,11 +90,6 @@ namespace CrimsonCompass
             };
         }
     }
-
-    [System.Serializable]
-    public class CitiesData { public City[] cities; }
-    [System.Serializable]
-    public class City { public string id; public string country; public string[] facts; public string[] langs; }
 }
 
 public static class ListExtensions

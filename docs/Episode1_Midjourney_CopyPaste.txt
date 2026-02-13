@@ -1,0 +1,49 @@
+/imagine prompt: cluttered office space with desks, filing cabinets, computer terminals, professional agents working, investigative atmosphere, classic adventure game perspective, slightly angled view, detailed equipment and paperwork, agency headquarters setting, morning light through windows --ar 16:9 --v 6 --style raw --q 2
+
+/imagine prompt: city rooftop at dusk, overlooking corporate headquarters, construction crane in distance, surveillance equipment setup, telescope and radio gear, urban skyline with neon lights, tense atmosphere, stakeout scene, detective perspective, atmospheric fog --ar 16:9 --v 6 --style raw --q 2
+
+/imagine prompt: abandoned industrial warehouse district at night, chain-link fences with graffiti, dim streetlights, suspicious parked vehicles, foggy atmosphere, multiple hiding spots, urban decay, investigation scene, detective approaching cautiously --ar 16:9 --v 6 --style raw --q 2
+
+/imagine prompt: dimly lit warehouse storage area, stacked crates and boxes, computer terminals with security screens, prototype technology equipment, confrontation atmosphere, industrial lighting, evidence scattered around, tense standoff scene --ar 16:9 --v 6 --style raw --q 2
+
+/imagine prompt: professional detective in modern suit, determined expression, short dark hair, focused eyes, standing confidently, investigative agent, clean-cut appearance, trustworthy face, adventure game protagonist style --ar 1:1 --v 6 --style raw --q 2
+
+/imagine prompt: young professional woman in business attire, managing multiple tablets and headsets, organized and efficient appearance, short professional haircut, determined expression, coordinating operations, modern office worker, competent and focused --ar 1:1 --v 6 --style raw --q 2
+
+/imagine prompt: middle-aged intelligence analyst with data glasses, surrounded by computer screens, analytical expression, salt-and-pepper hair, professional attire, data specialist, thoughtful and precise, investigative team member --ar 1:1 --v 6 --style raw --q 2
+
+/imagine prompt: disheveled technical genius with messy hair, wearing casual tech clothes, surrounded by gadgets and computer equipment, enthusiastic expression, multiple tools and devices, hacker aesthetic, brilliant but eccentric, inventive specialist --ar 1:1 --v 6 --style raw --q 2
+
+/imagine prompt: weathered older man in casual attire, rugged appearance, experienced face with wisdom lines, casual clothes, mysterious aura, unofficial operative, street-smart veteran, intermittent presence, knowing expression --ar 1:1 --v 6 --style raw --q 2
+
+/imagine prompt: smug corporate executive in expensive suit, arrogant expression, well-groomed appearance, confident posture, antagonist businessman, corrupt authority figure, professional criminal, calculating gaze --ar 1:1 --v 6 --style raw --q 2
+
+/imagine prompt: classic adventure game verb bar at bottom of screen, buttons for MOVE OBSERVE ENGAGE KIT PROTOCOL, pixel art style interface, retro gaming aesthetic, interactive UI elements, command selection panel, game interface design --ar 16:9 --v 6 --style raw --q 2
+
+/imagine prompt: 4-slot inventory grid interface, item icons for ID badge, digital tablet, encrypted communicator, wire cutters, pixel art style, adventure game inventory screen, item management UI, classic gaming interface --ar 1:1 --v 6 --style raw --q 2
+
+/imagine prompt: text-based dialogue interface, character portrait on left, dialogue text box on right, choice options below, pixel art style, retro adventure game UI, conversation system, interactive dialogue screen --ar 16:9 --v 6 --style raw --q 2
+
+/imagine prompt: professional identification badge icon, agency logo, security clearance card, pixel art style, inventory item icon, official credentials, access pass design --ar 1:1 --v 6 --style raw --q 2
+
+/imagine prompt: modern tablet device icon, touchscreen interface, data analysis tool, pixel art style, investigative gadget, electronic device, portable computer --ar 1:1 --v 6 --style raw --q 2
+
+/imagine prompt: secure communication device icon, encrypted radio, agent earpiece, pixel art style, communication gadget, wireless device, spy equipment --ar 1:1 --v 6 --style raw --q 2
+
+/imagine prompt: wire cutting tool icon, pliers with cutting edges, utility tool, pixel art style, sabotage equipment, industrial tool, access tool --ar 1:1 --v 6 --style raw --q 2
+
+/imagine prompt: lockpicking tools icon, tension wrench and pick set, burglary tools, pixel art style, infiltration equipment, precision tools, entry tools --ar 1:1 --v 6 --style raw --q 2
+
+/imagine prompt: thermal imaging device icon, handheld scanner, heat detection gadget, pixel art style, surveillance tool, electronic detector, analysis equipment --ar 1:1 --v 6 --style raw --q 2
+
+/imagine prompt: neo-noir detective atmosphere, urban shadows and neon lights, investigative tension, mystery and intrigue, cyberpunk detective story, atmospheric cityscape, suspenseful mood --ar 16:9 --v 6 --style raw --q 2
+
+/imagine prompt: hidden conspiracy visualization, connected data points and clues, shadow networks, investigative web, mystery unraveling, complex connections, detective breakthrough --ar 16:9 --v 6 --style raw --q 2
+
+/imagine prompt: advanced technology meeting human investigation, digital forensics and detective work, cyber investigation, tech-assisted mystery solving, modern detective tools, digital and physical evidence --ar 16:9 --v 6 --style raw --q 2
+
+/imagine prompt: adventure game cursor interacting with environment, hotspot highlighting, interactive object selection, classic point-and-click mechanics, game interaction visualization, user interface concept --ar 16:9 --v 6 --style raw --q 2
+
+/imagine prompt: detective analyzing evidence on digital tablet, connecting clues, pattern recognition, investigative breakthrough, puzzle solving scene, evidence analysis, mystery resolution --ar 16:9 --v 6 --style raw --q 2
+
+/imagine prompt: investigative team working together, agents communicating via encrypted devices, coordinated operation, team synergy, collaborative investigation, professional operatives --ar 16:9 --v 6 --style raw --q 2

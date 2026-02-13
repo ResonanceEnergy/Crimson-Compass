@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "episode": {
+    "episode_id": "S01E01",
+    "title": "The Opening Gambit",
+    "arc": "season1",
+    "scenes": [
+      {
+        "scene_id": 1,
+        "scene_text": "You arrive at the stakeout location just as the target emerges from the building. The street is quiet, but something feels off - too quiet. Your informant mentioned unusual activity, but this seems... wrong.",
+        "choices": [
+          {
+            "id": "X",
+            "text": "Maintain distance and observe. Patience is key in surveillance.",
+            "primary_effect": "You hold back, watching from the shadows. The target seems nervous, constantly checking their surroundings.",
+            "shadow_effect": "",
+            "deltas": {
+              "time": -1,
+              "heat": 0,
+              "lead_integrity": "clean",
+              "gasket": "contained",
+              "flag": "none"
+            },
+            "notes": ""
+          },
+          {
+            "id": "Y",
+            "text": "Get closer for a better look. Risk assessment shows acceptable danger.",
+            "primary_effect": "You move in closer, using the crowd for cover. The target spots something suspicious and picks up their pace.",
+            "shadow_effect": "",
+            "deltas": {
+              "time": 0,
+              "heat": 5,
+              "lead_integrity": "clean",
+              "gasket": "contained",
+              "flag": "none"
+            },
+            "notes": ""
+          },
+          {
+            "id": "Z",
+            "text": "Call in backup immediately. Better safe than sorry.",
+            "primary_effect": "You radio for immediate support. The response team arrives quickly, but the target has already slipped away.",
+            "shadow_effect": "",
+            "deltas": {
+              "time": -2,
+              "heat": 10,
+              "lead_integrity": "clean",
+              "gasket": "contained",
+              "flag": "none"
+            },
+            "notes": ""
+          },
+          {
+            "id": "G",
+            "text": "Trust your gut - this setup smells like a trap. Abort and regroup.",
+            "primary_effect": "You pull back immediately. Moments later, you see figures moving in the shadows - you made the right call.",
+            "shadow_effect": "",
+            "deltas": {
+              "time": 0,
+              "heat": -5,
+              "lead_integrity": "clean",
+              "gasket": "contained",
+              "flag": "none"
+            },
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "scene_id": 2,
+        "scene_text": "The target leads you to an abandoned warehouse district. Multiple vehicles are parked suspiciously, and you can hear muffled voices from inside one of the buildings.",
+        "choices": [
+          {
+            "id": "X",
+            "text": "Set up a perimeter and wait for the right moment to move in.",
+            "primary_effect": "You establish observation points and wait. The meeting concludes, and the target leaves with documents.",
+            "shadow_effect": "",
+            "deltas": {
+              "time": -1,
+              "heat": 0,
+              "lead_integrity": "clean",
+              "gasket": "contained",
+              "flag": "none"
+            },
+            "notes": ""
+          },
+          {
+            "id": "Y",
+            "text": "Attempt to get closer and listen in on the conversation.",
+            "primary_effect": "You manage to get within earshot and overhear critical information about the operation.",
+            "shadow_effect": "",
+            "deltas": {
+              "time": 0,
+              "heat": 15,
+              "lead_integrity": "clean",
+              "gasket": "contained",
+              "flag": "none"
+            },
+            "notes": ""
+          },
+          {
+            "id": "Z",
+            "text": "Call for tactical support and prepare for a raid.",
+            "primary_effect": "SWAT teams move in, but the targets scatter. You recover some evidence but lose the main target.",
+            "shadow_effect": "",
+            "deltas": {
+              "time": -3,
+              "heat": 20,
+              "lead_integrity": "clean",
+              "gasket": "contained",
+              "flag": "none"
+            },
+            "notes": ""
+          },
+          {
+            "id": "G",
+            "text": "This feels like a setup. Pull back and investigate from afar.",
+            "primary_effect": "You retreat to a safe distance. The warehouse explodes moments later - another trap avoided.",
+            "shadow_effect": "",
+            "deltas": {
+              "time": 1,
+              "heat": -10,
+              "lead_integrity": "clean",
+              "gasket": "contained",
+              "flag": "none"
+            },
+            "notes": ""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -105,6 +105,12 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    // Effect playback (alias for SFX)
+    public void PlayEffect(string effectName, float volume = 1f)
+    {
+        PlaySFX(effectName, volume);
+    }
+
     // Voice playback
     public void PlayVoice(string clipName)
     {

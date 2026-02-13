@@ -1,0 +1,20 @@
+# Prompt Template
+
+[Main Subject], [detailed description], [style specifications], [environment/setting], [lighting effects], [atmospheric mood], [technical parameters], [mobile optimizations] --ar [aspect ratio]
+
+## Template Examples
+
+### UI Element
+"[Object] icon, [materials/textures], [special effects], mobile game UI element, [style], [colors], [details], touch-friendly design --ar 1:1"
+
+### Background
+"[Location] [time of day], [key features], [atmospheric elements], mystery adventure game background, [art style], [lighting], [colors], high detail, mobile optimized --ar 9:16"
+
+### Character
+"[Age/gender] [profession/role], [expression/pose], [clothing/accessories], [action], mystery game character art, [style], [lighting], professional illustration, iPhone display quality --ar 3:4"
+
+## Quick Reference
+- Styles: cel-shaded, flat design, stylized illustration, detailed vector art
+- Lighting: dramatic chiaroscuro, rim lighting, atmospheric fog, golden hour
+- Atmosphere: eerie, tense, mysterious, suspenseful, immersive
+- Mobile: touch-friendly, high contrast, optimized for mobile, iPhone quality

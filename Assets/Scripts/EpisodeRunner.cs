@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using CrimsonCompass.Runtime;
 using CrimsonCompass.Core;
+using System.Linq;
 
 namespace CrimsonCompass
 {
@@ -62,7 +63,8 @@ namespace CrimsonCompass
             if (sceneIndex < currentEpisode.scenes.Count)
             {
                 var scene = currentEpisode.scenes[sceneIndex];
-                episodeUI.DisplayScene(scene);
+                string[] choiceLabels = scene.choices != null ? scene.choices.Select(c => c.label).ToArray() : new string[0];
+                episodeUI.DisplayScene(scene.scene_text, choiceLabels);
 
                 // Check if scene has choices
                 if (scene.choices != null && scene.choices.Count > 0)

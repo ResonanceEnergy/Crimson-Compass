@@ -1,0 +1,25 @@
+{
+  "catalog_version": "1.0",
+  "generated_utc": "2026-02-08T10:40:00Z",
+  "notes": [
+    "Minimal catalog for testing S01E01 episode"
+  ],
+  "entries": [
+    {
+      "key": "cc/s1/S01E01",
+      "label": "episode",
+      "group": "CrimsonCompass_Season1",
+      "path": "Assets/AddressableAssetsData/CrimsonCompass/Season1/S01E01.json",
+      "sha256": "",
+      "bytes": 0
+    },
+    {
+      "key": "cc/s1/catalog",
+      "label": "catalog",
+      "group": "CrimsonCompass_Season1",
+      "path": "Assets/AddressableAssetsData/CrimsonCompass/Season1/addressables_catalog.json",
+      "sha256": "",
+      "bytes": 0
+    }
+  ]
+}

@@ -96,10 +96,26 @@ namespace CrimsonCompass.Runtime
 
         private static async Task<TextAsset> LoadTextAssetAsync(string address)
         {
+            // For now, load directly from Resources path instead of Addressables
+            if (address == "cc/s1/catalog")
+            {
+                var textAsset = Resources.Load<TextAsset>("AddressableAssetsData/CrimsonCompass/Season1/addressables_catalog");
+                if (textAsset != null) return textAsset;
+            }
+            else if (address.StartsWith("cc/s1/"))
+            {
+                string episodeId = address.Replace("cc/s1/", "");
+                var textAsset = Resources.Load<TextAsset>($"AddressableAssetsData/CrimsonCompass/Season1/{episodeId}");
+                if (textAsset != null) return textAsset;
+            }
+
+            // Fallback to Addressables if available
             AsyncOperationHandle<TextAsset> handle = Addressables.LoadAssetAsync<TextAsset>(address);
             await handle.Task;
-            if (handle.Status != AsyncOperationStatus.Succeeded) return null;
-            return handle.Result;
+            if (handle.Status == AsyncOperationStatus.Succeeded)
+                return handle.Result;
+            
+            return null;
         }
 
         private static string Sha256Utf8(string text)
@@ -195,6 +211,7 @@ namespace CrimsonCompass.Runtime
         public sealed class SceneData
         {
             [JsonProperty("scene_id")] public int SceneId;
+            [JsonProperty("scene_text")] public string SceneText;
             [JsonProperty("choices")] public List<ChoiceData> Choices;
         }
 

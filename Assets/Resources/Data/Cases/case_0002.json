@@ -1,0 +1,87 @@
+{
+  "caseId": "CASE-0002",
+  "title": "Badge & Borrow",
+  "tier": "season1",
+  "hook": "Social engineering theft of hardware keys from a secure facility.",
+  "timeBudget": 60,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "gadgetsOffered": [
+    "LOCKPICK",
+    "SIGNALJAMMER",
+    "FAKEID",
+    "CLEANER",
+    "DEADDROP"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Social Engineer",
+      "traits": [
+        "charismatic",
+        "wears:maintenance-uniform"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Key Thief",
+      "traits": [
+        "tech-savvy",
+        "collects:hardware"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Insider Accomplice",
+      "traits": [
+        "nervous",
+        "speaks:multiple-languages"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Badge Cloning",
+      "signatures": [
+        "device:rfid-cloner"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Distraction Diversion",
+      "signatures": [
+        "alarm:false-positive"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "Key Duplication",
+      "signatures": [
+        "mold:precision"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "New York",
+      "country": "USA"
+    },
+    {
+      "id": "London",
+      "country": "UK"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "New York"
+  },
+  "caseToken": "Keys recovered; culprit caught.",
+  "shadowToken": "Motif A — maintenance corridor exists on no blueprint.",
+  "gasket": true
+}

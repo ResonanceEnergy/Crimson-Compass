@@ -1,0 +1,86 @@
+{
+  "caseId": "CASE-0012",
+  "title": "Hindsight",
+  "tier": "season1",
+  "hook": "Final recovery of a core prototype module from international network.",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "gadgetsOffered": [
+    "LOCKPICK",
+    "SIGNALJAMMER",
+    "FAKEID",
+    "CLEANER",
+    "DEADDROP"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Network Coordinator",
+      "traits": [
+        "international",
+        "access:global"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Prototype Guardian",
+      "traits": [
+        "protective",
+        "collects:modules"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Final Courier",
+      "traits": [
+        "discreet",
+        "wears:plain-clothes"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Network Coordination",
+      "signatures": [
+        "communication:encrypted"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Module Recovery",
+      "signatures": [
+        "device:secured"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "Final Transfer",
+      "signatures": [
+        "route:convergent"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "London",
+      "country": "UK"
+    },
+    {
+      "id": "Berlin",
+      "country": "Germany"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "London"
+  },
+  "caseToken": "Prototype secured; culprit network dismantled.",
+  "shadowToken": "All season misfits align: prepared exits share spec; skew repeats at same phase; custody routes converge to same invisible junction."
+}

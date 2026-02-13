@@ -1,0 +1,86 @@
+{
+  "caseId": "CASE-0005",
+  "title": "Hostile Compliance",
+  "tier": "season1",
+  "hook": "Corporate counsel legally blocks investigative access to critical data.",
+  "timeBudget": 54,
+  "hintsPerMission": 2,
+  "hintCost": {
+    "timeHours": 3,
+    "heat": 2
+  },
+  "gadgetsOffered": [
+    "DECODER",
+    "ENCRYPTOR",
+    "TRACER",
+    "VIRUS",
+    "BACKUP"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Corporate Lawyer",
+      "traits": [
+        "litigious",
+        "wears:suit"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Compliance Officer",
+      "traits": [
+        "bureaucratic",
+        "collects:regulations"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Data Controller",
+      "traits": [
+        "protective",
+        "speaks:Legal"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Legal Obstruction",
+      "signatures": [
+        "clause:obscure"
+      ]
+    },
+    {
+      "id": "M2",
+      "name": "Compliance Bypass",
+      "signatures": [
+        "loophole:exploited"
+      ]
+    },
+    {
+      "id": "M3",
+      "name": "Evidence Sealing",
+      "signatures": [
+        "track:classified"
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "Chicago",
+      "country": "USA"
+    },
+    {
+      "id": "Frankfurt",
+      "country": "Germany"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "Chicago"
+  },
+  "caseToken": "Access restored; obstruction routed around.",
+  "shadowToken": "Motif C — legacy clause forces evidence into sealed track."
+}

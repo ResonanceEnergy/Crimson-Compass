@@ -23,7 +23,7 @@ public class AutoCreateAudioAssets : MonoBehaviour
 
     static void CreateAudioDeltas()
     {
-        string libraryPath = "Assets/Audio/CrimsonCompass/POLICY/CCAudioDeltaLibrary.asset";
+        string libraryPath = "Assets/Resources/CCAudioDeltaLibrary.asset";
         if (AssetDatabase.LoadAssetAtPath<CCAudioDeltaLibrarySO>(libraryPath) != null) return;
 
         CCAudioDeltaLibrarySO library = ScriptableObject.CreateInstance<CCAudioDeltaLibrarySO>();
@@ -31,7 +31,7 @@ public class AutoCreateAudioAssets : MonoBehaviour
 
         for (int i = 1; i <= 12; i++)
         {
-            string deltaPath = $"Assets/Audio/CrimsonCompass/POLICY/Episode{i}Delta.asset";
+            string deltaPath = $"Assets/Resources/Episode{i}Delta.asset";
             if (AssetDatabase.LoadAssetAtPath<CCEpisodeAudioDeltaSO>(deltaPath) != null) continue;
 
             CCEpisodeAudioDeltaSO delta = ScriptableObject.CreateInstance<CCEpisodeAudioDeltaSO>();
