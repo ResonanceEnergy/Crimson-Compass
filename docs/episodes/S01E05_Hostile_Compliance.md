@@ -4,238 +4,242 @@
 **Title:** Hostile Compliance
 **Case:** Corporate counsel legally blocks investigative access
 **Case Token:** Access restored; obstruction routed around
-**Shadow Token:** Legacy clause forces evidence into sealed track
-**Theme:** Legal warfare, bureaucratic obstruction
+**Shadow Token:** Legacy clause forces evidence into sealed track (compass reveals hidden legal precedents)
+**Theme:** Legal warfare, bureaucratic obstruction, and Crimson Compass precedent detection
 
-## Adventure Game Structure
+## Character Ensemble
 
-### Starting Location: Corporate Lobby Reception
-**Description:** Impressive corporate headquarters lobby with reception desk, security station, and waiting area.
+### Player (Gasket's Replacement)
+- **Appearance:** Investigator using compass for legal truth detection, holographic overlays highlighting deception patterns in legal arguments
+- **Background:** Learning to navigate bureaucratic obstacles with compass legal insights
+- **Personality:** Frustrated investigator with growing awareness of legal manipulation
+- **Compass Role:** Primary legal deception detector, learning to identify precedent vectors
 
-**Interactive Objects:**
-- **Reception Desk** (ENGAGE): Check in and present credentials
-- **Security Checkpoint** (PROTOCOL): Badge and ID verification
-- **Legal Document Display** (OBSERVE): Posted corporate policies
-- **Elevator Bank** (MOVE): Access to executive floors
+### Optimus (The Analyst)
+- **Appearance:** Analytical drone attempting statistical analysis of legal precedents, mixing modern and historical legal concepts
+- **Background:** Struggling to apply logic to legal warfare, discovering probability patterns in regulatory frameworks
+- **Personality:** Sarcastic data processor with deadpan reactions to legal bureaucracy
+- **Compass Role:** Analyzes legal patterns, attempts mathematical modeling of regulatory threats
 
-**Initial Inventory:**
-- Official Warrant Documents
-- Legal Research Database Access
-- Digital Scanner
-- Encrypted Communicator
+### Helix (The Coordinator)
+- **Appearance:** Command android creating legal coordination protocols, holographic regulatory overlays
+- **Background:** Developing team protection procedures around legal security
+- **Personality:** No-nonsense coordinator ensuring team safety during legal battles
+- **Compass Role:** Creates legal protocols, coordinates precedent detection sweeps
 
-### Key Characters (Text-Based Dialogue)
+### ZTech (The Specialist)
+- **Appearance:** Cybernetic innovator with legal tech gadgets, multiple prototype precedent scanners
+- **Background:** Building devices to enhance legal detection and regulatory analysis
+- **Personality:** Cocky inventor fascinated by legal technology
+- **Compass Role:** Creates legal scanning tools, enhances compass precedent detection capabilities
 
-#### Helix (Administrative Coordinator)
-**Description:** Handling legal coordination and negotiation with corporate representatives.
-**Dialogue Tree:**
-- Legal strategy: "They're invoking privacy laws, but we have national security clauses."
-- Negotiation tactics: "Let's not make this difficult. We have the authority."
-- Resource coordination: "I can get you additional legal precedents if needed."
+### Gasket (The Ghost)
+- **Appearance:** Holographic manifestation warning about legal dangers, providing cryptic regulatory guidance
+- **Background:** Original legal navigator sharing insights about bureaucratic obstruction threats
+- **Personality:** Gruff mentor with urgent warnings about legal manipulation risks
+- **Compass Role:** Demonstrates legal detection techniques, warns about hidden precedent traps
 
-#### Optimus (Intelligence Analyst)
-**Description:** Researching legal precedents and analyzing corporate documentation.
-**Dialogue Tree:**
-- Precedent research: "Database shows 47 similar cases with 89% success rate."
-- Document analysis: "Their privacy policies have an oversight gap we can exploit."
-- Probability assessment: "Legal victory probability: 73% with current evidence."
+### NPCs
+- **Corporate Counsel:** Mid-50s, smug, expensive suit, briefcase, thinks laws are weapons and he's the master swordsman
+- **Legal Assistant:** Late 20s, nervous, tablet-carrying, caught between loyalty and ethics
+- **Judge (Virtual):** Authoritative voice, formal tone, holographic presence with stern expression
+- **Security Chief:** Early 50s, conflicted, uniform, knows the law is being abused but follows orders
 
-#### ZTech (Technical Specialist)
-**Description:** Finding technical workarounds for legal and security barriers.
-**Dialogue Tree:**
-- System access: "I can clone their entire server database if given 10 minutes."
-- Security bypass: "Legal barriers don't stop technical solutions."
-- Evidence preservation: "I can create secure backups before they shut us down."
+## Scene 1: Legal Battleground
 
-#### Corporate Counsel
-**Description:** Opposing legal representative, smug and obstructive.
-**Dialogue Tree:**
-- Initial resistance: "Privacy policies are quite clear. Access denied."
-- Escalation tactics: "I must insist you cease this investigation immediately."
-- Legal threats: "We have restraining clauses that can end this now."
+**Background:** Corporate boardroom, mahogany table, legal documents scattered. City skyline through floor-to-ceiling windows. The Crimson Compass shows "legal truth vectors" emanating from the corporate counsel like tangled webs.
 
-## Scene 1: Legal Confrontation
+**Narrative:** You've arrived at corporate headquarters where legal counsel invokes privacy laws to prevent access to the investigation site. The compass detects deception patterns in their legal arguments.
 
-### Location: Executive Boardroom
-**Description:** Formal corporate boardroom with mahogany table, legal documents, and city skyline views.
+**Compass Mini-Puzzle:** Legal Truth Detection
+- **Objective:** Use compass to identify legal deception vectors
+- **Mechanics:** Scan counsel's statements for truth inconsistencies, identify hidden legal precedents
+- **Solution:** Counsel is misrepresenting a key regulation that actually supports access
+- **Reward:** Discovery of the emergency security clause
 
-**Interactive Elements:**
-- **Conference Table** (ENGAGE): Present warrant and negotiate
-- **Document Projector** (OBSERVE): Display legal precedents
-- **Legal Database Terminal** (ENGAGE): Research case law
-- **Witness Stand** (OBSERVE): Formal testimony area
-- **Exit Doors** (MOVE): Multiple room exits
+**Puzzle:** Legal Precedent Matching
+- **Objective:** Find applicable legal loopholes
+- **Mechanics:** Document database search, case matching
+- **Solution:** Emergency provision allows access under national security clause
+- **Clue:** Recently updated regulation with oversight gap
 
-**Puzzle: Legal Precedent Matching**
-- **Objective:** Find applicable legal loopholes in corporate privacy policies
-- **Mechanics:** Search legal database for matching cases and regulations
-- **Solution:** Emergency national security provision allows access
-- **Clue:** Recently updated regulation contains oversight gap
+**Dialogue:**
 
-**Negotiation Mechanics:**
-- **Trust Meter:** Corporate counsel's cooperation level
-- **Evidence Strength:** Quality of legal arguments presented
-- **Time Pressure:** Counsel threatens to invoke restraining clauses
+**Counsel:** (smugly adjusting his tie, leaning back in his chair) "I'm afraid I must insist. Our privacy policies are quite clear. Crystal clear. This investigation violates multiple corporate sovereignty clauses."
 
-## Scene 2: Restricted Access
+**Helix:** "Oh honey, please. I've seen clearer policies on the back of a cereal box. And our warrant? It's clearer than your attempt at legal gymnastics. Let's cut the nonsense and get to the evidence."
 
-### Location: Secure Server Facility
-**Description:** Restricted data center with legal observers, security monitoring, and computer systems.
+**Optimus:** "Legal database shows 47 similar cases. Success rate: 89%. The precedents are on our side. Though I must say, this 'corporate sovereignty' nonsense reminds me of those old internet privacy debates from the 2020s."
 
-**Interactive Elements:**
-- **Server Racks** (OBSERVE): Examine evidence storage
-- **Security Consoles** (ENGAGE): Access system controls
-- **Legal Observer Station** (ENGAGE): Negotiate with oversight
-- **Evidence Lockers** (PROTOCOL): Secure document storage
-- **Emergency Exit** (KIT): Alternative access routes
+**ZTech:** "Their legal firewall is impressive! But check this precedent predictor I built - it also brews coffee and predicts when judges will be grumpy!"
 
-**Puzzle: Evidence Preservation**
-- **Objective:** Document critical evidence before legal shutdown
-- **Mechanics:** Rapid scanning and prioritization of files
-- **Solution:** Essential files backed up to secure external server
-- **Clue:** Hidden metadata timestamps reveal tampering evidence
+**Player Choice Options:**
 
-**Race Against Time:**
-- **15-Minute Countdown:** Legal restraining clause activation
-- **Security Monitoring:** Guards watching for violations
-- **Legal Oversight:** Observers documenting all actions
+1. **X (Helix):** "Negotiate calmly but firmly. Build rapport with the legal assistant."
+   - **Consequence:** Legal assistant provides crucial information about the regulation loophole.
+   - **Dialogue:** Helix: "Sweetie, I can see you're uncomfortable with this. Why don't you help us find that emergency clause?"
 
-## Scene 3: Legal Workaround
+2. **Y (Optimus):** "Cite legal precedents with overwhelming data."
+   - **Consequence:** Overwhelms counsel with historical case law and statistical analysis.
+   - **Dialogue:** Optimus: "The data is irrefutable. 89% success rate. The universe doesn't create loopholes by accident."
 
-### Location: Hidden Service Corridors
-**Description:** Unmarked maintenance areas and service tunnels not covered by legal restrictions.
+3. **Z (ZTech):** "Deploy legal analysis drone swarm. Tech the problem!"
+   - **Consequence:** Drones find the regulation but also accidentally file 47 frivolous motions.
+   - **Dialogue:** ZTech: "My drones found it! Though they also filed a motion to declare pi equal to 3.14 exactly. For efficiency!"
 
-**Interactive Elements:**
-- **Service Panels** (KIT): Access to restricted systems
-- **Network Cables** (ENGAGE): Alternative data connections
-- **Utility Tunnels** (MOVE): Bypass security checkpoints
-- **Backup Generators** (OBSERVE): Emergency power systems
-- **Maintenance Logs** (ENGAGE): Access facility records
+4. **G (Compass):** "Let the compass guide the legal truth vectors."
+   - **Consequence:** Compass reveals the counsel's deception about the regulation's intent.
+   - **Dialogue:** Gasket: (compass fragment) "Legal lies... they tangle like spider webs. But truth vectors... they always find the way through."
 
-**Puzzle: Legacy Clause Exploitation**
-- **Objective:** Route evidence through sealed legal track using old regulations
-- **Mechanics:** Navigate complex legal framework to find workaround
-- **Solution:** Obscure legacy clause forces evidence preservation
-- **Clue:** Historical legal documents contain forgotten provisions
+## Scene 2: Evidence Access
 
-**Technical Solutions:**
-- **Data Cloning:** Mirror evidence to external systems
-- **Network Bypass:** Use service connections to circumvent blocks
-- **Physical Access:** Service tunnels avoid legal restrictions
+**Background:** Restricted server room, legal observers present, security personnel monitoring. Tense atmosphere. The compass shows evidence preservation vectors pulsing urgently.
 
-## Inventory Management
+**Narrative:** Inside the restricted area, you find evidence of tampering, but counsel demands you leave immediately. The compass reveals hidden metadata that proves the tampering occurred recently.
 
-### Key Items to Collect:
-- **Legal Precedents Database** (From research terminal)
-- **Warrant Override Codes** (From security console)
-- **Evidence Backup Drive** (From server racks)
-- **Service Access Key** (From maintenance office)
+**Puzzle:** Evidence Preservation
+- **Objective:** Document evidence before legal removal
+- **Mechanics:** Rapid scanning, priority assessment
+- **Solution:** Critical files backed up to secure server
+- **Clue:** Hidden metadata timestamps
 
-### Item Combinations:
-- **Legal Database + Projector** = Display compelling precedents
-- **Override Codes + Security Console** = Extend access time
-- **Backup Drive + Server Racks** = Clone critical evidence
-- **Service Key + Utility Tunnels** = Access hidden corridors
+**Environmental Interaction:** Legal Pressure
+- **Choice:** Comply with timeline vs. negotiate extension
+- **Consequence:** Extension gains more evidence but risks legal repercussions; strict compliance preserves legal standing
 
-## Visual Style (Adventure Game)
+**Dialogue:**
 
-### Scene Backgrounds
-**Corporate Lobby:**
-- Impressive headquarters entrance
-- Professional corporate atmosphere
-- Security-conscious design
+**Legal Assistant:** (nervously checking her tablet, voice shaking) "You have exactly 15 minutes before we invoke the restraining clause. After that, all access is terminated."
 
-**Executive Boardroom:**
-- Formal business meeting room
-- Legal documents and presentations
-- Tense negotiation environment
+**ZTech:** "Fifteen minutes? I can clone their entire server in ten! And this scanner? It also predicts coffee bean freshness and tells dad jokes!"
 
-**Secure Server Facility:**
-- Restricted data center
-- Legal observers and security
-- High-stakes evidence gathering
+**Security Chief:** (uncomfortable, shifting his weight) "This is highly irregular. I don't like being caught in the middle of this legal tug-of-war. But orders are orders."
 
-**Service Corridors:**
-- Hidden maintenance areas
-- Industrial utility spaces
-- Covert operation atmosphere
+**Counsel:** (smug, checking his expensive watch) "Time is a factor here, agents. Our legal team has already prepared the termination paperwork."
 
-### Character Sprites
-**Corporate Counsel:**
-- Expensive suit, smug expression
-- Legal document briefcase
-- Obstructive negotiation poses
+**Helix:** "Oh, paperwork? That's my specialty, sugar. And I can see from your watch that you're more concerned about your golf game than this investigation. Now, about that evidence..."
 
-**Legal Assistant:**
-- Nervous professional with tablet
-- Precise note-taking animations
-- Anxious assistance poses
+**Optimus:** "Metadata analysis shows tampering occurred within the last 24 hours. Probability of coincidence: 0.02%. The timestamps don't lie."
 
-**Security Chief:**
-- Uniform, conflicted expression
-- Authoritative but uncertain stance
-- Mediation attempt animations
+**Legal Assistant:** (whispering urgently) "The counsel... he's hiding something. The metadata shows he accessed these files personally."
 
-### Interface Elements
-- **Verb Bar:** MOVE, OBSERVE, ENGAGE, KIT, PROTOCOL
-- **Inventory:** 4-slot system with legal documents
-- **Legal Database:** Precedent search interface
-- **Countdown Timer:** Restraining clause activation
+**ZTech:** "Got it! Evidence backed up! And I may have accidentally sent the counsel's browser history to the judge. Whoops!"
 
-## Audio Design (No Voice Acting)
+## Puzzles & Mechanics
+
+### Legal Database Navigation
+- **Type:** Research Puzzle
+- **Description:** Find applicable legal precedents
+- **Solution:** Obscure regulation allows emergency access
+- **Reward:** Investigation continuation
+
+### Evidence Race
+- **Type:** Time Pressure
+- **Description:** Gather evidence before legal shutdown
+- **Choices:** Prioritize files, technical shortcuts, negotiation extensions
+- **Consequences:** Evidence completeness vs legal compliance
+
+## Episode Resolution
+
+**Case Closure (95%):** Access restored through legal loophole, evidence preserved, corporate counsel's obstruction exposed. The investigation can proceed.
+
+**Shadow Unease (5%):** Legacy clause forces evidence into a "sealed track" that the compass reveals was created by the counsel himself. The pattern suggests premeditated legal manipulation.
+
+**Team Debrief:**
+
+**Helix:** "Well navigated that legal minefield, Closer. Though I could do without the smugness from that corporate ambulance chaser."
+
+**Optimus:** "Fascinating legal precedents. Almost as complex as quantum encryption. The data patterns were quite revealing."
+
+**ZTech:** "My evidence scanner worked perfectly! Except for the dad jokes. And the coffee predictions. But the backup? Flawless!"
+
+**Gasket:** (compass fragment) "Legal webs... they tangle tighter than quantum fields. But some truths... they always find their way to the light."
+
+**Epilogue Hook:** The "sealed track" contains references to other cases with similar legal obstructions. The pattern suggests a coordinated corporate defense network using quantum-legal manipulation.
+
+## Visual Prompts (Midjourney)
+
+### Boardroom
+```
+/imagine prompt: corporate boardroom legal battle, mahogany table, legal documents scattered, city skyline windows, legal truth vectors visualized, professional atmosphere, tension filled, dramatic lighting --ar 16:9 --v 5
+```
+
+### Server Room
+```
+/imagine prompt: restricted server room evidence access, legal observers present, security monitoring, computer racks, evidence preservation vectors, tense atmosphere, legal confrontation --ar 16:9 --v 5
+```
+
+### Legal Documents
+```
+/imagine prompt: scattered legal documents visualization, contracts, warrants, official seals, legal truth vectors emanating, professional paperwork, detailed text, quantum legal effects --ar 4:3 --v 5
+```
+
+### Crimson Compass Legal Scan
+```
+/imagine prompt: compass interface detecting legal deception, precedent analysis visualization, holographic legal database, brass casing with runes, futuristic display --ar 1:1 --v 5
+```
+
+## Audio Prompts (Unity)
 
 ### Ambient Audio
-**Corporate Lobby:**
-- Professional office background noise
-- Elevator sounds and conversations
-- Corporate atmosphere
-
 **Boardroom:**
-- Tense silence with air conditioning
-- Distant city sounds through windows
-- Formal meeting tension
+- Tense silence: AIR_CONDITIONING + DISTANT_CITY + LEGAL_TENSION
+- Mix: BOARDROOM_TENSION_AMBIENCE
+- Parameters: volume 0.4, spatial blend 0.6
 
-**Server Facility:**
-- Computer equipment hums
-- Security system beeps
-- Restricted area atmosphere
+**Server Room:**
+- Computer hum: SERVER_FANS + TYPING + TIMER_TICKS
+- Mix: SECURE_FACILITY_AMBIENCE
+- Parameters: volume 0.5, spatial blend 0.7
 
-**Service Corridors:**
-- Industrial utility sounds
-- Distant machinery and ventilation
-- Covert operation tension
+### Character Voices
+**Helix (Agent X):**
+- Voice: Female, confident, warm
+- Sample lines: "Oh honey, please. I've seen clearer policies on the back of a cereal box."
+- Unity Audio: VO_HELIX_CONFIDENT
+
+**Optimus (Agent Y):**
+- Voice: Male, clipped, analytical
+- Sample lines: "Legal database shows 47 similar cases. Success rate: 89%."
+- Unity Audio: VO_OPTIMUS_ANALYTICAL
+
+**ZTech (Agent Z):**
+- Voice: Male, enthusiastic, nerdy
+- Sample lines: "Fifteen minutes? I can clone their entire server in ten!"
+- Unity Audio: VO_ZTECH_EXCITED
+
+**Corporate Counsel:**
+- Voice: Male, smooth, condescending
+- Sample: "Our privacy policies are quite clear."
+- Unity Audio: VO_COUNSEL_SMOOTH
+
+**Legal Assistant:**
+- Voice: Female, nervous, precise
+- Sample: "You have exactly 15 minutes before we invoke the restraining clause."
+- Unity Audio: VO_ASSISTANT_NERVOUS
 
 ### Sound Effects
-- **Document Scanning:** Digital scanning whirs
-- **Legal Timer:** Electronic countdown beeps
-- **Security Access:** Electronic lock clicks
-- **Data Transfer:** Network activity sounds
-- **Evidence Collection:** Successful backup chimes
+**Document Scanning:**
+- Digital: SCANNER_WHIR + DATA_TRANSFER + LEGAL_CHIME
+- Parameters: pitch 1.1, volume 0.6
+
+**Compass Legal Scan:**
+- Precedent detection: LEGAL_VECTOR_SCAN + HOLOGRAPHIC_PULSE
+- Parameters: pitch 1.3, volume 0.7
+
+**Legal Timer:**
+- Electronic: TIMER_BEEP + WARNING_TONE + URGENCY_RISE
+- Parameters: increasing urgency
 
 ### Music Cues
-- **Legal Negotiation:** Bureaucratic tension theme
-- **Evidence Race:** Urgent documentary music
-- **Workaround Discovery:** Clever solution theme
-- **Resolution:** Legal victory triumph
+**Legal Negotiation:**
+- Track: BUREAUCRATIC_TENSION
+- Parameters: formal tones, volume 0.3
 
-## Gameplay Flow
+**Evidence Race:**
+- Track: LEGAL_COUNTDOWN
+- Parameters: building pressure, volume 0.5
 
-1. **Arrival:** Enter corporate headquarters with warrant
-2. **Confrontation:** Negotiate legal access in boardroom
-3. **Investigation:** Gather evidence in restricted facility
-4. **Workaround:** Use service corridors to bypass restrictions
-5. **Preservation:** Secure evidence through legal loopholes
-6. **Resolution:** Complete investigation despite obstruction
-
-## Difficulty Options
-
-- **Easy:** Extended time limits, obvious legal precedents
-- **Normal:** Standard negotiation and time pressure
-- **Hard:** Limited legal options, strict time constraints
-
-## Achievement Opportunities
-
-- **Legal Eagle:** Win access through perfect precedent presentation
-- **Evidence Master:** Preserve all critical files before shutdown
-- **Bureaucracy Buster:** Find and exploit all legal loopholes
-- **Speed Negotiator:** Complete confrontation in under 10 minutes
+**Compass Anomaly:**
+- Track: LEGAL_DISTORTION
+- Parameters: procedural harmonics, volume 0.4

@@ -1,0 +1,806 @@
+{
+  "caseId": "CASE-0054",
+  "title": "Unintended Outcomes",
+  "tier": "season5",
+  "hook": "Win reveals coordinated international operation",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "gadgetsOffered": [
+    "CONSEQUENCEANALYZER",
+    "ESCALATIONTRACKER",
+    "THREATREVEALER",
+    "CHAINREACTIONMAPPER",
+    "HIDDENAGENDADETECTOR",
+    "CLEANER",
+    "PARADOXENGINE",
+    "RECOVERYSCANNER",
+    "TIMINGANALYZER",
+    "JURISDICTIONMAPPER",
+    "NETWORKVISUALIZER"
+  ],
+  "gadgetsSelectable": 3,
+  "escalationLevel": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Escalation Master",
+      "traits": [
+        "orchestrates:consequences",
+        "reveals:larger-threats"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Chain Reaction Instigator",
+      "traits": [
+        "creates:cascading-effects",
+        "exploits:successes"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Hidden Agenda Executor",
+      "traits": [
+        "manipulates:outcomes",
+        "reveals:shadow-plans"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Consequence Engineering",
+      "signatures": [
+        "victories:exploited",
+        "successes:weaponized"
+      ],
+      "consequenceAnalysis": {
+        "escalationType": "victory-exploitation",
+        "chainLength": 4,
+        "hiddenThreats": 3
+      }
+    },
+    {
+      "id": "M2",
+      "name": "Threat Revelation Tactics",
+      "signatures": [
+        "obstacles:removed",
+        "threats:unveiled"
+      ],
+      "escalationTracking": {
+        "triggerType": "success-based",
+        "revelationDepth": "multi-layered",
+        "consequenceSeverity": "critical"
+      }
+    },
+    {
+      "id": "M3",
+      "name": "Cascading Effect Orchestration",
+      "signatures": [
+        "reactions:chained",
+        "outcomes:amplified"
+      ],
+      "chainReactionMapping": {
+        "reactionType": "domino-effect",
+        "amplificationFactor": 3,
+        "controlNode": "S1"
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "Berlin",
+      "country": "Germany"
+    },
+    {
+      "id": "Moscow",
+      "country": "Russia"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "Berlin"
+  },
+  "caseToken": "Victory achieved; larger threat revealed.",
+  "clues": [
+    {
+      "id": "C1",
+      "text": "Success creates unexpected new challenges",
+      "type": "consequence-pattern",
+      "relevance": "high"
+    },
+    {
+      "id": "C2",
+      "text": "Resolution uncovers deeper operational layers",
+      "type": "threat-revelation",
+      "relevance": "medium"
+    },
+    {
+      "id": "C3",
+      "text": "Victory triggers cascading security responses",
+      "type": "chain-reaction",
+      "relevance": "critical"
+    }
+  ],
+  "jurisdictionConflicts": [
+    {
+      "id": "JC1",
+      "description": "Success creates international jurisdictional escalation",
+      "authorities": [
+        "Multiple International",
+        "Supra-national",
+        "Corporate"
+      ],
+      "resolution": "Emergency coalition required"
+    }
+  ],
+  "consequenceChains": [
+    {
+      "id": "CC1",
+      "description": "Case resolution triggers automated security escalation",
+      "trigger": "victory",
+      "effects": [
+        "threat-level-increase",
+        "resource-redistribution",
+        "alert-level-elevation"
+      ]
+    },
+    {
+      "id": "CC2",
+      "description": "Success reveals hidden operational network",
+      "trigger": "resolution",
+      "effects": [
+        "network-exposure",
+        "asset-reallocation",
+        "threat-reassessment"
+      ]
+    }
+  ],
+  "networkConnections": [
+    {
+      "id": "NC1",
+      "type": "consequence-network",
+      "description": "Network of victory-triggered consequence chains",
+      "complexity": "high",
+      "mappingInterface": "consequenceNetworkInterface",
+      "escalationRisk": "high"
+    },
+    {
+      "id": "NC2",
+      "type": "escalation-control-network",
+      "description": "Hidden control structure behind consequence escalations",
+      "complexity": "critical",
+      "mappingInterface": "escalationControlMapper",
+      "paradoxRisk": "extreme"
+    }
+  ],
+  "advancedMechanics": {
+    "consequenceAnalyzer": {
+      "name": "Consequence Analysis Engine",
+      "description": "Analyzes victory outcomes and their cascading effects",
+      "capabilities": [
+        "outcome-prediction",
+        "chain-reaction-mapping",
+        "escalation-forecasting"
+      ],
+      "successRate": 0.75,
+      "risks": [
+        "analysis-paralysis",
+        "false-conclusions"
+      ]
+    },
+    "escalationTracker": {
+      "name": "Threat Escalation Tracker",
+      "description": "Monitors how successes create new challenges and reveal threats",
+      "capabilities": [
+        "threat-progression",
+        "consequence-chaining",
+        "revelation-timing"
+      ],
+      "successRate": 0.8,
+      "risks": [
+        "over-escalation",
+        "paranoia-amplification"
+      ]
+    },
+    "threatRevealer": {
+      "name": "Hidden Threat Revealer",
+      "description": "Uncovers threats revealed by successful case resolutions",
+      "capabilities": [
+        "threat-detection",
+        "layer-peeling",
+        "agenda-uncovering"
+      ],
+      "successRate": 0.7,
+      "risks": [
+        "premature-revelations",
+        "false-threats"
+      ]
+    },
+    "chainReactionMapper": {
+      "name": "Chain Reaction Network Mapper",
+      "description": "Maps how victories trigger cascading operational effects",
+      "capabilities": [
+        "reaction-mapping",
+        "amplification-tracking",
+        "control-point-identification"
+      ],
+      "successRate": 0.85,
+      "risks": [
+        "complexity-overload",
+        "infinite-loops"
+      ]
+    },
+    "hiddenAgendaDetector": {
+      "name": "Hidden Agenda Detection System",
+      "description": "Identifies underlying agendas revealed through case outcomes",
+      "capabilities": [
+        "agenda-analysis",
+        "motivation-inference",
+        "strategic-patterning"
+      ],
+      "successRate": 0.65,
+      "risks": [
+        "conspiracy-theorizing",
+        "over-interpretation"
+      ]
+    },
+    "paradoxEngine": {
+      "name": "Consequence Paradox Resolver",
+      "description": "Resolves paradoxes created by victory-triggered consequence chains",
+      "capabilities": [
+        "paradox-detection",
+        "outcome-reversal",
+        "chain-breakage"
+      ],
+      "successRate": 0.65,
+      "risks": [
+        "reality-strain",
+        "escalation-amplification",
+        "false-resolutions"
+      ]
+    },
+    "recoveryScanner": {
+      "name": "Victory Recovery Scanner",
+      "description": "Scans for recovery operations that mask consequence escalations",
+      "capabilities": [
+        "recovery-pattern-analysis",
+        "success-validation",
+        "hidden-cost-detection"
+      ],
+      "successRate": 0.85,
+      "risks": [
+        "false-recovery-signals",
+        "over-optimism"
+      ]
+    },
+    "timingAnalyzer": {
+      "name": "Consequence Timing Analyzer",
+      "description": "Analyzes timing patterns in victory-triggered escalations",
+      "capabilities": [
+        "escalation-timing",
+        "trigger-prediction",
+        "delay-analysis"
+      ],
+      "successRate": 0.75,
+      "risks": [
+        "timing-paranoia",
+        "premature-actions"
+      ]
+    }
+  },
+  "consequenceNetworks": [
+    {
+      "id": "CN1",
+      "type": "escalation-web",
+      "description": "Network of consequences triggered by case victories",
+      "complexity": "high",
+      "escalationLevel": 4,
+      "connectedEntities": [
+        "S1",
+        "S2",
+        "CC1"
+      ]
+    },
+    {
+      "id": "CN2",
+      "type": "revelation-chain",
+      "description": "Series of threat revelations triggered by resolutions",
+      "complexity": "medium",
+      "escalationLevel": 3,
+      "connectedEntities": [
+        "S3",
+        "CC2",
+        "JC1"
+      ]
+    }
+  ],
+  "engineeredConsequences": [
+    {
+      "id": "EC1",
+      "type": "victory-exploitation",
+      "description": "Adversary exploits successful resolutions to advance larger goals",
+      "trigger": "case-success",
+      "escalation": "threat-level-increase"
+    },
+    {
+      "id": "EC2",
+      "type": "resource-redistribution",
+      "description": "Victory causes automatic resource shifts revealing hidden operations",
+      "trigger": "resolution",
+      "escalation": "network-exposure"
+    }
+  ],
+  "countermeasureSets": [
+    {
+      "id": "CS1",
+      "name": "Consequence Containment Tactics",
+      "description": "Countermeasures against victory-triggered escalations",
+      "effectiveness": 0.75,
+      "triggers": [
+        "escalation-detected",
+        "threat-revealed"
+      ],
+      "outcomes": [
+        "consequence-mitigation",
+        "threat-containment"
+      ]
+    },
+    {
+      "id": "CS2",
+      "name": "Revelation Management",
+      "description": "Controls the pace and impact of threat revelations",
+      "effectiveness": 0.8,
+      "triggers": [
+        "hidden-threat-exposed",
+        "agenda-uncovered"
+      ],
+      "outcomes": [
+        "revelation-pacing",
+        "impact-mitigation"
+      ]
+    }
+  ],
+  "uiTemplates": {
+    "escalationAlert": {
+      "type": "warning",
+      "message": "Victory has triggered consequence escalation",
+      "actions": [
+        "analyze-outcomes",
+        "prepare-containment",
+        "request-reinforcements"
+      ]
+    },
+    "threatMeter": {
+      "type": "progress",
+      "metric": "revealed-threat-level",
+      "range": [
+        0,
+        100
+      ],
+      "thresholds": {
+        "low": 25,
+        "medium": 50,
+        "high": 75,
+        "critical": 90
+      }
+    },
+    "consequenceOverlay": {
+      "type": "network",
+      "function": "visualize-chain-reactions",
+      "intensity": "dynamic"
+    }
+  },
+  "insights": [
+    {
+      "id": "I1",
+      "type": "escalation-pattern",
+      "content": "Victories create new obstacles and reveal larger threats",
+      "relevance": "high"
+    },
+    {
+      "id": "I2",
+      "type": "consequence-chain",
+      "content": "Success triggers cascading effects across operational networks",
+      "relevance": "critical"
+    },
+    {
+      "id": "I3",
+      "type": "hidden-agenda",
+      "content": "Resolutions expose underlying strategic agendas and long-term plans",
+      "relevance": "medium"
+    }
+  ],
+  "deductionSystem": {
+    "whoOptions": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "howOptions": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "whereOptions": [
+      "Berlin",
+      "Moscow"
+    ],
+    "maxHypotheses": 5,
+    "deductionRules": {
+      "singleCorrect": true,
+      "eliminationFeedback": true,
+      "partialCredit": false,
+      "consequencePenalty": true
+    }
+  },
+  "resourceManagement": {
+    "timeBudget": 72,
+    "heatLevels": {
+      "low": {
+        "threshold": 1,
+        "effects": [
+          "minor-escalation",
+          "threat-hints"
+        ]
+      },
+      "medium": {
+        "threshold": 3,
+        "effects": [
+          "consequence-chains",
+          "resource-redistribution",
+          "threat-revelations"
+        ]
+      },
+      "high": {
+        "threshold": 5,
+        "effects": [
+          "critical-escalation",
+          "network-collapse",
+          "total-exposure"
+        ]
+      }
+    },
+    "heatDecay": {
+      "passive": 0.1,
+      "active": 0.5
+    },
+    "timePenalties": {
+      "wrongHypothesis": 4,
+      "failedScan": 2,
+      "jurisdictionError": 6,
+      "escalationTrigger": 5,
+      "consequenceChain": 8
+    }
+  },
+  "agentInteractions": {
+    "HELIX": {
+      "role": "Consequence Coordinator",
+      "personality": "Cautious and strategic",
+      "interactions": {
+        "caseStart": "Victory conditions may trigger larger threats. We must be prepared.",
+        "hypothesisHelp": "That resolution path could escalate consequences. Consider the outcomes.",
+        "timeWarning": "We're running out of time before escalation triggers activate.",
+        "success": "Case resolved, but we've revealed a larger threat. Stay vigilant.",
+        "failure": "The escalation was contained. We've prevented worse outcomes."
+      },
+      "helpTriggers": {
+        "timeLow": true,
+        "heatHigh": true,
+        "stuckClues": true,
+        "escalationDetected": true,
+        "threatRevealed": true
+      }
+    },
+    "OPTIMUS": {
+      "role": "Escalation Analyst",
+      "personality": "Analytical and forward-thinking",
+      "interactions": {
+        "caseStart": "Agent deployed. Let's map the potential consequence chains.",
+        "hypothesisHelp": "Consider how this resolution might remove obstacles to something larger.",
+        "timeWarning": "Escalation timers are running. We need resolution before triggers activate.",
+        "success": "Pattern identified. The victory has revealed the next operational layer.",
+        "failure": "Escalation contained. We've bought time to prepare for what's next."
+      },
+      "helpTriggers": {
+        "wrongHypothesis": true,
+        "resourceLow": true,
+        "paradoxEvent": true,
+        "consequenceClue": true,
+        "chainReaction": true
+      }
+    },
+    "ZTECH": {
+      "role": "Threat Revelation Specialist",
+      "personality": "Intrigued by complex systems",
+      "interactions": {
+        "caseStart": "Systems online! Let's trace how victories reveal hidden threats.",
+        "hypothesisHelp": "The consequence analyzer shows this path triggers multiple escalations.",
+        "timeWarning": "Escalation protocols are activating! We need to resolve now!",
+        "success": "Fascinating! The victory exposed an entire hidden network layer.",
+        "failure": "Systems stabilized. The escalation was more complex than anticipated."
+      },
+      "helpTriggers": {
+        "gadgetFailure": true,
+        "scanOpportunity": true,
+        "techClue": true,
+        "escalationTracker": true,
+        "threatAnalysis": true
+      }
+    }
+  },
+  "interactionTriggers": {
+    "caseStart": [
+      "HELIX",
+      "OPTIMUS"
+    ],
+    "firstHypothesis": [
+      "OPTIMUS"
+    ],
+    "timeWarning": [
+      "HELIX"
+    ],
+    "heatWarning": [
+      "OPTIMUS"
+    ],
+    "gadgetUse": [
+      "ZTECH"
+    ],
+    "paradoxEvent": [
+      "OPTIMUS"
+    ],
+    "escalationDetected": [
+      "HELIX"
+    ],
+    "threatRevealed": [
+      "ZTECH"
+    ],
+    "consequenceChain": [
+      "OPTIMUS"
+    ],
+    "nearSuccess": [
+      "HELIX"
+    ],
+    "caseEnd": [
+      "HELIX",
+      "OPTIMUS",
+      "ZTECH"
+    ]
+  },
+  "gameplayFlow": {
+    "phases": [
+      {
+        "name": "Consequence Assessment",
+        "duration": "auto",
+        "objectives": [
+          "Analyze potential victory outcomes",
+          "Select escalation tracking gadgets"
+        ],
+        "agentFocus": "HELIX"
+      },
+      {
+        "name": "Escalation Investigation",
+        "duration": "timed",
+        "objectives": [
+          "Map consequence chains",
+          "Form threat hypotheses",
+          "Deploy consequence analyzers"
+        ],
+        "agentFocus": "OPTIMUS"
+      },
+      {
+        "name": "Threat Containment",
+        "duration": "auto",
+        "objectives": [
+          "Final consequence hypothesis",
+          "Contain revealed threats"
+        ],
+        "agentFocus": "HELIX"
+      }
+    ],
+    "winConditions": {
+      "correctHypothesis": true,
+      "timeRemaining": "bonus",
+      "lowHeat": "bonus",
+      "escalationContained": "bonus"
+    },
+    "loseConditions": {
+      "timeExpired": true,
+      "heatMaxed": true,
+      "wrongFinalHypothesis": true,
+      "escalationUncontrolled": true
+    }
+  },
+  "scoringSystem": {
+    "basePoints": 100,
+    "bonuses": {
+      "timeRemaining": 10,
+      "lowHeat": 25,
+      "efficientGadgets": 15,
+      "firstTryHypothesis": 20,
+      "escalationMastery": 30,
+      "threatContainment": 25
+    },
+    "penalties": {
+      "wrongHypothesis": -10,
+      "highHeat": -15,
+      "timeExpired": -30,
+      "gadgetOveruse": -5,
+      "escalationTrigger": -25,
+      "threatUncontained": -40
+    },
+    "achievements": {
+      "consequenceBreaker": "Contained all victory-triggered escalations",
+      "threatForeseer": "Predicted and prevented consequence chains",
+      "escalationMaster": "Completed within 24 hours despite revelations",
+      "perfectContainment": "No wrong hypotheses, all threats contained"
+    }
+  },
+  "shadowToken": "Motif F \u2014 success uncovers coordinated escalation tactics.",
+  "jurisdictionalMechanics": {
+    "jurisdictionMapper": {
+      "name": "Escalation Jurisdiction Mapper",
+      "description": "Maps jurisdictional changes triggered by consequence escalations",
+      "capabilities": [
+        "authority-chain-analysis",
+        "escalation-jurisdiction",
+        "conflict-resolution"
+      ],
+      "complexityLevels": [
+        "simple",
+        "complex",
+        "cascading"
+      ],
+      "successRate": 0.7
+    },
+    "authorityPuzzle": {
+      "name": "Consequence Authority Puzzle",
+      "description": "Interactive puzzle for resolving jurisdictional escalations",
+      "puzzleTypes": [
+        "authority-escalation",
+        "jurisdiction-chain",
+        "conflict-resolution"
+      ],
+      "difficulty": "adaptive",
+      "timePenalty": 3
+    }
+  },
+  "networkMapping": {
+    "consequenceNetworkInterface": {
+      "name": "Consequence Chain Network Interface",
+      "description": "Interactive interface for mapping victory-triggered consequence chains",
+      "features": [
+        "chain-visualization",
+        "escalation-tracing",
+        "outcome-prediction"
+      ],
+      "interactionModes": [
+        "exploration",
+        "analysis",
+        "intervention"
+      ],
+      "dataLayers": [
+        "immediate-effects",
+        "cascading-consequences",
+        "long-term-impacts"
+      ]
+    },
+    "escalationControlMapper": {
+      "name": "Escalation Control Structure Mapper",
+      "description": "Maps hidden control structures behind consequence escalations",
+      "capabilities": [
+        "control-flow-mapping",
+        "escalation-paths",
+        "intervention-points"
+      ],
+      "visualization": "dynamic-chain",
+      "analysisDepth": 4
+    },
+    "threatRevelationVisualizer": {
+      "name": "Threat Revelation Network Visualizer",
+      "description": "Visualizes threats revealed through consequence chains",
+      "features": [
+        "threat-mapping",
+        "revelation-gradients",
+        "impact-indicators"
+      ],
+      "filterOptions": [
+        "by-severity",
+        "by-timing",
+        "by-type"
+      ]
+    }
+  },
+  "paradoxEvents": [
+    {
+      "id": "PE1",
+      "type": "victory-paradox",
+      "description": "Successful resolution creates impossible consequence loop",
+      "trigger": "case-success",
+      "resolution": "paradox-engine",
+      "clue": "C1"
+    },
+    {
+      "id": "PE2",
+      "type": "escalation-paradox",
+      "description": "Consequence escalation defies logical progression",
+      "trigger": "escalation-detected",
+      "resolution": "timing-analyzer",
+      "clue": "C2"
+    },
+    {
+      "id": "PE3",
+      "type": "recovery-paradox",
+      "description": "Recovery success contradicts escalation predictions",
+      "trigger": "recovery-scanner",
+      "resolution": "consequence-analyzer",
+      "clue": "C3"
+    }
+  ],
+  "timingAnomalies": [
+    {
+      "id": "TA1",
+      "description": "Victory triggers immediate consequence escalation",
+      "severity": "high",
+      "analysis": "timing-analyzer",
+      "clue": "C1"
+    },
+    {
+      "id": "TA2",
+      "description": "Recovery operations occur at statistically improbable intervals",
+      "severity": "medium",
+      "analysis": "recovery-scanner",
+      "clue": "C2"
+    },
+    {
+      "id": "TA3",
+      "description": "Jurisdictional changes cascade at impossible speeds",
+      "severity": "critical",
+      "analysis": "jurisdiction-mapper",
+      "clue": "C3"
+    }
+  ],
+  "jurisdictionalPuzzles": [
+    {
+      "id": "JP1",
+      "name": "Escalation Authority Resolution",
+      "description": "Resolve jurisdictional conflicts triggered by consequence escalations",
+      "complexity": "medium",
+      "authorities": [
+        "Federal",
+        "International",
+        "Emergency",
+        "Corporate"
+      ],
+      "solution": "Emergency escalation protocols",
+      "timeLimit": 30,
+      "hints": [
+        "Check escalation clauses",
+        "Verify emergency authorities"
+      ]
+    },
+    {
+      "id": "JP2",
+      "name": "Consequence Jurisdiction Cascade",
+      "description": "Navigate cascading jurisdictional changes from victory outcomes",
+      "complexity": "high",
+      "authorities": [
+        "Multiple Federal",
+        "State",
+        "International",
+        "Private"
+      ],
+      "solution": "Unified command structure",
+      "timeLimit": 45,
+      "hints": [
+        "Map authority escalation",
+        "Find command consolidation"
+      ]
+    }
+  ]
+}

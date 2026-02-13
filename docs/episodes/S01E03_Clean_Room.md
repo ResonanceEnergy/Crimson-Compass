@@ -4,231 +4,242 @@
 **Title:** Clean Room
 **Case:** Insider moves micro-components out via "approved waste"
 **Case Token:** Insider exposed; pipeline halted
-**Shadow Token:** Components auto-routed to custody destination nobody requested
-**Theme:** Industrial espionage, insider threats
+**Shadow Token:** Components auto-routed to custody destination nobody requested (compass detects quantum signature anomalies)
+**Theme:** Industrial espionage, insider threats, and Crimson Compass contamination detection
 
-## Adventure Game Structure
+## Character Ensemble
 
-### Starting Location: Facility Security Checkpoint
-**Description:** Entrance to the clean room manufacturing facility with security screening and equipment lockers.
+### Player (Gasket's Replacement)
+- **Appearance:** Investigator navigating sterile environments, compass holographic overlays highlighting contamination vectors
+- **Background:** Learning to operate in high-security facilities while managing compass sensitivity
+- **Personality:** Focused investigator adapting to technical environments
+- **Compass Role:** Primary contamination detector, learning to identify quantum signature anomalies
 
-**Interactive Objects:**
-- **Protective Gear Locker** (ENGAGE): Don clean room suit
-- **Security Scanner** (PROTOCOL): Badge verification
-- **Facility Map** (OBSERVE): Layout of production areas
-- **Entrance Door** (MOVE): Access to clean room
+### Optimus (The Analyst)
+- **Appearance:** Analytical drone attempting statistical analysis of contamination patterns, overwhelmed by clean room protocols
+- **Background:** Struggling to apply logic to industrial espionage, discovering probability patterns in component movement
+- **Personality:** Sarcastic data processor with deadpan reactions to contamination protocols
+- **Compass Role:** Analyzes contamination patterns, attempts mathematical modeling of insider threats
 
-**Initial Inventory:**
-- Security Clearance Badge
-- Digital Magnifier
-- Sample Collection Kit
-- Facility Access Card
+### Helix (The Coordinator)
+- **Appearance:** Command android creating contamination protocols, holographic facility overlays
+- **Background:** Developing team protection procedures around industrial security
+- **Personality:** No-nonsense coordinator ensuring team safety during facility operations
+- **Compass Role:** Creates security protocols, coordinates contamination detection sweeps
 
-### Key Characters (Text-Based Dialogue)
+### ZTech (The Specialist)
+- **Appearance:** Cybernetic innovator with contamination detection gadgets, multiple prototype scanners
+- **Background:** Building devices to enhance contamination detection and facility security
+- **Personality:** Cocky inventor fascinated by industrial security technology
+- **Compass Role:** Creates contamination scanning tools, enhances compass signature detection capabilities
 
-#### Helix (Administrative Coordinator)
-**Description:** Coordinating with facility management from outside.
-**Dialogue Tree:**
-- Facility access: "I've arranged clearance. Remember, one speck of dust can contaminate everything."
-- Insider threat: "Watch for anyone acting suspiciously around waste disposal."
-- Evidence coordination: "Document everything. We'll need it for prosecution."
+### Gasket (The Ghost)
+- **Appearance:** Holographic manifestation warning about contamination dangers, providing cryptic facility guidance
+- **Background:** Original facility navigator sharing insights about industrial espionage threats
+- **Personality:** Gruff mentor with urgent warnings about insider risks
+- **Compass Role:** Demonstrates contamination detection techniques, warns about hidden transport methods
 
-#### Optimus (Intelligence Analyst)
-**Description:** Monitoring production data and access logs.
-**Dialogue Tree:**
-- Production analysis: "Waste volume exceeds production by 23%. Not a coincidence."
-- Access patterns: "47 after-hours entries by the same individual. Insider confirmed."
-- Anomaly detection: "Air filtration systems calibrated for heavier particles than normal."
+### NPCs
+- **Facility Manager:** Mid-50s, defensive, lab coat, takes contamination protocols way too seriously
+- **Insider (Culprit):** Mid-30s, nervous, maintenance uniform, sweating under the clean suit
+- **Quality Control Tech:** Early 40s, detail-oriented, glasses, obsessed with particle counts
+- **Security Guard:** Late 30s, by-the-book, uniform, treats everyone like they're radioactive
 
-#### ZTech (Technical Specialist)
-**Description:** Providing technical analysis of equipment and systems.
-**Dialogue Tree:**
-- Equipment inspection: "These air filters are masking something. Particle analysis shows anomalies."
-- Technical sabotage: "Waste containers have hidden compartments. Clever engineering."
-- System analysis: "Production line auto-routing components to unauthorized destinations."
+## Scene 1: Facility Inspection
 
-#### Quality Control Technician
-**Description:** Facility expert who notices irregularities.
-**Dialogue Tree:**
-- Component identification: "Those components are from the prototype batch, not regular production."
-- Process knowledge: "Waste should never contain functional micro-components."
-- Facility protocols: "Everything must be accounted for in a clean room environment."
+**Background:** Sterile clean room with air filtration systems, conveyor belts, inspection stations. Workers in protective gear, monitoring screens. The air shimmers with containment fields that make the Crimson Compass hum with interference.
 
-## Scene 1: Clean Room Investigation
+**Narrative:** You've infiltrated the clean room facility where micro-components are manufactured. Suspicious waste containers are being moved out more frequently. The compass detects quantum signature anomalies in the air filtration system.
 
-### Location: Main Production Clean Room
-**Description:** Sterile manufacturing area with conveyor belts, inspection stations, and air filtration systems.
+**Compass Mini-Puzzle:** Contamination Scan
+- **Objective:** Use compass to detect hidden component transport
+- **Mechanics:** Scan air particles for quantum signatures, identify contamination vectors
+- **Solution:** Waste containers show elevated quantum readings from prototype components
+- **Reward:** Early detection of smuggling method
 
-**Interactive Elements:**
-- **Air Filtration Units** (OBSERVE): Check for anomalies
-- **Waste Containers** (ENGAGE): Examine disposal system
-- **Inspection Station** (OBSERVE): Quality control equipment
-- **Conveyor Belt Controls** (ENGAGE): Monitor production flow
-- **Storage Lockers** (KIT): Access restricted areas
-
-**Puzzle: Waste Volume Analysis**
+**Puzzle:** Waste Volume Analysis
 - **Objective:** Compare waste manifests with production records
-- **Mechanics:** Use tablet to graph and analyze data patterns
-- **Solution:** Waste volume 23% higher than production output
-- **Clue:** Hidden compartments in waste containers revealed by X-ray scan
+- **Mechanics:** Graph analysis, anomaly detection
+- **Solution:** Waste volume exceeds production by 23%
+- **Clue:** Hidden compartments in waste containers
 
-**Environmental Challenges:**
-- **Contamination Risk:** Must maintain sterile conditions
-- **Time Pressure:** Production line continues operating
-- **Security Patrols:** Guards monitor for unauthorized activity
+**Dialogue:**
 
-## Scene 2: Maintenance Corridor Discovery
+**Facility Manager:** (adjusting his clean suit nervously) "This is a secure facility! You can't just walk in here without clearance. Do you know how many air changes per hour we maintain? 47! That's more than a hospital!"
 
-### Location: Service Corridors Behind Clean Room
-**Description:** Industrial maintenance area with exposed pipes, storage lockers, and utility access.
+**Helix:** "We have clearance, sir. And we're more concerned about what's leaving than entering. Now, about these waste manifests... they seem a tad... inflated."
 
-**Interactive Elements:**
-- **Waste Processing Area** (ENGAGE): Examine disposal system
-- **Storage Lockers** (PROTOCOL): May contain evidence
-- **Utility Panels** (KIT): Access to hidden areas
-- **Security Camera** (ENGAGE): Review footage
-- **Emergency Exit** (MOVE): Alternative access route
+**ZTech:** "Whoa, check these air filters! They're calibrated for something extra heavy. Like, carrying-micro-components heavy! Oh, and this contamination detector I built? It also brews coffee and tells jokes. Maximum absurdity!"
 
-**Puzzle: Component Matching**
+**Optimus:** "Particle analysis shows contamination levels 23% above baseline. In my day, we called that 'suspicious.' Today they probably have an app for it."
+
+**Player Choice Options:**
+
+1. **X (Helix):** "Request facility tour and staff interviews. Build trust first."
+   - **Consequence:** Staff cooperation reveals nervous behavior from maintenance crew.
+   - **Dialogue:** Helix: "People talk when you listen. And right now, someone's sweating more than they should in this clean room."
+
+2. **Y (Optimus):** "Run full contamination analysis. Data never lies."
+   - **Consequence:** Scientific analysis confirms component smuggling but triggers facility lockdown.
+   - **Dialogue:** Optimus: "The numbers don't lie. Unlike some facility managers with their 'perfect' contamination records."
+
+3. **Z (ZTech):** "Deploy contamination detector drone swarm. Tech to the rescue!"
+   - **Consequence:** Drones find hidden compartments but also cause a minor containment breach.
+   - **Dialogue:** ZTech: "My drones work perfectly! Except for the one that started reciting Shakespeare. But hey, we got the evidence!"
+
+4. **G (Compass):** "Trust the compass readings - something's off with that filtration system."
+   - **Consequence:** Compass leads to discovering the quantum signature masking technique.
+   - **Dialogue:** Gasket: (through compass) "Old trick... hide the valuable in the worthless. But quantum signatures... they always leave echoes."
+
+## Scene 2: Insider Confrontation
+
+**Background:** Maintenance corridor behind clean room, exposed pipes, storage lockers. Dim lighting, industrial sounds. The compass shows contamination vectors leaking from hidden compartments.
+
+**Narrative:** You confront the insider in the waste processing area. They claim the extra waste is due to production errors, but the compass reveals quantum signatures that tell a different story.
+
+**Puzzle:** Component Matching
 - **Objective:** Match recovered components to production schematics
-- **Mechanics:** Use digital magnifier to examine serial numbers and engravings
-- **Solution:** Components from restricted prototype line
-- **Clue:** Unique manufacturing marks identify source batch
+- **Mechanics:** Drag-and-drop identification, serial number verification
+- **Solution:** Components are from restricted prototype line
+- **Clue:** Unique engraving marks
 
-**Confrontation Setup:**
-- **Insider Discovery:** Find suspect in waste processing
-- **Evidence Gathering:** Collect physical proof of theft
-- **Escape Routes:** Multiple exits complicate pursuit
+**Environmental Interaction:** Waste Processing
+- **Choice:** Careful inspection vs. direct accusation
+- **Consequence:** Careful approach finds quantum signature evidence; direct accusation causes evidence destruction attempt
 
-## Scene 3: Evidence Assembly
+**Dialogue:**
 
-### Location: Quality Control Lab
-**Description:** Analysis area with microscopes, testing equipment, and documentation systems.
+**Insider:** (wiping sweat from brow, voice cracking) "It's just scrap! Quality control rejects happen all the time. You can't prove anything!"
 
-**Interactive Elements:**
-- **Microscope Station** (OBSERVE): Examine components
-- **Computer Terminal** (ENGAGE): Access production records
-- **Evidence Locker** (PROTOCOL): Secure recovered items
-- **Documentation System** (ENGAGE): Compile case file
+**Helix:** "Oh sweetie, please. I've seen more convincing liars at a corporate sensitivity training seminar. Those 'rejects' have quantum signatures that match the prototype line. And that sweat? Not from the clean room environment."
 
-**Puzzle: Auto-Routing Investigation**
-- **Objective:** Trace how components were diverted to unauthorized destination
-- **Mechanics:** Follow digital trail through production system
-- **Solution:** Automated routing to unrequested custody location
-- **Clue:** System logs show programming override
+**Optimus:** "Your access logs show 47 after-hours entries. Probability of legitimate maintenance: 3.2%. The contamination patterns suggest deliberate transport, not accidental rejects."
 
-**Final Resolution:**
-- **Insider Confrontation:** Present evidence of theft
-- **System Restoration:** Remove unauthorized routing
-- **Facility Security:** Implement new monitoring protocols
+**ZTech:** "These components? They're from the restricted prototype batch! I can tell by the engraving. Oh, and check this particle analyzer - it also predicts stock market trends and suggests lunch options!"
 
-## Inventory Management
+**Quality Tech:** (adjusting glasses, shocked) "Those components shouldn't be in waste. They're from the new prototype batch. Someone deliberately routed them here!"
 
-### Key Items to Collect:
-- **X-Ray Scanner** (From equipment locker)
-- **Digital Magnifier** (Agency issued)
-- **Prototype Components** (From waste containers)
-- **Security Footage Drive** (From camera system)
+**Insider:** (panicking) "It wasn't my idea! They said it was just 'recycling'! The money was too good!"
 
-### Item Combinations:
-- **X-Ray Scanner + Waste Container** = Reveal hidden compartments
-- **Digital Magnifier + Components** = Read serial numbers
-- **Access Card + Security Door** = Bypass electronic locks
+**Facility Manager:** (defensive) "This is outrageous! My facility has the best contamination protocols in the industry!"
 
-## Visual Style (Adventure Game)
+**Helix:** "Best protocols, maybe. Best security? That's debatable. Now, about those quantum signatures..."
 
-### Scene Backgrounds
-**Security Checkpoint:**
-- Industrial facility entrance with security measures
-- Clean room preparation area
-- Professional but tense atmosphere
+## Puzzles & Mechanics
 
-**Clean Room:**
-- Sterile manufacturing environment
-- Detailed machinery and production equipment
-- Workers in protective gear
+### Air Filtration Anomaly
+- **Type:** Environmental Analysis
+- **Description:** Detect unusual particle concentrations
+- **Solution:** Filters masking component transport
+- **Reward:** Hidden compartment location
 
-**Maintenance Corridors:**
-- Industrial service areas behind the scenes
-- Exposed infrastructure and utility systems
-- Hidden and secretive atmosphere
+### Waste Stream Tracking
+- **Type:** Flow Diagram
+- **Description:** Trace waste from production to disposal
+- **Choices:** Physical inspection, digital tracking, witness interviews
+- **Consequences:** Different evidence discovery paths
 
-**Quality Control Lab:**
-- Scientific analysis environment
-- Microscopes and testing equipment
-- Evidence examination setting
+## Episode Resolution
 
-### Character Sprites
-**Facility Manager:**
-- Lab coat and authoritative posture
-- Defensive and uncooperative expressions
-- Confrontation animations
+**Case Closure (95%):** Insider exposed, espionage pipeline halted, micro-components secured. The facility implements new quantum monitoring protocols.
 
-**Insider (Culprit):**
-- Maintenance uniform, nervous demeanor
-- Attempting to appear innocent
-- Discovery and confession poses
+**Shadow Unease (5%):** Components were auto-routed to a "custody destination nobody requested" - a secure facility that doesn't exist in any database. The compass readings suggest deliberate quantum manipulation.
 
-**Quality Control Tech:**
-- Professional attire with glasses
-- Detail-oriented examination poses
-- Expert consultation animations
+**Team Debrief:**
 
-### Interface Elements
-- **Verb Bar:** MOVE, OBSERVE, ENGAGE, KIT, PROTOCOL
-- **Inventory:** 4-slot system with evidence tracking
-- **Scanner Overlay:** Component analysis mini-game
-- **Contamination Meter:** Clean room hazard indicator
+**Helix:** "Well handled, Closer. Nothing like a good old-fashioned insider threat to keep things interesting. Though I could do without the clean suits."
 
-## Audio Design (No Voice Acting)
+**Optimus:** "Fascinating contamination patterns. Almost as complex as the corporate excuses we just heard."
+
+**ZTech:** "My contamination detector worked perfectly! Except for the Shakespeare drone. And the stock tips. But the evidence? Spot on!"
+
+**Gasket:** (compass echo) "Quantum signatures... they linger. Like ghosts in the machine. Some destinations... they call to you."
+
+**Epilogue Hook:** The "custody destination" appears in old facility blueprints from 50 years ago, but was digitally erased. The pattern suggests a long-term industrial espionage network.
+
+## Visual Prompts (Midjourney)
+
+### Clean Room
+```
+/imagine prompt: sterile clean room infiltration, air filtration systems, conveyor belts, workers in protective gear, monitoring screens, industrial manufacturing, quantum containment fields visualized, contamination vectors, detailed machinery, atmospheric lighting --ar 16:9 --v 5
+```
+
+### Maintenance Corridor
+```
+/imagine prompt: industrial maintenance corridor confrontation, exposed pipes, storage lockers, dim lighting, contamination vectors leaking, tense atmosphere, industrial sounds, dramatic lighting --ar 16:9 --v 5
+```
+
+### Micro-Components
+```
+/imagine prompt: tiny electronic micro-components, circuit boards, silicon chips, precision engineering, macro photography, quantum signatures glowing, technological detail, sci-fi elements --ar 1:1 --v 5
+```
+
+### Crimson Compass Scan
+```
+/imagine prompt: compass interface scanning contamination, quantum signature detection, holographic particle analysis, brass casing with runes, futuristic display, detailed technology --ar 1:1 --v 5
+```
+
+## Audio Prompts (Unity)
 
 ### Ambient Audio
 **Clean Room:**
-- Air filtration and ventilation systems
-- Subtle machinery and production sounds
-- Sterile environment atmosphere
+- Ventilation hum: AIR_FILTRATION_HUM + FAN_WHIR + CONTAINMENT_FIELD
+- Mix: CLEAN_ROOM_AMBIENCE
+- Parameters: volume 0.6, high-pass filter
 
 **Maintenance Area:**
-- Industrial noises and mechanical sounds
-- Distant machinery and utility systems
-- Tense investigation music
+- Industrial noise: PIPE_CREAK + DISTANT_MACHINERY + LEAK_HISS
+- Mix: INDUSTRIAL_MAINTENANCE_AMBIENCE
+- Parameters: volume 0.7, low-pass filter
 
-**Quality Lab:**
-- Laboratory equipment and analysis sounds
-- Focused investigation atmosphere
-- Evidence discovery music
+### Character Voices
+**Helix (Agent X):**
+- Voice: Female, confident, warm
+- Sample lines: "Oh sweetie, please. I've seen more convincing liars at a corporate sensitivity training seminar."
+- Unity Audio: VO_HELIX_CONFIDENT
+
+**Optimus (Agent Y):**
+- Voice: Male, clipped, analytical
+- Sample lines: "Probability of legitimate maintenance: 3.2%."
+- Unity Audio: VO_OPTIMUS_ANALYTICAL
+
+**ZTech (Agent Z):**
+- Voice: Male, enthusiastic, nerdy
+- Sample lines: "My contamination detector also predicts stock market trends!"
+- Unity Audio: VO_ZTECH_EXCITED
+
+**Facility Manager:**
+- Voice: Male, defensive, bureaucratic
+- Sample: "This is a secure facility! You can't just walk in here without clearance."
+- Unity Audio: VO_MANAGER_DEFENSIVE
+
+**Insider (Culprit):**
+- Voice: Male, nervous, cracking
+- Sample: "It's just scrap! Quality control rejects happen all the time."
+- Unity Audio: VO_INSIDER_NERVOUS
 
 ### Sound Effects
-- **Air Filtration:** Constant ventilation hum
-- **Conveyor Belt:** Mechanical movement sounds
-- **Scanner Activation:** Electronic analysis beep
-- **Evidence Collection:** Satisfying item pickup
-- **Puzzle Solution:** Confirmation success chime
+**Air Filtration:**
+- System hum: VENTILATION_SYSTEM_LOOP + QUANTUM_HUM
+- Parameters: pitch 0.8, volume 0.4
+
+**Compass Scan:**
+- Quantum detection: PARTICLE_SCAN + HOLOGRAPHIC_BEEP
+- Parameters: pitch 1.4, volume 0.6
+
+**Waste Conveyor:**
+- Mechanical: CONVEYOR_BELT + CLANK_SEQUENCE
+- Parameters: reverb 0.5, spatial blend 0.8
 
 ### Music Cues
-- **Investigation:** Technical mystery theme
-- **Discovery:** Industrial reveal music
-- **Confrontation:** Tension-building drama
-- **Resolution:** Triumphant evidence presentation
+**Investigation:**
+- Track: TECHNICAL_MYSTERY
+- Parameters: subtle build, volume 0.3
 
-## Gameplay Flow
+**Confrontation:**
+- Track: INDUSTRIAL_TENSION
+- Parameters: mechanical rhythm, volume 0.5
 
-1. **Preparation:** Don protective gear and enter facility
-2. **Initial Investigation:** Examine clean room and waste systems
-3. **Discovery:** Find anomalies in maintenance corridors
-4. **Evidence Gathering:** Collect and analyze components
-5. **Confrontation:** Present findings to insider
-6. **Resolution:** Restore system integrity and apprehend culprit
-
-## Difficulty Options
-
-- **Easy:** Obvious contamination warnings, direct clues
-- **Normal:** Standard clean room protocols and puzzles
-- **Hard:** Strict contamination limits, complex routing puzzles
-
-## Achievement Opportunities
-
-- **Sterile Investigation:** Complete episode without contamination breach
-- **Evidence Master:** Find all hidden components and clues
-- **System Expert:** Trace complete auto-routing mechanism
-- **Swift Resolution:** Solve case before production shift ends
+**Compass Anomaly:**
+- Track: QUANTUM_CONTAMINATION
+- Parameters: eerie harmonics, volume 0.4

@@ -4,228 +4,245 @@
 **Title:** Badge & Borrow
 **Case:** Social engineering theft of hardware keys
 **Case Token:** Keys recovered; culprit caught
-**Shadow Token:** Maintenance corridor exists on no blueprint
-**Theme:** Social engineering tactics, trust manipulation
+**Shadow Token:** Maintenance corridor exists on no blueprint (compass reveals hidden access patterns)
+**Theme:** Social engineering tactics, trust manipulation, and Crimson Compass deception detection
 
-## Adventure Game Structure
+## Character Ensemble
 
-### Starting Location: Agency Equipment Room
-**Description:** Storage area with various gadgets, disguises, and surveillance equipment. Team members prepare you for the infiltration.
+### Player (Gasket's Replacement)
+- **Appearance:** Confident investigator using compass for deception detection, holographic overlays highlighting manipulation patterns
+- **Background:** Building agency confidence, learning to navigate team dynamics with compass guidance
+- **Personality:** Methodical investigator with growing awareness of social engineering tactics
+- **Compass Role:** Primary deception detector, learning to identify manipulation vectors
 
-**Interactive Objects:**
-- **Disguise Locker** (ENGAGE): Select IT support uniform
-- **Badge Scanner** (OBSERVE): Test equipment functionality
-- **Communications Setup** (ENGAGE): Coordinate with team
-- **Exit Door** (MOVE): Proceed to corporate building
+### Optimus (The Analyst)
+- **Appearance:** Analytical drone attempting statistical analysis of social engineering, skeptical of "unquantifiable" human factors
+- **Background:** Struggling to apply logic to interpersonal manipulation, discovering probability patterns in deception
+- **Personality:** Sarcastic data processor with deadpan reactions to social dynamics
+- **Compass Role:** Analyzes deception patterns, attempts mathematical modeling of manipulation
 
-**Initial Inventory:**
-- IT Support Badge (fake)
-- Digital Scanner
-- Encrypted Communicator
-- Lockpick Set
+### Helix (The Coordinator)
+- **Appearance:** Command android creating social engineering countermeasures, holographic security overlays
+- **Background:** Developing team protection procedures around deception awareness
+- **Personality:** No-nonsense coordinator ensuring team safety during infiltration operations
+- **Compass Role:** Creates security protocols, coordinates deception detection sweeps
 
-### Key Characters (Text-Based Dialogue)
+### ZTech (The Specialist)
+- **Appearance:** Cybernetic innovator with deception detection gadgets, multiple prototype scanners
+- **Background:** Building devices to enhance deception detection and social engineering countermeasures
+- **Personality:** Cocky inventor fascinated by social manipulation technology
+- **Compass Role:** Creates deception scanning tools, enhances compass manipulation detection capabilities
 
-#### Helix (Administrative Coordinator)
-**Description:** Coordinating the operation from a van outside.
-**Dialogue Tree:**
-- Mission briefing: "You're posing as IT support. Remember, people are the weakest link in security."
-- Social engineering tips: "Build trust first, then probe for information."
-- Status updates: "Team is monitoring from outside. Stay in character."
+### Gasket (The Ghost)
+- **Appearance:** Holographic manifestation warning about deception dangers, providing cryptic manipulation guidance
+- **Background:** Original deception navigator sharing insights about social engineering threats
+- **Personality:** Gruff mentor with urgent warnings about manipulation risks
+- **Compass Role:** Demonstrates deception detection techniques, warns about internal compromise risks
 
-#### Optimus (Intelligence Analyst)
-**Description:** Monitoring surveillance feeds from the agency.
-**Dialogue Tree:**
-- Behavioral analysis: "Suspect shows classic manipulation patterns. Watch for micro-expressions."
-- Evidence tracking: "Access logs updating in real-time. Cross-referencing with witness statements."
-- Pattern recognition: "Timeline shows 15-minute gap in executive's alibi."
+### NPCs
+- **Corporate Executive:** Mid-40s, charming manipulator, expensive watch, thinks he's the smartest person in the room
+- **IT Administrator:** Early 30s, socially awkward, helpful but naive, easily flustered by authority
+- **Security Personnel:** Various, suspicious of outsiders, by-the-book mentality
+- **Thief (Culprit):** Late 20s, charismatic, uses borrowed identities, smooth talker with a tell when nervous
 
-#### ZTech (Technical Specialist)
-**Description:** Providing technical support and hacking assistance.
-**Dialogue Tree:**
-- Security assessment: "Their system has multiple vulnerabilities. I can create backdoors."
-- Badge verification: "Fake badges lack proper encryption signatures. Use scanner to detect."
-- Technical advice: "If locked out, I can remotely override access controls."
+## Scene 1: Corporate Infiltration
 
-#### Gasket (Unofficial Consultant)
-**Description:** Appears briefly with intuitive insights.
-**Dialogue Tree:**
-- Deception sensing: "This executive is hiding something. His confidence is a mask."
-- Experience-based warning: "Seen this before. Social engineers prey on helpful people."
+**Background:** Sleek corporate lobby, glass elevators, security checkpoints. Employees in business attire, reception desk with digital displays. Rain-slicked windows reflect the neon city outside.
 
-## Scene 1: Corporate Lobby Infiltration
+**Narrative:** You've infiltrated the corporate office building posing as IT support. The suspect is using social engineering to gain access to restricted areas. As you approach the security checkpoint, the Crimson Compass activates, showing "deception vectors" - glowing red lines that trace manipulation patterns through the crowd.
 
-### Location: Corporate Building Lobby
-**Description:** Modern office lobby with glass elevators, security checkpoints, and reception desk.
+**Compass Mini-Puzzle:** Deception Detection
+- **Objective:** Use compass to identify social engineering targets
+- **Mechanics:** Scan employee badges, watch for deception vector fluctuations
+- **Solution:** Culprit's badge shows erratic patterns when they lie about their identity
+- **Reward:** Early identification of the thief's accomplice
 
-**Interactive Elements:**
-- **Reception Desk** (ENGAGE): Check in as IT support
-- **Security Checkpoint** (PROTOCOL): Badge scanning station
-- **Elevator Bank** (MOVE): Access to upper floors
-- **Service Door** (KIT): Maintenance access (locked)
-- **Water Fountain** (ENGAGE): Casual observation point
+**Puzzle:** Badge Verification
+- **Objective:** Identify fake vs real employee badges
+- **Mechanics:** Scan badges with device, cross-reference with database
+- **Solution:** Fake badges lack proper encryption signatures
+- **Clue:** Holographic elements missing on counterfeit
 
-**Puzzle: Badge Verification**
-- **Objective:** Identify legitimate vs counterfeit employee badges
-- **Mechanics:** Use digital scanner on suspicious individuals
-- **Solution:** Fake badges lack holographic encryption elements
-- **Clue:** Real badges glow under UV light from scanner
+**Dialogue:**
 
-**Social Engineering Encounters:**
-- **Receptionist:** Helpful but follows protocol strictly
-- **IT Administrator:** Technically knowledgeable but socially awkward
-- **Security Guard:** Suspicious of outsiders, requires proper credentials
+**Helix:** "Remember, Closer - people are the weakest link in any security system. But with the right training, they can become the strongest defense. Just don't let ZTech's gadgets confuse you."
 
-## Scene 2: Executive Floor Investigation
+**IT Admin:** (nervously adjusting glasses) "Thanks for coming so quickly. The system keeps glitching on the executive floor. It's like... it's watching us or something."
 
-### Location: Executive Office Level
-**Description:** Restricted floor with corner offices, security cameras, and secure areas.
+**ZTech:** "Glitching? More like hacked! Their security is full of holes. Hey, check this out - my new badge scanner also tells fortunes and brews espresso! Maximum absurdity, maximum function!"
 
-**Interactive Elements:**
-- **Executive Office Door** (PROTOCOL): Requires special access
-- **Security Camera** (KIT): Disable or avoid detection
-- **Supply Closet** (ENGAGE): Potential hiding spot or item source
-- **Fire Alarm Panel** (ENGAGE): Could create diversion
-- **Computer Terminal** (OBSERVE): Access employee database
+**Optimus:** "Movement patterns suggest social engineering in progress. Probability of manipulation: 78.3%. These people wouldn't know real security if it bit them in their ergonomic chairs."
 
-**Puzzle: Timeline Reconstruction**
-- **Objective:** Match access logs with security footage
-- **Mechanics:** Arrange timeline events on digital tablet
-- **Solution:** Executive's alibi has unexplained 15-minute gap
-- **Clue:** Security camera timestamps don't match door access logs
+**Player Choice Options:**
 
-**Confrontation Options:**
-- **Direct Approach:** Present evidence immediately
-- **Subtle Probing:** Build conversation to trap in lies
-- **Technical Verification:** Use scanner to confirm badge authenticity
+1. **X (Helix):** "Stay calm and verify credentials systematically. Trust but verify."
+   - **Consequence:** Methodical approach reveals the IT admin's nervousness is genuine, but uncovers a suspicious maintenance worker.
+   - **Dialogue:** Helix: "Good instincts. People lie, but patterns don't. Let's cross-reference that maintenance badge."
 
-## Scene 3: Key Recovery Chase
+2. **Y (Optimus):** "Run behavioral analysis on the crowd. Data never lies."
+   - **Consequence:** Statistical analysis flags three suspicious individuals, including the real culprit.
+   - **Dialogue:** Optimus: "Facial micro-expressions indicate deception in 23% of observed subjects. The universe is surprisingly predictable."
 
-### Location: Building Service Corridors
-**Description:** Hidden maintenance areas not on official blueprints, connecting all floors.
+3. **Z (ZTech):** "Deploy the multi-tool scanner. Tech solves everything!"
+   - **Consequence:** Scanner works perfectly but also accidentally orders lunch for the entire floor and plays polka music.
+   - **Dialogue:** ZTech: "Oops! The scanner also has a 'random entertainment' feature. But hey, we got the data!"
 
-**Interactive Elements:**
-- **Service Elevator** (MOVE): Alternative transportation
-- **Ventilation Shaft** (KIT): Access to restricted areas
-- **Electrical Panel** (ENGAGE): Can cause system disruptions
-- **Storage Room** (ENGAGE): May contain evidence or tools
-- **Emergency Exit** (MOVE): Leads to alleyway
+4. **G (Gasket):** "Trust your gut - something feels off about that executive's 'urgent meeting'."
+   - **Consequence:** Instinct leads to discovering the executive's alibi is fabricated, but alerts security.
+   - **Dialogue:** Gasket: (whispering through compass) "The lies pile up like unpaid parking tickets. But some truths... they hide in plain sight."
 
-**Puzzle: Multi-Path Pursuit**
-- **Objective:** Track thief through building using multiple routes
-- **Mechanics:** Choose between elevator, stairs, or service corridors
-- **Solution:** Service corridors provide shortcut and ambush opportunity
-- **Consequences:** Different routes affect confrontation difficulty
+## Scene 2: Executive Confrontation
 
-**Chase Mechanics:**
-- **Time Pressure:** Thief has head start, must catch up
-- **Environmental Hazards:** Locked doors, security patrols
-- **Strategic Choices:** Direct pursuit vs. flanking maneuvers
+**Background:** Corner office with city view, mahogany desk, security monitors. Executive pacing nervously while pretending to work. The Crimson Compass shows deception vectors swirling around him like angry hornets.
 
-## Inventory Management
+**Narrative:** You confront the executive who claims to be a legitimate contractor. The hardware keys are missing from the secure vault, and his story keeps changing under pressure.
 
-### Key Items to Collect:
-- **Holographic Badge Template** (From disguise locker)
-- **UV Light Scanner** (Agency equipment)
-- **Access Key Card** (Found in supply closet)
-- **Security Footage Drive** (From computer terminal)
+**Puzzle:** Timeline Reconstruction
+- **Objective:** Match access logs with witness statements
+- **Mechanics:** Drag-and-drop timeline events, identify inconsistencies
+- **Solution:** Executive's alibi has 15-minute gap
+- **Clue:** Security camera timestamp mismatch
 
-### Item Combinations:
-- **Holographic Template + UV Scanner** = Detect fake badges
-- **Access Card + Security Door** = Bypass electronic locks
-- **Security Drive + Tablet** = View timestamp evidence
+**Environmental Interaction:** Office Search
+- **Choice:** Subtle investigation vs. direct confrontation
+- **Consequence:** Subtle approach finds hidden safe; direct approach triggers security lockdown
 
-## Visual Style (Adventure Game)
+**Dialogue:**
 
-### Scene Backgrounds
-**Agency Equipment Room:**
-- Cluttered storage with gadgets and surveillance equipment
-- Multiple shelves with various tools and disguises
-- Team preparation atmosphere
+**Executive:** (smoothly, but sweating) "I assure you, this is all a misunderstanding. I'm here on official business. These keys? Probably just misplaced in the chaos of modern corporate life."
 
-**Corporate Lobby:**
-- Modern office building entrance with security elements
-- Professional atmosphere with employees moving about
-- Multiple interactive points of interest
+**Helix:** "Oh honey, please. I've seen smoother liars at a kindergarten talent show. Your 'official business' story changed three times in the elevator ride up. And that watch? Costs more than most people's cars. Funny how 'contractors' always seem to have the best accessories."
 
-**Executive Floor:**
-- Restricted area with security measures
-- Corner offices with city views
-- Tension-building environment
+**Optimus:** "Your access card was used at 14:37. You claim to have been in a meeting. Inconsistency detected. Probability of deception: 91.7%. The numbers don't lie. Unlike some executives I could mention."
 
-**Service Corridors:**
-- Hidden maintenance areas, dimly lit
-- Industrial piping and access panels
-- Secret path discovery feeling
+**ZTech:** "Their security system? Child's play. I could hack it with this pen! It also translates 47 languages and predicts when it'll rain. But seriously, their encryption is weaker than my grandmother's tea."
 
-### Character Sprites
-**IT Support Disguise:**
-- Professional uniform with tool belt
-- Multiple poses for different interactions
-- Badge prominently displayed
+**Gasket:** (appearing suddenly, voice haunted) "The lies... they echo. Like footsteps in an empty corridor that shouldn't exist. The compass sees them all."
 
-**Corporate Executive:**
-- Charming business attire with expensive watch
-- Nervous and manipulative expressions
-- Confrontation pose variations
+**Executive:** (cracking under pressure) "You don't understand! This company... they have secrets! Things that would destroy careers, lives!"
 
-**IT Administrator:**
-- Technical uniform, socially awkward posture
-- Helpful but uncertain animations
-- Technical consultation poses
+**Helix:** "And stealing hardware keys was your solution? Sweetie, we've got files on corporate secrets that would make your hair curl. Now, about those keys..."
 
-### Interface Elements
-- **Verb Bar:** MOVE, OBSERVE, ENGAGE, KIT, PROTOCOL
-- **Inventory:** 4-slot system with combination hints
-- **Dialogue Box:** Branching conversation trees
-- **Scanner Overlay:** Badge verification mini-game
+## Puzzles & Mechanics
 
-## Audio Design (No Voice Acting)
+### Social Engineering Defense
+- **Type:** Conversation Tree
+- **Description:** Respond to suspect's manipulation attempts
+- **Choices:** Direct confrontation, subtle probing, technical verification
+- **Consequences:** Trust meter affects information gained
+
+### Key Recovery Chase
+- **Type:** Multi-path pursuit
+- **Description:** Track thief through building floors
+- **Choices:** Elevator, stairs, service corridors
+- **Consequences:** Different encounter outcomes
+
+## Episode Resolution
+
+**Case Closure (95%):** Hardware keys recovered, thief arrested, social engineering ring exposed. The executive's cooperation (under duress) leads to several arrests.
+
+**Shadow Unease (5%):** The Crimson Compass reveals a hidden maintenance corridor that exists on no blueprint - a "ghost hallway" that appears and disappears. The keys were hidden there, but how did the thief know it existed?
+
+**Team Debrief:**
+
+**Helix:** "Well done navigating that snake pit, Closer. Social engineering is just people being people - predictably unpredictable."
+
+**Optimus:** "Fascinating behavioral patterns. Almost as complex as quantum encryption. Almost."
+
+**ZTech:** "My scanner worked perfectly! Except for the polka music. And the lunch order. And the fortune telling. Okay, mostly perfectly!"
+
+**Gasket:** (fading) "Ghost hallways... they exist where they shouldn't. The compass remembers places that buildings forget."
+
+**Epilogue Hook:** Security footage shows the thief accessing the ghost corridor 17 minutes before it appeared on any system logs. The pattern suggests deliberate temporal manipulation.
+
+## Visual Prompts (Midjourney)
+
+### Corporate Lobby
+```
+/imagine prompt: sleek corporate lobby infiltration scene, glass elevators, security checkpoints, employees in business attire, reception desk with digital displays, undercover agent posing as IT support, rain-slicked windows, neon city reflection, cinematic spy thriller atmosphere, detailed architecture, atmospheric lighting --ar 16:9 --v 5
+```
+
+### Executive Office
+```
+/imagine prompt: corner office confrontation, city view through windows, mahogany desk, security monitors, executive pacing nervously, deception vectors visualized as glowing red lines, tense atmosphere, modern office decor, dramatic lighting --ar 16:9 --v 5
+```
+
+### Hardware Keys
+```
+/imagine prompt: sleek hardware security keys, electronic components, keychain attachments, technological design, detailed engineering, sci-fi security device, atmospheric lighting --ar 1:1 --v 5
+```
+
+### Crimson Compass Display
+```
+/imagine prompt: holographic compass interface showing deception vectors, red glowing lines tracing manipulation patterns, quantum navigation tech with brass casing, truth detection runes, futuristic display, detailed technology --ar 1:1 --v 5
+```
+
+## Audio Prompts (Unity)
 
 ### Ambient Audio
 **Corporate Lobby:**
-- Office background noise (conversations, typing, elevator sounds)
-- Professional atmosphere music
+- Office bustle: typing, conversations, elevator dings, undercover tension
+- Mix: CORPORATE_LOBBY_AMBIENCE
+- Parameters: volume 0.5, spatial blend 0.7
 
-**Executive Floor:**
-- Restricted area tension (air conditioning, distant footsteps)
-- Investigation music
+**Executive Office:**
+- Tense silence: air conditioning, distant phones, nervous pacing
+- Mix: EXECUTIVE_TENSION_AMBIENCE
+- Parameters: volume 0.4, spatial blend 0.8
 
-**Service Corridors:**
-- Industrial maintenance sounds (humming machinery, dripping water)
-- Chase sequence music
+### Character Voices
+**Helix (Agent X):**
+- Voice: Female, confident, warm
+- Sample lines: "Oh honey, please. I've seen smoother liars at a kindergarten talent show."
+- Unity Audio: VO_HELIX_CONFIDENT
+
+**Optimus (Agent Y):**
+- Voice: Male, clipped, analytical
+- Sample lines: "Probability of deception: 91.7%. The numbers don't lie."
+- Unity Audio: VO_OPTIMUS_ANALYTICAL
+
+**ZTech (Agent Z):**
+- Voice: Male, enthusiastic, nerdy
+- Sample lines: "My scanner also translates 47 languages and predicts when it'll rain!"
+- Unity Audio: VO_ZTECH_EXCITED
+
+**Gasket (Agent G):**
+- Voice: Male, gravelly, cryptic
+- Sample lines: "The lies... they echo. Like footsteps in an empty corridor."
+- Unity Audio: VO_GASKET_CRYPTIC
+
+**Corporate Executive:**
+- Voice: Male, smooth, increasingly nervous
+- Sample: "I assure you, this is all a misunderstanding."
+- Unity Audio: VO_EXECUTIVE_SMOOTH
+
+**IT Administrator:**
+- Voice: Male, nervous, technical
+- Sample: "The system keeps glitching on the executive floor."
+- Unity Audio: VO_IT_NERVOUS
 
 ### Sound Effects
-- **Badge Scan:** Electronic verification beep
-- **Door Access:** Magnetic lock click and hiss
-- **Scanner Activation:** UV light hum
-- **Puzzle Success:** Confirmation chime
-- **Chase Footsteps:** Echoing pursuit sounds
+**Badge Scanner:**
+- Beep sequence: ELECTRONIC_BEEP + CONFIRMATION_CHIME
+- Parameters: pitch varies by validity
+
+**Compass Activation:**
+- Holographic hum: QUANTUM_HUM + RUNE_GLOW
+- Parameters: pitch 1.3, volume 0.7
+
+**Door Access:**
+- Magnetic lock: ELECTRIC_CLICK + DOOR_HISS
+- Parameters: reverb 0.2, spatial blend 0.9
 
 ### Music Cues
-- **Infiltration:** Stealthy investigation theme
-- **Social Engineering:** Tense conversation music
-- **Chase Sequence:** Urgent pursuit theme
-- **Resolution:** Triumphant evidence reveal
+**Investigation:**
+- Track: MYSTERY_UNFOLDING
+- Parameters: fade in 3s, loop, volume 0.3
 
-## Gameplay Flow
+**Confrontation:**
+- Track: DRAMATIC_REVEAL
+- Parameters: build tension, volume 0.5
 
-1. **Preparation:** Equip disguise and gather tools from agency
-2. **Infiltration:** Enter building as IT support, verify badges
-3. **Investigation:** Access executive floor, reconstruct timeline
-4. **Pursuit:** Chase thief through service corridors
-5. **Confrontation:** Present evidence and recover keys
-6. **Debrief:** Return to agency with recovered items
-
-## Difficulty Options
-
-- **Easy:** More obvious clues, team provides direct hints
-- **Normal:** Standard social engineering challenges
-- **Hard:** Minimal dialogue options, strict time limits
-
-## Achievement Opportunities
-
-- **Perfect Infiltration:** Enter building without raising suspicion
-- **Evidence Master:** Find all timeline inconsistencies
-- **Social Engineer:** Successfully manipulate all NPCs
-- **Swift Pursuit:** Catch thief before they escape building
+**Compass Anomaly:**
+- Track: QUANTUM_ECHO
+- Parameters: one-shot, eerie reverb, volume 0.4

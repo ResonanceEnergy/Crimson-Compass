@@ -1,238 +1,229 @@
 # S01E08: Custody
 
 ## Episode Overview
-**Title:** Custody
-**Case:** Encrypted design files theft
-**Case Token:** Files recovered; breach contained
-**Shadow Token:** Vault track with no authorizing signature
-**Theme:** Digital security, encryption, evidence handling
+**Title:** Custody  
+**Case:** Encrypted design files theft  
+**Case Token:** Files recovered; breach contained (95% closure)  
+**Shadow Token:** Vault track with no authorizing signature (5% unease)  
+**Theme:** Digital security, encryption, evidence handling  
+**Crimson Compass Integration:** Quantum navigation detects deception fields around access logs, truth vector mapping reveals timestamp manipulation patterns
 
-## Adventure Game Structure
+## Character Ensemble
 
-### Starting Location: Security Operations Center
-**Description:** High-tech monitoring facility with security displays, access terminals, and investigation workstations.
+### Player (Gasket's Replacement)
+- **Appearance:** Tactical gear with compass interface gauntlet, determined expression analyzing digital displays
+- **Background:** Former field operative now leading investigations with quantum navigation tech
+- **Personality:** Methodical investigator with Gasket's tactical instincts, patient with technical challenges
+- **Compass Role:** Maps truth vectors through encrypted data streams, detects deception signatures in access logs
 
-**Interactive Objects:**
-- **Main Security Console** (ENGAGE): Access vault surveillance
-- **Investigation Station** (OBSERVE): Review breach logs
-- **Evidence Locker** (PROTOCOL): Secure recovered items
-- **Communication Terminal** (ENGAGE): Coordinate with team
+### Optimus (The Analyst)
+- **Appearance:** Hovering drone form with holographic displays, calculating probabilities mid-air
+- **Background:** AI security specialist with pattern recognition algorithms
+- **Personality:** Sarcastic data processor with dry wit, obsessed with statistical certainties
+- **Compass Role:** Processes quantum probability fields, identifies encryption weaknesses
 
-**Initial Inventory:**
-- Security Clearance Card
-- Digital Forensics Kit
-- Encryption Analysis Tool
-- Evidence Chain Documentation
+### Helix (The Coordinator)
+- **Appearance:** Sleek android with multiple holographic interfaces, coordinating team movements
+- **Background:** Mission control specialist managing multi-threaded operations
+- **Personality:** No-nonsense taskmaster with motivational speeches, keeps team focused
+- **Compass Role:** Synchronizes team navigation through digital security layers
 
-### Key Characters (Text-Based Dialogue)
+### ZTech (The Specialist)
+- **Appearance:** Cybernetic enhancements with glowing circuit patterns, cracking systems with flair
+- **Background:** Digital intrusion expert and recovery specialist
+- **Personality:** Cocky hacker with show-off tendencies, loves technical challenges
+- **Compass Role:** Interfaces directly with compass quantum fields for breach detection
 
-#### Helix (Administrative Coordinator)
-**Description:** Managing legal compliance and team coordination during the breach investigation.
-**Dialogue Tree:**
-- Legal oversight: "Chain of custody must be maintained. One mistake and evidence is worthless."
-- Team coordination: "Everyone stay focused. We're under legal scrutiny."
-- Resource management: "I can get additional legal support if needed."
+### Gasket (The Ghost)
+- **Appearance:** Holographic projection with tactical scars, providing remote guidance
+- **Background:** Former team leader, now digital consciousness offering strategic insights
+- **Personality:** Gruff mentor figure with cryptic warnings, maintains professional distance
+- **Compass Role:** Original compass architect, detects systemic deception patterns
 
-#### Optimus (Intelligence Analyst)
-**Description:** Analyzing access patterns and encryption methods.
-**Dialogue Tree:**
-- Pattern analysis: "Breach used authorized credentials at unauthorized time."
-- Probability assessment: "Full recovery probability: 94% with current methods."
-- Anomaly detection: "Timestamp manipulation in access logs detected."
-
-#### ZTech (Technical Specialist)
-**Description:** Leading the technical breach investigation and recovery efforts.
-**Dialogue Tree:**
-- Security assessment: "Their vault isn't impenetrable. Multiple vulnerabilities exist."
-- Breach analysis: "Spoofed biometric data. Professional work."
-- Recovery operations: "I can accelerate decryption with parallel processing."
-
-#### Encryption Expert
-**Description:** Technical specialist assisting with file decryption and security analysis.
-**Dialogue Tree:**
-- Encryption assessment: "Military-grade encryption. Keys are crucial."
-- Recovery methods: "Backup fragments contain recovery keys."
-- Security advice: "Never underestimate determined attackers."
+### NPCs
+- **Security Director:** Mid-50s, defensive corporate executive in power suit, sweating under pressure
+- **Encryption Expert:** Early 40s, brilliant but disheveled cryptographer with wild hair and coffee-stained lab coat
+- **Legal Counsel:** Late 30s, precise attorney with briefcase full of digital evidence wafers
+- **Thief:** Mid-20s, skilled digital operative in sleek infiltration suit, captured but smug behind energy bars
 
 ## Scene 1: Vault Breach Investigation
 
-### Location: High-Security Data Vault
-**Description:** Reinforced secure facility with biometric scanners, access controls, and monitoring systems.
+**Background:** High-security data vault with reinforced quantum-locked doors, biometric scanners pulsing with crimson energy fields. Status displays flicker with access logs, security cameras pan with mechanical precision. Crimson Compass interface projects holographic navigation vectors through the digital space.
 
-**Interactive Elements:**
-- **Biometric Scanner** (OBSERVE): Examine access method
-- **Security Door** (ENGAGE): Test breach entry point
-- **Surveillance System** (ENGAGE): Review camera footage
-- **Access Terminal** (PROTOCOL): Check authorization logs
+**Narrative:** The breach occurred in a secure data vault containing encrypted design files. The thief had the keys, but the compass detects quantum deception signatures suggesting the credentials were spoofed through a temporal manipulation field.
 
-**Puzzle: Access Log Reconstruction**
-- **Objective:** Trace how the thief gained entry to the vault
-- **Mechanics:** Analyze access logs and biometric data
-- **Solution:** Authorized credentials used during off-hours
-- **Clue:** Timestamp manipulation shows log tampering
+**Crimson Compass Mini-Puzzle:** Deception Field Detection
+- **Objective:** Map truth vectors through access log timestamps to identify manipulation
+- **Mechanics:** Compass quantum scanning reveals temporal anomalies, player aligns navigation vectors to expose spoofed credentials
+- **Solution:** Timestamp manipulation creates quantum echo - compass detects the deception field ripple
+- **Clue:** Access log shows "authorized" entry at 2:47 AM, but compass truth vector indicates temporal displacement
 
-**Security Analysis:**
-- **Biometric Verification:** Test scanner authenticity
-- **Log Correlation:** Cross-reference multiple access points
-- **Timeline Construction:** Build sequence of breach events
+**Puzzle:** Access Log Reconstruction  
+- **Objective:** Trace the breach entry method through quantum-verified logs
+- **Mechanics:** Log analysis with compass truth verification, biometric data cross-reference
+- **Solution:** Authorized credentials used at unauthorized time via temporal spoofing
+- **Clue:** Compass detects quantum signature of time manipulation in access records
+
+**Dialogue:**
+
+**Security Director:** "Impossible! Our vault is quantum-locked! No one gets in without proper authorization!"
+
+**ZTech:** "Quantum-locked? Please. I've cracked tougher security with a bent paperclip and a bad attitude. This is amateur hour with fancy lights."
+
+**Player:** "Compass is picking up deception signatures. Someone spoofed the biometrics through a temporal field. The 'authorized' entry at 2:47 AM? That's a quantum echo - the real access happened three hours later."
+
+**Optimus:** "Probability of successful spoofing: 87%. Adjusting compass vectors for temporal anomaly detection. Fascinating... the thief left quantum breadcrumbs."
+
+**Helix:** "Stay focused, team. ZTech, get me those access logs. Optimus, sync your scans with the compass. Player, you're our truth detector - what does the compass say about the encryption keys?"
+
+**Encryption Expert:** "The encryption is military-grade quantum cipher. Without the proper keys, these files are just expensive doorstops. But if they had spoofed access..."
+
+**Gasket:** [Holographic projection flickers to life] "Temporal spoofing? That's old-school quantum trickery. The compass should cut through it like butter. Don't trust the logs - trust the vectors."
 
 ## Scene 2: File Recovery Operation
 
-### Location: Cyber Operations Center
-**Description:** Technical recovery facility with workstations, servers, and data analysis equipment.
+**Background:** Secure operations center with multiple holographic workstations, data recovery equipment humming with quantum processors. Urgent atmosphere as crimson compass projections map data recovery vectors. Team coordinates through enhanced reality displays.
 
-**Interactive Elements:**
-- **Decryption Workstation** (ENGAGE): Process encrypted files
-- **Backup Server** (OBSERVE): Access recovery fragments
-- **Integrity Checker** (ENGAGE): Verify file authenticity
-- **Progress Monitor** (OBSERVE): Track recovery status
+**Narrative:** The files have been partially decrypted, revealing the scope of the theft. Custody procedures must be followed precisely, but the compass detects shadow signatures suggesting not all deception fields have been cleared.
 
-**Puzzle: Decryption Sequence Completion**
-- **Objective:** Recover all encrypted files without data corruption
-- **Mechanics:** Multi-stage decryption with integrity verification
-- **Solution:** Parallel processing using backup fragments
-- **Clue:** Recovery keys embedded in backup file headers
+**Crimson Compass Mini-Puzzle:** Data Integrity Verification
+- **Objective:** Navigate quantum data streams to ensure file recovery without corruption
+- **Mechanics:** Compass truth vectors scan for deception implants in recovered data
+- **Solution:** Shadow signature detected in backup fragments - compass quarantines compromised sectors
+- **Clue:** Recovery keys contain embedded deception fields that compass quantum scan reveals
 
-**Recovery Challenges:**
-- **Time Pressure:** Race against potential data degradation
-- **Integrity Maintenance:** Ensure no file corruption occurs
-- **Legal Compliance:** Follow strict evidence handling procedures
+**Puzzle:** Decryption Sequence  
+- **Objective:** Complete file recovery without corruption while maintaining chain of custody
+- **Mechanics:** Multi-stage decryption with compass integrity verification, legal compliance cross-checks
+- **Solution:** Parallel processing recovers all files, compass confirms data purity
+- **Clue:** Backup fragments contain recovery keys, but compass detects shadow manipulation attempts
 
-## Scene 3: Breach Containment
+**Dialogue:**
 
-### Location: Secure Analysis Chamber
-**Description:** Isolated facility for examining recovered files and analyzing the breach method.
+**Legal Counsel:** "We must maintain perfect chain of custody. One wrong step and this evidence becomes inadmissible in any court - quantum or otherwise."
 
-**Interactive Elements:**
-- **File Analysis Terminal** (ENGAGE): Examine recovered data
-- **Vulnerability Scanner** (OBSERVE): Identify security weaknesses
-- **Containment Protocols** (ENGAGE): Implement breach fixes
-- **Documentation System** (ENGAGE): Record findings
+**Optimus:** "Probability of full recovery: 94%. Adjusting decryption parameters. Compass vectors show clean data streams... mostly."
 
-**Puzzle: Signature Track Analysis**
-- **Objective:** Decode the unauthorized vault access without proper authorization
-- **Mechanics:** Trace the digital signature path through the system
-- **Solution:** Unauthorized access used spoofed credentials
-- **Clue:** System logs show signature validation bypass
+**Helix:** "Keep it together, people! ZTech, you're on point for the decryption. Player, watch those compass readings - any deception fields in the recovery process?"
 
-**Containment Procedures:**
-- **System Isolation:** Prevent further unauthorized access
-- **Vulnerability Patching:** Fix identified security holes
-- **Evidence Preservation:** Secure all recovered materials
+**Player:** "Compass is flagging something. The backup fragments look clean, but there's a shadow signature embedded in the recovery keys. Someone tried to plant false data during the breach."
 
-## Inventory Management
+**ZTech:** "Shadow signature? Challenge accepted. I'll crack this decryption while juggling chainsaws. Or quantum processors. Whatever's flashier."
 
-### Key Items to Collect:
-- **Access Log Data** (From security console)
-- **Biometric Samples** (From scanner system)
-- **Encryption Keys** (From backup fragments)
-- **Recovery Algorithms** (From decryption workstation)
+**Gasket:** [Holographic form solidifies] "Don't get cocky, ZTech. That shadow signature means the thief left a backdoor. Compass should map the deception vector - follow it to the source."
 
-### Item Combinations:
-- **Access Logs + Analysis Tool** = Reveal breach timeline
-- **Biometric Samples + Scanner** = Verify spoofing method
-- **Encryption Keys + Workstation** = Accelerate decryption
-- **Recovery Algorithms + Files** = Ensure data integrity
+**Encryption Expert:** "Incredible! The quantum cipher is unraveling perfectly. But that shadow signature... it's like someone tried to rewrite the files during recovery."
 
-## Visual Style (Adventure Game)
+**Thief:** [From holding cell via intercom, smugly] "You think you've got me? That data's already compromised. Every file you 'recover' is just another layer of the trap."
 
-### Scene Backgrounds
-**Security Operations Center:**
-- High-tech monitoring facility
-- Security displays and terminals
-- Professional investigation atmosphere
+## Puzzles & Mechanics
 
-**Data Vault:**
-- Reinforced secure storage facility
-- Biometric scanners and access controls
-- High-security technological environment
+### Crimson Compass: Temporal Deception Scan
+- **Type:** Quantum Navigation Puzzle
+- **Description:** Use compass to detect and map temporal manipulation in access logs
+- **Mechanics:** Align truth vectors to expose timestamp spoofing, quantum scanning reveals deception fields
+- **Solution:** Compass navigation uncovers the quantum echo of the real breach time
+- **Reward:** Reveals true entry method, unlocks biometric bypass puzzle
 
-**Cyber Operations Center:**
-- Technical recovery and analysis space
-- Computer workstations and servers
-- Urgent data recovery atmosphere
+### Biometric Bypass Analysis
+- **Type:** Security Analysis with Compass Enhancement
+- **Description:** Identify how thief obtained access through compass-verified biometric data
+- **Mechanics:** Cross-reference compass truth vectors with biometric logs, detect spoofing signatures
+- **Solution:** Temporal displacement field created authorized biometric echo
+- **Reward:** Security vulnerability identification, access to encrypted files
 
-**Analysis Chamber:**
-- Isolated examination facility
-- Secure analysis equipment
-- Containment and investigation setting
+### File Decryption with Integrity Verification
+- **Type:** Technical Puzzle with Quantum Oversight
+- **Description:** Recover encrypted files while compass monitors for deception implants
+- **Choices:** Brute force (fast but risky), key recovery (balanced), backup restoration (safe but slow)
+- **Consequences:** Speed vs data integrity - compass alerts to corruption attempts
+- **Reward:** Complete file recovery with verified chain of custody
 
-### Character Sprites
-**Security Director:**
-- Corporate attire, defensive posture
-- Authoritative but concerned expressions
-- Technical explanation animations
+## Visual Prompts (Midjourney)
 
-**Encryption Expert:**
-- Disheveled appearance, brilliant demeanor
-- Technical consultation poses
-- Discovery and explanation animations
+### Data Vault Breach Scene
+```
+/imagine prompt: high-security quantum data vault, reinforced crimson energy doors, biometric scanners pulsing with deception fields, holographic status displays showing access logs, security cameras with compass navigation vectors overlay, technological fortress in neon blues and crimson quantum fields, detailed cyberpunk security systems --ar 16:9 --v 5 --q 2
+```
 
-**Legal Counsel:**
-- Professional briefcase, precise manner
-- Legal consultation animations
-- Compliance monitoring poses
+### Operations Center Recovery
+```
+/imagine prompt: secure operations center with holographic workstations, quantum data recovery equipment humming with crimson compass projections, urgent cyberpunk atmosphere, team coordinating through enhanced reality displays, digital streams flowing with truth vectors, neon-lit technical command center --ar 16:9 --v 5 --q 2
+```
 
-### Interface Elements
-- **Verb Bar:** MOVE, OBSERVE, ENGAGE, KIT, PROTOCOL
-- **Inventory:** 4-slot system with digital tools
-- **Decryption Progress:** Real-time recovery tracking
-- **Integrity Meter:** File corruption risk indicator
+### Compass Deception Detection
+```
+/imagine prompt: crimson compass interface projecting quantum navigation vectors through digital data streams, holographic truth mapping revealing temporal anomalies in access logs, deception field visualization with glowing quantum signatures, cyberpunk detective tech in action --ar 16:9 --v 5 --q 2
+```
 
-## Audio Design (No Voice Acting)
+### Character Close-ups
+```
+/imagine prompt: cyberpunk detective team in high-tech vault, player with compass gauntlet analyzing displays, optimus drone hovering with probability calculations, helix android coordinating holograms, ztech hacker with glowing circuits cracking systems, gasket holographic projection giving tactical advice, exaggerated features, bright saturated colors, retro-futuristic absurdity --ar 16:9 --v 5 --q 2
+## Audio Prompts (Unity)
 
 ### Ambient Audio
-**Security Operations Center:**
-- Security system monitoring sounds
-- Computer terminals and alerts
-- Professional investigation atmosphere
+**Data Vault:**  
+- Security systems: ELECTRONIC_HUM + QUANTUM_FIELD_HUM + ACCESS_DENIED_BEEPS  
+- Compass integration: CRIMSON_COMPASS_NAVIGATION_TONES + DECEPTION_FIELD_DETECTOR  
+- Mix: HIGH_SECURITY_QUANTUM_VAULT_AMBIENCE  
+- Parameters: volume 0.6, spatial blend 0.8, compass hum frequency tied to deception detection
 
-**Data Vault:**
-- Security system electronic hums
-- Access control beeps and scans
-- High-security technological environment
+**Operations Center:**  
+- Computer activity: SERVER_FANS + QUANTUM_PROCESSORS + INTENSE_HOLOGRAPHIC_TYPING  
+- Compass activity: TRUTH_VECTOR_PROCESSING + DATA_INTEGRITY_SCANS  
+- Mix: CYBER_OPS_QUANTUM_AMBIENCE  
+- Parameters: volume 0.7, spatial blend 0.7, urgency builds with decryption progress
 
-**Cyber Operations Center:**
-- Server fans and computer processing
-- Intense typing and system alerts
-- Urgent recovery operation atmosphere
+### Character Voice Samples
+**Player (Gasket's Replacement):**  
+- Tone: Determined, tactical, authoritative with subtle uncertainty  
+- Sample: "Compass shows deception signatures. This breach wasn't clean - someone's playing quantum games."
 
-**Analysis Chamber:**
-- Isolated facility background noise
-- Analysis equipment sounds
-- Focused investigation atmosphere
+**Optimus:**  
+- Tone: Mechanical, sarcastic, data-obsessed with dry wit  
+- Sample: "Probability of successful spoofing: 87%. Adjusting compass vectors. How quaint - temporal manipulation. Almost impressive."
+
+**Helix:**  
+- Tone: Commanding, motivational, no-nonsense coordinator  
+- Sample: "Stay focused, team! ZTech, crack that decryption. Player, watch the compass - any shadow signatures?"
+
+**ZTech:**  
+- Tone: Cocky, show-off, technically brilliant with bravado  
+- Sample: "Quantum-locked? Please. I'll crack this while juggling plasma chainsaws. Watch and learn, meatbags."
+
+**Gasket:**  
+- Tone: Gruff, cryptic, mentor-like with tactical wisdom  
+- Sample: "Temporal spoofing? Old trick. Compass cuts through it. Don't trust logs - trust vectors."
 
 ### Sound Effects
-- **Biometric Scanning:** Electronic authentication sounds
-- **Decryption Processing:** Data stream and progress audio
-- **Security Alerts:** Warning beeps and notifications
-- **File Recovery:** Successful decryption chimes
-- **Breach Containment:** System lockdown confirmations
+**Compass Deception Scan:**  
+- Quantum: VECTOR_ALIGNMENT_CHIME + DECEPTION_FIELD_RIPPLE + TRUTH_VECTOR_LOCK  
+- Parameters: escalating intensity as deception is detected
 
-### Music Cues
-- **Breach Investigation:** Digital intrigue theme
-- **File Recovery:** Technical race against time
-- **Containment:** Security restoration music
-- **Resolution:** Successful recovery triumph
+**Biometric Spoofing Reveal:**  
+- Electronic: TEMPORAL_ECHO_BEEP + BIOMETRIC_SPOOF_EXPOSE + QUANTUM_SIGNATURE_CONFIRM  
+- Parameters: satisfying reveal moment with compass verification
 
-## Gameplay Flow
+**Decryption Process:**  
+- Digital: QUANTUM_DATA_STREAM + INTEGRITY_VERIFICATION_CHIMES + PROGRESS_ACCELERATION  
+- Parameters: building intensity with compass-guided decryption
 
-1. **Breach Assessment:** Investigate vault access and security logs
-2. **Entry Analysis:** Determine how thief gained unauthorized access
-3. **Recovery Operation:** Begin decryption of stolen files
-4. **Integrity Verification:** Ensure recovered data is uncorrupted
-5. **Containment:** Implement security fixes and prevent further breaches
-6. **Documentation:** Record complete breach analysis
+## Episode Resolution
 
-## Difficulty Options
+**Case Closure (95%):** Files recovered with verified chain of custody, breach contained through compass-guided investigation. The thief's temporal spoofing technique exposed and countermeasures implemented. Digital security protocols updated with quantum verification.
 
-- **Easy:** Extended recovery time, obvious clues
-- **Normal:** Standard decryption complexity and time pressure
-- **Hard:** Accelerated corruption risk, complex encryption chains
+**Shadow Unease (5%):** Compass detects persistent deception signatures in the recovered files - subtle quantum implants that could activate later. The "vault track with no authorizing signature" suggests a deeper infiltration network that remains undetected.
 
-## Achievement Opportunities
+**Team Debrief:**
 
-- **Digital Detective:** Trace complete breach method
-- **Recovery Expert:** Decrypt all files without corruption
-- **Security Master:** Identify and fix all vulnerabilities
-- **Evidence Guardian:** Maintain perfect chain of custody
+**Helix:** "Good work, team. Files are secure, thief is contained. But stay sharp - that shadow signature means we're not done yet."
+
+**Optimus:** "Statistical analysis complete. 95% case resolution confidence. However, the 5% uncertainty factor requires monitoring."
+
+**ZTech:** "I cracked the decryption, but damn if that shadow tech wasn't sneaky. Almost impressive."
+
+**Player:** "Compass is still humming with residual deception fields. This wasn't just a simple theft - someone wanted us to find something specific."
+
+**Gasket:** [Holographic form fading] "Trust your instincts. The compass doesn't lie. That signature... it's familiar. Keep the vectors aligned."
+
+**Ending Shot:** Team exits the operations center as compass interface displays: "Case: 95% Resolved. Shadow Protocol: Active."

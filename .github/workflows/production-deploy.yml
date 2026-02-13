@@ -1,0 +1,267 @@
+name: Crimson Compass Production Pipeline
+
+on:
+  push:
+    branches: [ main, develop, release/* ]
+  pull_request:
+    branches: [ main, develop ]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Deployment environment'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+        - staging
+        - production
+      target:
+        description: 'Build target'
+        required: true
+        default: 'both'
+        type: choice
+        options:
+        - android
+        - ios
+        - both
+
+env:
+  UNITY_VERSION: 6000.3.6f1
+  PROJECT_PATH: Crimson-Compass
+
+jobs:
+  validate:
+    name: Validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Validate Episode Data
+        run: python Tools/validate_episode_data.py
+
+      - name: Validate Audio Events
+        run: python Tools/validate_audio_events.py
+
+      - name: Cache Validation Results
+        uses: actions/cache@v3
+        with:
+          path: validation-results.json
+          key: validation-${{ github.sha }}
+
+  test:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    needs: validate
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Setup Unity
+        uses: game-ci/unity-setup@v1
+        with:
+          unity-version: ${{ env.UNITY_VERSION }}
+
+      - name: Run Tests
+        uses: game-ci/unity-test-runner@v2
+        with:
+          project-path: ${{ env.PROJECT_PATH }}
+          test-results-path: test-results.xml
+
+      - name: Upload Test Results
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: test-results
+          path: test-results.xml
+
+  build-android:
+    name: Build Android
+    runs-on: ubuntu-latest
+    needs: [validate, test]
+    if: ${{ github.event.inputs.target == 'both' || github.event.inputs.target == 'android' || github.event_name != 'workflow_dispatch' }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Setup Unity
+        uses: game-ci/unity-setup@v1
+        with:
+          unity-version: ${{ env.UNITY_VERSION }}
+
+      - name: Build Android
+        uses: game-ci/unity-builder@v2
+        with:
+          project-path: ${{ env.PROJECT_PATH }}
+          target-platform: Android
+          build-method: BuildScript.BuildAndroid
+          android-keystore-name: ${{ secrets.ANDROID_KEYSTORE_NAME }}
+          android-keystore-base64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          android-keystore-pass: ${{ secrets.ANDROID_KEYSTORE_PASS }}
+          android-keyalias-name: ${{ secrets.ANDROID_KEYALIAS_NAME }}
+          android-keyalias-pass: ${{ secrets.ANDROID_KEYALIAS_PASS }}
+
+      - name: Upload Android Build
+        uses: actions/upload-artifact@v3
+        with:
+          name: android-build
+          path: Builds/Android/
+          retention-days: 30
+
+  build-ios:
+    name: Build iOS
+    runs-on: macos-latest
+    needs: [validate, test]
+    if: ${{ github.event.inputs.target == 'both' || github.event.inputs.target == 'ios' || github.event_name != 'workflow_dispatch' }}
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - name: Setup Unity
+        uses: game-ci/unity-setup@v1
+        with:
+          unity-version: ${{ env.UNITY_VERSION }}
+
+      - name: Build iOS
+        uses: game-ci/unity-builder@v2
+        with:
+          project-path: ${{ env.PROJECT_PATH }}
+          target-platform: iOS
+          build-method: BuildScript.BuildIOS
+          ios-signing-team-id: ${{ secrets.IOS_TEAM_ID }}
+          ios-signing-apple-developer-id: ${{ secrets.IOS_DEVELOPER_ID }}
+          ios-signing-apple-developer-password: ${{ secrets.IOS_DEVELOPER_PASSWORD }}
+
+      - name: Upload iOS Build
+        uses: actions/upload-artifact@v3
+        with:
+          name: ios-build
+          path: Builds/iOS/
+          retention-days: 30
+
+  deploy-staging:
+    name: Deploy to Staging
+    runs-on: ubuntu-latest
+    needs: [build-android, build-ios]
+    if: ${{ github.ref == 'refs/heads/develop' || github.event.inputs.environment == 'staging' }}
+    environment: staging
+    steps:
+      - name: Download Android Build
+        uses: actions/download-artifact@v3
+        with:
+          name: android-build
+          path: staging/android/
+
+      - name: Download iOS Build
+        uses: actions/download-artifact@v3
+        with:
+          name: ios-build
+          path: staging/ios/
+
+      - name: Deploy to TestFlight
+        run: |
+          echo "🚀 Deploying to TestFlight..."
+          # Add TestFlight deployment commands here
+
+      - name: Deploy to Google Play Beta
+        run: |
+          echo "📱 Deploying to Google Play Beta..."
+          # Add Google Play deployment commands here
+
+      - name: Notify Team
+        uses: 8398a7/action-slack@v3
+        with:
+          status: success
+          text: "Crimson Compass staging deployment completed"
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        if: always()
+
+  deploy-production:
+    name: Deploy to Production
+    runs-on: ubuntu-latest
+    needs: [build-android, build-ios]
+    if: ${{ github.ref == 'refs/heads/main' && github.event.inputs.environment == 'production' }}
+    environment: production
+    steps:
+      - name: Download Android Build
+        uses: actions/download-artifact@v3
+        with:
+          name: android-build
+          path: production/android/
+
+      - name: Download iOS Build
+        uses: actions/download-artifact@v3
+        with:
+          name: ios-build
+          path: production/ios/
+
+      - name: Deploy to App Store
+        run: |
+          echo "🍎 Deploying to App Store..."
+          # Add App Store deployment commands here
+
+      - name: Deploy to Google Play
+        run: |
+          echo "📱 Deploying to Google Play..."
+          # Add Google Play deployment commands here
+
+      - name: Create GitHub Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ github.run_number }}
+          release_name: Crimson Compass v${{ github.run_number }}
+          body: |
+            ## Changes
+            - Automated production deployment
+            - Version: ${{ github.run_number }}
+
+      - name: Notify Team
+        uses: 8398a7/action-slack@v3
+        with:
+          status: success
+          text: "🎉 Crimson Compass production deployment completed!"
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        if: always()
+
+  performance-test:
+    name: Performance Testing
+    runs-on: ubuntu-latest
+    needs: [build-android]
+    if: always()
+    steps:
+      - name: Download Android Build
+        uses: actions/download-artifact@v3
+        with:
+          name: android-build
+          path: performance/android/
+
+      - name: Run Performance Tests
+        run: |
+          echo "⚡ Running performance tests..."
+          # Add performance testing commands here
+          # Could integrate with services like Firebase Test Lab
+
+      - name: Upload Performance Results
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: performance-results
+          path: performance-results.json</content>
+<parameter name="filePath">c:\Users\gripa\OneDrive\Desktop\CrimsonCompass1\CrimsonCompass\.github\workflows\production-deploy.yml

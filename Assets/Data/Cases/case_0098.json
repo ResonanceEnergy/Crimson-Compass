@@ -1,0 +1,561 @@
+{
+  "caseId": "CASE-0098",
+  "title": "Frozen Causality",
+  "tier": "season9",
+  "hook": "Time crystallizes, freezing cause and effect in eternal patterns",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "absoluteZeroLevel": 2,
+  "entropyState": "minimal",
+  "temporalFlow": "active",
+  "voidProximity": [
+    {
+      "id": "VP4",
+      "distance": 0.2,
+      "description": "Void boundary at 0.2 units proximity",
+      "attractionForce": 0.16
+    },
+    {
+      "id": "VP5",
+      "distance": 0.3,
+      "description": "Existence thinning at 0.30 units",
+      "attractionForce": 0.12
+    },
+    {
+      "id": "VP6",
+      "distance": 0.4,
+      "description": "Singularity horizon at 0.4 units",
+      "attractionForce": 0.08
+    }
+  ],
+  "singularityEvents": [
+    {
+      "id": "SE3",
+      "type": "thermodynamic-collapse",
+      "description": "Entropy collapse event at zero level 2",
+      "triggerCondition": "entropy_level <= 0.84",
+      "effect": "temporal_freeze",
+      "severity": 2
+    },
+    {
+      "id": "SE4",
+      "type": "existence-minimization",
+      "description": "Reality density reduction to 0.86%",
+      "triggerCondition": "existence_density <= 0.86",
+      "effect": "operational_paralysis",
+      "severity": 2
+    }
+  ],
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Entropy Thief",
+      "traits": [
+        "thermodynamic-manipulator",
+        "zero-point-engineer"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Temporal Freezer",
+      "traits": [
+        "chronal-stabilizer",
+        "absolute-zero-architect"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Void Weaver",
+      "traits": [
+        "existence-minimizer",
+        "singularity-crafter"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Thermodynamic Collapse",
+      "signatures": [
+        "entropy:zero-point",
+        "energy:quantum-ground-state"
+      ],
+      "zeroPointMechanics": {
+        "entropyReduction": 0.99,
+        "temporalDilation": 1000,
+        "existenceStability": 0.01
+      }
+    },
+    {
+      "id": "M2",
+      "name": "Temporal Crystallization",
+      "signatures": [
+        "time:frozen-matrix",
+        "causality:crystalline-structure"
+      ],
+      "crystallizationAnalysis": {
+        "temporalLayers": 12,
+        "causalRigidity": 0.95,
+        "fractureThreshold": 0.001
+      }
+    },
+    {
+      "id": "M3",
+      "name": "Void Convergence",
+      "signatures": [
+        "existence:minimal-state",
+        "reality:singularity-boundary"
+      ],
+      "convergenceMechanics": {
+        "voidAttraction": 0.8,
+        "existenceDensity": 0.05,
+        "singularityHorizon": 0.0001
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "L1",
+      "country": "Switzerland"
+    },
+    {
+      "id": "L2",
+      "country": "Norway"
+    }
+  ],
+  "truth": {
+    "whoId": "S1",
+    "howId": "M1",
+    "whereId": "L1"
+  },
+  "caseToken": "Absolute Zero",
+  "shadowToken": "Entropic Void",
+  "clues": [
+    {
+      "id": "C1",
+      "text": "Environmental readings show impossible thermodynamic states",
+      "reliability": 0.9,
+      "entropyIndicator": true
+    },
+    {
+      "id": "C2",
+      "text": "Time appears to slow or stop in localized areas",
+      "reliability": 0.8,
+      "temporalFreeze": true
+    },
+    {
+      "id": "C3",
+      "text": "Evidence suggests reality thinning toward non-existence",
+      "reliability": 0.7,
+      "voidProximity": true
+    }
+  ],
+  "gadgetsOffered": [
+    "ENTROPYSTABILIZER",
+    "TEMPORALDEFROSTER",
+    "VOIDANCHOR",
+    "SINGULARITYSHIELD",
+    "ZEROPOINTANALYZER",
+    "EXISTENCEAMPLIFIER",
+    "CAUSALITYCRYSTALLIZER",
+    "THERMODYNAMICREGULATOR"
+  ],
+  "gadgetsSelectable": 3,
+  "advancedMechanics": {
+    "paradoxResolver": {
+      "enabled": true,
+      "description": "Resolves logical inconsistencies and causality paradoxes in infinite recursive operations",
+      "capabilities": [
+        "paradox-detection",
+        "causality-reconstruction",
+        "logical-consistency-validation"
+      ],
+      "powerConsumption": {
+        "timeHours": 3,
+        "heat": 2
+      },
+      "successRate": 0.8,
+      "paradoxThreshold": 3
+    },
+    "recoveryScanner": {
+      "enabled": true,
+      "description": "Scans for and recovers compromised or corrupted data from infinite loops",
+      "capabilities": [
+        "data-recovery",
+        "corruption-detection",
+        "integrity-restoration"
+      ],
+      "powerConsumption": {
+        "timeHours": 2,
+        "heat": 1
+      },
+      "recoveryRate": 0.75,
+      "contaminationRisk": 0.2
+    },
+    "timingAnalyzer": {
+      "enabled": true,
+      "description": "Analyzes temporal patterns and timing anomalies in recursive operational sequences",
+      "capabilities": [
+        "temporal-mapping",
+        "anomaly-detection",
+        "sequence-validation"
+      ],
+      "powerConsumption": {
+        "timeHours": 2,
+        "heat": 1
+      },
+      "analysisAccuracy": 0.85,
+      "temporalResolution": 0.5
+    },
+    "jurisdictionResolver": {
+      "enabled": true,
+      "description": "Resolves jurisdictional conflicts and authority overlaps in recursive multi-agency operations",
+      "capabilities": [
+        "authority-mapping",
+        "conflict-resolution",
+        "sovereignty-validation"
+      ],
+      "powerConsumption": {
+        "timeHours": 4,
+        "heat": 2
+      },
+      "resolutionSuccess": 0.7,
+      "authorityClarity": 0.8
+    },
+    "networkMappingInterface": {
+      "enabled": true,
+      "description": "Maps complex networks of relationships and operational connections in infinite recursion",
+      "capabilities": [
+        "relationship-mapping",
+        "connection-analysis",
+        "interdependency-visualization"
+      ],
+      "powerConsumption": {
+        "timeHours": 3,
+        "heat": 1
+      },
+      "mappingAccuracy": 0.9,
+      "complexityLimit": 50
+    }
+  },
+  "absoluteZeroMechanics": {
+    "entropyLevel": 0.84,
+    "temporalDilation": 21,
+    "existenceDensity": 0.86,
+    "singularityProximity": 0.16,
+    "thermodynamicStability": 0.88,
+    "causalRigidity": 0.16,
+    "voidAttraction": 0.14,
+    "zeroPointEnergy": 0.8200000000000001
+  },
+  "thermodynamicEvents": [
+    {
+      "id": "TE4",
+      "type": "entropy-collapse",
+      "description": "Entropy reaches critical low at 0.840",
+      "triggerCondition": "entropy_level <= 0.84",
+      "effect": "operational_slowdown",
+      "severity": 2
+    },
+    {
+      "id": "TE5",
+      "type": "temporal-freeze",
+      "description": "Time dilation reaches 21x normal",
+      "triggerCondition": "temporal_dilation >= 21",
+      "effect": "decision_paralysis",
+      "severity": 2
+    },
+    {
+      "id": "TE6",
+      "type": "existence-minimization",
+      "description": "Reality density drops to 0.86%",
+      "triggerCondition": "existence_density <= 0.86",
+      "effect": "reality_dissolution",
+      "severity": 1
+    }
+  ],
+  "paradoxMechanics": {
+    "activeParadoxes": 1,
+    "causalComplexity": 6,
+    "logicalInconsistencies": 2,
+    "resolutionDifficulty": 3,
+    "paradoxPoints": [
+      "recursive-causal-node-2",
+      "infinite-loop-paradox-2",
+      "meta-recursive-conflict-2"
+    ]
+  },
+  "recoveryData": {
+    "compromisedElements": 2,
+    "recoveryPriority": [
+      "recursive-data"
+    ],
+    "integrityThreshold": 0.77,
+    "contaminationLevel": 0.06,
+    "recoveryFragments": [
+      {
+        "id": "RF3",
+        "type": "recursive-pattern-fragment",
+        "integrity": 0.8,
+        "contaminationRisk": 0.15
+      },
+      {
+        "id": "RF4",
+        "type": "loop-memory-fragment",
+        "integrity": 0.75,
+        "contaminationRisk": 0.25
+      }
+    ]
+  },
+  "timingAnalysis": {
+    "temporalAnomalies": 1,
+    "sequenceComplexity": 5.0,
+    "chronologicalAccuracy": 0.8200000000000001,
+    "timingPatterns": [
+      "recursive-cycle-2",
+      "infinite-loop-timing-2",
+      "meta-sequence-2"
+    ],
+    "anomalyThreshold": 0.16999999999999998
+  },
+  "jurisdictionalData": {
+    "authorityConflicts": 1,
+    "jurisdictionLayers": 3,
+    "sovereigntyClarity": 0.73,
+    "authorityBoundaries": [
+      "recursive-domain-2",
+      "infinite-loop-authority-2",
+      "meta-jurisdiction-2"
+    ],
+    "conflictResolution": {
+      "diplomatic": 0.6,
+      "authoritative": 0.4,
+      "collaborative": 0.8
+    }
+  },
+  "networkMapping": {
+    "connectionComplexity": 8,
+    "relationshipDepth": 2,
+    "interdependencyLevel": 1,
+    "networkNodes": 27,
+    "mappingAccuracy": 0.87,
+    "keyConnections": [
+      "recursive-link-2",
+      "infinite-chain-2",
+      "meta-web-2"
+    ]
+  },
+  "coreMechanicsVersion": "2.0",
+  "deductionComplexity": "thermodynamic",
+  "resourceIntensity": "absolute-zero",
+  "agentIntegration": "entropy-aware",
+  "deductionSystem": {
+    "whoOptions": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "howOptions": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "whereOptions": [
+      "L1",
+      "L2"
+    ],
+    "maxHypotheses": 5,
+    "deductionRules": {
+      "singleCorrect": true,
+      "eliminationFeedback": true,
+      "partialCredit": false,
+      "evidenceValidation": true,
+      "consistencyCheck": true
+    },
+    "hypothesisPenalties": {
+      "wrongCombination": 4,
+      "evidenceContradiction": 6,
+      "logicalInconsistency": 5
+    },
+    "successBonuses": {
+      "efficientSolution": 2,
+      "perfectDeduction": 3,
+      "evidenceMastery": 1
+    }
+  },
+  "resourceManagement": {
+    "timeBudget": 72,
+    "heatLevels": {
+      "low": {
+        "threshold": 1,
+        "effects": [
+          "minor-surveillance",
+          "routine-monitoring",
+          "background-checks"
+        ],
+        "description": "Standard operational awareness"
+      },
+      "medium": {
+        "threshold": 3,
+        "effects": [
+          "asset-freeze",
+          "agent-caution",
+          "increased-scrutiny",
+          "resource-restrictions"
+        ],
+        "description": "Heightened security measures"
+      },
+      "high": {
+        "threshold": 5,
+        "effects": [
+          "mission-abort",
+          "trace-alert",
+          "full-lockdown",
+          "agency-intervention",
+          "identity-compromise"
+        ],
+        "description": "Critical operational failure"
+      }
+    },
+    "heatDecay": {
+      "passive": 0.1,
+      "active": 0.5,
+      "cooldownPeriod": 12
+    },
+    "timePenalties": {
+      "wrongHypothesis": 4,
+      "failedScan": 2,
+      "jurisdictionError": 6,
+      "evidenceCorruption": 5,
+      "timingAnomaly": 3,
+      "networkFailure": 4,
+      "paradoxEvent": 8
+    },
+    "heatTriggers": {
+      "multipleFailures": 1,
+      "timePressure": 0.5,
+      "evidenceTampering": 2,
+      "jurisdictionViolation": 1.5
+    }
+  },
+  "agentInteractions": {
+    "HELIX": {
+      "role": "Mission Coordinator",
+      "personality": "Efficient but exasperated",
+      "interactions": {
+        "caseStart": "Welcome to the field, detective. I've prepared your dossier.",
+        "hypothesisHelp": "Based on the evidence, that combination seems unlikely.",
+        "timeWarning": "You're burning daylight. Focus on the critical leads.",
+        "success": "Excellent work. The agency appreciates your thoroughness.",
+        "failure": "We'll debrief this incident thoroughly. Standards must be maintained."
+      },
+      "helpTriggers": {
+        "timeLow": true,
+        "heatHigh": true,
+        "stuckClues": true
+      }
+    },
+    "OPTIMUS": {
+      "role": "Mission Coordinator",
+      "personality": "Strategic and encouraging",
+      "interactions": {
+        "caseStart": "Agent in position. What's our approach?",
+        "hypothesisHelp": "Let's think this through systematically. What do we know?",
+        "timeWarning": "Clock is ticking. Prioritize your investigations.",
+        "success": "Solid work. That's how we maintain our edge.",
+        "failure": "We'll learn from this. Every mission teaches us something."
+      },
+      "helpTriggers": {
+        "wrongHypothesis": true,
+        "resourceLow": true,
+        "paradoxEvent": true
+      }
+    },
+    "ZTECH": {
+      "role": "Gadgets Specialist",
+      "personality": "Enthusiastic tech expert",
+      "interactions": {
+        "caseStart": "Tech suite online. What gadget shall we deploy?",
+        "hypothesisHelp": "The data suggests we need to scan that evidence.",
+        "timeWarning": "Running out of operational window. Let's move!",
+        "success": "Ha! My gadgets never fail when properly applied.",
+        "failure": "Equipment malfunction? That's... unusual. We'll investigate."
+      },
+      "helpTriggers": {
+        "gadgetFailure": true,
+        "scanOpportunity": true,
+        "techClue": true
+      }
+    }
+  },
+  "interactionTriggers": {
+    "caseStart": [
+      "HELIX",
+      "OPTIMUS"
+    ],
+    "firstHypothesis": [
+      "OPTIMUS"
+    ],
+    "timeWarning": [
+      "HELIX"
+    ],
+    "heatWarning": [
+      "OPTIMUS"
+    ],
+    "gadgetUse": [
+      "ZTECH"
+    ],
+    "paradoxEvent": [
+      "OPTIMUS"
+    ],
+    "nearSuccess": [
+      "HELIX"
+    ],
+    "caseEnd": [
+      "HELIX",
+      "OPTIMUS",
+      "ZTECH"
+    ]
+  },
+  "gameplayFlow": {
+    "phases": [
+      {
+        "name": "Briefing",
+        "duration": "auto",
+        "objectives": [
+          "Read case details",
+          "Select gadgets"
+        ],
+        "agentFocus": "HELIX"
+      },
+      {
+        "name": "Investigation",
+        "duration": "timed",
+        "objectives": [
+          "Gather clues",
+          "Form hypotheses",
+          "Use gadgets"
+        ],
+        "agentFocus": "OPTIMUS"
+      },
+      {
+        "name": "Resolution",
+        "duration": "auto",
+        "objectives": [
+          "Final hypothesis",
+          "Case closure"
+        ],
+        "agentFocus": "HELIX"
+      }
+    ],
+    "winConditions": {
+      "correctDeduction": true,
+      "timeRemaining": "bonus",
+      "heatManaged": "bonus"
+    }
+  }
+}

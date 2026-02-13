@@ -3,7 +3,7 @@ echo Crimson Compass Episode 1 Test Automation
 echo ========================================
 echo.
 
-python "%~dp0automate_episode1_test.py"
+python "C:\Users\gripa\OneDrive\Desktop\CrimsonCompass1\CrimsonCompass\Crimson-Compass\automate_episode1_test.py"
 
 echo.
 echo Press any key to exit...

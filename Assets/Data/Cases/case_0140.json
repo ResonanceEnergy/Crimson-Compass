@@ -1,0 +1,218 @@
+{
+  "season": 12,
+  "theme": "The Unimagined",
+  "description": "Investigations where imagination and possibility are systematically erased",
+  "suspects": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "methods": [
+    "M1",
+    "M2",
+    "M3"
+  ],
+  "locations": [
+    "Silicon Valley",
+    "Taipei"
+  ],
+  "truth": {
+    "who": "S1",
+    "how": "M1",
+    "where": "Silicon Valley"
+  },
+  "clues": [
+    {
+      "id": "C1",
+      "text": "Initial evidence",
+      "type": "physical"
+    },
+    {
+      "id": "C2",
+      "text": "Digital trace",
+      "type": "digital"
+    },
+    {
+      "id": "C3",
+      "text": "Witness account",
+      "type": "testimonial"
+    }
+  ],
+  "timeBudget": 72,
+  "heatLevels": {
+    "current": 0,
+    "max": 5
+  },
+  "agents": {
+    "HELIX": {
+      "coherence": 1.0,
+      "specialization": "case_organization"
+    },
+    "OPTIMUS": {
+      "coherence": 1.0,
+      "specialization": "strategic_oversight"
+    },
+    "ZTECH": {
+      "coherence": 1.0,
+      "specialization": "technical_analysis"
+    }
+  },
+  "caseNumber": 140,
+  "title": "The Unimagined - Episode 8",
+  "unimaginedMechanics": {
+    "potentialityErasure": 0.72,
+    "creativityNullification": 0.64,
+    "possibilityAnnihilation": 0.56,
+    "imaginationVoid": 0.48,
+    "alternativityDissolution": 0.64,
+    "conceptualSterility": 0.8
+  },
+  "advancedMechanics": {
+    "potentialityPreserver": {
+      "enabled": true,
+      "description": "Preserves potentiality and possibility against systematic erasure",
+      "capabilities": [
+        "possibility-maintenance",
+        "potentiality-protection",
+        "alternative-preservation"
+      ],
+      "powerConsumption": {
+        "timeHours": 7,
+        "heat": 6
+      },
+      "successRate": 0.5,
+      "potentialityStrength": 0.6
+    },
+    "creativityAmplifier": {
+      "enabled": true,
+      "description": "Amplifies creative thinking against nullification and sterility",
+      "capabilities": [
+        "creativity-enhancement",
+        "imagination-stimulation",
+        "conceptual-fertilization"
+      ],
+      "powerConsumption": {
+        "timeHours": 6,
+        "heat": 5
+      },
+      "amplificationPower": 0.55,
+      "creativityBoost": 0.65
+    },
+    "possibilityGenerator": {
+      "enabled": true,
+      "description": "Generates new possibilities and alternatives in sterile conceptual space",
+      "capabilities": [
+        "alternative-creation",
+        "possibility-synthesis",
+        "option-manifestation"
+      ],
+      "powerConsumption": {
+        "timeHours": 8,
+        "heat": 7
+      },
+      "generationRate": 0.45,
+      "possibilityYield": 0.5
+    },
+    "imaginationAnchor": {
+      "enabled": true,
+      "description": "Anchors imagination and creative thought against void encroachment",
+      "capabilities": [
+        "imagination-stabilization",
+        "creative-anchoring",
+        "thought-preservation"
+      ],
+      "powerConsumption": {
+        "timeHours": 5,
+        "heat": 4
+      },
+      "anchorStrength": 0.7,
+      "imaginationIntegrity": 0.75
+    },
+    "alternativityReinforcer": {
+      "enabled": true,
+      "description": "Reinforces alternative possibilities and choice diversity",
+      "capabilities": [
+        "choice-multiplication",
+        "alternative-reinforcement",
+        "option-diversification"
+      ],
+      "powerConsumption": {
+        "timeHours": 6,
+        "heat": 5
+      },
+      "reinforcementPower": 0.6,
+      "alternativityIndex": 0.7
+    },
+    "conceptualFertilizer": {
+      "enabled": true,
+      "description": "Fertilizes sterile conceptual ground to enable new thought growth",
+      "capabilities": [
+        "conceptual-enrichment",
+        "thought-fertilization",
+        "idea-cultivation"
+      ],
+      "powerConsumption": {
+        "timeHours": 7,
+        "heat": 6
+      },
+      "fertilizationStrength": 0.5,
+      "conceptualYield": 0.55
+    },
+    "voidImaginationShield": {
+      "enabled": true,
+      "description": "Shields imagination from void encroachment and conceptual sterility",
+      "capabilities": [
+        "imagination-protection",
+        "void-repulsion",
+        "creative-shielding"
+      ],
+      "powerConsumption": {
+        "timeHours": 4,
+        "heat": 3
+      },
+      "shieldIntegrity": 0.8,
+      "voidResistance": 0.75
+    },
+    "potentialityAmplifier": {
+      "enabled": true,
+      "description": "Amplifies potentiality and possibility to counteract erasure",
+      "capabilities": [
+        "potentiality-amplification",
+        "possibility-enhancement",
+        "future-potential-expansion"
+      ],
+      "powerConsumption": {
+        "timeHours": 9,
+        "heat": 8
+      },
+      "amplificationFactor": 0.4,
+      "potentialityGain": 0.45
+    }
+  },
+  "unimaginedEvents": [
+    {
+      "id": "UI22",
+      "type": "potentiality-erasure",
+      "description": "Potentiality erases at level 0.720000",
+      "triggerCondition": "potentiality_erasure >= 0.72",
+      "effect": "possibility_dissolution",
+      "severity": 5
+    },
+    {
+      "id": "UI23",
+      "type": "creativity-nullification",
+      "description": "Creativity nullifies at level 0.64000",
+      "triggerCondition": "creativity_nullification >= 0.64",
+      "effect": "imagination_sterility",
+      "severity": 4
+    },
+    {
+      "id": "UI24",
+      "type": "possibility-annihilation",
+      "description": "Possibilities annihilate at level 0.5600",
+      "triggerCondition": "possibility_annihilation >= 0.56",
+      "effect": "alternative_erasure",
+      "severity": 3
+    }
+  ]
+}

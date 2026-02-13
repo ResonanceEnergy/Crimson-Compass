@@ -1,0 +1,604 @@
+{
+  "caseId": "CASE-0027",
+  "title": "Resource Reallocation",
+  "tier": "season3",
+  "hook": "Recovered assets route to unauthorized destinations automatically.",
+  "timeBudget": 72,
+  "hintsPerMission": 3,
+  "hintCost": {
+    "timeHours": 2,
+    "heat": 1
+  },
+  "gadgetsOffered": [
+    "RECOVERYSCANNER",
+    "TIMINGANALYZER",
+    "PARADOXMAPPER",
+    "RESETCOUNTER",
+    "CLEANER"
+  ],
+  "gadgetsSelectable": 3,
+  "suspects": [
+    {
+      "id": "S1",
+      "name": "The Asset Handler",
+      "traits": [
+        "access:resource-routing",
+        "collects:transfer-manifests"
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "The Routing Specialist",
+      "traits": [
+        "wears:headset",
+        "speaks:logistics-code"
+      ]
+    },
+    {
+      "id": "S3",
+      "name": "The Reallocation Expert",
+      "traits": [
+        "drives:truck",
+        "left-handed"
+      ]
+    }
+  ],
+  "methods": [
+    {
+      "id": "M1",
+      "name": "Auto-Routing Protocol",
+      "signatures": [
+        "routing:auto-redirect"
+      ],
+      "timingAnalysis": {
+        "anomalyType": "timing-injection",
+        "offsetMinutes": 11,
+        "severity": "critical"
+      }
+    },
+    {
+      "id": "M2",
+      "name": "Legacy Code Injection",
+      "signatures": [
+        "code:deprecated-route"
+      ],
+      "recoveryScan": {
+        "threatLevel": "high",
+        "implantType": "neural-implant"
+      }
+    },
+    {
+      "id": "M3",
+      "name": "Destination Override",
+      "signatures": [
+        "override:unauthorized-access"
+      ],
+      "networkMapping": {
+        "connectionType": "redirection-node",
+        "linkedParadoxes": [
+          "P1",
+          "P2"
+        ]
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "L1",
+      "country": "Japan"
+    },
+    {
+      "id": "L2",
+      "country": "Japan"
+    },
+    {
+      "id": "L3",
+      "country": "Japan"
+    }
+  ],
+  "clues": [
+    {
+      "id": "C1",
+      "text": "Clue related to The Asset Handler",
+      "leadsTo": [
+        "S1",
+        "M1"
+      ],
+      "recoveryScanner": {
+        "detects": "timing-device",
+        "difficulty": "medium"
+      },
+      "timingAnalyzer": {
+        "reveals": "protocol-activation-window",
+        "puzzleType": "offset-calculation"
+      }
+    },
+    {
+      "id": "C2",
+      "text": "Clue related to The Routing Specialist",
+      "leadsTo": [
+        "S2",
+        "M2"
+      ],
+      "jurisdictionPuzzle": {
+        "conflictType": "authority-overlap",
+        "authorities": [
+          "Local",
+          "International"
+        ],
+        "solution": "Federal-override"
+      },
+      "networkMapping": {
+        "reveals": "authority-network-node",
+        "connections": 3
+      }
+    },
+    {
+      "id": "C3",
+      "text": "Clue related to The Reallocation Expert",
+      "leadsTo": [
+        "S3",
+        "M3"
+      ],
+      "paradoxEvent": {
+        "type": "authority-paradox",
+        "level": 2,
+        "resolution": "network-mapping"
+      }
+    }
+  ],
+  "truth": {
+    "whoId": "S2",
+    "howId": "M1",
+    "whereId": "L1"
+  },
+  "caseToken": "Specialist arrested; routing protocol exposed.",
+  "shadowToken": "Motif C \u2014 assets route to same junction point.",
+  "paradoxLevel": 2,
+  "jurisdictionConflicts": [
+    {
+      "id": "JC1",
+      "description": "Authority dispute in Japan",
+      "authorities": [
+        "Federal",
+        "Local",
+        "International"
+      ],
+      "resolution": "Federal override required"
+    }
+  ],
+  "timingAnomalies": [
+    {
+      "id": "TA1",
+      "description": "11-minute offset detected",
+      "severity": "medium",
+      "clue": "C1"
+    }
+  ],
+  "networkConnections": [
+    {
+      "id": "NC1",
+      "type": "recovery-hub",
+      "connectedCases": [
+        "CASE-0028",
+        "CASE-0026"
+      ],
+      "paradoxRisk": "medium"
+    }
+  ],
+  "deductionSystem": {
+    "whoOptions": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "howOptions": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "whereOptions": [
+      "L1",
+      "L2",
+      "L3"
+    ],
+    "maxHypotheses": 5,
+    "deductionRules": {
+      "singleCorrect": true,
+      "eliminationFeedback": true,
+      "partialCredit": false,
+      "evidenceValidation": true,
+      "consistencyCheck": true
+    },
+    "hypothesisPenalties": {
+      "wrongCombination": 4,
+      "evidenceContradiction": 6,
+      "logicalInconsistency": 5
+    },
+    "successBonuses": {
+      "efficientSolution": 2,
+      "perfectDeduction": 3,
+      "evidenceMastery": 1
+    }
+  },
+  "resourceManagement": {
+    "timeBudget": 72,
+    "heatLevels": {
+      "low": {
+        "threshold": 1,
+        "effects": [
+          "minor-surveillance",
+          "routine-monitoring",
+          "background-checks"
+        ],
+        "description": "Standard operational awareness"
+      },
+      "medium": {
+        "threshold": 3,
+        "effects": [
+          "asset-freeze",
+          "agent-caution",
+          "increased-scrutiny",
+          "resource-restrictions"
+        ],
+        "description": "Heightened security measures"
+      },
+      "high": {
+        "threshold": 5,
+        "effects": [
+          "mission-abort",
+          "trace-alert",
+          "full-lockdown",
+          "agency-intervention",
+          "identity-compromise"
+        ],
+        "description": "Critical operational failure"
+      }
+    },
+    "heatDecay": {
+      "passive": 0.1,
+      "active": 0.5,
+      "cooldownPeriod": 12
+    },
+    "timePenalties": {
+      "wrongHypothesis": 4,
+      "failedScan": 2,
+      "jurisdictionError": 6,
+      "evidenceCorruption": 5,
+      "timingAnomaly": 3,
+      "networkFailure": 4,
+      "paradoxEvent": 8
+    },
+    "heatTriggers": {
+      "multipleFailures": 1,
+      "timePressure": 0.5,
+      "evidenceTampering": 2,
+      "jurisdictionViolation": 1.5
+    }
+  },
+  "agentInteractions": {
+    "HELIX": {
+      "role": "Mission Coordinator & Evidence Specialist",
+      "personality": "Methodical, detail-oriented, and authenticity-focused",
+      "expertise": "Evidence validation and operational consistency",
+      "interactions": {
+        "caseStart": "Agent, your dossier is prepared. Remember: evidence is our foundation.",
+        "hypothesisHelp": "That combination contradicts the evidence trail. Let's review the facts.",
+        "timeWarning": "Time is critical. Focus on validated evidence streams.",
+        "heatWarning": "Heat levels rising. We need clean, conclusive evidence.",
+        "success": "Excellent deduction work. The evidence supported your conclusion perfectly.",
+        "failure": "Evidence integrity was compromised. We'll analyze what went wrong.",
+        "gadgetUse": "That tool should help validate the evidence chain.",
+        "paradoxEvent": "Evidence contradiction detected. We need to resolve this inconsistency."
+      },
+      "helpTriggers": {
+        "evidenceContradiction": true,
+        "timeCritical": true,
+        "heatEscalation": true,
+        "validationNeeded": true
+      }
+    },
+    "OPTIMUS": {
+      "role": "Strategic Operations Director",
+      "personality": "Analytical, forward-thinking, and resource-conscious",
+      "expertise": "Operational strategy and resource optimization",
+      "interactions": {
+        "caseStart": "Strategic overview loaded. What's our primary investigative approach?",
+        "hypothesisHelp": "Let's analyze this systematically. Which evidence supports your theory?",
+        "timeWarning": "Operational window narrowing. Prioritize high-value evidence.",
+        "heatWarning": "Security escalation detected. We need to minimize further exposure.",
+        "success": "Strategic execution flawless. Resources well-utilized.",
+        "failure": "Operational strategy needs refinement. We'll adapt for next time.",
+        "gadgetUse": "That tool could optimize our evidence gathering efficiency.",
+        "paradoxEvent": "Strategic contradiction identified. We need to realign our approach."
+      },
+      "helpTriggers": {
+        "resourceLow": true,
+        "strategyNeeded": true,
+        "heatManagement": true,
+        "optimizationOpportunity": true
+      }
+    },
+    "ZTECH": {
+      "role": "Technical Operations Specialist",
+      "personality": "Enthusiastic, technically proficient, and gadget-focused",
+      "expertise": "Digital forensics and technical analysis",
+      "interactions": {
+        "caseStart": "Technical suite online. Ready to deploy digital forensics tools.",
+        "hypothesisHelp": "The digital evidence suggests we need to scan that data stream.",
+        "timeWarning": "Technical operations window closing. Let's accelerate the scans.",
+        "heatWarning": "Digital footprint expanding. We need to minimize our technical signature.",
+        "success": "Technical analysis confirmed. Digital evidence was key to success.",
+        "failure": "Technical malfunction detected. We'll debug and redeploy.",
+        "gadgetUse": "Perfect tool selection! Let me optimize the deployment parameters.",
+        "paradoxEvent": "Digital anomaly detected. Technical contradiction requires resolution."
+      },
+      "helpTriggers": {
+        "technicalIssue": true,
+        "scanOpportunity": true,
+        "gadgetOptimization": true,
+        "digitalEvidence": true
+      }
+    }
+  },
+  "interactionTriggers": {
+    "caseStart": [
+      "HELIX",
+      "OPTIMUS"
+    ],
+    "firstHypothesis": [
+      "OPTIMUS"
+    ],
+    "timeWarning": [
+      "HELIX"
+    ],
+    "heatWarning": [
+      "OPTIMUS"
+    ],
+    "gadgetUse": [
+      "ZTECH"
+    ],
+    "paradoxEvent": [
+      "HELIX",
+      "OPTIMUS"
+    ],
+    "realityGlitch": [
+      "ZTECH"
+    ],
+    "timelineFracture": [
+      "HELIX"
+    ],
+    "temporalAnomaly": [
+      "ZTECH"
+    ],
+    "nearSuccess": [
+      "OPTIMUS"
+    ],
+    "caseEnd": [
+      "HELIX",
+      "OPTIMUS",
+      "ZTECH"
+    ]
+  },
+  "gameplayFlow": {
+    "phases": [
+      {
+        "name": "Reality Assessment",
+        "duration": "auto",
+        "objectives": [
+          "Analyze timeline convergence",
+          "Select temporal gadgets"
+        ],
+        "agentFocus": "HELIX"
+      },
+      {
+        "name": "Paradox Investigation",
+        "duration": "timed",
+        "objectives": [
+          "Navigate reality layers",
+          "Form timeline hypotheses",
+          "Deploy paradox scanners"
+        ],
+        "agentFocus": "OPTIMUS"
+      },
+      {
+        "name": "Timeline Resolution",
+        "duration": "auto",
+        "objectives": [
+          "Final paradox hypothesis",
+          "Stabilize reality"
+        ],
+        "agentFocus": "HELIX"
+      }
+    ],
+    "winConditions": {
+      "correctHypothesis": true,
+      "timeRemaining": "bonus",
+      "lowHeat": "bonus",
+      "realityStable": "bonus"
+    },
+    "loseConditions": {
+      "timeExpired": true,
+      "heatMaxed": true,
+      "wrongFinalHypothesis": true,
+      "realityCollapse": true
+    }
+  },
+  "scoringSystem": {
+    "basePoints": 100,
+    "bonuses": {
+      "timeRemaining": 10,
+      "lowHeat": 25,
+      "efficientGadgets": 15,
+      "firstTryHypothesis": 20,
+      "realityPreserved": 35,
+      "paradoxMastery": 20
+    },
+    "penalties": {
+      "wrongHypothesis": -10,
+      "highHeat": -15,
+      "timeExpired": -30,
+      "gadgetOveruse": -5,
+      "paradoxTrigger": -25,
+      "timelineFracture": -40
+    },
+    "achievements": {
+      "realityStabilizer": "Prevented all timeline fractures",
+      "paradoxGhost": "Resolved without triggering reality glitches",
+      "temporalSpeedster": "Completed within 24 hours across realities",
+      "perfectParadox": "No wrong hypotheses, reality fully intact"
+    }
+  },
+  "advancedMechanics": {
+    "paradoxResolver": {
+      "enabled": true,
+      "description": "Resolves logical inconsistencies and causality paradoxes in operational data",
+      "capabilities": [
+        "paradox-detection",
+        "causality-reconstruction",
+        "logical-consistency-validation"
+      ],
+      "powerConsumption": {
+        "timeHours": 3,
+        "heat": 2
+      },
+      "successRate": 0.8,
+      "paradoxThreshold": 3
+    },
+    "recoveryScanner": {
+      "enabled": true,
+      "description": "Scans for and recovers compromised or corrupted operational data",
+      "capabilities": [
+        "data-recovery",
+        "corruption-detection",
+        "integrity-restoration"
+      ],
+      "powerConsumption": {
+        "timeHours": 2,
+        "heat": 1
+      },
+      "recoveryRate": 0.75,
+      "contaminationRisk": 0.2
+    },
+    "timingAnalyzer": {
+      "enabled": true,
+      "description": "Analyzes temporal patterns and timing anomalies in operational sequences",
+      "capabilities": [
+        "temporal-mapping",
+        "anomaly-detection",
+        "sequence-validation"
+      ],
+      "powerConsumption": {
+        "timeHours": 2,
+        "heat": 1
+      },
+      "analysisAccuracy": 0.85,
+      "temporalResolution": 0.5
+    },
+    "jurisdictionResolver": {
+      "enabled": true,
+      "description": "Resolves jurisdictional conflicts and authority overlaps in multi-agency operations",
+      "capabilities": [
+        "authority-mapping",
+        "conflict-resolution",
+        "sovereignty-validation"
+      ],
+      "powerConsumption": {
+        "timeHours": 4,
+        "heat": 2
+      },
+      "resolutionSuccess": 0.7,
+      "authorityClarity": 0.8
+    },
+    "networkMappingInterface": {
+      "enabled": true,
+      "description": "Maps complex networks of relationships and operational connections",
+      "capabilities": [
+        "relationship-mapping",
+        "connection-analysis",
+        "interdependency-visualization"
+      ],
+      "powerConsumption": {
+        "timeHours": 3,
+        "heat": 1
+      },
+      "mappingAccuracy": 0.9,
+      "complexityLimit": 50
+    }
+  },
+  "paradoxMechanics": {
+    "activeParadoxes": 1,
+    "causalComplexity": 6,
+    "logicalInconsistencies": 1,
+    "resolutionDifficulty": 2,
+    "paradoxPoints": [
+      "causal-node-3",
+      "evidence-conflict-3",
+      "timeline-anomaly-3"
+    ]
+  },
+  "recoveryData": {
+    "compromisedElements": 2,
+    "recoveryPriority": [
+      "evidence"
+    ],
+    "integrityThreshold": 0.76,
+    "contaminationLevel": 0.09,
+    "recoveryFragments": [
+      {
+        "id": "RF5",
+        "type": "evidence-fragment",
+        "integrity": 0.8,
+        "contaminationRisk": 0.15
+      },
+      {
+        "id": "RF6",
+        "type": "memory-fragment",
+        "integrity": 0.75,
+        "contaminationRisk": 0.25
+      }
+    ]
+  },
+  "timingAnalysis": {
+    "temporalAnomalies": 1,
+    "sequenceComplexity": 4.5,
+    "chronologicalAccuracy": 0.88,
+    "timingPatterns": [
+      "operational-rhythm-3",
+      "evidence-timeline-3",
+      "alibi-sequence-3"
+    ],
+    "anomalyThreshold": 0.25
+  },
+  "jurisdictionalData": {
+    "authorityConflicts": 1,
+    "jurisdictionLayers": 2,
+    "sovereigntyClarity": 0.795,
+    "authorityBoundaries": [
+      "agency-territory-3",
+      "international-border-3",
+      "operational-domain-3"
+    ],
+    "conflictResolution": {
+      "diplomatic": 0.6,
+      "authoritative": 0.4,
+      "collaborative": 0.8
+    }
+  },
+  "networkMapping": {
+    "connectionComplexity": 9,
+    "relationshipDepth": 2,
+    "interdependencyLevel": 1,
+    "networkNodes": 25,
+    "mappingAccuracy": 0.8300000000000001,
+    "keyConnections": [
+      "primary-link-3",
+      "secondary-chain-3",
+      "tertiary-web-3"
+    ]
+  },
+  "coreMechanicsVersion": "2.0",
+  "deductionComplexity": "standard",
+  "resourceIntensity": "balanced",
+  "agentIntegration": "full"
+}

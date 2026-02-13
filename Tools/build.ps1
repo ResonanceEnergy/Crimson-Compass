@@ -3,11 +3,18 @@ param(
   [string]$ProjectPath = (Resolve-Path ".").Path,
   [ValidateSet("Win64","Mac","Linux64","Android","iOS")]
   [string]$Target = "Win64",
-  [string]$OutDir = (Resolve-Path "Builds").Path,
+  [string]$OutDir,
   [switch]$DevBuild
 )
 
 $ErrorActionPreference = "Stop"
+
+Write-Host "ProjectPath: $ProjectPath"
+Write-Host "OutDir: $OutDir"
+
+if (-not $OutDir) {
+  $OutDir = Join-Path $ProjectPath "Builds"
+}
 
 $timestamp = (Get-Date).ToString("yyyyMMdd_HHmmss")
 $targetDir = Join-Path $OutDir $Target
@@ -21,7 +28,7 @@ $buildPath = switch ($Target) {
   "iOS"     { Join-Path $targetDir "iOSBuild_$timestamp" }
 }
 
-$logDir = (Resolve-Path "Logs").Path
+$logDir = Join-Path $ProjectPath "Logs"
 New-Item -ItemType Directory -Force -Path $logDir | Out-Null
 $logFile = Join-Path $logDir "unity_build_$Target_$timestamp.log"
 
@@ -37,22 +44,12 @@ if (-not (Test-Path $UnityPath)) {
   throw "Unity executable not found at: $UnityPath. Update -UnityPath or install Unity 2022.3.62f3 in Unity Hub."
 }
 
-& $UnityPath `
-  -batchmode -nographics -quit `
-  -projectPath "$ProjectPath" `
-  -logFile "$logFile" `
-  -executeMethod BuildPlayerCLI.Build `
-  -buildTarget $Target `
-  -buildPath "$buildPath" `
-  -devBuild $dev
+& $UnityPath -batchmode -nographics -accept-apiupdate -quit -projectPath "$ProjectPath" -logFile "$logFile" -executeMethod BuildPlayerCLI.PerformBuild -buildTarget $Target -buildPath "$buildPath" -devBuild $dev
 
 $exitCode = $LASTEXITCODE
-Write-Host "Unity exited with code: $exitCode"
-
-# Check if build succeeded by looking for the output file
-if (Test-Path $buildPath) {
-  Write-Host "Build OK: $buildPath"
-} else {
-  Write-Error "Unity build failed - output file not found: $buildPath. Check log: $logFile"
-  exit 1
+if ($exitCode -ne 0) {
+  Write-Error "Unity build failed with exit code $exitCode. Check log: $logFile"
+  exit $exitCode
 }
+
+Write-Host "Build OK: $buildPath"

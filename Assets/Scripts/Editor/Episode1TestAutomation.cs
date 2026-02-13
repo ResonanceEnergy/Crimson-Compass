@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -33,18 +34,31 @@ namespace CrimsonCompass.Editor
                 Debug.Log("Created Episode1TestSetup GameObject");
             }
 
-            // Add a simple test component that will initialize the runtime components
-            var testComponent = setupObject.AddComponent<Episode1TestInitializer>();
-            Debug.Log("Added Episode1TestInitializer component");
+            // Add the test setup component
+            Episode1SceneTestSetup testSetup = setupObject.GetComponent<Episode1SceneTestSetup>();
+            if (testSetup == null)
+            {
+                testSetup = setupObject.AddComponent<Episode1SceneTestSetup>();
+                Debug.Log("Added Episode1SceneTestSetup component");
+            }
+
+            // Add the test runner component
+            Episode1TestRunner testRunner = setupObject.GetComponent<Episode1TestRunner>();
+            if (testRunner == null)
+            {
+                testRunner = setupObject.AddComponent<Episode1TestRunner>();
+                Debug.Log("Added Episode1TestRunner component");
+            }
 
             // Save the scene
             EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene());
             Debug.Log("Scene saved with test components");
 
-            Debug.Log("Episode 1 automation setup complete!");
-            Debug.Log("Next steps:");
-            Debug.Log("1. Press Play in Unity Editor to start the test");
-            Debug.Log("2. The runtime components will initialize automatically");
+            // Start play mode
+            Debug.Log("Starting Play Mode...");
+            EditorApplication.EnterPlaymode();
+
+            Debug.Log("Episode 1 automation complete! The game should now be running in Play Mode.");
             Debug.Log("Controls:");
             Debug.Log("- Click objects to interact based on selected verb");
             Debug.Log("- Use bottom verb bar to change interaction modes");

@@ -4,238 +4,253 @@
 **Title:** Double Stamp
 **Case:** Subcontractor cell steals prototype sensor module
 **Case Token:** Sensor recovered; cell arrested
-**Shadow Token:** Deprecated custody route code ("ROUTE-NULL" style)
-**Theme:** Twist introduction, Gasket's return, pattern recognition
+**Shadow Token:** Deprecated custody route code ("ROUTE-NULL" style) (compass detects pattern anomalies)
+**Theme:** Twist introduction, Gasket's return, pattern recognition, and Crimson Compass anomaly detection
 
-## Adventure Game Structure
+## Character Ensemble
 
-### Starting Location: Warehouse Perimeter
-**Description:** Industrial district outside the target warehouse with chain-link fences, security cameras, and access roads.
+### Player (Gasket's Replacement)
+- **Appearance:** Investigator encountering larger conspiracy patterns, compass becoming more responsive with important communications
+- **Background:** First major encounter with pattern recognition, learning compass anomaly detection
+- **Personality:** Determined investigator with growing awareness of larger threats
+- **Compass Role:** Primary anomaly detector, learning to identify pattern disruptions
 
-**Interactive Objects:**
-- **Chain-link Fence** (KIT): Potential entry point
-- **Security Camera** (OBSERVE): Monitor guard patrols
-- **Service Door** (PROTOCOL): Alternative access
-- **Surveillance Van** (ENGAGE): Team coordination point
+### Optimus (The Analyst)
+- **Appearance:** Analytical drone attempting statistical analysis of theft patterns, confused by modern tactical terminology
+- **Background:** Struggling to apply logic to operational patterns, discovering probability patterns in theft methods
+- **Personality:** Sarcastic data processor with deadpan reactions to tactical confusion
+- **Compass Role:** Analyzes pattern anomalies, attempts mathematical modeling of theft threats
 
-**Initial Inventory:**
-- Tactical Entry Kit
-- Signal Detector
-- Encrypted Communicator
-- Evidence Collection Bag
+### Helix (The Coordinator)
+- **Appearance:** Command android creating multi-agency coordination protocols, holographic jurisdictional overlays
+- **Background:** Developing team protection procedures around operational security
+- **Personality:** No-nonsense coordinator ensuring team safety during raids
+- **Compass Role:** Creates operational protocols, coordinates anomaly detection sweeps
 
-### Key Characters (Text-Based Dialogue)
+### ZTech (The Specialist)
+- **Appearance:** Cybernetic innovator with signal tracking gadgets, multiple prototype quantum scanners
+- **Background:** Building devices to enhance signal detection and module tracking
+- **Personality:** Cocky inventor fascinated by quantum technology
+- **Compass Role:** Creates signal scanning tools, enhances compass anomaly detection capabilities
 
-#### Helix (Administrative Coordinator)
-**Description:** Coordinating the multi-agency raid operation.
-**Dialogue Tree:**
-- Mission briefing: "Cell is professional. Stay sharp and coordinate with local authorities."
-- Tactical updates: "Perimeter secure. Move in on my signal."
-- Evidence handling: "Document everything. This case has larger implications."
+### Gasket (The Ghost)
+- **Appearance:** Holographic manifestation returning with urgent warnings, providing fragmented insights about larger patterns
+- **Background:** Original pattern navigator sharing insights about conspiracy threats
+- **Personality:** Gruff mentor with urgent warnings about pattern manipulation risks
+- **Compass Role:** Demonstrates anomaly detection techniques, warns about larger conspiracy patterns
 
-#### Optimus (Intelligence Analyst)
-**Description:** Analyzing patterns in the theft operation.
-**Dialogue Tree:**
-- Pattern analysis: "Theft method matches previous subcontractor operations."
-- Probability assessment: "Guard patrol patterns show 15-minute windows."
-- Anomaly detection: "Double stamp suggests systematic manipulation."
+### NPCs
+- **Subcontractor Leader:** Mid-40s, professional, betrayed expression, realizes too late they were being used
+- **Cell Members:** Various ages, tactical gear, nervous, caught between loyalty and fear
+- **Warehouse Security:** Late 30s, incompetent, uniform, more interested in his phone than security
+- **Custody Officer:** Early 50s, procedural, clipboard, obsessed with paperwork and forms
 
-#### ZTech (Technical Specialist)
-**Description:** Tracking the sensor module and providing technical support.
-**Dialogue Tree:**
-- Signal tracking: "Sensor module emitting weak signal. Triangulation in progress."
-- Security bypass: "Their system is outdated. I can loop the cameras."
-- Technical analysis: "Shielding indicates they know we're tracking."
+## Scene 1: Warehouse Raid
 
-#### Gasket (Unofficial Consultant)
-**Description:** Returns with cryptic insights about timing and patterns.
-**Dialogue Tree:**
-- Fragment revelation: "...we were already late—"
-- Pattern recognition: "This isn't the first time. The timing is wrong."
-- Cryptic warning: "They're watching the watchers. Trust nothing."
+**Background:** Industrial warehouse district, corrugated metal walls, stacked crates, dim fluorescent lighting. The Crimson Compass shows interference patterns from the shielded sensor module.
 
-## Scene 1: Warehouse Infiltration
+**Narrative:** You've tracked the subcontractor cell to an industrial warehouse. Security is minimal, but the sensor module is highly valuable. The compass detects unusual signal patterns that don't match standard shielding.
 
-### Location: Warehouse Interior
-**Description:** Large industrial space with stacked crates, conveyor systems, and dim lighting.
+**Compass Mini-Puzzle:** Signal Anomaly Detection
+- **Objective:** Use compass to identify the module's location through interference patterns
+- **Mechanics:** Scan for quantum signal distortions, triangulate source
+- **Solution:** Module hidden in a container with temporal shielding (explains the "double stamp" theme)
+- **Reward:** Precise location without triggering alarms
 
-**Interactive Elements:**
-- **Control Room** (ENGAGE): Security system access
-- **Storage Containers** (OBSERVE): Potential hiding spots
-- **Loading Dock** (MOVE): Alternative exits
-- **Office Area** (ENGAGE): Administrative records
-- **Maintenance Shaft** (KIT): Ventilation access
+**Puzzle:** Sensor Signal Tracking
+- **Objective:** Locate module using signal triangulation
+- **Mechanics:** Multi-point signal strength analysis
+- **Solution:** Module hidden in shielded container
+- **Clue:** Interference patterns indicate active shielding
 
-**Puzzle: Sensor Signal Tracking**
-- **Objective:** Locate prototype sensor module using signal detection
-- **Mechanics:** Use detector to triangulate signal strength
-- **Solution:** Module hidden in shielded container in back storage
-- **Clue:** Interference patterns indicate active electromagnetic shielding
+**Dialogue:**
 
-**Stealth Mechanics:**
-- **Guard Patrols:** Avoid detection by timing movements
-- **Security Cameras:** Disable or avoid surveillance
-- **Alarm Systems:** Bypass motion sensors and pressure plates
+**Helix:** "Everyone in position? This cell is professional - don't underestimate them. And Closer, keep that compass handy. It's been acting up lately."
 
-## Scene 2: Custody Facility Investigation
+**ZTech:** "Their security system? Laughable. I could bypass it with my eyes closed. Or this quantum sniffer - it also predicts weather and suggests pizza toppings!"
 
-### Location: Temporary Holding Facility
-**Description:** Official processing area with desks, evidence lockers, and administrative stations.
+**Subcontractor Leader:** (betrayed, shaking his head) "You don't understand what's at stake here. They promised us protection. Said this was just 'acquisition.'"
 
-**Interactive Elements:**
-- **Processing Desk** (OBSERVE): Examine custody forms
-- **Evidence Lockers** (PROTOCOL): Access stored items
-- **Security Station** (ENGAGE): Review surveillance footage
-- **Administrative Office** (ENGAGE): Check records
-- **Interrogation Room** (OBSERVE): Question suspects
+**Optimus:** "Movement patterns suggest tactical training. Probability of armed resistance: 34%. The data doesn't lie."
 
-**Puzzle: Double Stamp Analysis**
-- **Objective:** Identify the anomalous double stamp on custody forms
-- **Mechanics:** Compare forms and analyze ink/timing differences
-- **Solution:** Two identical stamps with microsecond timing difference
-- **Clue:** Chemical analysis reveals different ink compositions
+**Player Choice Options:**
 
-**Gasket's Return:**
-- **Fragment Discovery:** Mysterious appearance with cryptic message
-- **Pattern Recognition:** Hints at larger conspiracy
-- **Investigation Twist:** Questions the nature of the operation
+1. **X (Helix):** "Coordinate with local security for backup. Safety first."
+   - **Consequence:** Backup arrives just in time for the confrontation, but alerts the cell.
+   - **Dialogue:** Helix: "Backup's here. Let's do this by the book... mostly."
 
-## Scene 3: Evidence Assembly
+2. **Y (Optimus):** "Run pattern analysis on their movements. Predict their response."
+   - **Consequence:** Analysis reveals the cell's escape route, allowing interception.
+   - **Dialogue:** Optimus: "Their patterns are predictable. 67% chance they'll use the loading dock."
 
-### Location: Secure Analysis Room
-**Description:** Private investigation space for examining recovered evidence and connecting patterns.
+3. **Z (ZTech):** "Deploy sensor tracking drones. Tech to the rescue!"
+   - **Consequence:** Drones locate the module but also accidentally activate the warehouse sprinkler system.
+   - **Dialogue:** ZTech: "Drones found it! Though they also turned on the sprinklers. For 'cover,' I guess?"
 
-**Interactive Elements:**
-- **Evidence Table** (OBSERVE): Examine sensor module
-- **Computer Terminal** (ENGAGE): Cross-reference data
-- **Communication Console** (ENGAGE): Contact team members
-- **Documentation System** (ENGAGE): Compile case file
-- **Secure Storage** (PROTOCOL): Lock away evidence
+4. **G (Compass):** "Trust the compass interference patterns."
+   - **Consequence:** Compass leads to discovering the temporal shielding technology.
+   - **Dialogue:** Gasket: (sudden appearance, intense) "Not like this. Never like this. The patterns... they're repeating."
 
-**Puzzle: Route Code Investigation**
-- **Objective:** Decode the deprecated "ROUTE-NULL" custody system
-- **Mechanics:** Trace the obsolete routing mechanism
-- **Solution:** Reveals systematic evidence manipulation
-- **Clue:** Historical system logs show unauthorized access
+## Scene 2: Custody Anomaly
 
-**Conspiracy Revelation:**
-- **Pattern Connection:** Links to larger organizational issues
-- **Evidence Chain:** Connects multiple seemingly unrelated cases
-- **Gasket's Role:** Provides crucial insights into the bigger picture
+**Background:** Temporary holding facility, processing desks, evidence lockers. Official but chaotic atmosphere. The compass vibrates erratically as Gasket approaches.
 
-## Inventory Management
+**Narrative:** The cell is in custody, but paperwork shows double stamps. Gasket appears suddenly, muttering about timing. The compass displays fragment overlays on the forms.
 
-### Key Items to Collect:
-- **Signal Triangulator** (From surveillance van)
-- **Security Override Device** (From ZTech)
-- **Custody Forms** (From processing desk)
-- **Sensor Module** (From shielded container)
+**Puzzle:** Custody Form Analysis
+- **Objective:** Identify double-stamp anomaly
+- **Mechanics:** Form comparison, timestamp verification
+- **Solution:** Two identical stamps with microsecond difference
+- **Clue:** Ink analysis shows chemical composition variation
 
-### Item Combinations:
-- **Signal Detector + Triangulator** = Precise location tracking
-- **Override Device + Security System** = Bypass alarms
-- **Custody Forms + Analysis Kit** = Reveal stamp anomalies
-- **Sensor Module + Diagnostic Tool** = Verify authenticity
+**Environmental Interaction:** Custody Processing
+- **Choice:** Standard processing vs. anomaly investigation
+- **Consequence:** Anomaly investigation reveals the temporal manipulation but delays processing
 
-## Visual Style (Adventure Game)
+**Dialogue:**
 
-### Scene Backgrounds
-**Warehouse Perimeter:**
-- Industrial district with security fencing
-- Tense approach atmosphere
-- Covert operation setup
+**Custody Officer:** (bureaucratic, checking clipboard) "Everything seems in order. Standard procedure. Double stamps? That's just our new system. Very efficient."
 
-**Warehouse Interior:**
-- Large industrial storage space
-- Stacked crates and machinery
-- Stealth infiltration environment
+**Optimus:** "Double stamp detected. Probability of clerical error: 0.03%. The microsecond difference suggests deliberate manipulation."
 
-**Custody Facility:**
-- Official processing and holding area
-- Administrative and bureaucratic setting
-- Investigation analysis space
+**Gasket:** (appearing suddenly, intense eyes, voice haunted) "...we were already late—" (Fragment #1 appears as compass overlay)
 
-**Analysis Room:**
-- Secure evidence examination area
-- Technical analysis equipment
-- Pattern discovery atmosphere
+**Helix:** "Gasket? You're back. What the hell happened to you? And what does 'we were already late' mean?"
 
-### Character Sprites
-**Subcontractor Leader:**
-- Professional attire, betrayed expression
-- Tactical awareness animations
-- Confrontation and surrender poses
+**ZTech:** "Whoa, the compass is going crazy! And check this stamp analyzer - it also detects lies and brews decaf!"
 
-**Custody Officer:**
-- Official uniform, procedural demeanor
-- Administrative processing animations
-- Confusion and cooperation poses
+**Subcontractor Leader:** (defeated, slumped) "You think this is about money? They have technology... things that bend time itself."
 
-**Gasket (Fragment):**
-- Shadowy appearance, intense expression
-- Cryptic message delivery animations
-- Mysterious disappearance poses
+**Custody Officer:** (nervous now) "This isn't standard procedure. These forms... they weren't like this when I stamped them."
 
-### Interface Elements
-- **Verb Bar:** MOVE, OBSERVE, ENGAGE, KIT, PROTOCOL
-- **Inventory:** 4-slot system with evidence items
-- **Signal Detector:** Real-time tracking overlay
-- **Stealth Meter:** Detection risk indicator
+**Gasket:** (fading, voice echoing) "The patterns repeat. The compass sees them. But some doors... they open both ways."
 
-## Audio Design (No Voice Acting)
+## Puzzles & Mechanics
+
+### Warehouse Navigation
+- **Type:** Stealth Infiltration
+- **Description:** Avoid detection while locating module
+- **Solution:** Service corridors bypass main security
+- **Reward:** Clean entry, evidence preservation
+
+### Double Stamp Investigation
+- **Type:** Forensic Analysis
+- **Description:** Examine custody form anomalies
+- **Solution:** Reveals systematic manipulation
+- **Reward:** Shadow Token, Gasket Fragment
+
+## Episode Resolution
+
+**Case Closure (95%):** Sensor module recovered, subcontractor cell arrested, immediate threat neutralized. The double stamp anomaly is documented.
+
+**Shadow Unease (5%):** Deprecated custody route code shows "ROUTE-NULL" entries that don't exist in the system. The compass readings suggest temporal manipulation of the paperwork itself.
+
+**Team Debrief:**
+
+**Helix:** "Gasket's back... sort of. And what the hell was that fragment about? 'We were already late?'"
+
+**Optimus:** "Fascinating temporal anomalies. The double stamps suggest quantum interference in the documentation process."
+
+**ZTech:** "My stamp analyzer worked perfectly! Except for the lie detection. And the coffee brewing. But the evidence? Spot on!"
+
+**Gasket:** (compass fragment echo) "The patterns... they repeat. The compass remembers what time forgets."
+
+**Epilogue Hook:** The "ROUTE-NULL" code appears in other custody systems across the city. The pattern suggests a network manipulating evidence at the quantum level.
+
+## Visual Prompts (Midjourney)
+
+### Warehouse Interior
+```
+/imagine prompt: industrial warehouse raid, stacked crates, dim fluorescent lighting, tactical team positioning, interference patterns visualized, suspense atmosphere, detailed industrial, quantum signals --ar 16:9 --v 5
+```
+
+### Custody Facility
+```
+/imagine prompt: temporary holding facility anomaly, processing desks, evidence lockers, double stamp forms, Gasket fragment appearance, official chaos, bureaucratic atmosphere, temporal effects --ar 16:9 --v 5
+```
+
+### Sensor Module
+```
+/imagine prompt: advanced sensor prototype, sleek design, electronic components, temporal shielding effects, mysterious technology, sci-fi engineering, quantum interference --ar 1:1 --v 5
+```
+
+### Double Stamp Close-up
+```
+/imagine prompt: official custody form anomaly, double ink stamps with microsecond difference, forensic examination, temporal manipulation effects, mysterious paperwork, detailed analysis --ar 1:1 --v 5
+```
+
+### Crimson Compass Fragment
+```
+/imagine prompt: compass displaying Gasket fragment overlay, holographic text and sensory echoes, brass casing with runes, fragmented memory display, mysterious technology --ar 1:1 --v 5
+```
+
+## Audio Prompts (Unity)
 
 ### Ambient Audio
-**Warehouse Perimeter:**
-- Industrial district sounds
-- Distant traffic and machinery
-- Tense approach atmosphere
-
-**Warehouse Interior:**
-- Industrial machinery and ventilation
-- Stealthy infiltration tension
-- Covert operation sounds
+**Warehouse:**
+- Industrial: METAL_CREAK + DISTANT_MACHINERY + SIGNAL_INTERFERENCE
+- Mix: WAREHOUSE_TENSION_AMBIENCE
+- Parameters: volume 0.7, spatial blend 0.9
 
 **Custody Facility:**
-- Administrative office noises
-- Processing and paperwork sounds
-- Official procedure atmosphere
+- Bureaucratic: TYPING + PAPER_RUSTLE + COMPASS_HUM
+- Mix: OFFICIAL_PROCESSING_AMBIENCE
+- Parameters: volume 0.5, spatial blend 0.6
 
-**Analysis Room:**
-- Focused investigation sounds
-- Computer processing audio
-- Discovery and revelation tension
+### Gasket Fragment
+**GF_S01_01:**
+- Sensory: Double stamp THUNK-THUNK, ink crescent smear, temporal echo
+- Spoken: "...we were already late—"
+- Unity Audio: FRAGMENT_DOUBLE_STAMP
+
+### Character Voices
+**Helix (Agent X):**
+- Voice: Female, confident, warm
+- Sample lines: "Everyone in position? This cell is professional - don't underestimate them."
+- Unity Audio: VO_HELIX_CONFIDENT
+
+**Optimus (Agent Y):**
+- Voice: Male, clipped, analytical
+- Sample lines: "Double stamp detected. Probability of clerical error: 0.03%."
+- Unity Audio: VO_OPTIMUS_ANALYTICAL
+
+**ZTech (Agent Z):**
+- Voice: Male, enthusiastic, nerdy
+- Sample lines: "Their security system? Laughable. I could bypass it with my eyes closed."
+- Unity Audio: VO_ZTECH_EXCITED
+
+**Gasket (Agent G):**
+- Voice: Male, gravelly, cryptic
+- Sample lines: "...we were already late—"
+- Unity Audio: VO_GASKET_CRYPTIC
+
+**Subcontractor Leader:**
+- Voice: Male, professional, betrayed
+- Sample: "You don't understand what's at stake here."
+- Unity Audio: VO_LEADER_BETRAYED
 
 ### Sound Effects
-- **Signal Detection:** Electronic pulses and interference
-- **Security Bypass:** Electronic lock clicks and overrides
-- **Stamp Application:** Distinct double impact sound
-- **Evidence Collection:** Satisfying item acquisition
-- **Fragment Reveal:** Eerie mysterious audio cue
+**Sensor Detection:**
+- Electronic: SIGNAL_PULSE + INTERFERENCE_HUM + QUANTUM_CHIME
+- Parameters: pitch modulation
+
+**Compass Fragment:**
+- Mystical: TEMPORAL_ECHO + HOLOGRAPHIC_WHISPER + RUNE_GLOW
+- Parameters: eerie reverb, fragmented timing
+
+**Stamp Application:**
+- Physical: INK_STAMP + PAPER_IMPRESS + TEMPORAL_DOUBLE
+- Parameters: double impact timing
 
 ### Music Cues
-- **Warehouse Infiltration:** Stealth suspense theme
-- **Custody Investigation:** Bureaucratic mystery music
-- **Fragment Discovery:** Eerie revelation theme
-- **Pattern Resolution:** Conspiracy unfolding music
+**Warehouse Infiltration:**
+- Track: STEALTH_SUSPENSE
+- Parameters: subtle tension, volume 0.4
 
-## Gameplay Flow
+**Gasket Return:**
+- Track: MYSTERIOUS_FRAGMENT
+- Parameters: haunting melody, volume 0.5
 
-1. **Approach:** Scout warehouse perimeter and plan entry
-2. **Infiltration:** Navigate warehouse and locate sensor module
-3. **Confrontation:** Engage with subcontractor cell
-4. **Custody:** Process arrests and examine paperwork
-5. **Discovery:** Uncover double stamp anomaly
-6. **Revelation:** Connect patterns with Gasket's help
-
-## Difficulty Options
-
-- **Easy:** More hiding spots, forgiving stealth mechanics
-- **Normal:** Standard guard patrols and detection risks
-- **Hard:** Aggressive patrols, limited hiding options
-
-## Achievement Opportunities
-
-- **Ghost Infiltration:** Complete warehouse entry undetected
-- **Evidence Detective:** Find all stamp anomalies and clues
-- **Pattern Master:** Connect all conspiracy elements
-- **Fragment Collector:** Successfully interact with Gasket
+**Compass Anomaly:**
+- Track: TEMPORAL_DISTORTION
+- Parameters: time-stretched effects, volume 0.4
