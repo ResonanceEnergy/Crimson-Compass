@@ -71,26 +71,23 @@ This is not “withholding resolution.” It is withholding comfort.
 
 ## 4) Team Roles (Locked)
 
-### Helix (X) — Big Sister Glue
-- Young, spunky, cute, socially aware; holds her own flawlessly in a dysfunctional male‑dominated industry.
-- Orchestrates; makes things work; admin warfare; morale glue.
+### Helix (X) — Administrative Glue / Big Sister Coordinator
+- Admin librarian, archivist, mission planner, executer, coordinator, and dispatch
+- Spunky, cute, socially aware; holds the dysfunctional male-dominated team together
+- Professional organizer with warmth; the emotional core of the agency
+- Manages the chaos with administrative warfare and social intelligence
 
-### Optimus (Y) — Dry Intel + “Luck Paradox”
-- Deadpan, accurate, clipped under pressure.
-- The universe seems to “fall into outcomes” around him; unintentional humor.
+### Optimus (Y) — Executive Director / Bumbling Boomer
+Top level executive director with precision organizational, investigational, and analytical skills. A genius outpaced by time who doesn't understand the technology he must use to keep up. This bumbling boomer fumbles with gadgets but has unmatched strategic brilliance, representing the agency's "professional" face while embodying its absurd dysfunction. He's the guy who insists on using fax machines in a world of quantum communicators, but somehow his old-school methods keep the team afloat.
 
-### ZTech (Z) — Insane Technical Ability
-- Gadgets/tools; solves one layer while creating another problem.
+### ZTech (Z) — Tech Genius / ZBRANCH Commander
+Tech genius and engineering super agent with unlimited budget and resources. A nerd through and through with the determination of a front line soldier, he commands a secret facility with 250 AI agents and 5000 robots. ZTech creates gadgets that are absurdly over-engineered yet brilliantly functional - think a laser pointer that also brews coffee and predicts weather patterns. His inventions often cause more problems than they solve, but they're always entertaining and usually work in the end.
 
-### Gasket — Unofficial Wildcard / Broken Prodigy
-- The “incident” ended his formal career. He’s not officially on the team and not officially released.
-- Appears intermittently for maximum impact.
-- **Feels what’s off** but doesn’t understand the method yet.
-- Provides coded nuance, plausible deniability, and sensory “fragments.”
+### Gasket (G) — Broken Prodigy / Former Master
+Former agent taken out of service after a mysterious "incident" that haunts the team. Still around but not officially on or off team, he intuitively understands compass anomalies because the Crimson Compass was his old tool before the incident. Gasket provides coded nuance and fragmented insights from his trauma, appearing intermittently for maximum impact. He's the wildcard who shows up at the worst (or best) times, offering cryptic advice that somehow always points in the right direction.
 
-### Player — The Closer / Reality Punch
-- Solid detective work integrates evidence + people + pressure into closure.
-- The unforeseen variable.
+### Player (The Closer) — Gasket's Replacement
+New detective brought in to replace Gasket post-incident. Inherits Gasket's console and the Crimson Compass - a cutting-edge piece of future tech with an old-sounding name that creates hilarious contrast in this retro-futuristic world. Discovers the compass's quirky connection to its former master through funny malfunctions and unexpected features. Brings professional sanity to the agency's absurd professionalism, trying to maintain order amidst the chaos while learning to embrace the team's dysfunctional brilliance.
 
 ---
 
