@@ -43,13 +43,13 @@
 
 ### NPCs
 - **Coordination Assassin:** Mid-40s, tactical operative in combat gear, network coordination specialist
-- **Pattern Analyst:** Early 30s, strategic expert in tactical attire, studying coordination patterns
-- **Network Guardian:** Late 50s, protective agent in armored uniform, safeguarding against coordination
-- **Coordination Disruptor:** Mid-20s, enthusiastic hacker with coordination devices, managing network containment
+- **Pattern Analyst:** Early 30s, analytical expert in tactical vest, studying coordination patterns
+- **Network Disruptor:** Late 50s, protective agent in armored uniform, safeguarding against coordination
+- **Manipulation Breaker:** Mid-20s, enthusiastic hacker with coordination devices, managing network containment
 
 ## Scene 1: Assassination Network Investigation (2 minutes)
 
-**Background:** Urban command center with assassination terminals, coordination generators, and network containment fields. Coordination pathways and manipulation displays create strategic visual effects.
+**Background:** Urban command center with assassination terminals, coordination generators, and network containment fields. Coordination pathways and manipulation displays create synchronized visual effects.
 
 **Narrative:** The team investigates an assassination network using coordination manipulation technology. The Crimson Compass detects coordination patterns revealing connections to shadow adversary operations.
 
@@ -65,7 +65,7 @@
 
 **Dialogue:**
 
-**Helix:** "Assassination network investigation and coordination pattern analysis. Remember: this is team work, not a solo mission. ZTech, no experimental coordination detectors that turn the center into a strategy board. Optimus, network coordination isn't just statistical visualizations."
+**Helix:** "Assassination network investigation and coordination pattern analysis. Remember: this is synchronized work, not a solo act. ZTech, no experimental coordination detectors that turn the center into a dance party. Optimus, network coordination isn't just statistical visualizations."
 
 **Optimus:** "Coordination analysis initiated. Probability of adversary interference: 88.7%. These network patterns... they suggest shadow-level operations."
 
@@ -81,7 +81,7 @@
 
 2. **Y (Optimus):** "Analyze the network coordination patterns statistically."
    - **Consequence:** Statistical analysis reveals the assassination structure and adversary connection correlations.
-   - **Dialogue:** Optimus: "The coordination patterns... they're perfectly orchestrated. Probability of deliberate adversary connection: 94.2%."
+   - **Dialogue:** Optimus: "The coordination patterns... they're perfectly orchestrated. Probability of deliberate adversary connection: 94.1%."
 
 3. **Z (ZTech):** "Deploy network coordination drones. Tech to the rescue!"
    - **Consequence:** Drones map coordination but also accidentally trigger center alert systems.
@@ -93,7 +93,7 @@
 
 ## Scene 2: Assassination Confrontation & Adversary Analysis (2 minutes)
 
-**Background:** Strategic room with assassination equipment, coordination generators, and adversary displays. Hidden network pathways and emergency protocols for action sequences.
+**Background:** Operations room with assassination equipment, coordination generators, and adversary displays. Hidden network pathways and emergency protocols for action sequences.
 
 **Narrative:** The confrontation reveals the assassination network using coordination technology to eliminate targets. The Crimson Compass detects coordination patterns indicating deeper adversary layers.
 
@@ -114,7 +114,7 @@
 
 **Helix:** "Oh sweetie, 'protective' network coordination? That's like saying a plan is just a fancy idea. Now, about those adversary connections..."
 
-**Optimus:** "Coordination analysis shows adversary interference. Probability of shadow connection: 96.1%. Most... concerning."
+**Optimus:** "Coordination analysis shows adversary interference. Probability of shadow connection: 96.3%. Most... concerning."
 
 **ZTech:** "Their assassination is child's play! I could secure it with this analyzer! It also plays music and predicts the weather!"
 
@@ -144,7 +144,7 @@
 
 **Gasket:** (fading, haunted) "The patterns... they're just the beginning. The coordination adversaries... they go deeper than you know."
 
-**Season Arc Hook:** The shadow adversary coordination hints at Season 5's expanding network of deception, building toward larger revelations.
+**Season Arc Hook:** The shadow adversary coordination hints at Season 5's expanding network of deception, connecting cases across the season.
 
 ---
 

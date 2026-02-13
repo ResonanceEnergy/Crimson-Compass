@@ -1,0 +1,28 @@
+{
+  "version": "1.1.0",
+  "build": 4,
+  "androidVersionCode": 4,
+  "iosBuildNumber": "1.1.0.4",
+  "releaseNotes": "Initial production release",
+  "supportedUnityVersion": "6000.3.6f1",
+  "environments": {
+    "development": {
+      "apiEndpoint": "https://dev-api.crimsoncompass.com",
+      "analyticsKey": "dev_analytics_key",
+      "enableDebug": true,
+      "episodeLimit": 12
+    },
+    "staging": {
+      "apiEndpoint": "https://staging-api.crimsoncompass.com",
+      "analyticsKey": "staging_analytics_key",
+      "enableDebug": false,
+      "episodeLimit": 36
+    },
+    "production": {
+      "apiEndpoint": "https://api.crimsoncompass.com",
+      "analyticsKey": "prod_analytics_key",
+      "enableDebug": false,
+      "episodeLimit": 144
+    }
+  }
+}
