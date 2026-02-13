@@ -57,6 +57,72 @@ start https://grok.com/imagine
 .\scripts\unity_workflow.ps1 -DryRun
 ```
 
+### 4. API Integration (Programmatic Generation)
+
+For automated generation within Unity, use the integrated API service:
+
+#### Setup
+1. **Get API Key**: Sign up at [x.ai](https://x.ai) and get your API key
+2. **Configure Service**: Add the `GrokImagineService` component to a GameObject in your scene
+3. **Set API Key**: Enter your API key in the service component (or set via code)
+
+#### Usage in Unity
+```csharp
+using CrimsonCompass;
+
+// Get the service
+var grokService = FindObjectOfType<GrokImagineService>();
+
+// Generate an image
+grokService.GenerateImage(
+    "Futurama Detective Noir + Uncharted Action-Adventure fusion, rainy city street at night",
+    "16:9",
+    (url) => Debug.Log($"Image ready: {url}"),
+    (error) => Debug.LogError($"Generation failed: {error}")
+);
+
+// Generate a video
+grokService.GenerateVideo(
+    "Dynamic scene of detective examining evidence, handheld camera, slow deliberate movement",
+    8,
+    "9:16",
+    (url) => Debug.Log($"Video ready: {url}"),
+    (error) => Debug.LogError($"Generation failed: {error}")
+);
+```
+
+#### Manager Class
+Use `GrokImagineManager` for high-level asset generation:
+
+```csharp
+var manager = FindObjectOfType<GrokImagineManager>();
+
+// Generate background assets
+manager.GenerateBackgroundAssets();
+
+// Generate character portraits
+manager.GenerateCharacterAssets();
+
+// Generate UI elements
+manager.GenerateUIAssets();
+```
+
+#### API Features
+- **Image Generation**: Text-to-image with custom aspect ratios
+- **Video Generation**: Text-to-video with duration and resolution control
+- **Image Editing**: Modify existing images with natural language
+- **Batch Processing**: Generate multiple assets concurrently
+- **Automatic Download**: Assets are saved to `Assets/GeneratedAssets/GrokImagine/`
+
+#### Editor Testing Tool
+Use the Unity Editor tool to test the API integration:
+
+1. Open Unity Editor
+2. Go to `Crimson Compass > Grok Imagine API Tester`
+3. Enter your xAI API key
+4. Test image/video generation with custom prompts
+5. Use quick test buttons for common asset types
+
 ## Asset Categories (58 Total)
 
 | Category | Count | Description |
